@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.nsearch { background: rgb(255, 255, 255); border: 1px solid black; }
+
+.ntext { text-decoration: none; color: black; font-family: Arial, sans-serif; font-size: 9pt; }
+
+.hide { visibility: hidden; }
+
+.noborder { border: none; }
+
+.disabled { color: rgb(204, 204, 204); }

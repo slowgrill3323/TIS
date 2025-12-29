@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+.gray { background-color: rgb(113, 113, 113); color: rgb(255, 255, 255); font-size: 11pt; font-weight: bold; height: 20px; }
+
+.gray2 { background-color: rgb(201, 201, 201); color: rgb(102, 102, 102); font-size: 10pt; padding: 5px 10px; text-align: center; }
+
+.gray3 { background-color: rgb(221, 227, 230); color: rgb(102, 102, 102); font-size: 10pt; padding: 5px; line-height: 1.3em; }
+
+.gray3_dark_left { background-color: rgb(199, 208, 214); color: rgb(102, 102, 102); font-size: 10pt; padding: 2px 8px; vertical-align: top; min-width: 140px; border: 2px solid rgb(248, 248, 255); }
+
+.gray4 { background-color: rgb(180, 188, 197); color: rgb(255, 255, 255); font-size: 12pt; font-weight: bold; padding: 5px 10px; text-align: right; }
+
+.gray4_ { background-color: rgb(238, 238, 238); color: rgb(102, 102, 102); font-size: 10pt; padding: 2px 8px; min-width: 140px; border: 2px solid rgb(248, 248, 255); }
+
+.gray4_1 { background-color: rgb(238, 238, 238); color: rgb(102, 102, 102); font-size: 10pt; padding: 2px 8px; min-width: 92px; }
+
+.gray5_ { background-color: rgb(238, 238, 238); color: rgb(102, 102, 102); font-size: 10pt; min-width: 20px; border-right: 2px solid rgb(248, 248, 255); }
+
+.gray5_1 { border: 2px solid rgb(238, 238, 238); background-color: rgb(238, 238, 238); min-width: 20px; text-align: left; font-size: 12px; font-family: inherit; color: inherit; }
+
+.p_table1 { border-collapse: collapse; }
+
+.gray6_ { background-color: rgb(238, 238, 238); color: rgb(102, 102, 102); font-size: 10pt; padding: 2px 12px; }
+
+.gray6_L { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(0, 160, 198) !important; }
+
+.gray6_B { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: black !important; }
+
+.gray6_G { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: green !important; }
+
+.gray6_R { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: red !important; }
+
+.gray6_P { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(246, 104, 178) !important; }
+
+.gray6_V { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(86, 7, 125) !important; }
+
+.gray6_BE { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(195, 175, 150) !important; }
+
+.gray6_BR { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(153, 41, 3) !important; }
+
+.gray6_GR { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(153, 153, 153) !important; }
+
+.gray6_O { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(255, 127, 0) !important; }
+
+.gray6_SB { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(153, 217, 232) !important; }
+
+.gray6_W { color: rgb(102, 102, 102); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(255, 255, 255) !important; }
+
+.gray6_Y { color: rgb(102, 102, 102); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(255, 230, 0) !important; }
+
+.gray6_LG { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(127, 201, 127) !important; }
+
+.gray6_LA { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(191, 177, 197) !important; }
+
+.gray6_DG { color: rgb(255, 255, 255); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; background-color: rgb(102, 102, 102) !important; }
+
+.gray6_NULL { color: rgb(102, 102, 102); font-size: 10pt; border-left: 0px; border-right: 0px; width: 18px; }
+
+.gray6_dark_left { background-color: rgb(199, 208, 214); color: rgb(102, 102, 102); font-size: 10pt; padding: 8px; width: 60px; }
+
+.gray6_dark_center { background-color: rgb(199, 208, 214); color: rgb(102, 102, 102); font-size: 10pt; padding: 8px; width: 54px; }
+
+.gray6_dark_right { background-color: rgb(199, 208, 214); color: rgb(102, 102, 102); font-size: 10pt; padding: 8px; min-width: 100px; width: 200px; }
+
+.gray4_no_text { background-color: rgb(238, 238, 238); padding: 2px 8px; }
+
+.gray4title { background-color: rgb(180, 188, 197); color: rgb(0, 102, 153); font-size: 12pt; font-weight: bold; padding-left: 5px; text-align: right; }
+
+.gray5 { background-color: rgb(201, 201, 201); color: rgb(102, 102, 102); font-size: 10pt; padding: 5px; }
+
+.color1 { background-color: rgb(221, 227, 230); color: rgb(102, 102, 102); font-size: 10pt; padding-left: 5px; line-height: 1.5em; }
+
+#E5400_DIV { position: absolute; top: 0px; right: 5px; height: auto; width: 330px; padding: 0px; border: 1px solid rgb(233, 238, 234); opacity: 1; font-size: 16px; z-index: 12; cursor: move; }
+
+div.con-titleBar { width: 100%; background: rgb(199, 208, 214); border: 1px solid rgb(51, 51, 51); padding: 5px 0px; }
+
+div.con-text { color: rgb(51, 51, 51); font-size: 10pt; font-weight: bold; font-family: Arial; margin: 6px 0px 0px 10px; }
+
+div.con-nameCell { display: table-cell; background: rgb(238, 238, 238); opacity: 1; color: rgb(51, 51, 51); font-size: 10pt; font-family: Arial; font-weight: bold; padding: 5px; }
+
+div.con-titleCell { display: table-cell; border: 1px solid white; background: rgb(199, 208, 214); opacity: 1; width: 80px; color: rgb(102, 102, 102); font-size: 10pt; font-family: Arial; padding: 5px; }
+
+div.con-contCell { display: table-cell; border: 1px solid white; background: rgb(238, 238, 238); opacity: 1; width: 140px; color: rgb(102, 102, 102); font-size: 10pt; font-family: Arial; padding: 5px; }
+
+div.con-fig { margin: 0px; zoom: 1; }
+
+div.popCloseButton { float: right; font-size: 16px; font-weight: bold; color: rgb(111, 111, 111); cursor: pointer; padding: 4px 2px 0px 0px; }
+
+img.playButton { cursor: pointer; margin: 4px 0px 0px 5px; width: 16px; height: 16px; }
+
+img.nextButton { cursor: pointer; margin: 4px 0px 0px 5px; width: 8px; height: 16px; }
+
+img.caution_mark { animation: 0.5s ease-in-out 0s 5 alternate none running blink; }
+
+div.caution_left { float: left; }
+
+div.caution_left2 { width: 550px; margin-left: 40px; }
+
+td.repair_left { min-width: 120px; }
+
+@keyframes blink { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes blink { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+div.text { color: rgb(0, 0, 0); font-size: 10pt; text-decoration: underline; padding: 4px; cursor: pointer; }
+
+div.text_hover { color: rgb(179, 0, 0); font-size: 10pt; text-decoration: none; padding: 4px; cursor: pointer; }
+
+div.text_hover_other { color: rgb(179, 0, 0); font-size: 10pt; text-decoration: underline; padding: 4px; cursor: pointer; }
+
+div.loads_ref { color: rgb(27, 99, 132); font-size: 10pt; text-decoration: underline; padding: 1px; cursor: pointer; }
+
+table.partslist { margin: 10px 0px; }
+
+table.list { margin: 0px 0px 8px; }
+
+td.loads_title { color: rgb(102, 102, 102); font-size: 14pt; font-weight: bold; }
+
+p.space { margin: 30px 0px; }
+
+span.terminal { font-size: 11pt; margin: 4px; }
+
+div.text-link { padding: 4px; }
+
+div.loads-link { padding: 1px; }
+
+span.text { color: rgb(0, 0, 0); font-size: 10pt; text-decoration: underline; cursor: pointer; }
+
+span.text_hover { color: rgb(179, 0, 0); font-size: 10pt; text-decoration: none; cursor: pointer; }
+
+span.text_hover_other { color: rgb(179, 0, 0); font-size: 10pt; text-decoration: none; cursor: pointer; }
+
+span.loads_ref { color: rgb(0, 0, 0); font-size: 10pt; text-decoration: underline; cursor: pointer; }
+
+span.loads_ref:hover { color: rgb(211, 0, 0); }
+
+div#ps_matrix input:hover { cursor: pointer; }

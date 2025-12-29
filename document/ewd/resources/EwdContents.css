@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+a.location_page_no { font-size: 18pt; font-weight: bold; text-decoration: none; padding: 0px 5px; color: rgb(102, 102, 102); border: 1px solid rgb(204, 204, 204); }
+
+a.location_page_no:hover { cursor: pointer; color: rgb(255, 255, 255); background-color: rgb(153, 197, 213); }
+
+a.location_page_rect_active { font-size: 18pt; font-weight: bold; text-decoration: none; padding: 0px 5px; color: rgb(102, 102, 102); background-color: rgb(204, 204, 204); border: 1px solid rgb(204, 204, 204); }
+
+a.location_page_rect_active:hover { color: rgb(255, 255, 255); background-color: rgb(153, 197, 213); }
+
+img#reset, img#d_zOut, img#d_zIn, img#cmp_active, img#cmp_r_active, img#cmp_stop { cursor: pointer; }
+
+img.invisible { display: none; }
+
+img#ctrl_location, img#ctrl_object, img#ctrl_inner, img#img_info { height: 25px; width: 39px; }
+
+img#ctrl_location_active, img#ctrl_object_active, img#ctrl_inner_active, img#img_info_active { height: 25px; width: 39px; cursor: pointer; }
+
+div.title { background: rgb(102, 102, 102); color: rgb(255, 255, 255); font-size: 10pt; font-weight: bold; width: auto; margin: 4px 0px 20px; }
+
+div#title_openclose { background: rgb(102, 102, 102); color: rgb(255, 255, 255); font-size: 10pt; font-weight: bold; padding: 0px 1px 0px 5px; overflow: hidden; min-height: 16px; }
+
+div.overfl { height: 16px; }
+
+.closemark { letter-spacing: 0em; display: inline; }
+
+.openmark { letter-spacing: 0em; display: none; }
+
+.overfl .openmark { display: inline; }
+
+.overfl .closemark { display: none; }
+
+.closemark a { text-decoration: underline; color: white; font-weight: bold; }
+
+.overfl .openmark a { text-decoration: underline; color: white; font-weight: bold; }
+
+.closemark a:hover { color: rgb(211, 0, 0); }
+
+.overfl .openmark a:hover { color: rgb(211, 0, 0); }
+
+img#img_wire { vertical-align: top; width: 25px; height: 25px; background-color: rgb(149, 180, 218); color: rgb(255, 255, 255); border-color: rgb(149, 180, 218); cursor: pointer; }
+
+div.top_open { background: url("../../icon/page.gif") left center no-repeat; }
+
+div#overallTxt { font-size: 12pt; line-height: 14pt; padding: 10px 0px 0px 5px; }

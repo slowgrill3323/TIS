@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+div#ewd_tree { width: auto; }
+
+div#ewd_tree a:hover { color: rgb(179, 0, 0); text-decoration: underline; }
+
+div#ewd_tree a.selected { background: rgb(204, 204, 204); }
+
+div#ewd_tree a#title_sel { background: rgb(149, 180, 218); }
+
+div#ewd_tree ul { margin: 0px; padding: 0px; white-space: nowrap; }
+
+div#ewd_tree ul li { margin-left: 15px; list-style-type: none; list-style-position: outside; }
+
+div#ewd_tree ul li p { height: 21px; line-height: 21px; padding-left: 18px; background: url("../../icon/page.gif") left center no-repeat; }
+
+div#ewd_tree ul li p.selected { height: 21px; line-height: 21px; padding-left: 18px; background: url("../../icon/page.gif") left center no-repeat rgb(204, 204, 204); }
+
+div#ewd_tree div.file_item { height: 21px; line-height: 21px; padding-left: 18px; background: url("../../icon/page.gif") left center no-repeat; }
+
+div#ewd_tree ul li div { display: inline-block; cursor: pointer; }
+
+div#ewd_tree ul li div.lines_open { width: 13px; height: 13px; background: url("../../icon/nolines_minus.gif") left center no-repeat; }
+
+div#ewd_tree ul li div.lines_close { width: 13px; height: 13px; background: url("../../icon/nolines_plus.gif") left center no-repeat; }
+
+div#ewd_tree ul li div.folder_open { padding-left: 20px; background: url("../../icon/folderopen.gif") left center no-repeat; }
+
+div#ewd_tree ul li div.folder_close { padding-left: 20px; background: url("../../icon/folder.gif") left center no-repeat; }
+
+div#ewd_tree ul li p a, div#ewd_tree ul li div a { height: 21px; line-height: 21px; color: rgb(0, 0, 0); }
+
+div#ewd_tree ul li.disp_none { display: none; }

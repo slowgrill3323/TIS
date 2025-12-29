@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+td.s1 { color: rgb(102, 102, 102); background-color: rgb(223, 237, 240); font-size: 10pt; font-weight: bold; padding-left: 18px; border-style: none; border-color: rgb(204, 204, 204); }
+
+ol.ss2 { font-size: 10pt; font-weight: lighter; list-style-type: lower-alpha; margin-left: 30px; }
+
+ol.s2 { color: rgb(91, 128, 164); font-size: 10pt; list-style-type: lower-alpha; }
+
+ol.s3 { color: rgb(85, 150, 157); font-size: 10pt; font-weight: bold; list-style-type: lower-roman; margin-left: 20px; }
+
+dt.caution { color: rgb(255, 0, 0); font-size: 10pt; font-weight: bold; }
+
+dd.caution { color: rgb(255, 0, 0); font-size: 10pt; font-weight: lighter; margin-left: 10px; }
+
+dt.notice { color: rgb(232, 133, 23); font-size: 10pt; font-weight: bold; }
+
+dd.notice { color: rgb(232, 133, 23); font-size: 10pt; font-weight: lighter; margin-left: 10px; }
+
+dt.hint { color: rgb(0, 128, 0); font-size: 10pt; font-weight: bold; }
+
+dd.hint { color: rgb(0, 128, 0); font-size: 10pt; font-weight: lighter; margin-left: 10px; }
+
+dt.example { color: rgb(27, 99, 132); font-size: 10pt; font-weight: bold; }
+
+dd.example { color: rgb(27, 99, 132); font-size: 10pt; font-weight: bold; margin-left: 5px; }
+
+table.float { border: 0px; margin: 0px; float: right; }
+
+font.ptxt { color: rgb(0, 0, 0); font-size: 10pt; font-weight: lighter; }
+
+img.intro_float { float: right; }
+
+.intro_caution { color: rgb(255, 0, 0); font-size: 10pt; }
+
+.intro_notice { color: rgb(232, 133, 23); font-size: 10pt; font-weight: bold; }
+
+.intro_example { color: rgb(27, 99, 132); font-size: 10pt; font-weight: bold; }
+
+.intro_hint { color: rgb(0, 128, 0); font-size: 10pt; font-weight: lighter; }
+
+.intro_ptxt { font-size: 10pt; font-weight: lighter; }
+
+ol.intro_c1 { color: red; list-style-type: lower-alpha; }
+
+span.intro_notice-dt { color: rgb(232, 133, 23); font-size: 10pt; font-weight: bold; }
+
+span.intro_notice-dd { color: rgb(232, 133, 23); font-size: 10pt; font-weight: lighter; list-style-type: disc; }
+
+span.intro_hint-dt { color: rgb(0, 128, 0); font-size: 10pt; font-weight: bold; }
+
+span.intro_hint-dd { color: rgb(0, 128, 0); font-size: 10pt; font-weight: lighter; }
+
+span.intro_s2_n { color: rgb(91, 128, 164); font-size: 10pt; list-style-type: none; }
+
+ol.intro_s4 { font-size: 10pt; color: rgb(0, 128, 0); list-style-type: lower-alpha; }
+
+ol.intro_s5 { font-size: 10pt; font-weight: bold; list-style-type: upper-alpha; }
+
+ol.intro_h1 { color: rgb(0, 128, 0); list-style-type: decimal; }
+
+.intro_b { font-size: 10pt; font-weight: bold; }
+
+.intro_title { font-size: 18px; font-weight: bold; }
+
+.intro_title + hr { width: 100%; }
+
+table.width100, table.balloon_details, table.wh_guidelines, table.preparatory_items, table.terminal_replacement { width: 100%; }
+
+table.collapse, table.balloon_details, table.wh_guidelines { border-collapse: collapse; }
+
+table.separate, table.terminalTypes, table.preparatory_items { border-collapse: separate; border-spacing: 0px; }
+
+table.border1, .border1 th, .border1 td, table.balloon_details, .balloon_details th, .balloon_details td, table.preparatory_items, .preparatory_items th, .preparatory_items td, table.terminal_replacement, .terminal_replacement th, .terminal_replacement td, table.terminalTypes, .terminalTypes th, .terminalTypes td, table.wh_guidelines, .wh_guidelines > tbody > tr > th, .wh_guidelines > tbody > tr > td { border-width: 1px; border-style: solid; }
+
+.terminal_replacement td { height: 36px; font-size: 16px; background-color: rgb(255, 255, 255); }
+
+table.terminal_replacement + p { text-align: center; }
+
+table.terminal_replacement + p > img { height: 50px; width: 53px; }
+
+table.balloon_details tr td:first-child, table.balloon_details tr td:nth-child(3) { width: 45px; text-align: center; vertical-align: middle; }
+
+table.wire_colors td { width: 126px; }
+
+table.intro_image td { width: 750px; }
+
+.grossary_table { border-collapse: collapse; }
+
+.grossary_table td[colspan="2"] { text-align: center; }
+
+.grossary_table td > img { height: 122px; width: 159px; }
+
+table.wh_guidelines, table.preparatory_items { background-color: rgb(255, 255, 255); }
+
+table.wh_guidelines > tbody > tr:first-child > td, table.preparatory_items tr:first-child td, table.preparatory_items tr td:first-child { text-align: center; }
+
+table.wh_guidelines tr:first-child td:nth-child(2) { width: 100px; }
+
+table.wh_guidelines > tbody > tr > td:nth-child(4), table.wh_guidelines > tbody > tr > td:nth-child(5) { text-align: center; }
+
+table.wh_guidelines tr td:last-child ul { padding-left: 15px; }
+
+table.wh_guidelines td.noitem, table.preparatory_items td.noitem { text-align: center; }
+
+table.terminalTypes td { text-align: center; }
+
+td.wh_intro_image, td.repair_image { width: 276px; vertical-align: top; }
+
+td.repair_image > img { width: 276px; }
+
+.warning_color { color: rgb(255, 0, 0); }
+
+dl.intro_ja { font-size: 10pt; }
+
+dl.intro_ja dt { font-weight: bold; }
