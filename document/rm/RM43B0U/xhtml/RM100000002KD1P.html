@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV
+  Model): P011511; Engine Coolant Temperature Sensor 1 Circuit
+  Short to Ground; 2024 - 2026 MY Tacoma HV [03/2024 -
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="C">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KD1P">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> RM100000002KD1P</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma HV</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (ENGINE CONTROL): SFI
+              SYSTEM (for 1Motor-HEV Model): P011511; Engine
+              Coolant Temperature Sensor 1 Circuit Short to Ground;
+              2024 - 2026 MY Tacoma HV [03/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <table border="1" class="dtc" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">DTC</p>
+                </td>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">P011511</p>
+                </td>
+                <td align="left">
+                  <p class="dtc">Engine Coolant Temperature Sensor
+                  1 Circuit Short to Ground</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD1P_01" id="RM100000002KD1P_01"></a>
+          <h2 class="name">DESCRIPTION</h2><img src="../images/A293042E01.png.html" border="1" alt=" ">
+          <p class="content5">A thermistor, whose resistance value
+          varies according to the engine coolant temperature, is
+          built into the engine coolant temperature sensor.</p>
+          <p class="content5">The thermistor with a resistance that
+          varies according to the temperature of the engine
+          coolant. When the engine coolant temperature is low, the
+          resistance of the thermistor increases. When the
+          temperature is high, the resistance drops. These
+          variations in resistance are transmitted to the ECM as
+          voltage changes (see Fig. 1).</p>
+          <p class="content5">The engine coolant temperature sensor
+          is powered by a 5 V supply from the THW terminal of the
+          ECM, via resistor R.</p>
+          <p class="content5">Resistor R and the engine coolant
+          temperature sensor are connected in series. When the
+          resistance value of the engine coolant temperature sensor
+          changes, according to changes in the engine coolant
+          temperature, the voltage at terminal THW also varies.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">When DTC P011511 is stored, the ECM
+          enters fail-safe mode. During fail-safe mode, the engine
+          coolant temperature is estimated to be 80°C (176°F) by
+          the ECM. Fail-safe mode continues until a pass condition
+          is detected.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC No.</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Detection Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Detection Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Trouble Area</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">MIL</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Output from</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Priority</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Note</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">P011511</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine Coolant Temperature
+                  Sensor 1 Circuit Short to Ground</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">The engine coolant
+                  temperature sensor (for outlet side) output
+                  voltage is less than 0.142 V for 0.5 seconds or
+                  more (1 trip detection logic).</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>Short in engine coolant temperature
+                      sensor (for outlet side) circuit</li>
+                      <li>Engine coolant temperature sensor (for
+                      outlet side)</li>
+                      <li>ECM</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Comes on</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">A</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>SAE: P0117</li>
+                      <li>DTC for Mexico Models: Applies</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">When a DTC is output, check the Data List
+          item "Coolant Temperature" using the GTS.</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d510e356"
+          href="./RM100000002LIT7.html?linkId=d510e356&amp;hashId=RM100000002LIT7#RM100000002LIT7"
+          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
+          </a></span></span></p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC No.</p>
+                </th>
+                <th align="center">
+                  <p class="entry">Coolant Temperature</p>
+                </th>
+                <th align="center">
+                  <p class="entry">Malfunction</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P011511</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Higher than 135°C (275°F)</p>
+                </td>
+                <td align="left">
+                  <p class="entry">Short to ground in THW
+                  circuit</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hint">If the Data List displays a normal value,
+          the normal value may be due to a temporary recovery from
+          the malfunction condition. Check for intermittent
+          problems.</p><a name="RM100000002KD1P_02" id="RM100000002KD1P_02"></a>
+          <h2 class="name">MONITOR DESCRIPTION</h2>
+          <p class="content5">The engine coolant temperature sensor
+          (for outlet side) is used to monitor the engine coolant
+          temperature. The engine coolant temperature sensor (for
+          outlet side) has a thermistor with a resistance that
+          varies according to the temperature of the engine
+          coolant. When the engine coolant temperature is low, the
+          resistance in the thermistor increases. When the
+          temperature is high, the resistance decreases. These
+          variations in resistance are reflected in the output
+          voltage from the sensor. The ECM monitors the sensor
+          voltage and uses this value to calculate the engine
+          coolant temperature. If the engine coolant temperature
+          sensor (for outlet side) output voltage deviates from the
+          normal operating range, the ECM interprets this as a
+          malfunction in the engine coolant temperature sensor (for
+          outlet side) circuit, illuminates the MIL and stores a
+          DTC.</p>
+          <p class="content5">Example:</p>
+          <p class="content5">If the engine coolant temperature
+          sensor (for outlet side) output voltage is less than
+          0.142 V for 0.5 seconds or more, the ECM will illuminate
+          the MIL and store this DTC.</p><a name="RM100000002KD1P_03" id="RM100000002KD1P_03"></a>
+          <h2 class="name">MONITOR STRATEGY</h2>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Related DTCs</p>
+                </td>
+                <td>
+                  <p class="entry">P0117: Engine coolant
+                  temperature sensor (for outlet side) range check
+                  (low voltage)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Required Sensors/Components
+                  (Main)</p>
+                </td>
+                <td>
+                  <p class="entry">Engine coolant temperature
+                  sensor (for outlet side)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Required Sensors/Components
+                  (Related)</p>
+                </td>
+                <td>
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Frequency of Operation</p>
+                </td>
+                <td>
+                  <p class="entry">Continuous</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Duration</p>
+                </td>
+                <td>
+                  <p class="entry">0.5 seconds</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">MIL Operation</p>
+                </td>
+                <td>
+                  <p class="entry">Immediate</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Sequence of Operation</p>
+                </td>
+                <td>
+                  <p class="entry">None</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD1P_04" id="RM100000002KD1P_04"></a>
+          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Monitor runs whenever the
+                  following DTCs are not stored</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">None</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">All of the following conditions
+                  are met</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Auxiliary battery voltage</p>
+                </td>
+                <td>
+                  <p class="entry">8 V or higher</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Ignition switch</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">ON</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD1P_06" id="RM100000002KD1P_06"></a>
+          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td>
+                  <p class="entry">Engine coolant temperature
+                  sensor (for outlet side) voltage [Engine coolant
+                  temperature]</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Less than 0.142 V [Higher than
+                  135°C (275°F)]</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD1P_10" id="RM100000002KD1P_10"></a>
+          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>After repair has been completed, clear the DTC
+              and then check that the vehicle has returned to
+              normal by performing the following All Readiness
+              check procedure.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d510e710" href="./RM100000002KD3K.html?linkId=d510e710&amp;hashId=RM100000002KD3K#RM100000002KD3K"
+                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                </a></span></span></p>
+              </li>
+              <li>When clearing the permanent DTCs, refer to the
+              "CLEAR PERMANENT DTC" procedure.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d510e724" href="./RM100000002KD0T.html?linkId=d510e724&amp;hashId=RM100000002KD0T#RM100000002KD0T"
+                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                </a></span></span></p>
+              </li>
+            </ul>
+          </div>
+          <div class="content5">
+            <ol class="list">
+              <li>Clear the DTCs (even if no DTCs are stored,
+              perform the clear DTC procedure).</li>
+              <li>Turn the ignition switch off and wait for at
+              least 30 seconds.</li>
+              <li>Turn the ignition switch to ON [A].</li>
+              <li>Wait 0.5 seconds or more [B].</li>
+              <li>Enter the following menus: Powertrain / Engine /
+              Trouble Codes [C].</li>
+              <li>Read the pending DTCs.
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>If a pending DTC is output, the system is
+                    malfunctioning.</li>
+                    <li>If a pending DTC is not output, perform the
+                    following procedure.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>Enter the following menus: Powertrain / Engine /
+              Utility / All Readiness.</li>
+              <li>Input the DTC: P011511.</li>
+              <li>Check the DTC judgment result.
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>If the judgment result is NORMAL, the
+                    system is normal.</li>
+                    <li>If the judgment result is ABNORMAL, the
+                    system is malfunctioning.</li>
+                    <li>[A] to [C]: Normal judgment procedure.
+                      <p class="para2">The normal judgment
+                      procedure is used to complete DTC judgment
+                      and also used when clearing permanent
+                      DTCs.</p>
+                    </li>
+                    <li>When clearing the permanent DTCs, do not
+                    disconnect the cable from the auxiliary battery
+                    terminal or attempt to clear the DTCs during
+                    this procedure, as doing so will clear the
+                    universal trip and normal judgment
+                    histories.</li>
+                  </ul>
+                </div>
+              </li>
+            </ol>
+          </div><a name="RM100000002KD1P_07" id="RM100000002KD1P_07"></a>
+          <h2 class="name">WIRING DIAGRAM</h2><img src="../images/A409072E68.png.html" border="1" alt=" ">
+          <a name="RM100000002KD1P_08" id="RM100000002KD1P_08"></a>
+          <h2 class="name">CAUTION / NOTICE / HINT</h2>
+          <div class="notice">
+            <p class="notegen">NOTICE:</p>
+            <ul class="note">
+              <li>Vehicle Control History may be stored in the
+              hybrid vehicle control ECU assembly if the engine is
+              malfunctioning. Certain vehicle condition information
+              is recorded when Vehicle Control History is stored.
+              Reading the vehicle conditions recorded in both the
+              freeze frame data and Vehicle Control History can be
+              useful for troubleshooting.
+                <p class="para2">(Select Powertrain in Health Check
+                and then check the time stamp data.)</p>
+              </li>
+              <li>If any "Engine Malfunction" Vehicle Control
+              History item has been stored in the hybrid vehicle
+              control ECU assembly, make sure to clear it. However,
+              as all Vehicle Control History items are cleared
+              simultaneously, if any Vehicle Control History items
+              other than "Engine Malfunction" are stored, make sure
+              to perform any troubleshooting for them before
+              clearing Vehicle Control History.</li>
+            </ul>
+          </div>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">If DTC P011511 is stored, check that the
+          engine does not overheat (DTC P011511 may be stored due
+          to engine overheating).</p><a name="RM100000002KD1P_11"
+          id="RM100000002KD1P_11"></a>
+          <h2 class="name">PROCEDURE</h2>
+          <h2 class="name">PROCEDURE</h2><a name="RM100000002KD1P_11_0003" id="RM100000002KD1P_11_0003"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">1.</p>
+                </td>
+                <td>
+                  <p class="testgrp">READ VALUE USING GTS (CHECK
+                  FOR SHORT IN WIRE HARNESS)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <table border="0" width="100%">
+            <tbody>
+              <tr>
+                <td class="side">
+                  <p class="test1">(a) Disconnect the engine
+                  coolant temperature sensor (for outlet side)
+                  connector.</p>
+                </td>
+                <td class="sidsid">
+                  <table align="right">
+                    <tr>
+                      <td align="right"><img src="../images/A436605C67.png.html" border="1"
+                      alt=" "></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table class="callout" border="1"
+                        cellspacing="0" style="width:3.434793307in;">
+                          <colgroup>
+                            <col style="width:15%">
+                            <col style="width:85%">
+                          </colgroup>
+                          <tbody>
+                            <tr>
+                              <td align="center" valign="middle">
+                                <p class="entry">*1</p>
+                              </td>
+                              <td align="left" valign="middle">
+                                <p class="entry">Engine Coolant
+                                Temperature Sensor (for Outlet
+                                Side)</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" valign="middle">
+                                <p class="entry">*2</p>
+                              </td>
+                              <td align="left" valign="middle">
+                                <p class="entry">ECM</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) According to the display on the GTS,
+          read the Data List.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data
+          List</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Coolant Temperature</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The value of Coolant Temperature
+                  is -40 °C</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">None of the above conditions are
+                  met</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">-40°C (-40°F)</p>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d510e1146" href="./RM100000002K47A.html?linkId=d510e1146&amp;hashId=RM100000002K47A#RM100000002K47A"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ENGINE COOLANT TEMPERATURE SENSOR: REMOVAL">
+                  REPLACE ENGINE COOLANT TEMPERATURE SENSOR (FOR
+                  OUTLET SIDE)</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d510e1158_childid" href="RM100000002KD1P.html" title="CHECK HARNESS AND CONNECTOR (ENGINE COOLANT TEMPERATURE SENSOR (FOR OUTLET SIDE) - ECM)">
+                  GO TO STEP 2</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD1P_11_0005" id="RM100000002KD1P_11_0005"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">2.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
+                  (ENGINE COOLANT TEMPERATURE SENSOR (FOR OUTLET
+                  SIDE) - ECM)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Disconnect the engine coolant
+          temperature sensor (for outlet side) connector.</p>
+          <p class="test1">(b) Disconnect the ECM connector.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) Measure the resistance according to
+          the value(s) in the table below.</p>
+          <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d510e1209" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=D22,D31')"
+          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
+          Location & Routing(D22,D31)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d510e1217" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D22&amp;pinno=2')"
+          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
+          Connector(D22)</span></a></span><br></span> <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d510e1225" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D31&amp;pinno=174')"
+          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
+          Connector(D31)</span></a></span><br></span>
+          <table width="100%" id="RM100000002KD1P_11_0005_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">D22-2 (THW) or D31-174 (THW) -
+                  Body ground and other terminals</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Always</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">10 kΩ or higher</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">kΩ</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">OK</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d510e1388" href="./RM100000002K474.html?linkId=d510e1388&amp;hashId=RM100000002K474#RM100000002K474"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">
+                  REPLACE ECM</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
+                  CONNECTOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

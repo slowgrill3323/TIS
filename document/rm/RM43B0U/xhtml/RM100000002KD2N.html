@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV
+  Model): P012F62; Engine Coolant Temperature/Engine Oil
+  Temperature Signal Compare Failure; 2024 - 2026 MY Tacoma HV
+  [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="C">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KD2N">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> RM100000002KD2N</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma HV</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (ENGINE CONTROL): SFI
+              SYSTEM (for 1Motor-HEV Model): P012F62; Engine
+              Coolant Temperature/Engine Oil Temperature Signal
+              Compare Failure; 2024 - 2026 MY Tacoma HV [03/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <table border="1" class="dtc" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">DTC</p>
+                </td>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">P012F62</p>
+                </td>
+                <td align="left">
+                  <p class="dtc">Engine Coolant Temperature/Engine
+                  Oil Temperature Signal Compare Failure</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD2N_02" id="RM100000002KD2N_02"></a>
+          <h2 class="name">DESCRIPTION</h2>
+          <p class="content5">The engine is equipped with an engine
+          coolant temperature sensor and an engine oil temperature
+          sensor. The engine coolant temperature sensor and engine
+          oil temperature sensor each have a built-in thermistor.
+          As the temperature decreases, the thermistor resistance
+          increases and as the temperature increases, the
+          thermistor resistance decreases. The voltages at the
+          respective terminals of the ECM change in accordance with
+          the changes in the resistance of the thermistors. The ECM
+          performs control based on these voltages.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC No.</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Detection Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Detection Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Trouble Area</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">MIL</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Output from</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Priority</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Note</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">P012F62</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine Coolant
+                  Temperature/Engine Oil Temperature Signal Compare
+                  Failure</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">All of the following
+                  conditions are met (2 trip detection logic):</p>
+                  <div class="data-name">
+                    <ol class="list">
+                      <li>The auxiliary battery voltage is 8 V or
+                      higher.</li>
+                      <li>5 hours have elapsed since the engine
+                      stopped on the previous trip.</li>
+                      <li>The engine oil temperature or engine
+                      coolant temperature is -10°C (14°F) or
+                      higher.</li>
+                      <li>The difference between the readings of
+                      the engine coolant temperature and engine oil
+                      temperature is higher than 20 °C (36 °F) or
+                      the correlation between the engine coolant
+                      temperature sensor and engine oil temperature
+                      sensor cannot be validated.</li>
+                    </ol>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>Engine coolant temperature sensor (for
+                      outlet side)</li>
+                      <li>Engine oil temperature sensor</li>
+                      <li>ECM</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Comes on</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">B</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>SAE: P012F</li>
+                      <li>DTC for Mexico Models: Does not
+                      apply</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD2N_03" id="RM100000002KD2N_03"></a>
+          <h2 class="name">MONITOR DESCRIPTION</h2>
+          <p class="content5">After the engine has stopped for 5
+          hours or more, the ECM monitors the voltage of the engine
+          coolant temperature sensor (for outlet side) and engine
+          oil temperature sensor. If the difference between the
+          readings of the engine coolant temperature and engine oil
+          temperature is higher than 20°C (36°F) or the correlation
+          between the engine coolant temperature sensor and engine
+          oil temperature sensor cannot be validated, the ECM
+          determines that there is a malfunction in the engine
+          coolant temperature sensor circuit or engine oil
+          temperature sensor circuit, and stores a DTC and
+          illuminates the MIL.</p><a name="RM100000002KD2N_04" id="RM100000002KD2N_04"></a>
+          <h2 class="name">MONITOR STRATEGY</h2>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Related DTCs</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">P012F: Engine coolant
+                  temperature sensor (for outlet side) / Engine oil
+                  temperature sensor correlation</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Required Sensors/Components
+                  (Main)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine coolant temperature
+                  sensor (for outlet side)</p>
+                  <p class="para">Engine oil temperature sensor</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Required Sensors/Components
+                  (Related)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Frequency of Operation</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Once per driving cycle</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Duration</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">2 seconds: Case 1</p>
+                  <p class="para">50 seconds: Case 2</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">MIL Operation</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">2 driving cycles</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Sequence of Operation</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">None</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD2N_05" id="RM100000002KD2N_05"></a>
+          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">All of the following conditions
+                  are met</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Soak time</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">5 hours</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">ECM</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Started by soak timer</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Time after ECM started by soak
+                  timer</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds or more, or less
+                  than 60 seconds</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Ignition switch</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Off</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Either of the following
+                  conditions is met</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">A or B</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">A. Engine coolant
+                  temperature</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-10°C (14°F) or higher</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">B. Engine oil temperature</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-10°C (14°F) or higher</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Auxiliary battery voltage</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">8 V or higher</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Engine coolant temperature
+                  sensor circuit fail (P0117, P0118)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Not detected</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Engine oil temperature sensor
+                  circuit fail (P0197, P0198)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Not detected</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Soak timer fail (P2610)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Not detected</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD2N_06" id="RM100000002KD2N_06"></a>
+          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+          <h4 class="tbltitle" id="d517e707">Case 1</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Deviated engine coolant
+                  temperature and engine oil temperature</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Less than -20 °C (-36 °F), or
+                  higher than 20 °C (36 °F)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4 class="tbltitle" id="d517e738">Case 2</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Engine coolant temperature
+                  sensor / Engine oil temperature sensor
+                  correlation pass</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Not detected</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD2N_07" id="RM100000002KD2N_07"></a>
+          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>After repair has been completed, clear the DTC
+              and then check that the vehicle has returned to
+              normal by performing the following All Readiness
+              check procedure.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d517e791" href="./RM100000002KD3K.html?linkId=d517e791&amp;hashId=RM100000002KD3K#RM100000002KD3K"
+                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                </a></span></span></p>
+              </li>
+              <li>When clearing the permanent DTCs, refer to the
+              "CLEAR PERMANENT DTC" procedure.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d517e805" href="./RM100000002KD0T.html?linkId=d517e805&amp;hashId=RM100000002KD0T#RM100000002KD0T"
+                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                </a></span></span></p>
+              </li>
+            </ul>
+          </div><img src="../images/A404891E01.png.html" border="1"
+          alt=" ">
+          <div class="content5">
+            <ol class="list">
+              <li>Turn the ignition switch to ON [A].</li>
+              <li>Clear the DTCs (even if no DTCs are stored,
+              perform the clear DTC procedure).</li>
+              <li>Turn the ignition switch off.</li>
+              <li>With the engine stopped, leave the vehicle as is
+              for 5.5 hours or more [B].</li>
+              <li>Turn the ignition switch to ON [C].</li>
+              <li>Enter the following menus: Powertrain / Engine /
+              Trouble Codes [D].</li>
+              <li>Read the pending DTCs.
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>If a pending DTC is output, the system is
+                    malfunctioning.</li>
+                    <li>If a pending DTC is not output, perform the
+                    following procedure.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>Enter the following menus: Powertrain / Engine /
+              Utility / All Readiness.</li>
+              <li>Input the DTC: P012F62.</li>
+              <li>Check the DTC judgment result.
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>If the judgment result is NORMAL, the
+                    system is normal.</li>
+                    <li>If the judgment result is ABNORMAL, the
+                    system is malfunctioning.</li>
+                    <li>If the judgment result is INCOMPLETE,
+                    perform steps [B] through [D] again.</li>
+                    <li>[B] to [D]: Normal judgment procedure.
+                      <p class="para2">The normal judgment
+                      procedure is used to complete DTC judgment
+                      and also used when clearing permanent
+                      DTCs.</p>
+                    </li>
+                    <li>When clearing the permanent DTCs, do not
+                    disconnect the cable from the auxiliary battery
+                    terminal or attempt to clear the DTCs during
+                    this procedure, as doing so will clear the
+                    universal trip and normal judgment
+                    histories.</li>
+                  </ul>
+                </div>
+              </li>
+            </ol>
+          </div><a name="RM100000002KD2N_08" id="RM100000002KD2N_08"></a>
+          <h2 class="name">CAUTION / NOTICE / HINT</h2>
+          <div class="notice">
+            <p class="notegen">NOTICE:</p>
+            <ul class="note">
+              <li>Vehicle Control History may be stored in the
+              hybrid vehicle control ECU assembly if the engine is
+              malfunctioning. Certain vehicle condition information
+              is recorded when Vehicle Control History is stored.
+              Reading the vehicle conditions recorded in both the
+              freeze frame data and Vehicle Control History can be
+              useful for troubleshooting.
+                <p class="para2">(Select Powertrain in Health Check
+                and then check the time stamp data.)</p>
+              </li>
+              <li>If any "Engine Malfunction" Vehicle Control
+              History item has been stored in the hybrid vehicle
+              control ECU assembly, make sure to clear it. However,
+              as all Vehicle Control History items are cleared
+              simultaneously, if any Vehicle Control History items
+              other than "Engine Malfunction" are stored, make sure
+              to perform any troubleshooting for them before
+              clearing Vehicle Control History.</li>
+            </ul>
+          </div><a name="RM100000002KD2N_01" id="RM100000002KD2N_01"></a>
+          <h2 class="name">PROCEDURE</h2>
+          <h2 class="name">PROCEDURE</h2><a name="RM100000002KD2N_01_0002" id="RM100000002KD2N_01_0002"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">1.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK ANY OTHER DTCS OUTPUT
+                  (IN ADDITION TO DTC P012F62)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) None</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Read the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P012F62 and other DTCs are
+                  output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P012F62 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">If any DTCs other than P012F62 are
+          output, troubleshoot those DTCs first.</p>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Record the Freeze Frame Data.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">GO TO DTC CHART</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d517e1133_childid" href="RM100000002KD2N.html" title="CHECK FREEZE FRAME DATA (COOLANT TEMPERATURE AND INTAKE AIR TEMPERATURE)">
+                  GO TO STEP 2</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD2N_01_0003" id="RM100000002KD2N_01_0003"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">2.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK FREEZE FRAME DATA
+                  (COOLANT TEMPERATURE AND INTAKE AIR
+                  TEMPERATURE)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Using the GTS, read the values
+          displayed in the Freeze Frame Data recorded in step
+          1.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          DTC(P012F62) &gt; Freeze Frame Data</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Coolant Temperature</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Intake Air Temperature</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Read the value displayed on the
+          GTS.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>When the engine is cold, the value of the engine
+              coolant temperature, engine oil temperature and
+              intake air temperature should be approximately the
+              same.</li>
+              <li>If the result is not as specified, check that
+              there are no heat sources such as a block heater in
+              the engine compartment.</li>
+            </ul>
+          </div>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The difference between the value
+                  of Coolant Temperature and Intake Air Temperature
+                  is -15 °C or more and 15 °C or less</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">None of the above conditions are
+                  met</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">15°C (27°F)</p>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d517e1362" href="./RM100000002K47A.html?linkId=d517e1362&amp;hashId=RM100000002K47A#RM100000002K47A"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ENGINE COOLANT TEMPERATURE SENSOR: REMOVAL">
+                  REPLACE ENGINE COOLANT TEMPERATURE SENSOR (FOR
+                  OUTLET SIDE)</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD2N_01_0009" id="RM100000002KD2N_01_0009"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">3.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK FREEZE FRAME DATA
+                  (ENGINE OIL TEMPERATURE SENSOR AND INTAKE AIR
+                  TEMPERATURE)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Using the GTS, read the values
+          displayed in the Freeze Frame Data recorded in step
+          1.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          DTC(P012F62) &gt; Freeze Frame Data</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine Oil Temperature
+                  Sensor</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Intake Air Temperature</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Read the value displayed on the
+          GTS.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">When the engine is cold, the value of the
+          engine coolant temperature, engine oil temperature and
+          intake air temperature should be approximately the
+          same.</p>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The difference between the value
+                  of Engine Oil Temperature Sensor and Intake Air
+                  Temperature is -15 °C or more and 15 °C or
+                  less</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">None of the above conditions are
+                  met</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">15°C (27°F)</p>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d517e1591" href="./RM100000002K474.html?linkId=d517e1591&amp;hashId=RM100000002K474#RM100000002K474"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">
+                  REPLACE ECM</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312">
+                  <a id="d517e1614" href="./RM100000002GMSP.html?linkId=d517e1614&amp;hashId=RM100000002GMSP#RM100000002GMSP"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ENGINE OIL TEMPERATURE SENSOR: REMOVAL">
+                  REPLACE ENGINE OIL TEMPERATURE
+                  SENSOR</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC
+  TRANSMISSION SYSTEM: P277111; Four Wheel Drive (4WD) Low Switch
+  Circuit Short to Ground; 2024 - 2026 MY Tacoma [12/2023 -
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="C">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002JJ0Z">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> RM100000002JJ0Z</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [12/2023 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> AL80F (AUTOMATIC TRANSMISSION /
+              TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: P277111;
+              Four Wheel Drive (4WD) Low Switch Circuit Short to
+              Ground; 2024 - 2026 MY Tacoma [12/2023 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <table border="1" class="dtc" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">DTC</p>
+                </td>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">P277111</p>
+                </td>
+                <td align="left">
+                  <p class="dtc">Four Wheel Drive (4WD) Low Switch
+                  Circuit Short to Ground</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002JJ0Z_01" id="RM100000002JJ0Z_01"></a>
+          <h2 class="name">DESCRIPTION</h2>
+          <p class="content5">The 4 wheel drive control ECU
+          determines the L4 position based on L4 position switch
+          information in the transfer shift actuator assembly, and
+          this signal is detected by the TCM.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC No.</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Detection Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Detection Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Trouble Area</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">MIL</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Output from</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Priority</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Note</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">P277111</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Four Wheel Drive (4WD) Low
+                  Switch Circuit Short to Ground</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">While driving with the
+                  transfer position switch in H4 and transfer
+                  output speed at 1000 to 3000 rpm, the TCM detects
+                  L4 for 1.8 seconds or more (1-trip detection
+                  logic).</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>Harness and connector</li>
+                      <li>Transfer system</li>
+                      <li>TCM</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Comes on</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Transmission</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">A</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">SAE: P2773</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002JJ0Z_02" id="RM100000002JJ0Z_02"></a>
+          <h2 class="name">MONITOR DESCRIPTION</h2>
+          <p class="content5">The TCM monitors the transfer case L4
+          position switch to determine when the transfer case L4
+          gears are engaged. If the transfer case L4 gears remain
+          engaged under the following conditions, the TCM will
+          conclude that there is a malfunction of the L4 position
+          switch, illuminate the MIL and store this DTC:</p>
+          <div class="content5">
+            <ul class="list">
+              <li>The L4 position switch indicates that the L4
+              transfer case gears are engaged.</li>
+              <li>The transfer position switch is in H4.</li>
+              <li>The transfer case output shaft speed is between
+              1000 and 3000 rpm.</li>
+              <li>The specified time period has elapsed.</li>
+            </ul>
+          </div><a name="RM100000002JJ0Z_10" id="RM100000002JJ0Z_10"></a>
+          <h2 class="name">MONITOR STRATEGY</h2>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Related DTCs</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">P2773: Four wheel drive (4WD)
+                  low switch circuit low/ON malfunction</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Required sensors/Components</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Transfer L4 detection switch</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Frequency of operation</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Continuous</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Duration</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">1.8 seconds</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">MIL operation</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">1 driving cycle</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Sequence of operation</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">None</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002JJ0Z_11" id="RM100000002JJ0Z_11"></a>
+          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+          <h4 class="tbltitle" id="d1864e472">All</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">DS_active_pressure*</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">TRUE</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">The monitor will run whenever
+                  the following DTCs are not stored.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">U0129 (Lost communication with
+                  brake system control module "A")</p>
+                  <p class="para">P0722, P077D, P077C (Output speed
+                  sensor circuit)</p>
+                  <p class="para">P0500 (Vehicle speed sensor "A"
+                  circuit)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4 class="tbltitle" id="d1864e524">ON malfunction</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">L4 switch</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">ON</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Output speed (Transfer output
+                  speed)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1000 rpm or more and more than
+                  3000 rpm</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">*: Following condition (1) or condition
+          (2) is met</p>
+          <h4 class="tbltitle" id="d1864e575">Condition (1)</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Following condition is met</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 seconds or more</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Auxiliary battery voltage</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">10.5 V or higher</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine speed</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">600 rpm or more</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine starter</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Not active</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4 class="tbltitle" id="d1864e651">Condition (2)</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Auxiliary battery voltage</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">10.5 V or higher</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine speed</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-100 rpm or more</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine starter</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Not active</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002JJ0Z_12" id="RM100000002JJ0Z_12"></a>
+          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+          <h4 class="tbltitle" id="d1864e722">ON malfunction</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Both conditions are met</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">(a) and (b)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">(a) Time that following
+                  conditions met continuously</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds or more</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">(b) Actual transfer gear
+                  ratio</p>
+                  <p class="para">Transfer input speed / Transfer
+                  output speed</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.9 to 1.1</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002JJ0Z_06" id="RM100000002JJ0Z_06"></a>
+          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>After repair has been completed, clear the DTC
+              and then check that the vehicle has returned to
+              normal by performing the following All Readiness
+              check procedure.</li>
+              <li>When clearing the permanent DTCs, refer to the
+              Clear Permanent DTC procedure.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d1864e814" href="./RM100000002JJ1H.html?linkId=d1864e814&amp;hashId=RM100000002JJ1H#RM100000002JJ1H"
+                title="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
+                </a></span></span></p>
+              </li>
+            </ul>
+          </div>
+          <div class="content5">
+            <ol class="list">
+              <li>Clear the DTCs (even if no DTCs are stored,
+              perform the clear DTC procedure).</li>
+              <li>Turn the ignition switch off and wait for at
+              least 30 seconds.</li>
+              <li>Turn the transfer position switch to H4.
+              [*1]</li>
+              <li>Perform the D Position Shift Test inspection in
+              Road Test. [*2]
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d1864e850" href="./RM100000002JJ1C.html?linkId=d1864e850&amp;hashId=RM100000002JJ1C#RM100000002JJ1C"
+                title="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: ROAD TEST">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: ROAD TEST">
+                </a></span></span></p>
+                <p class="hintgen">HINT:</p>
+                <p class="hint">[*1] to [*2]: Normal judgment
+                procedure.</p>
+                <p class="para2">The normal judgment procedure is
+                used to complete DTC judgment and also used when
+                clearing permanent DTCs.</p>
+              </li>
+              <li>Enter the following menus: Powertrain /
+              Transmission / Utility / All Readiness.</li>
+              <li>Input the DTC: P277111.</li>
+              <li>Check the DTC judgment result.
+                <table width="100%" border="1">
+                  <colgroup>
+                    <col>
+                    <col>
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th align="center" valign="middle">
+                        <p class="entry">GTS Display</p>
+                      </th>
+                      <th align="center" valign="middle">
+                        <p class="entry">Description</p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="center" valign="middle">
+                        <p class="entry">NORMAL</p>
+                      </td>
+                      <td valign="middle">
+                        <div class="entry">
+                          <ul class="list">
+                            <li>DTC judgment completed</li>
+                            <li>System normal</li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="middle">
+                        <p class="entry">ABNORMAL</p>
+                      </td>
+                      <td valign="middle">
+                        <div class="entry">
+                          <ul class="list">
+                            <li>DTC judgment completed</li>
+                            <li>System abnormal</li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="middle">
+                        <p class="entry">INCOMPLETE</p>
+                      </td>
+                      <td valign="middle">
+                        <div class="entry">
+                          <ul class="list">
+                            <li>DTC judgment not completed</li>
+                            <li>Perform driving pattern after
+                            confirming DTC enabling conditions</li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="middle">
+                        <p class="entry">N/A</p>
+                      </td>
+                      <td valign="middle">
+                        <div class="entry">
+                          <ul class="list">
+                            <li>Unable to perform DTC judgment</li>
+                            <li>Number of DTCs which do not fulfill
+                            DTC preconditions has reached ECU
+                            memory limit</li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>If the judgment result shows NORMAL, the
+                    system is normal.</li>
+                    <li>If the judgment result shows ABNORMAL, the
+                    system has a malfunction.</li>
+                    <li>If the judgment result shows INCOMPLETE or
+                    N/A, perform the normal judgment procedure
+                    again.</li>
+                  </ul>
+                </div>
+              </li>
+            </ol>
+          </div><a name="RM100000002JJ0Z_03" id="RM100000002JJ0Z_03"></a>
+          <h2 class="name">WIRING DIAGRAM</h2><img src="../images/C328828E29.png.html" border="1" alt=" ">
+          <a name="RM100000002JJ0Z_04" id="RM100000002JJ0Z_04"></a>
+          <h2 class="name">CAUTION / NOTICE / HINT</h2>
+          <div class="notice">
+            <p class="notegen">NOTICE:</p>
+            <ul class="note">
+              <li>Perform the universal trip to clear permanent
+              DTCs.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d1864e1085" href="./RM100000002JJ1H.html?linkId=d1864e1085&amp;hashId=RM100000002JJ1H#RM100000002JJ1H"
+                title="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
+                </a></span></span></p>
+              </li>
+              <li>Perform utility when parts related to the
+              automatic transmission are replaced.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d1864e1099" href="./RM100000002JJ1I.html?linkId=d1864e1099&amp;hashId=RM100000002JJ1I#RM100000002JJ1I"
+                title="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: UTILITY">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): AUTOMATIC TRANSMISSION SYSTEM: UTILITY">
+                </a></span></span></p>
+              </li>
+            </ul>
+          </div>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Read freeze frame data using the GTS. The
+          TCM records vehicle and driving condition information as
+          freeze frame data the moment a DTC is stored. When
+          troubleshooting, freeze frame data can help determine if
+          the vehicle was moving or stationary, if the engine was
+          warmed up or not, and other data from the time the
+          malfunction occurred.</p><a name="RM100000002JJ0Z_05" id="RM100000002JJ0Z_05"></a>
+          <h2 class="name">PROCEDURE</h2>
+          <h2 class="name">PROCEDURE</h2><a name="RM100000002JJ0Z_05_0019" id="RM100000002JJ0Z_05_0019"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">1.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
+                  (L4 TERMINAL VOLTAGE)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Disconnect the 4 wheel drive control
+          ECU connector.</p>
+          <p class="test1">(b) Turn the ignition switch to ON.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) Measure the voltage according to the
+          value(s) in the table below.</p>
+          <p class="spec">Standard Voltage:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d1864e1168" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A6')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Location & Routing(A6)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d1864e1176" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A6&amp;pinno=17')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(A6)</span></a></span><br></span>
+          <table width="100%" id="RM100000002JJ0Z_05_0019_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Switch Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">A6-17 (4WDL) - Body ground</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Ignition switch ON</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">11 to 14 V</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">V</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">OK</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">GO TO TRANSFER SYSTEM</p>
+                  <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2024 startdate:202312 enddate:202403">
+                  <a id="d1864e1339" href="./RM100000002G6Z7.html?linkId=d1864e1339&amp;hashId=RM100000002G6Z7#RM100000002G6Z7"
+                  title="2024 MY Tacoma Tacoma HV [12/2023 - 03/2024]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma Tacoma HV [12/2023 - 03/2024]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
+                  </a></span> <span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1864e1341" href="./RM100000002KOBL.html?linkId=d1864e1341&amp;hashId=RM100000002KOBL#RM100000002KOBL"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
+                  </a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d1864e1353_childid"
+                  href="RM100000002JJ0Z.html" title="CHECK HARNESS AND CONNECTOR (4 WHEEL DRIVE CONTROL ECU - TCM)">
+                  GO TO STEP 2</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002JJ0Z_05_0020" id="RM100000002JJ0Z_05_0020"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">2.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR (4
+                  WHEEL DRIVE CONTROL ECU - TCM)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Disconnect the 4 wheel drive control
+          ECU connector.</p>
+          <p class="test1">(b) Disconnect the TCM connector.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) Measure the resistance according to
+          the value(s) in the table below.</p>
+          <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d1864e1404" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=A6,D30')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Location & Routing(A6,D30)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d1864e1412" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A6&amp;pinno=17')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(A6)</span></a></span><br></span> <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d1864e1420" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D30&amp;pinno=41')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(D30)</span></a></span><br></span>
+          <table width="100%" id="RM100000002JJ0Z_05_0020_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Switch Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">A6-17 (4WDL) or D30-41 (L4) -
+                  Body ground and other terminals</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Always</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">10 kΩ or higher</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">kΩ</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">OK</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312">
+                  <a id="d1864e1583" href="./RM100000002H322.html?linkId=d1864e1583&amp;hashId=RM100000002H322#RM100000002H322"
+                  title="2024 - 2026 MY Tacoma [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; AL80F (AUTOMATIC TRANSMISSION / TRANSAXLE): TCM: REMOVAL">
+                  REPLACE TCM</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
+                  CONNECTOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

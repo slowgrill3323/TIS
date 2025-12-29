@@ -1,0 +1,2458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV
+  Model): P137800; Pre-ignition Detected; 2024 - 2026 MY Tacoma HV
+  [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="C">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KD4G">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> RM100000002KD4G</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma HV</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (ENGINE CONTROL): SFI
+              SYSTEM (for 1Motor-HEV Model): P137800; Pre-ignition
+              Detected; 2024 - 2026 MY Tacoma HV [03/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <table border="1" class="dtc" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">DTC</p>
+                </td>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">P137800</p>
+                </td>
+                <td align="left">
+                  <p class="dtc">Pre-ignition Detected</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_02" id="RM100000002KD4G_02"></a>
+          <h2 class="name">DESCRIPTION</h2>
+          <p class="content5">If sudden early ignition
+          (pre-ignition) occurs continuously in a short period of
+          time, a DTC is stored. This pre-ignition is a phenomenon
+          inherent in boosted engines. Atomized engine oil and
+          detached deposits (carbon) cause ignition and promote
+          knocking during low-speed, high-output operation. This is
+          higher pressure knocking than normal knocking.</p>
+          <p class="content5">Pre-ignition is detected by the knock
+          control sensor.</p>
+          <p class="content5">When pre-ignition occurs, the ECM
+          limits output to suppress the pre-ignition. If
+          pre-ignition occurs continuously, the fuel may be cut in
+          some conditions, which may cause vehicle behavior that
+          seems similar to hesitation or shift shock. This is
+          normal engine control and not a malfunction.</p>
+          <p class="content5">As pre-ignition cannot be detected if
+          a knock control sensor malfunction occurs, the same
+          fail-safe control occurs as for strong knock
+          detection.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>When this DTC is stored, the ECM enters fail-safe
+              mode.</li>
+              <li>During fail-safe mode, the ECM limits the
+              output.</li>
+              <li>Fail-safe mode continues until the ECM clears the
+              DTC.</li>
+            </ul>
+          </div>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC No.</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Detection Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Detection Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">MIL</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Output from</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Priority</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Note</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">P137800</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Pre-ignition Detected</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">2 or more continuous
+                  pre-ignition prevention fuel-cut control
+                  operations (1 trip detection logic).</p>
+                  <p class="para">Continuous pre-ignition
+                  prevention fuel cut control: Sudden early
+                  ignition (pre-ignition) occurs 10 times or more
+                  continuously in a short period of time.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Does not come on</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">B</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>SAE: P1378</li>
+                      <li>DTC for Mexico Models: Applies</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th colspan="2" align="center" valign="middle">
+                  <p class="entry">Trouble Area</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Ignition system</p>
+                </td>
+                <td>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Ignition malfunction of ignition coil
+                      assembly or spark plug</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Fuel injection system</p>
+                </td>
+                <td>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Decrease in fuel injection volume (for
+                      Direct Injection)</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Lubrication system</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>High oil consumption</li>
+                      <li>Dilute/deteriorated oil</li>
+                      <li>Additive</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Fuel system</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Diesel fuel contamination</li>
+                      <li>Addition of fuel additives</li>
+                      <li>Fuel pump</li>
+                      <li>Low quality fuel</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Engine related</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Accumulated deposit (in combustion
+                      chamber)</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Intake system</p>
+                </td>
+                <td>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Air leaks</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Exhaust system</p>
+                </td>
+                <td>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Clogged exhaust system component</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>As strong knocking due to pre-ignition may be
+              caused by multiple superimposed factors, it is
+              important to comprehensively investigate all possible
+              causes.</li>
+              <li>The risk of this occurring is increased if
+              driving up a steep incline while towing when fixed in
+              low gear, as low-speed, high-output operation
+              occurs.</li>
+            </ul>
+          </div><a name="RM100000002KD4G_03" id="RM100000002KD4G_03"></a>
+          <h2 class="name">CAUTION / NOTICE / HINT</h2>
+          <div class="notice">
+            <p class="notegen">NOTICE:</p>
+            <ul class="note">
+              <li>Vehicle Control History may be stored in the
+              hybrid vehicle control ECU assembly if the engine is
+              malfunctioning. Certain vehicle condition information
+              is recorded when Vehicle Control History is stored.
+              Reading the vehicle conditions recorded in both the
+              freeze frame data and Vehicle Control History can be
+              useful for troubleshooting.
+                <p class="para2">(Select Powertrain in Health Check
+                and then check the time stamp data.)</p>
+              </li>
+              <li>If any "Engine Malfunction" Vehicle Control
+              History item has been stored in the hybrid vehicle
+              control ECU assembly, make sure to clear it. However,
+              as all Vehicle Control History items are cleared
+              simultaneously, if any Vehicle Control History items
+              other than "Engine Malfunction" are stored, make sure
+              to perform any troubleshooting for them before
+              clearing Vehicle Control History.</li>
+            </ul>
+          </div>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>If the customer reports a knocking sound or
+              drivability problems, check the "Consecutive
+              Prevention Cylinder #1 History 1 to Consecutive
+              Prevention Cylinder #4 History 4" items in the Data
+              List.</li>
+              <li>Explain to the customer that this is normal
+              control to prevent pre-ignition (protect the engine)
+              if the (distance traveled recorded in the appropriate
+              Data List subtracted from the distance traveled in
+              the "Distance for Control" item in the Data List)
+              matches the (distance traveled indicated by the
+              customer subtracted from the current distance
+              traveled).</li>
+            </ul>
+          </div><a name="RM100000002KD4G_04" id="RM100000002KD4G_04"></a>
+          <h2 class="name">PROCEDURE</h2>
+          <h2 class="name">PROCEDURE</h2><a name="RM100000002KD4G_04_0001" id="RM100000002KD4G_04_0001"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">1.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK ANY OTHER DTCS OUTPUT
+                  (IN ADDITION TO DTC P137800)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Read the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P137800 and other DTCs are
+                  output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P137800 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">If any DTCs other than P137800 are
+          output, troubleshoot those DTCs first.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">GO TO DTC CHART</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e726_childid" href="RM100000002KD4G.html" title="READ FREEZE FRAME DATA">GO TO STEP 2</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0046" id="RM100000002KD4G_04_0046"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">2.</p>
+                </td>
+                <td>
+                  <p class="testgrp">READ FREEZE FRAME DATA</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Using the GTS, confirm the vehicle
+          conditions recorded in the Freeze Frame Data which were
+          present when the DTC was stored.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Check the Freeze Frame Data sets recorded the
+              moment the DTC was stored and after the DTC was
+              stored.</li>
+              <li>Using the Freeze Frame Data, confirm the vehicle
+              conditions when the DTC was stored, such as if the
+              engine was idling with the shift state P, D or N or
+              if the vehicle was being driven at a constant speed
+              or accelerating.</li>
+            </ul>
+          </div>
+          <h4 class="tbltitle" id="d615e760">Confirmation Item</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center">
+                  <p class="entry">Vehicle Speed</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Short FT Bank 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <p class="entry">Engine Speed</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Long FT Bank 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <p class="entry">Vehicle Load</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Fuel System Status Bank 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <p class="entry">Coolant Temperature Controlling
+                  Value</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Misfire Count Cylinder #1 to
+                  #4</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0047" id="RM100000002KD4G_04_0047"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">3.</p>
+                </td>
+                <td>
+                  <p class="testgrp">READ VALUE USING GTS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Put the engine in Inspection Mode
+          (for measuring Exhaust Gas).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control
+          &gt; Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Inspection Mode</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(b) Start the engine.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) According to the Freeze Frame Data,
+          attempt to reproduce the vehicle conditions that were
+          present when the DTC was stored and read the Data
+          List.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data
+          List</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #1 History 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #1 History 2</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #1 History 3</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #1 History 4</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #2 History 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #2 History 2</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #2 History 3</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #2 History 4</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #3 History 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #3 History 2</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #3 History 3</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #3 History 4</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #4 History 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #4 History 2</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #4 History 3</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Consecutive Prevention
+                  Cylinder #4 History 4</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Fuel Cut History 1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Fuel Cut History 2</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Fuel Cut History 3</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Fuel Cut History 4</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center">
+                  <p class="entry">Values are displayed for
+                  multiple consecutive prevention cylinder
+                  histories of a specific cylinder</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <p class="entry">Values are displayed for
+                  multiple consecutive prevention cylinder
+                  histories of all cylinders</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>If values are displayed for multiple consecutive
+              prevention cylinder histories of a specific cylinder,
+              check the value of Freeze Frame Data items Misfire
+              Count Cylinder #1 through #4. If the misfire count of
+              that cylinder is high, the cylinder is
+              malfunctioning.</li>
+              <li>If the vehicle conditions when the DTC was stored
+              cannot be reproduced, read the value of Freeze Frame
+              Data items Misfire Count Cylinder #1 through #4 to
+              determine if only a specific cylinder or all
+              cylinders are malfunctioning.</li>
+            </ul>
+          </div>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e1404_childid" href="RM100000002KD4G.html" title="READ VALUE USING GTS (FUEL TRIM)">GO TO STEP
+                  6</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0048" id="RM100000002KD4G_04_0048"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">4.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK IGNITION SYSTEM</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check the ignition system.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Interchange the ignition coil assembly and spark
+              plug of the malfunctioning cylinder with those of a
+              known good cylinder and according to the Freeze Frame
+              Data, check if the malfunctioning cylinder returns to
+              normal.</li>
+              <li>Read the Data List items Misfire Count Cylinder
+              #1 to #4 while performing this procedure to determine
+              which cylinder is malfunctioning.</li>
+            </ul>
+          </div>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The malfunctioning cylinder
+                  returns to normal</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The malfunctioning cylinder does
+                  not return to normal</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e1529_childid" href="RM100000002KD4G.html" title="REPAIR OR REPLACE MALFUNCTIONING PARTS">GO TO
+                  STEP 23</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">B</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0050" id="RM100000002KD4G_04_0050"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">5.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT OTHER RELATED
+                  COMPONENTS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check the power source circuit, wire
+          harness and connectors.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e1608_childid" href="RM100000002KD4G.html" title="REPAIR OR REPLACE MALFUNCTIONING PARTS">GO TO
+                  STEP 23</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0049" id="RM100000002KD4G_04_0049"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">6.</p>
+                </td>
+                <td>
+                  <p class="testgrp">READ VALUE USING GTS (FUEL
+                  TRIM)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Put the engine in Inspection Mode
+          (for measuring Exhaust Gas).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control
+          &gt; Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Inspection Mode</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(b) Start the engine.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) According to the Freeze Frame Data,
+          attempt to reproduce the vehicle conditions that were
+          present when the DTC was stored and read the Data
+          List.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data
+          List</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Short FT B1S1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Long FT B1S1</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The sum of the value of Short FT
+                  B1S1 and Long FT B1S1 is -20 % or more, and less
+                  than 20 %</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">None of the above conditions are
+                  met</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>If the vehicle conditions when the DTC was stored
+              cannot be reproduced, read the value of Freeze Frame
+              Data items Short FT Bank 1 and Long FT Bank 1 to
+              perform judgment.</li>
+              <li>"Total FT Bank 1" is used to detect an abnormal
+              air fuel ratio. As the value of "Total FT Bank 1" is
+              corrected by the ECM before it is displayed in the
+              Data List, the displayed value may not be equal to
+              the sum of the measured "Short FT B1S1" and "Long FT
+              B1S1".</li>
+              <li>An abnormally lean or rich tendency can be
+              checked by reading the following Data List items: A/F
+              Learn Value Idle Bank 1, A/F Learn Value Low Bank 1,
+              A/F Learn Value Mid No.1 Bank 1, A/F Learn Value Mid
+              No.2 Bank 1, A/F Learn Value High Bank 1, A/F Learn
+              Value Idle (Port) Bank 1, A/F Learn Value Low (Port)
+              Bank 1, A/F Learn Value Mid No.1 (Port) Bank 1, A/F
+              Learn Value Mid No.2 (Port) Bank 1 and A/F Learn
+              Value High (Port) Bank 1.</li>
+              <li>The following may cause a lean air fuel ratio (an
+              operating range in which the air fuel ratio learned
+              value correction is +20% or more):
+                <div class="list1">
+                  <ol class="hint" type="a">
+                    <li>Decrease in fuel injector assembly
+                    injection volume</li>
+                    <li>Decrease in mass air flow meter
+                    sub-assembly output (due to existence of
+                    foreign matter)</li>
+                    <li>Air leaks in intake system after mass air
+                    flow meter sub-assembly</li>
+                    <li>Decrease in fuel pressure (at fuel filter,
+                    fuel pump, fuel main valve assembly or fuel
+                    suction plate sub-assembly)</li>
+                  </ol>
+                </div>
+              </li>
+              <li>On vehicles which the learning value for each
+              operating range can be checked, if the value of "A/F
+              Learn Value High Bank 1" or "A/F Learn Value High
+              (Port) Bank 1" only is corrected to the positive
+              side, a malfunction in the fuel system (clogging of
+              the fuel pump or fuel filter) is suspected.</li>
+              <li>On vehicles which the learning value for each
+              operating range can be checked, if the value of "A/F
+              Learn Value Idle Bank 1", "A/F Learn Value Low Bank
+              1" or "A/F Learn Value Low (Port) Bank 1" only is
+              corrected to the positive side, an air leak after the
+              mass air flow meter sub-assembly is suspected.</li>
+              <li>The following may cause a rich air fuel ratio (an
+              operating range in which the air fuel ratio learned
+              value correction is -20% or less):
+                <div class="list1">
+                  <ol class="hint" type="a">
+                    <li>Increase in the fuel injector assembly
+                    injection volume</li>
+                    <li>Purge VSV system</li>
+                  </ol>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e1949_childid" href="RM100000002KD4G.html" title="READ VALUE USING GTS (MASS AIR FLOW SENSOR)">GO
+                  TO STEP 11</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0051" id="RM100000002KD4G_04_0051"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">7.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INTERVIEW THE CUSTOMER</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Interview the customer for details
+          about when oil maintenance was last performed and what
+          brand of oil was used.</p>
+          <p class="test2">(1) Check whether the specified engine
+          oil grade was used and that engine oil additives were not
+          used.</p>
+          <p class="test2">(2) Perform an engine oil inspection
+          (check the oil level and for dirt, etc.).</p>
+          <p class="test2p">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d615e1989" href="./RM100000002KAMM.html?linkId=d615e1989&amp;hashId=RM100000002KAMM#RM100000002KAMM"
+          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (LUBRICATION): LUBRICATION SYSTEM (for 1Motor-HEV Model): ON-VEHICLE INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (LUBRICATION): LUBRICATION SYSTEM (for 1Motor-HEV Model): ON-VEHICLE INSPECTION">
+          </a></span></span></p>
+          <p class="spec">OK:</p>
+          <p class="spec">No problem with the engine oil.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Strong knocking due to pre-ignition may be due to
+              ignition of atomized engine oil under certain
+              conditions.</li>
+              <li>The risk of this occurring may be increased if
+              the engine oil used is not the specified oil
+              grade.</li>
+              <li>The risk of this occurring may be increased if
+              engine oil additives have been used.</li>
+              <li>As strong knocking due to pre-ignition may be
+              caused by multiple superimposed factors, even if the
+              engine oil inspection result is NG, perform the
+              following inspections after replacing the engine
+              oil.</li>
+            </ul>
+          </div>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0055" id="RM100000002KD4G_04_0055"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">8.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INTERVIEW THE CUSTOMER</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Interview the customer for details
+          about what fuel they have used and smell the fuel to
+          check for the following.</p>
+          <div class="test1">
+            <ul class="list">
+              <li>If the fuel smells like a mixture of gasoline and
+              diesel fuel, etc.</li>
+              <li>If there is a possibility that diesel fuel may
+              have be added by mistake.</li>
+              <li>If the malfunction started after refueling at an
+              unfamiliar gas station.</li>
+              <li>If fuel additives have been used.</li>
+            </ul>
+          </div>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Even if any of the above conditions are
+          met, if the engine is not malfunctioning, fill the fuel
+          tank at a different gas station and check if the
+          malfunction recurs.</p>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center">
+                  <p class="entry">None of the above conditions are
+                  met and the engine is not malfunctioning</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <p class="entry">One or more of the above
+                  conditions are met and the engine is
+                  malfunctioning</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Strong knocking due to pre-ignition may be caused
+              by the type fuel used.</li>
+              <li>The risk of pre-ignition occurring may be
+              increased depending on the ingredients of fuel
+              additives used.</li>
+              <li>Even if no abnormalities are found in this
+              inspection, if a malfunction occurs after the vehicle
+              has been refueled, a problem with the fuel is
+              suspected.</li>
+            </ul>
+          </div>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e2242_childid" href="RM100000002KD4G.html" title="REPLACE FUEL">GO TO
+                  STEP 10</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0056" id="RM100000002KD4G_04_0056"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">9.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT OTHER RELATED
+                  COMPONENTS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check for accumulated deposits
+          (carbon) and remove them. Deposits (carbon) may act as an
+          ignition source if they become detached, leading to
+          pre-ignition.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Strong knocking due to pre-ignition may
+          be caused by detached deposits burning inside the
+          cylinder.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e2323_childid" href="RM100000002KD4G.html" title="REPAIR OR REPLACE MALFUNCTIONING PARTS">GO TO
+                  STEP 23</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0057" id="RM100000002KD4G_04_0057"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">10.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPLACE FUEL</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Replace the fuel.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e2394_childid" href="RM100000002KD4G.html" title="CONDUCT CONFIRMATION TEST">GO TO STEP 24</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0079" id="RM100000002KD4G_04_0079"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">11.</p>
+                </td>
+                <td>
+                  <p class="testgrp">READ VALUE USING GTS (MASS AIR
+                  FLOW SENSOR)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Put the engine in Inspection Mode
+          (for measuring Exhaust Gas).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control
+          &gt; Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Inspection Mode</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(b) Start the engine and warm it up
+          until the engine coolant temperature is 75°C (167°F) or
+          higher with all the accessories switched off.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) Read Mass Air Flow Sensor while the
+          engine idling.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data
+          List</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Mass Air Flow Sensor</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="bottom">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The value of Mass Air Flow
+                  Sensor is between 1.5 and 4.9 gm/sec</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">None of the above conditions are
+                  met</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e2631_childid" href="RM100000002KD4G.html" title="CHECK INTAKE SYSTEM">GO TO STEP 22</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0052" id="RM100000002KD4G_04_0052"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">12.</p>
+                </td>
+                <td>
+                  <p class="testgrp">READ VALUE USING GTS (MASS AIR
+                  FLOW SENSOR)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Put the engine in Inspection Mode
+          (for measuring Exhaust Gas).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control
+          &gt; Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Inspection Mode</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(b) Start the engine and warm it up
+          until the engine coolant temperature is 75°C (167°F) or
+          higher with all the accessories switched off.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) Read Mass Air Flow Sensor while
+          maintaining an engine speed of 3000 rpm without load.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data
+          List</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Mass Air Flow Sensor</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The value of Mass Air Flow
+                  Sensor is between 5 and 15 gm/sec</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">None of the above conditions are
+                  met</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e2876_childid" href="RM100000002KD4G.html" title="CHECK INTAKE SYSTEM">GO TO STEP 22</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0054" id="RM100000002KD4G_04_0054"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">13.</p>
+                </td>
+                <td>
+                  <p class="testgrp">PERFORM ACTIVE TEST USING GTS
+                  (D-4S (INJECTION VOLUME))</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Put the engine in Inspection Mode
+          (for measuring Exhaust Gas).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control
+          &gt; Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Inspection Mode</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(b) Start the engine and warm it up
+          until the engine coolant temperature is 75°C (167°F) or
+          higher with all the accessories switched off.</p>
+          <p class="test1">(c) Warm up the air fuel ratio sensor at
+          an engine speed of 2500 rpm for 90 seconds.</p>
+          <p class="test1">(d) Idle the engine.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(e) According to the display on the GTS,
+          perform the Active Test and check the vehicle conditions
+          when increasing and decreasing the fuel injection volume
+          of port injection and direct injection.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Active Test</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Active Test Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">D-4S (Injection Volume)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Data List Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Injection Volume</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Injection Mode</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">A/F (O2) Sensor Current
+                  B1S1</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">A/F (O2) Sensor Current
+                  B1S2</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="notice">
+            <p class="notegen">NOTICE:</p>
+            <ul class="note">
+              <li>The air fuel ratio sensor (sensor 1) has an
+              output delay of a few seconds and the air fuel ratio
+              sensor (sensor 2) has a maximum output delay of
+              approximately 20 seconds.</li>
+              <li>Read the output value immediately after warming
+              up the air fuel ratio sensor (sensor 1) and air fuel
+              ratio sensor (sensor 2) to avoid an inaccurate
+              reading due to a sensor cooling.</li>
+            </ul>
+          </div>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Increase and decrease the fuel injection volume
+              of the port injection and direct injection
+              simultaneously and check the vehicle condition.</li>
+              <li>The D-4S (Injection Volume) operation lowers the
+              fuel injection volume by 12.5% or increases the
+              injection volume by 12.5%.</li>
+            </ul>
+          </div>
+          <p class="spec">Standard:</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">GTS Display</p>
+                  <p class="para">(Sensor)</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Injection Volume</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Current</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">A/F (O2) Sensor Current B1S1</p>
+                  <p class="para">(Air fuel ratio (sensor 1))</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">12.5%</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Below -0.075 mA</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">-12.5%</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">More than 0.037 mA</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">A/F (O2) Sensor Current B1S2</p>
+                  <p class="para">(Air fuel ratio (sensor 2))</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">12.5%</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Below -0.86 mA</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">-12.5%</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">More than 0.33 mA</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">Output current values are
+                  abnormal</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">Malfunction disappears when fuel
+                  injection volume is increased</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">Malfunction is still present
+                  when fuel injection volume is increased, even if
+                  output current values are normal</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">C</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(f) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e3388_childid" href="RM100000002KD4G.html" title="REPLACE FUEL INJECTOR ASSEMBLY">GO TO STEP
+                  15</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">C</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e3396_childid" href="RM100000002KD4G.html" title="PERFORM ACTIVE TEST USING GTS (ACTIVATE THE CIRCUIT RELAY (BRUSHLESS))">
+                  GO TO STEP 16</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0078" id="RM100000002KD4G_04_0078"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">14.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPLACE AIR FUEL RATIO SENSOR
+                  (SENSOR 1) AND AIR FUEL RATIO SENSOR (SENSOR
+                  2)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Replace the air fuel ratio sensor
+          (sensor 1).</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d615e3427" href="./RM100000002K47K.html?linkId=d615e3427&amp;hashId=RM100000002K47K#RM100000002K47K"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): REMOVAL">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): REMOVAL">
+          </a></span></span></p>
+          <p class="test1">(b) Replace the air fuel ratio sensor
+          (sensor 2).</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d615e3444" href="./RM100000002K47M.html?linkId=d615e3444&amp;hashId=RM100000002K47M#RM100000002K47M"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 2): REMOVAL">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 2): REMOVAL">
+          </a></span></span></p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e3499_childid" href="RM100000002KD4G.html" title="CONDUCT CONFIRMATION TEST">GO TO STEP 24</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0059" id="RM100000002KD4G_04_0059"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">15.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPLACE FUEL INJECTOR
+                  ASSEMBLY</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Replace the fuel injector assemblies
+          of all cylinders.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e3570_childid" href="RM100000002KD4G.html" title="CONDUCT CONFIRMATION TEST">GO TO STEP 24</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0060" id="RM100000002KD4G_04_0060"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">16.</p>
+                </td>
+                <td>
+                  <p class="testgrp">PERFORM ACTIVE TEST USING GTS
+                  (ACTIVATE THE CIRCUIT RELAY (BRUSHLESS))</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) When performing the Active Test,
+          check for an operating sound from the fuel pump (for low
+          pressure side).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Active Test</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Activate the Circuit Relay
+                  (Brushless)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="spec">OK:</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Activate the Circuit Relay
+                  (Brushless)</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">ON</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Operating sound heard</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">OFF</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Operating sound not heard</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e3769_childid" href="RM100000002KD4G.html" title="INSPECT FUEL PUMP CONTROL SYSTEM">GO TO STEP
+                  21</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0061" id="RM100000002KD4G_04_0061"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">17.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT FUEL PUMP (LOW
+                  PRESSURE SIDE)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Attach a fuel pressure gauge and
+          check the fuel pressure when cranking the engine and
+          after stopping the engine.</p>
+          <p class="test1p">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d615e3798" href="./RM100000002K40U.html?linkId=d615e3798&amp;hashId=RM100000002K40U#RM100000002K40U"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (FUEL): FUEL SYSTEM: ON-VEHICLE INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (FUEL): FUEL SYSTEM: ON-VEHICLE INSPECTION">
+          </a></span></span></p>
+          <p class="spec">Standard:</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Vehicle State</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">Cranking engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">270 to 570 kPa (2.8 to 5.8
+                  kgf/cm <sup>2</sup> , 39 to 83 psi)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">5 minutes after stopping
+                  engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">270 kPa (2.8 kgf/cm <sup>2</sup>
+                  , 39 psi) or higher</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>If there is foreign matter such as iron particles
+              on the fuel pump (for low pressure side), remove
+              it.</li>
+              <li>Make sure that there are no leaks from the fuel
+              lines, signs of fuel leakage or fuel odors.</li>
+              <li>If the air fuel ratio becomes lean only when the
+              engine is running under a high load and at a high
+              engine speed, clogging of the fuel filter is
+              suspected.</li>
+            </ul>
+          </div>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e3961_childid" href="RM100000002KD4G.html" title="INSPECT RELATED PARTS">GO TO STEP 20</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0063" id="RM100000002KD4G_04_0063"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">18.</p>
+                </td>
+                <td>
+                  <p class="testgrp">READ VALUE USING GTS (FUEL
+                  PRESSURE (HIGH))</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Put the engine in Inspection Mode
+          (for measuring Exhaust Gas).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control
+          &gt; Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Inspection Mode</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(b) Start the engine and warm it up
+          until the engine coolant temperature is 75°C (167°F) or
+          higher with all the accessories switched off.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(c) According to the display on the GTS,
+          read the Data List with the following condition.</p>
+          <div class="test1">
+            <ul class="list">
+              <li>Shift position: P</li>
+              <li>A/C: Off</li>
+              <li>Engine warmed up</li>
+              <li>Engine Speed: 3000 rpm</li>
+              <li>Injection Mode: Direct</li>
+            </ul>
+          </div>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data
+          List</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Fuel Pressure (High)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">The value of Fuel Pressure
+                  (High) is between 2000 and 32000 kPag</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">None of the above conditions are
+                  met</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(d) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e4235_childid" href="RM100000002KD4G.html" title="REPAIR OR REPLACE MALFUNCTIONING PARTS">GO TO
+                  STEP 23</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0066" id="RM100000002KD4G_04_0066"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">19.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT OTHER RELATED
+                  COMPONENTS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Inspect other related
+          components.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">If the malfunctioning part could not be
+          determined by performing the preceding inspections, one
+          of the following malfunctions is suspected.</p>
+          <div class="hint">
+            <ul class="hint">
+              <li>Deposits in the intake manifold or on an intake
+              valve</li>
+              <li>Delay in fuel supply due to adherence of the fuel
+              to the deposits</li>
+            </ul>
+          </div>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e4335_childid" href="RM100000002KD4G.html" title="REPAIR OR REPLACE MALFUNCTIONING PARTS">GO TO
+                  STEP 23</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0064" id="RM100000002KD4G_04_0064"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">20.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT RELATED PARTS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Inspect the following fuel pump (for
+          low pressure side) related parts:</p>
+          <div class="test1">
+            <ul class="list">
+              <li>Fuel suction plate sub-assembly</li>
+              <li>Fuel main valve assembly</li>
+              <li>Fuel lines and connecting parts</li>
+              <li>Fuel filter</li>
+            </ul>
+          </div>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e4433_childid" href="RM100000002KD4G.html" title="REPAIR OR REPLACE MALFUNCTIONING PARTS">GO TO
+                  STEP 23</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0062" id="RM100000002KD4G_04_0062"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">21.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT FUEL PUMP CONTROL
+                  SYSTEM</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Inspect the fuel pump control
+          system.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d615e4504_childid" href="RM100000002KD4G.html" title="REPAIR OR REPLACE MALFUNCTIONING PARTS">GO TO
+                  STEP 23</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD4G_04_0053" id="RM100000002KD4G_04_0053"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">22.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK INTAKE SYSTEM</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check for air leaks or blockage in
+          the intake system components. If a connection problem or
+          foreign matter is found, repair the connection or remove
+          the foreign matter.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>If there is foreign matter in the intake system
+              components, remove it before proceeding to the next
+              step.</li>
+              <li>If there is no foreign matter in the intake
+              system components, check for foreign matter in the
+              mass air flow meter sub-assembly. If there is foreign
+              matter in the mass air flow meter sub-assembly,
+              remove it.</li>
+            </ul>
+          </div>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0065" id="RM100000002KD4G_04_0065"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">23.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPAIR OR REPLACE
+                  MALFUNCTIONING PARTS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Repair or replace the malfunctioning
+          part.</p>
+          <p class="test1">(b) Perform "Inspection After Repair"
+          after repairing or replacing the malfunctioning part.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d615e4622" href="./RM100000002LJH8.html?linkId=d615e4622&amp;hashId=RM100000002LJH8#RM100000002LJH8"
+          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): INITIALIZATION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): INITIALIZATION">
+          </a></span></span></p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0067" id="RM100000002KD4G_04_0067"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">24.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CONDUCT CONFIRMATION TEST</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check that the engine has returned
+          to normal.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD4G_04_0006" id="RM100000002KD4G_04_0006"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">25.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Clear DTCs</h4>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">END</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

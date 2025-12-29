@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV
+  Model): VEHICLE CONTROL HISTORY (RoB); 2024 - 2026 MY Tacoma HV
+  [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="D">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002LIT8">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> RM100000002LIT8</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma HV</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (ENGINE CONTROL): SFI
+              SYSTEM (for 1Motor-HEV Model): VEHICLE CONTROL
+              HISTORY (RoB); 2024 - 2026 MY Tacoma HV [03/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <h2 class="name">VEHICLE CONTROL HISTORY
+          (RoB)</h2><a name="RM100000002LIT8_z0" id="RM100000002LIT8_z0"></a>
+          <p class="step1">DESCRIPTION</p>
+          <div class="step1">
+            <ul class="list">
+              <li>Vehicle Control History is a function that
+              captures and stores ECU data when triggered by
+              specific vehicle behavior.</li>
+              <li>If the customer states that the engine stalled or
+              will not start, it may be possible to diagnose the
+              cause of the malfunction by checking the vehicle
+              history information and Freeze Frame Data.</li>
+              <li>The number of possible stored Freeze Frame Data
+              sets, whether multi Freeze Frame Data is available,
+              the number of freeze frame points, Freeze Frame Data
+              items, the ECU internal range, etc., is different
+              depending on the stored group.</li>
+              <li>The stored data items for Vehicle Control History
+              Freeze Frame Data are different depending on the
+              stored group. When the value of a data item does not
+              change across all points, only the value of the
+              detection point will be displayed. The content of the
+              Freeze Frame Data is almost the same as that of the
+              Data List.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e163" href="./RM100000002LIT7.html?linkId=d479e163&amp;hashId=RM100000002LIT7#RM100000002LIT7"
+                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
+                </a></span></span></p>
+              </li>
+            </ul>
+          </div>
+          <p class="step1">PRECAUTIONS</p>
+          <div class="step1">
+            <ul class="list">
+              <li>As Vehicle Control History may be overwritten
+              whenever the trigger conditions are met, make sure to
+              save Vehicle Control History before performing any
+              inspections.</li>
+              <li>As Vehicle Control History may be stored when
+              performing an Active Test, learning, etc., make sure
+              to clear the Vehicle Control History before returning
+              the vehicle to the customer.</li>
+            </ul>
+          </div>
+          <p class="step1">CHECK VEHICLE CONTROL HISTORY (SFI
+          SYSTEM)</p>
+          <p class="step2">(a) Enter the following menus:
+          Powertrain / Engine / Utility / Vehicle Control History
+          (RoB).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Vehicle Control History
+                  (RoB)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">It is also possible to display Vehicle
+          Control History during the Health Check, if "Store All
+          Data" is selected.</p>
+          <h4 class="tbltitle" id="d479e256">Vehicle Control
+          History Item</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Code</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Trigger Description</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Stored Group</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Reference Inspection
+                  Procedure</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Link</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0521</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Start Failure by Immobiliser
+                  Unmatch</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">History of Hybrid Control System
+                  failing to start due to Immobiliser System key
+                  verification failure</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Immobiliser System</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e357" href="./RM100000002K9DZ.html?linkId=d479e357&amp;hashId=RM100000002K9DZ#RM100000002K9DZ"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; THEFT DETERRENT / KEYLESS ENTRY: SMART KEY SYSTEM (for Start Function, except Gasoline Model): HOW TO PROCEED WITH TROUBLESHOOTING">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; THEFT DETERRENT / KEYLESS ENTRY: SMART KEY SYSTEM (for Start Function, except Gasoline Model): HOW TO PROCEED WITH TROUBLESHOOTING"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0522</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Ready ON Failure by Shift
+                  Operation</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">History of the ignition switch
+                  not being turned to ON (READY) due to a shift
+                  operation</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0526</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Emergency Stop during
+                  Running</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">History of Hybrid Control System
+                  being turned off by pressing ignition switch
+                  while vehicle being driven</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0595</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Shift Operation to Other than
+                  Shift Position P during Ready OFF</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">History of shift lever being
+                  moved to other than P with ignition switch ON and
+                  READY indicator off</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">13</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X05A1</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Target Driving Force Not
+                  Reached</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The start of start control is
+                  delayed when engine start is requested</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">10</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X05A4</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Sliding Down</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Acceleration increases from
+                  vehicle stopped to reverse side when in D
+                  position on uphill slope or acceleration
+                  increases from vehicle stopped to forward side
+                  when in R position on downhill slope</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">1A</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X05A6</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Lack of Brake Regenerative
+                  Cooperation Request Realization</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Regenerative control prohibited
+                  due to system protection or brake system
+                  malfunction</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">1C</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X05AE</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Lack of Deceleration</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Insufficient deceleration
+                  because fuel cut does not operate while
+                  accelerator pedal is released</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">0E</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X05AF</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Lack of Acceleration</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Not judged to be in operation
+                  range while accelerator pedal is depressed</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">0F</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X05B0</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">MG Backward</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motor generator rotated in
+                  reverse</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">0D</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">X0800</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Engine Stall</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <h4 class="listtitle">Detection Condition
+                    (Engine Stall)</h4>
+                    <ul class="list">
+                      <li>Prerequisite Conditions: The engine is
+                      running (after engine is judged to be
+                      difficult to start)</li>
+                      <li>Detection Conditions: The engine speed is
+                      decreases to 200 rpm or less, or stops</li>
+                      <li>Duration: 0.5 seconds or more</li>
+                    </ul>
+                  </div>
+                </td>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">08</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Flowchart [Engine Stalls] step
+                  3</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e773" href="./RM100000002KD37.html?linkId=d479e773&amp;hashId=RM100000002KD37#RM100000002KD37"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Stalls">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Stalls"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine stalled due to
+                  factors other than the operation of the ignition
+                  switch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0803</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Stall (Compression
+                  Leakage)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">It is judged that the engine
+                  stalled due to compression leakage</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">08</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Engine Stalls] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e826" href="./RM100000002KD37.html?linkId=d479e826&amp;hashId=RM100000002KD37#RM100000002KD37"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Stalls">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Stalls"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">X0810</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Engine Difficult to Start
+                  (Engine Starting Time Long)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <h4 class="listtitle">Detection Condition
+                    (Engine Starting Time Long)</h4>
+                    <ul class="list">
+                      <li>Prerequisite Conditions: STA signal is
+                      ON</li>
+                      <li>Detection Conditions: The engine speed is
+                      less than 500 rpm for a long period of time
+                      (the starting time is long or the engine does
+                      not start)</li>
+                      <li>Duration: Refer to Engine Difficult to
+                      Start Duration Judgment Region
+                      illustration</li>
+                    </ul>
+                  </div>
+                </td>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">09</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Flowchart [Engine Difficult to
+                  Start] step 3</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2024 startdate:202403 enddate:202412">
+                  <a id="d479e891" href="./RM100000002KD36.html?linkId=d479e891&amp;hashId=RM100000002KD36#RM100000002KD36"
+                  title="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start"></a></span>
+                  <span class="myfrom:2025 myto:2026 startdate:202412"><a id="d479e893" href="./RM100000002QZT0.html?linkId=d479e893&amp;hashId=RM100000002QZT0#RM100000002QZT0"
+                  title="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  </a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine speed decreases or
+                  the engine stalls immediately after starting</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">X0811</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Engine Difficult to Start
+                  (Engine Stall Immediately After Starting)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <h4 class="listtitle">Detection Condition
+                    (Engine Stall Immediately After Starting)</h4>
+                    <ul class="list">
+                      <li>Prerequisite Conditions: Within 2 seconds
+                      after the engine has started (engine speed is
+                      500 rpm or more) and the engine coolant
+                      temperature is -35°C (-31°F) or more</li>
+                      <li>Detection Conditions: The engine speed
+                      decreases to 200 rpm or less (immediately
+                      after starting, the engine speed decreases or
+                      the engine stalls)</li>
+                      <li>Duration: -</li>
+                    </ul>
+                  </div>
+                </td>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">09</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Flowchart [Engine Difficult to
+                  Start] step 3</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2024 startdate:202403 enddate:202412">
+                  <a id="d479e967" href="./RM100000002KD36.html?linkId=d479e967&amp;hashId=RM100000002KD36#RM100000002KD36"
+                  title="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start"></a></span>
+                  <span class="myfrom:2025 myto:2026 startdate:202412"><a id="d479e969" href="./RM100000002QZT0.html?linkId=d479e969&amp;hashId=RM100000002QZT0#RM100000002QZT0"
+                  title="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  </a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine speed decreases or
+                  the engine stalls immediately after starting</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0812</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Difficult to Start
+                  (Immobiliser)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine difficult to start due to
+                  immobiliser</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">09</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Engine Difficult to
+                  Start] step 3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2024 startdate:202403 enddate:202412">
+                  <a id="d479e1022" href="./RM100000002KD36.html?linkId=d479e1022&amp;hashId=RM100000002KD36#RM100000002KD36"
+                  title="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start"></a></span>
+                  <span class="myfrom:2025 myto:2026 startdate:202412"><a id="d479e1024" href="./RM100000002QZT0.html?linkId=d479e1024&amp;hashId=RM100000002QZT0#RM100000002QZT0"
+                  title="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  </a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0813</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Difficult to Start
+                  (Engine Start Failure before Ready ON)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The vehicle does not enter the
+                  READY-on state after a certain period of time
+                  elapses after the start request when the vehicle
+                  is not in the READY-on state</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">11</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Engine Difficult to
+                  Start] step 3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2024 startdate:202403 enddate:202412">
+                  <a id="d479e1068" href="./RM100000002KD36.html?linkId=d479e1068&amp;hashId=RM100000002KD36#RM100000002KD36"
+                  title="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start"></a></span>
+                  <span class="myfrom:2025 myto:2026 startdate:202412"><a id="d479e1070" href="./RM100000002QZT0.html?linkId=d479e1070&amp;hashId=RM100000002QZT0#RM100000002QZT0"
+                  title="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2025 - 2026 MY Tacoma HV [12/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Engine Difficult to Start">
+                  </a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0814</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Difficult to Start
+                  (Engine Restart Prohibition after Engine
+                  Stall)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Specified conditions (such as
+                  low AT fluid temperature) are met after engine
+                  stalls during engine start failure, and engine
+                  does not restart</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">12</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">X0821</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Rough Idle #1</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <h4 class="listtitle">Detection Condition
+                    (Rough Idle)</h4>
+                    <ul class="list">
+                      <li>Prerequisite Conditions: The engine is
+                      idling with the vehicle is stopped and the
+                      accelerator pedal is fully released</li>
+                      <li>Detection Conditions: It is judged that
+                      combustion is unstable due to the
+                      instantaneous change in engine speed for each
+                      cylinder</li>
+                      <li>Duration: Depending on the combustion
+                      status, between 2 and 10 seconds</li>
+                    </ul>
+                  </div>
+                </td>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Flowchart [Rough Idling] step
+                  3</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1174" href="./RM100000002KD35.html?linkId=d479e1174&amp;hashId=RM100000002KD35#RM100000002KD35"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Idling is rough due to unstable
+                  combustion in the No. 1 cylinder</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0822</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Rough Idle #2</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Idling is rough due to unstable
+                  combustion in the No. 2 cylinder</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Rough Idling] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1227" href="./RM100000002KD35.html?linkId=d479e1227&amp;hashId=RM100000002KD35#RM100000002KD35"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0823</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Rough Idle #3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Idling is rough due to unstable
+                  combustion in the No. 3 cylinder</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Rough Idling] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1271" href="./RM100000002KD35.html?linkId=d479e1271&amp;hashId=RM100000002KD35#RM100000002KD35"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0824</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Rough Idle #4</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Idling is rough due to unstable
+                  combustion in the No. 4 cylinder</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Rough Idling] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1315" href="./RM100000002KD35.html?linkId=d479e1315&amp;hashId=RM100000002KD35#RM100000002KD35"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X082A</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Rough Idle (Plural
+                  Cylinders)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Idling is rough due to multiple
+                  cylinders</p>
+                  <p class="para">As more than one cylinder is
+                  affected, the fuel system, etc. is suspected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Rough Idling] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1362" href="./RM100000002KD35.html?linkId=d479e1362&amp;hashId=RM100000002KD35#RM100000002KD35"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X082D</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Rough Idle (Compression
+                  Leakage)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Idling is judged to be rough due
+                  to compression leakage</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Rough Idling] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1406" href="./RM100000002KD35.html?linkId=d479e1406&amp;hashId=RM100000002KD35#RM100000002KD35"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X082E</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Rough Idle (Low Frequency)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Slight rough idle symptoms are
+                  detected 3 times in 10 trips</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">As the rough idle symptoms are
+                  slight, if rough idle codes other than rough idle
+                  (low frequency) code X082E are stored, this code
+                  will not be stored.</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Rough Idling] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1456" href="./RM100000002KD35.html?linkId=d479e1456&amp;hashId=RM100000002KD35#RM100000002KD35"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Rough Idling"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0844</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Lack of Power</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <h4 class="listtitle">Detection Condition
+                    (Engine Lack of Power)</h4>
+                    <ul class="list">
+                      <li>Prerequisite Conditions: All of the
+                      following conditions are met
+                        <div class="list1">
+                          <ul class="list">
+                            <li>The accelerator opening angle 80%
+                            or more.</li>
+                            <li>The engine speed is 1900 rpm or
+                            more.</li>
+                            <li>The intake air temperature is 60°C
+                            (140°F) or less.</li>
+                            <li>The atmospheric pressure is 61
+                            kPa(abs) [8.70 psi(abs)] or
+                            higher.</li>
+                            <li>The STP signal is off.</li>
+                            <li>The STA signal is off.</li>
+                            <li>Shift lever is not in P or N.</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li>Detects a condition where the output
+                      torque is insufficient approximately 41% or
+                      more relative to the requested torque
+                      (divided value of the output torque is
+                      approximately 0.59 less than the requested
+                      torque)</li>
+                      <li>Duration: 2.8 seconds or more</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">04</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Lack of Power] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1566" href="./RM100000002LIXX.html?linkId=d479e1566&amp;hashId=RM100000002LIXX#RM100000002LIXX"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Lack of Power">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Lack of Power"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0845</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Lack of Power (Bad Fuel
+                  Condition)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine output is insufficient
+                  due to bad quality fuel</p>
+                  <p class="para">(Fuel quality is bad due to fuel
+                  aging degradation, water intrusion or fuel
+                  additive)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">04</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Flowchart [Lack of Power] step
+                  3</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d479e1613" href="./RM100000002LIXX.html?linkId=d479e1613&amp;hashId=RM100000002LIXX#RM100000002LIXX"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Lack of Power">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): Lack of Power"></a></span></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">X0849</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <p class="entry">Engine Lack of Power (High A/T
+                  Oil Temperature / High Engine Coolant
+                  Temperature)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <h4 class="listtitle">Detection Condition (High
+                    A/T Oil Temperature / High Engine Coolant
+                    Temperature)</h4>
+                    <ul class="list">
+                      <li>Prerequisite Conditions: When output
+                      power is limited</li>
+                      <li>Detection Conditions: Either of the
+                      following conditions is met
+                        <div class="list1">
+                          <ul class="list">
+                            <li>Engine coolant temperature is
+                            higher than the threshold value</li>
+                            <li>A/T fluid temperature is higher
+                            than the threshold value</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li>Duration: -</li>
+                    </ul>
+                  </div>
+                </td>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">18</p>
+                </td>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">The driver request is limited by
+                  output power limitation</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0850</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Oil Pressure Low</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine oil pressure is
+                  low</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">05</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0851</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Coolant Temperature
+                  High</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine coolant temperature
+                  is high (overheating)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">05</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0852</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine RPM High</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine speed is high (over
+                  revving)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">05</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0854</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Coolant Temperature High
+                  (Low Voltage)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine coolant temperature
+                  is high (overheating) due to a low engine water
+                  pump assembly voltage causing the engine water
+                  pump assembly to stop</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">05</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X0865</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Fuel lid open SW maintenance
+                  demand MREL (at the time of a time-out
+                  judgment)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">When the main relay is not shut
+                  off even after a certain amount of time has
+                  elapsed after the fuel lid opener switch is
+                  pressed</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">MTO</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Refer to Fuel Lid Opener
+                  System</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X263E</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Suspension Specification
+                  Information Learning Incomplete</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Suspension specification
+                  information is unlearned</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Perform Switch Specification
+                  Information</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">XF01B</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">ECU Security Key Not
+                  Registered</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">ECU security key has not been
+                  updated</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d479e1975" href="./RM100000002HFV1.html?linkId=d479e1975&amp;hashId=RM100000002HFV1#RM100000002HFV1"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY"></a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="figtitle" id="d479e1984">Engine Difficult to
+          Start Duration Judgment Region (Engine Starting Time
+          Long) (X0810)</h5><img src="../images/A220316E34.png.html" border="1" alt=" ">
+          <h4 class="tbltitle" id="d479e1995">Stored Data</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Stored Group</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Number of Records</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Number of Freeze Frame
+                  Points</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Multi Freeze Frame Data Sampling
+                  Period</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Note</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">03</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 code</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will not be
+                      overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                      <li>If rough idle codes other than Rough Idle
+                      (Low Frequency) code X082E are stored, data
+                      for code X082E will not be overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">7 points (1 point at detection +
+                  6 points before detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">04</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 code</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will not be
+                      overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">7 points (1 point at detection +
+                  6 points before detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">05</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will not be
+                      overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 point (multi Freeze Frame Data
+                  not available)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>The data can be cleared by using the
+                      GTS.</li>
+                      <li>The data cannot be cleared by
+                      disconnecting the cable from the negative (-)
+                      auxiliary battery terminal.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">08</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 code</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will not be
+                      overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">12 points (1 point at detection
+                  + 8 points before detection + 3 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>The data can be cleared by using the
+                      GTS.</li>
+                      <li>The data cannot be cleared by
+                      disconnecting the cable from the negative (-)
+                      auxiliary battery terminal.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">09</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">3 code</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will not be
+                      overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">7 points (1 point at detection +
+                  3 points before detection + 3 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">0D</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">11 points (1 point at detection
+                  + 9 points before detection + 1 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.1 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">0E</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">11 points (1 point at detection
+                  + 9 points before detection + 1 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.2 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">0F</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">11 points (1 point at detection
+                  + 9 points before detection + 1 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.2 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">10</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">11 points (1 point at detection
+                  + 9 points before detection + 1 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.2 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">11</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">11 points (1 point at detection
+                  + 9 points before detection + 1 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">12</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 point (multi freeze frame data
+                  not available)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">13</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">2 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will not be
+                      overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 point (multi freeze frame data
+                  not available)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">18</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">5 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 point (multi Freeze Frame Data
+                  not available)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">1A</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">3 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">7 points (1 point at detection +
+                  3 points before detection + 3 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">1C</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">3 codes</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">7 points (1 point at detection +
+                  3 points before detection + 3 points after
+                  detection)</p>
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">When the value of a data item
+                  does not change across all points, only the value
+                  at the detection point will be displayed.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">0.5 seconds</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The data can be cleared by using
+                  the GTS or by disconnecting the cable from the
+                  negative (-) auxiliary battery terminal.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">MTO</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 code</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>If the detection conditions for a code
+                      that is not currently stored are met, the
+                      code will be stored.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in the
+                      same trip, the code will be overwritten.</li>
+                      <li>If the detection conditions for a code
+                      that is currently stored are met again in a
+                      different trip, the code will be
+                      overwritten.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">1 point (multi Freeze Frame Data
+                  not available)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>The data can be cleared by using the
+                      GTS.</li>
+                      <li>The data cannot be cleared by
+                      disconnecting the cable from the negative (-)
+                      auxiliary battery terminal.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Multi Freeze Frame Data makes it possible to
+              display the engine condition (ECU data) both before
+              and after the trigger detection point.</li>
+              <li>The number of available points differs depending
+              on the stored group.</li>
+              <li>When the value of a data item does not change
+              across all points, only the value at the detection
+              point will be displayed.</li>
+            </ul>
+          </div><img src="../images/A405050E03.png.html" border="1"
+          alt=" "> <img src="../images/A414224E02.png.html" border="1" alt=" "> <img src="../images/A412793E04.png.html"
+          border="1" alt=" "> <img src="../images/A511752E01.png.html" border="1" alt=" ">
+          <img src="../images/A511752E02.png.html" border="1" alt=" "> <img src="../images/A511752E03.png.html" border="1"
+          alt=" ">
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Only 1 measurement point can be displayed
+          for stored group 05, 12, 13, 18 and MTO Freeze Frame
+          Data.</p>
+          <p class="step1">CLEAR VEHICLE CONTROL HISTORY (SFI
+          SYSTEM)</p>
+          <p class="step2">(a) Enter the following menus:
+          Powertrain / Engine / Utility / Vehicle Control History
+          (RoB) / Clear.</p>
+          <p class="notegen">NOTICE:</p>
+          <p class="note">By performing this procedure, all stored
+          Vehicle Control History items will be cleared.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Vehicle Control History
+                  (RoB)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step1">VEHICLE CONTROL HISTORY FREEZE FRAME
+          DATA (SFI SYSTEM)</p>
+          <p class="step2">(a) Enter the following menus:
+          Powertrain / Engine / Utility / Vehicle Control History
+          (RoB).</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Utility</h4>
+          <table class="gtsInfoTable" width="100%" border="1">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">Vehicle Control History
+                  (RoB)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(b) Select a vehicle control history
+          item to access the applicable freeze frame data.</p>
+          <p class="step2">(c) Check the freeze frame Data recorded
+          with the Vehicle Control History.</p><img src="../images/A562491.png.html" border="1" alt=" ">
+          <img src="../images/A562492.png.html" border="1" alt=" ">
+          <img src="../images/A562493.png.html" border="1" alt=" ">
+          <img src="../images/A562494.png.html" border="1" alt=" ">
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>The vehicle control history (automatic
+              transmission system) stores the history of system
+              protection operations.</li>
+              <li>The number of occurrences is stored for each
+              item.</li>
+            </ul>
+          </div>
+          <p class="step1">CHECK VEHICLE CONTROL HISTORY (AUTOMATIC
+          TRANSMISSION SYSTEM)</p>
+          <p class="step2">(a) Enter the following menus:
+          Powertrain / Engine / Utility / Vehicle Control History
+          (RoB).</p>
+          <h4 class="tbltitle" id="d479e3350">Vehicle Control
+          History Item</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Code</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Measurement Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Diagnostic Note</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X090A</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Limited Slip Differential Speed
+                  Higher than Expected</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">History of high differential
+                  control operation while driving</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Shift operation is prohibited to protect
+                      the differential when driving on a road with
+                      different friction between the left and right
+                      drive wheels and it is predicted that a large
+                      rotational difference will occur due to slip
+                      at one of the wheels.</li>
+                      <li>It can be understood that one of the
+                      wheels slipped.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">X090B</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Lock Up On (High A/T Oil
+                  Temperature)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">History of lock-up control
+                  operation due to the A/T fluid rising to a high
+                  temperature</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Switches to a shift line that
+                  restricts the engine speed until the A/T fluid
+                  temperature drops, in order to protect the
+                  A/T.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step1">CLEAR VEHICLE CONTROL HISTORY (AUTOMATIC
+          TRANSMISSION SYSTEM)</p>
+          <p class="step2">(a) Enter the following menus:
+          Powertrain / Engine / Utility / Vehicle Control History
+          (RoB) / Clear.</p>
+          <p class="notegen">NOTICE:</p>
+          <p class="note">By performing this procedure, all stored
+          Vehicle Control History items will be cleared.</p>
+          <p class="step1">VEHICLE CONTROL HISTORY FREEZE FRAME
+          DATA (AUTOMATIC TRANSMISSION SYSTEM)</p>
+          <p class="step2">(a) Enter the following menus:
+          Powertrain / Engine / Utility / Vehicle Control History
+          (RoB).</p>
+          <p class="step2">(b) Select a vehicle control history
+          item to access the applicable Freeze Frame Data.</p>
+          <p class="step2">(c) Check the Freeze Frame Data recorded
+          with the Vehicle Control History.</p>
+          <h4 class="tbltitle" id="d479e3508">Vehicle Control
+          History Data</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Display</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Description</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Total Distance Traveled</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Driving distance</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Total Distance Traveled -
+                  Unit</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Unit of driving distance</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Acceleration Sensor Correct
+                  Value</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Acceleration sensor calibration
+                  value</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Throttle Position for Shift
+                  Point Control</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Throttle position for shift
+                  point control</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Stop Light SW</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Brake pedal operation
+                  availability</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Shift Range Signal</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Shift range</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Turbine Rotation Speed</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Input shaft speed</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Speed (SP2)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">ECT vehicle speed</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">A/T Oil Temperature No.1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">ATF temperature sensor value</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Output Axis Speed</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Output shaft speed</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Limited Slip Differential Speed
+                  Higher than Expected Count</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Occurrence count of Limited Slip
+                  Differential Speed Higher than Expected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Lock Up On Count (High A/T Oil
+                  Temperature)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Occurrence count of Lock Up On
+                  (High A/T Oil Temperature)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step1">VEHICLE CONTROL HISTORY (AIRBAG
+          SYSTEM)</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">A part of the control history can be
+          confirmed using the vehicle control history.</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d479e3738" href="./RM100000002GSBD.html?linkId=d479e3738&amp;hashId=RM100000002GSBD#RM100000002GSBD"
+          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: VEHICLE CONTROL HISTORY">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: VEHICLE CONTROL HISTORY">
+          </a></span></span></p>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

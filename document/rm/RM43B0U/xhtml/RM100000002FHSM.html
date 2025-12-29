@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY
+  CONTROLLED BRAKE SYSTEM (for Gasoline Model): C137BA2; Brake
+  System Control Module "A" System Voltage System Voltage Low; 2024
+  - 2026 MY Tacoma [12/2023 -
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="C">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002FHSM">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> RM100000002FHSM</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [12/2023 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> BRAKE CONTROL / DYNAMIC CONTROL
+              SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (for
+              Gasoline Model): C137BA2; Brake System Control Module
+              "A" System Voltage System Voltage Low; 2024 - 2026 MY
+              Tacoma [12/2023 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <table border="1" class="dtc" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">DTC</p>
+                </td>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">C137BA2</p>
+                </td>
+                <td align="left">
+                  <p class="dtc">Brake System Control Module "A"
+                  System Voltage System Voltage Low</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002FHSM_02" id="RM100000002FHSM_02"></a>
+          <h2 class="name">DESCRIPTION</h2>
+          <p class="content5">If a malfunction is detected in the
+          power supply circuit, the skid control ECU (brake
+          actuator assembly) stores this DTC and the fail-safe
+          function prohibits ABS operation.</p>
+          <p class="content5">This DTC is stored when the +BS
+          terminal voltage meets one of the DTC detection
+          conditions due to a malfunction in the power supply or
+          charging circuit such as the battery or alternator
+          circuit, etc.</p>
+          <p class="content5">The DTC is cleared when the +BS
+          terminal voltage returns to normal.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC No.</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Detection Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Detection Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Trouble Area</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Output from</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Priority</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">C137BA2</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Brake System Control Module
+                  "A" System Voltage System Voltage Low</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Any of the following is
+                  detected:</p>
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>When the +BS terminal voltage is below
+                      9.5 V, the power source voltage for all speed
+                      sensors is continuously low for 60 seconds or
+                      more.</li>
+                      <li>After the +BS terminal voltage is below
+                      9.5 V continuously for 3 seconds or more, the
+                      +BS terminal voltage is below 9.5 V
+                      continuously for 7 seconds or more at a
+                      vehicle speed exceeding 3 km/h (2 mph).</li>
+                      <li>When the +BS terminal voltage is 9.5 V or
+                      higher and the vehicle speed exceeds 15 km/h
+                      (9 mph), the IGR terminal voltage is 10 V or
+                      less continuously for 60 seconds or
+                      more.</li>
+                      <li>When the +BS terminal voltage is below
+                      9.5 V and the solenoid relay is ON, the relay
+                      contact is OFF continuously for 1.22 seconds
+                      or more.</li>
+                      <li>When the +BS terminal voltage is below
+                      9.5 V, motor fail-safe relay overcurrent
+                      continues for 1.05 seconds or more.</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>Wire harness and connector</li>
+                      <li>Skid control ECU (brake actuator
+                      assembly)</li>
+                      <li>Stop and start system*</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Brake/EPB</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">A</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="content5">
+            <ul style="list-style-type: none;">
+              <li>*: w/ Stop and Start System</li>
+            </ul>
+          </div><a name="RM100000002FHSM_03" id="RM100000002FHSM_03"></a>
+          <h2 class="name">WIRING DIAGRAM</h2><img src="../images/C499502E04.png.html" border="1" alt=" ">
+          <a name="RM100000002FHSM_05" id="RM100000002FHSM_05"></a>
+          <h2 class="name">CAUTION / NOTICE / HINT</h2>
+          <div class="notice">
+            <p class="notegen">NOTICE:</p>
+            <ul class="note">
+              <li>Inspect the fuses for circuits related to this
+              system before performing the following
+              procedure.</li>
+              <li>Before performing troubleshooting, make sure to
+              confirm that the battery voltage is normal.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d2626e371" href="./RM100000002HFUU.html?linkId=d2626e371&amp;hashId=RM100000002HFUU#RM100000002HFUU"
+                title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING">
+                </a></span></span></p>
+              </li>
+            </ul>
+          </div><a name="RM100000002FHSM_01" id="RM100000002FHSM_01"></a>
+          <h2 class="name">PROCEDURE</h2>
+          <h2 class="name">PROCEDURE</h2><a name="RM100000002FHSM_01_0002" id="RM100000002FHSM_01_0002"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">1.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
+                  (+BS TERMINAL)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Disconnect the A24 skid control ECU
+          (brake actuator assembly) connector.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Measure the voltage according to the
+          value(s) in the table below.</p>
+          <p class="spec">Standard Voltage:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e428" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A24')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Location & Routing(A24)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e436" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A24&amp;pinno=14')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(A24)</span></a></span><br></span>
+          <table width="100%" id="RM100000002FHSM_01_0002_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">A24-14 (+BS) - Body ground</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Always</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">11 to 14 V</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">V</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
+                  CONNECTOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0015" id="RM100000002FHSM_01_0015"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">2.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK VEHICLE</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">w/ Stop and Start System</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">w/o Stop and Start System</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d2626e693_childid" href="RM100000002FHSM.html" title="CHECK HARNESS AND CONNECTOR (IGR TERMINAL)">GO
+                  TO STEP 7</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">A</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0005" id="RM100000002FHSM_01_0005"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">3.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
+                  (IGR TERMINAL)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Turn the ignition switch to ON.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Measure the voltage according to the
+          value(s) in the table below.</p>
+          <p class="spec">Standard Voltage:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e746" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A24')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Location & Routing(A24)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e754" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A24&amp;pinno=45')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(A24)</span></a></span><br></span>
+          <table width="100%" id="RM100000002FHSM_01_0005_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">A24-45 (IGR) - Body ground</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Ignition switch ON</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">10.5 to 16 V</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">V</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312">
+                  <a id="d2626e917" href="./RM100000002HBT2.html?linkId=d2626e917&amp;hashId=RM100000002HBT2#RM100000002HBT2"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; STOP AND START: STOP AND START SYSTEM: Backup Boost Converter Circuit">
+                  INSPECT STOP AND START SYSTEM (BACKUP BOOST
+                  CONVERTER CIRCUIT)</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0003" id="RM100000002FHSM_01_0003"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">4.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
+                  (GND1 TERMINAL)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Turn the ignition switch off.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Measure the resistance according to
+          the value(s) in the table below.</p>
+          <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e974" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A24')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Location & Routing(A24)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e982" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A24&amp;pinno=1')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(A24)</span></a></span><br></span>
+          <table width="100%" id="RM100000002FHSM_01_0003_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">A24-1 (GND1) - Body ground</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">1 minute or more after
+                  disconnecting the cable from the negative (-)
+                  battery terminal</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Below 1 Ω</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Ω</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
+                  CONNECTOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0013" id="RM100000002FHSM_01_0013"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">5.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Reconnect the A24 skid control ECU
+          (brake actuator assembly) connector.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt;
+          Clear DTCs</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Turn the ignition switch off.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0004" id="RM100000002FHSM_01_0004"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">6.</p>
+                </td>
+                <td>
+                  <p class="testgrp">RECONFIRM DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Based on the Freeze Frame Data and
+          interview with the customer, attempt to reproduce the
+          conditions when the malfunction occurred.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Check if the same DTC is output.</p>
+          <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">C137BA2 is not output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">C137BA2 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312">
+                  <a id="d2626e1405" href="./RM100000002HFUU.html?linkId=d2626e1405&amp;hashId=RM100000002HFUU#RM100000002HFUU"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING">
+                  USE SIMULATION METHOD TO
+                  CHECK</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPLACE BRAKE ACTUATOR
+                  ASSEMBLY</p>
+                  <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2024 startdate:202312 enddate:202403">
+                  <a id="d2626e1428" href="./RM100000002GEU3.html?linkId=d2626e1428&amp;hashId=RM100000002GEU3#RM100000002GEU3"
+                  title="2024 MY Tacoma Tacoma HV [12/2023 - 03/2024]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma Tacoma HV [12/2023 - 03/2024]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  </a></span> <span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2626e1430" href="./RM100000002K4X5.html?linkId=d2626e1430&amp;hashId=RM100000002K4X5#RM100000002K4X5"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  </a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002FHSM_01_0016" id="RM100000002FHSM_01_0016"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">7.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
+                  (IGR TERMINAL)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Turn the ignition switch to ON.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Measure the voltage according to the
+          value(s) in the table below.</p>
+          <p class="spec">Standard Voltage:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e1479" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A24')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Location & Routing(A24)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e1487" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A24&amp;pinno=45')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(A24)</span></a></span><br></span>
+          <table width="100%" id="RM100000002FHSM_01_0016_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">A24-45 (IGR) - Body ground</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Ignition switch ON</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">11 to 14 V</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">V</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
+                  CONNECTOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0017" id="RM100000002FHSM_01_0017"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">8.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
+                  (GND1 TERMINAL)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Turn the ignition switch off.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Measure the resistance according to
+          the value(s) in the table below.</p>
+          <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e1696" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A24')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Location & Routing(A24)</span></a></span><br></span>
+          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202312"><a id="d2626e1704" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A24&amp;pinno=1')"
+          title="2024 MY Tacoma EWD"><span class="ewdlink">Click
+          Connector(A24)</span></a></span><br></span>
+          <table width="100%" id="RM100000002FHSM_01_0017_T_1"
+          border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Tester Connection</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Specified Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">A24-1 (GND1) - Body ground</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">1 minute or more after
+                  disconnecting the cable from the negative (-)
+                  battery terminal</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Below 1 Ω</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Ω</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
+                  CONNECTOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0021" id="RM100000002FHSM_01_0021"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">9.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Reconnect the A24 skid control ECU
+          (brake actuator assembly) connector.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt;
+          Clear DTCs</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Turn the ignition switch off.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002FHSM_01_0022" id="RM100000002FHSM_01_0022"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">10.</p>
+                </td>
+                <td>
+                  <p class="testgrp">RECONFIRM DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Based on the Freeze Frame Data and
+          interview with the customer, attempt to reproduce the
+          conditions when the malfunction occurred.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Check if the same DTC is output.</p>
+          <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">C137BA2 is not output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">C137BA2 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312">
+                  <a id="d2626e2127" href="./RM100000002HFUU.html?linkId=d2626e2127&amp;hashId=RM100000002HFUU#RM100000002HFUU"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING">
+                  USE SIMULATION METHOD TO
+                  CHECK</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPLACE BRAKE ACTUATOR
+                  ASSEMBLY</p>
+                  <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2024 startdate:202312 enddate:202403">
+                  <a id="d2626e2150" href="./RM100000002GEU3.html?linkId=d2626e2150&amp;hashId=RM100000002GEU3#RM100000002GEU3"
+                  title="2024 MY Tacoma Tacoma HV [12/2023 - 03/2024]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma Tacoma HV [12/2023 - 03/2024]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  </a></span> <span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2626e2152" href="./RM100000002K4X5.html?linkId=d2626e2152&amp;hashId=RM100000002K4X5#RM100000002K4X5"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE ACTUATOR: REMOVAL">
+                  </a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

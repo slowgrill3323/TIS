@@ -1,0 +1,1895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV
+  Model): P319000,P319100; Poor Engine Power; 2024 - 2026 MY Tacoma
+  HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="C">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KD5B">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> RM100000002KD5B</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma HV</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (ENGINE CONTROL): SFI
+              SYSTEM (for 1Motor-HEV Model): P319000,P319100; Poor
+              Engine Power; 2024 - 2026 MY Tacoma HV [03/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <table border="1" class="dtc" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">DTC</p>
+                </td>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">P319000</p>
+                </td>
+                <td align="left">
+                  <p class="dtc">Poor Engine Power</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table border="1" class="dtc" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">DTC</p>
+                </td>
+                <td align="center" valign="middle" width="10%">
+                  <p class="dtc">P319100</p>
+                </td>
+                <td align="left">
+                  <p class="dtc">Engine does not Start</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_02" id="RM100000002KD5B_02"></a>
+          <h2 class="name">DESCRIPTION</h2>
+          <p class="content5">The ECM receives signals from the
+          hybrid vehicle control ECU assembly such as the requested
+          engine torque, target engine speed and engine cranking
+          status, and controls the engine output based on the
+          target engine speed and requested torque.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC No.</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Detection Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Detection Condition</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Trouble Area</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">MIL</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">DTC Output from</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Priority</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Note</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">P319000</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Poor Engine Power</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">When all of the following
+                  conditions are met (1 trip detection logic):</p>
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>The vehicle is stopped.</li>
+                      <li>The engine speed is 650 rpm or more
+                      (varies depending on the engine coolant
+                      temperature).</li>
+                      <li>The oil pressure temperature is the
+                      threshold value or higher.</li>
+                      <li>Engine torque requested by the hybrid
+                      vehicle control ECU assembly exceeds a
+                      certain value.</li>
+                      <li>The hybrid vehicle control ECU assembly
+                      judges that the engine has started.</li>
+                      <li>The fuel tank is not empty.</li>
+                      <li>Communication between the hybrid vehicle
+                      control ECU assembly and ECM is normal.</li>
+                      <li>The following condition is detected 2
+                      times.
+                        <p class="para">The actual engine torque is
+                        less than 20% of the requested engine
+                        torque for 6 seconds, or until the
+                        crankshaft rotates 100 times (whichever
+                        takes longer, differs depending on the
+                        engine coolant temperature).</p>
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>Intake system</li>
+                      <li>Throttle with motor body assembly</li>
+                      <li>Fuel system</li>
+                      <li>Engine assembly</li>
+                      <li>Mass air flow meter sub-assembly</li>
+                      <li>Out of fuel</li>
+                      <li>Engine coolant temperature sensor</li>
+                      <li>Crankshaft position sensor</li>
+                      <li>Camshaft position sensor</li>
+                      <li>Fuel pump control circuit</li>
+                      <li>PCV valve and hose</li>
+                      <li>PCV hose connections</li>
+                      <li>ECM</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Comes on</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">B</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>SAE: P3190</li>
+                      <li>DTC for Mexico Models: Applies</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="data-name">P319100</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine does not Start</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">When all of the following
+                  conditions are met (1 trip detection logic):</p>
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>The engine speed is 410 rpm or more
+                      (varies depending on the engine coolant
+                      temperature).</li>
+                      <li>The fuel tank is not empty.</li>
+                      <li>Communication between the hybrid vehicle
+                      control ECU assembly and ECM is normal.</li>
+                      <li>After the hybrid vehicle control ECU
+                      assembly sends the engine start request
+                      signal, it does not detect engine start
+                      (generation of engine torque) for 7 seconds,
+                      or until the crankshaft rotates 50 times
+                      (whichever takes longer, differs depending on
+                      the engine coolant temperature).</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>Intake system</li>
+                      <li>Throttle with motor body assembly</li>
+                      <li>Fuel system</li>
+                      <li>Engine assembly</li>
+                      <li>Mass air flow meter sub-assembly</li>
+                      <li>Out of fuel</li>
+                      <li>Engine coolant temperature sensor</li>
+                      <li>Crankshaft position sensor</li>
+                      <li>Camshaft position sensor</li>
+                      <li>Fuel pump control circuit</li>
+                      <li>PCV valve and hose</li>
+                      <li>PCV hose connections</li>
+                      <li>ECM</li>
+                    </ul>
+                  </div>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Comes on</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">Engine</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="data-name">B</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="data-name">
+                    <ul class="list">
+                      <li>SAE: P3191</li>
+                      <li>DTC for Mexico Models: Applies</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_03" id="RM100000002KD5B_03"></a>
+          <h2 class="name">MONITOR DESCRIPTION</h2>
+          <div class="content5">
+            <ol class="list">
+              <li>The ECM receives signals such as requested engine
+              torque, target engine speed and engine cranking
+              status from the hybrid vehicle control ECU
+              assembly.</li>
+              <li>The ECM controls engine start and stop and the
+              throttle valve angle based on the signals received
+              from the hybrid vehicle control ECU assembly.</li>
+              <li>The ECM receives the actual engine torque
+              calculated by the hybrid vehicle control ECU assembly
+              based on the generator torque.</li>
+              <li>When the actual engine torque is less than 20% of
+              the requested engine torque*, the ECM judges that the
+              engine output is abnormal and stores DTC P319000.
+                <p class="para2">(The engine may not have started
+                in the above situation.)</p>
+                <div class="list1">
+                  <ul style="list-style-type: none;">
+                    <li>*: Requested torque = Requested Engine
+                    Torque (kW) / Target Engine Revolution (rpm) x
+                    9549</li>
+                  </ul>
+                </div>
+              </li>
+              <li>If the ECM does not detect engine start torque
+              (actual engine torque) even though it has received an
+              engine start request and started the engine, it
+              stores DTC P319100.
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>When DTCs P319000, P319100 and P319300 are
+                    output, the engine may be stopped due to the
+                    engine condition.
+                      <p class="para2">At this time, after adding
+                      fuel or performing repairs, clear the DTCs.
+                      Then turn the ignition switch off to return
+                      to the normal condition.</p>
+                    </li>
+                    <li>When this DTC is output and the engine is
+                    stopped, the HV battery cannot be charged since
+                    the vehicle is driven with the motor only. If
+                    the vehicle continues to be driven under this
+                    condition, the HV battery will become depleted
+                    and the ignition switch will not be able to be
+                    turned to ON (READY).</li>
+                    <li>When DTC P319000 or P319100 is stored, the
+                    engine torque has dropped by 80% or the engine
+                    cannot be started. If any DTCs that indicate
+                    malfunctioning of engine related parts are
+                    stored at the same time, repair the
+                    malfunctioning parts first.</li>
+                    <li>If engine knock is detected due to
+                    mechanical noise or a knock control sensor
+                    being loose, the ignition timing (Knock F/B
+                    Value, Knock Correct Learn Value) may be
+                    excessively retarded and DTC P319000 may be
+                    stored.
+                      <p class="para2">Relevant Data List
+                      Items:</p>
+                      <table width="100%" border="1">
+                        <colgroup>
+                          <col>
+                          <col>
+                          <col>
+                          <col>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th colspan="4" align="left" valign="middle">
+                              <p class="entry">ECM (Powertrain /
+                              Engine / Data List)</p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="middle">
+                              <p class="entry">Engine Speed</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Calculate Load</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Coolant
+                              Temperature</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Throttle Position
+                              Sensor No.1 Voltage</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="middle">
+                              <p class="entry">Throttle Position
+                              Command</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Short FT B1S1</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Long FT B1S1</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Ignition Timing
+                              Cylinder #1</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="middle">
+                              <p class="entry">Knock F/B Value</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Knock Correct Learn
+                              Value</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Requested Engine
+                              Torque</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Actual Engine
+                              Torque</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table width="100%" border="1">
+                        <colgroup>
+                          <col>
+                          <col>
+                          <col>
+                          <col>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th colspan="4" align="left" valign="middle">
+                              <p class="entry">Hybrid Vehicle
+                              Control ECU Assembly (Powertrain /
+                              Hybrid Control / Data List)</p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="middle">
+                              <p class="entry">Target Engine
+                              Revolution</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Engine Speed</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Target Engine
+                              Power</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">Coolant
+                              Temperature</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="middle">
+                              <p class="entry">Engine Idling
+                              Request</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">-</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">-</p>
+                            </td>
+                            <td align="center" valign="middle">
+                              <p class="entry">-</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ol>
+          </div><a name="RM100000002KD5B_04" id="RM100000002KD5B_04"></a>
+          <h2 class="name">MONITOR STRATEGY</h2>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Related DTCs</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">P3190: Poor engine power</p>
+                  <p class="para">P3191: Engine does not start</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Required Sensors/Components
+                  (Main)</p>
+                </td>
+                <td>
+                  <p class="entry">Crankshaft position sensor</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Required Sensors/Components
+                  (Related)</p>
+                </td>
+                <td>
+                  <p class="entry">Hybrid vehicle control ECU
+                  assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Frequency of Operation</p>
+                </td>
+                <td>
+                  <p class="entry">Continuous</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Duration</p>
+                </td>
+                <td>
+                  <p class="entry">50 engine revolutions or 7
+                  seconds</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">MIL Operation</p>
+                </td>
+                <td>
+                  <p class="entry">Immediate</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">Sequence of Operation</p>
+                </td>
+                <td>
+                  <p class="entry">None</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_12" id="RM100000002KD5B_12"></a>
+          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+          <h4 class="tbltitle" id="d663e1058">P3190 and P3191</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Monitor runs whenever the
+                  following DTCs are not stored</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">None</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Fuel cut operation</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Not operated</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine speed</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">410 rpm or more (varies with
+                  engine coolant temperature)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Communication with hybrid
+                  vehicle control ECU assembly</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">No malfunction</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Start clutch</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Not engaged</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine coolant temperature</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">70°C (158°F) or higher</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine oil temperature</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">65°C (149°F) or higher</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_13" id="RM100000002KD5B_13"></a>
+          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+          <h4 class="tbltitle" id="d663e1188">P3190</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Time for low engine torque</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">100 engine revolutions or more,
+                  and 6 seconds or more (varies with engine coolant
+                  temperature)</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Ratio of estimated torque
+                  against target torque</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Less than 20%</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4 class="tbltitle" id="d663e1234">P3191</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Engine start no-determination
+                  time (receive from hybrid vehicle control ECU
+                  assembly)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">50 engine revolutions or more,
+                  and 7 seconds or more (varies with engine coolant
+                  temperature)</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Engine speed is a fixed value or
+                  more</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_08" id="RM100000002KD5B_08"></a>
+          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+          <p class="notegen">NOTICE:</p>
+          <p class="note">If the MIL or a master warning light
+          illuminates, immediately end the confirmation driving
+          pattern. If DTCs P319000, P319100 and P319300 are output
+          and the engine is stopped, the HV battery will no longer
+          be chargeable and the distance that the vehicle can be
+          driven will be limited.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>After repair has been completed, clear the DTC
+              and then check that the vehicle has returned to
+              normal by performing the following All Readiness
+              check procedure.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e1308" href="./RM100000002KD3K.html?linkId=d663e1308&amp;hashId=RM100000002KD3K#RM100000002KD3K"
+                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                </a></span></span></p>
+              </li>
+              <li>When clearing the permanent DTCs, refer to the
+              "CLEAR PERMANENT DTC" procedure.
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e1322" href="./RM100000002KD0T.html?linkId=d663e1322&amp;hashId=RM100000002KD0T#RM100000002KD0T"
+                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                </a></span></span></p>
+              </li>
+            </ul>
+          </div>
+          <div class="content5">
+            <ol class="list">
+              <li>Clear the DTCs (even if no DTCs are stored,
+              perform the clear DTC procedure).</li>
+              <li>Turn the ignition switch off and wait for at
+              least 30 seconds.</li>
+              <li>Put the engine in Inspection Mode (for measuring
+              Exhaust Gas).
+                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d663e1352" href="./RM100000002HFUR.html?linkId=d663e1352&amp;hashId=RM100000002HFUR#RM100000002HFUR"
+                title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE">
+                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE">
+                </a></span></span></p>
+              </li>
+              <li>Start the engine and warm it up until the engine
+              coolant temperature reaches 75°C (167°F) or higher
+              [A].</li>
+              <li>With the engine running and the shift position in
+              P, wait for 5 minutes without depressing the
+              accelerator pedal [B].</li>
+              <li>Enter the following menus: Powertrain / Engine /
+              Trouble Codes [C].</li>
+              <li>Read the pending DTCs.
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>If a pending DTC is output, the system is
+                    malfunctioning.</li>
+                    <li>If a pending DTC is not output, perform the
+                    following procedure.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>Enter the following menus: Powertrain / Engine /
+              Utility / All Readiness.</li>
+              <li>Input the DTC: P319000 or P319100.</li>
+              <li>Check the DTC judgment result.
+                <div class="hint">
+                  <p class="hintgen">HINT:</p>
+                  <ul class="hint">
+                    <li>If the judgment result shows NORMAL, the
+                    system is normal.</li>
+                    <li>If the judgment result shows ABNORMAL, the
+                    system is malfunctioning.</li>
+                    <li>If the judgment result shows INCOMPLETE,
+                    perform the Confirmation Driving Pattern and
+                    check the DTC judgment result again.</li>
+                    <li>[A] to [C]: Normal judgment procedure.
+                      <p class="para2">The normal judgment
+                      procedure is used to complete DTC judgment
+                      and also used when clearing permanent
+                      DTCs.</p>
+                    </li>
+                    <li>When clearing the permanent DTCs, do not
+                    disconnect the cable from the auxiliary battery
+                    terminal or attempt to clear the DTCs during
+                    this procedure, as doing so will clear the
+                    universal trip and normal judgment
+                    histories.</li>
+                  </ul>
+                </div>
+              </li>
+            </ol>
+          </div><a name="RM100000002KD5B_07" id="RM100000002KD5B_07"></a>
+          <h2 class="name">CAUTION / NOTICE / HINT</h2>
+          <div class="notice">
+            <p class="notegen">NOTICE:</p>
+            <ul class="note">
+              <li>Vehicle Control History may be stored in the
+              hybrid vehicle control ECU assembly if the engine is
+              malfunctioning. Certain vehicle condition information
+              is recorded when Vehicle Control History is stored.
+              Reading the vehicle conditions recorded in both the
+              freeze frame data and Vehicle Control History can be
+              useful for troubleshooting.
+                <p class="para2">(Select Powertrain in Health Check
+                and then check the time stamp data.)</p>
+              </li>
+              <li>If any "Engine Malfunction" Vehicle Control
+              History item has been stored in the hybrid vehicle
+              control ECU assembly, make sure to clear it. However,
+              as all Vehicle Control History items are cleared
+              simultaneously, if any Vehicle Control History items
+              other than "Engine Malfunction" are stored, make sure
+              to perform any troubleshooting for them before
+              clearing Vehicle Control History.</li>
+            </ul>
+          </div>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Performing this diagnosis procedure repeatedly
+              for symptom confirmation may cause the SOC to drop,
+              preventing the system from entering the READY-on
+              state. In this case, use the THS charger to charge
+              the HV battery.</li>
+              <li>Cranking the engine once causes the SOC to drop
+              approximately 1%.</li>
+              <li>Charging the HV battery once (10 minutes) using
+              the THS charger restores the SOC approximately
+              2%.</li>
+              <li>Charging the HV battery using the THS charger
+              takes approximately 10 minutes when the HV battery
+              temperature is 25°C (77°F) or approximately 30
+              minutes when the HV battery temperature is 0°C
+              (32°F).</li>
+              <li>The THS charger is a supplemental charging device
+              that charges the HV battery enough to enable the
+              engine to start (the vehicle can enter the READY-on
+              state).</li>
+            </ul>
+          </div><a name="RM100000002KD5B_09" id="RM100000002KD5B_09"></a>
+          <h2 class="name">PROCEDURE</h2>
+          <h2 class="name">PROCEDURE</h2><a name="RM100000002KD5B_09_0001" id="RM100000002KD5B_09_0001"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">1.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK ANY OTHER DTCS OUTPUT
+                  (IN ADDITION TO DTC P319000, P319100 AND/OR
+                  P319300)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check for DTCs and freeze frame data
+          and write them down.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P319000, P319100 or P319300 and
+                  other DTCs are output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">Only P319000 or P319100 is
+                  output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">Only P319300 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">C</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">If any SFI system DTCs other than DTC
+          P319000, P319100 or P319300 are output, perform
+          troubleshooting for those DTCs first.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">GO TO DTC CHART</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">C</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d663e1685" href="./RM100000002KD5C.html?linkId=d663e1685&amp;hashId=RM100000002KD5C#RM100000002KD5C"
+                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P319300; Fuel Run Out">
+                  GO TO DTC P319300</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d663e1697_childid" href="RM100000002KD5B.html" title="CHECK SHORTAGE OF FUEL">GO TO STEP 2</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_09_0003" id="RM100000002KD5B_09_0003"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">2.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK SHORTAGE OF FUEL</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check the amount of fuel
+          remaining.</p>
+          <p class="spec">OK:</p>
+          <p class="spec">There is enough fuel.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>DTCs P319000, P319100 and/or P319300 may be
+              output if the vehicle ran out of fuel in the
+              past.</li>
+              <li>If not enough fuel is added, DTC P319000, P319100
+              or P319300 may be output again. If the engine cannot
+              be started because the vehicle is out of fuel, add
+              fuel until the fuel level warning turns off.</li>
+            </ul>
+          </div>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REFILL FUEL</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0033" id="RM100000002KD5B_09_0033"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">3.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) None</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Clear DTCs</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Turn the ignition switch off and
+          wait for at least 30 seconds.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0052" id="RM100000002KD5B_09_0052"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">4.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK PCV VALVE AND HOSE
+                  CONNECTIONS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check the PCV hose
+          connections.</p><img src="../images/A572896.png.html"
+          border="1" alt=" ">
+          <p class="test1">(b) Check the PCV valve.</p>
+          <p class="test1p">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d663e1961" href="./RM100000002GHXM.html?linkId=d663e1961&amp;hashId=RM100000002GHXM#RM100000002GHXM"
+          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (EMISSION CONTROL): PCV VALVE: ON-VEHICLE INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (EMISSION CONTROL): PCV VALVE: ON-VEHICLE INSPECTION">
+          </a></span></span></p>
+          <p class="spec">OK:</p>
+          <p class="spec">PCV hose and PCV valve are connected
+          correctly and are not damaged.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE PCV VALVE OR
+                  HOSE</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0005" id="RM100000002KD5B_09_0005"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">5.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK INTAKE SYSTEM</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Check the intake system for vacuum
+          leaks.</p>
+          <p class="test1p">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e2072" href="./RM100000002K75O.html?linkId=d663e2072&amp;hashId=RM100000002K75O#RM100000002K75O"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (INTAKE / EXHAUST): INTAKE SYSTEM: ON-VEHICLE INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (INTAKE / EXHAUST): INTAKE SYSTEM: ON-VEHICLE INSPECTION">
+          </a></span></span></p>
+          <p class="spec">OK:</p>
+          <p class="spec">No leaks from intake system.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Perform "Inspection After Repair" after
+          repairing or replacing the intake system.</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e2097" href="./RM100000002LJH8.html?linkId=d663e2097&amp;hashId=RM100000002LJH8#RM100000002LJH8"
+          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): INITIALIZATION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): INITIALIZATION">
+          </a></span></span></p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE INTAKE
+                  SYSTEM</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0007" id="RM100000002KD5B_09_0007"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">6.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK FOR UNUSUAL NOISE OR
+                  VIBRATION WHEN STARTING ENGINE OR REVVING</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="spec">OK:</p>
+          <p class="spec">Unusual noise and vibration do not
+          occur.</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">REPAIR OR REPLACE
+                  MALFUNCTIONING PARTS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0009" id="RM100000002KD5B_09_0009"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">7.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK FUEL PRESSURE (FOR LOW
+                  PRESSURE SIDE)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e2289" href="./RM100000002K40U.html?linkId=d663e2289&amp;hashId=RM100000002K40U#RM100000002K40U"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (FUEL): FUEL SYSTEM: ON-VEHICLE INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (FUEL): FUEL SYSTEM: ON-VEHICLE INSPECTION">
+          </a></span></span></p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d663e2365" href="./RM100000002K41D.html?linkId=d663e2365&amp;hashId=RM100000002K41D#RM100000002K41D"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (FUEL): FUEL PUMP: REMOVAL">
+                  REPLACE FUEL PUMP (FOR LOW PRESSURE
+                  SIDE)</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0012" id="RM100000002KD5B_09_0012"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">8.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT THROTTLE BODY WITH
+                  THROTTLE POSITION SENSOR ASSEMBLY</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d663e2393" href="./RM100000002GMRV.html?linkId=d663e2393&amp;hashId=RM100000002GMRV#RM100000002GMRV"
+          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): THROTTLE BODY: INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): THROTTLE BODY: INSPECTION">
+          </a></span></span></p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d663e2469" href="./RM100000002K473.html?linkId=d663e2469&amp;hashId=RM100000002K473#RM100000002K473"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): THROTTLE BODY: REMOVAL">
+                  REPLACE THROTTLE BODY WITH THROTTLE POSITION
+                  SENSOR ASSEMBLY</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0014" id="RM100000002KD5B_09_0014"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">9.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT MASS AIR FLOW METER
+                  SUB-ASSEMBLY</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="test1">(a) Inspect the mass air flow meter
+          sub-assembly, referring to On-vehicle Inspection for Mass
+          Air Flow Meter.</p>
+          <p class="test1p">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e2502" href="./RM100000002K475.html?linkId=d663e2502&amp;hashId=RM100000002K475#RM100000002K475"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): MASS AIR FLOW METER: ON-VEHICLE INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): MASS AIR FLOW METER: ON-VEHICLE INSPECTION">
+          </a></span></span></p>
+          <p class="test1">(b) Inspect the mass air flow meter
+          sub-assembly, referring to Inspection for Mass Air Flow
+          Meter.</p>
+          <p class="test1p">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d663e2516" href="./RM100000002GMSC.html?linkId=d663e2516&amp;hashId=RM100000002GMSC#RM100000002GMSC"
+          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): MASS AIR FLOW METER: INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): MASS AIR FLOW METER: INSPECTION">
+          </a></span></span></p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d663e2593" href="./RM100000002K476.html?linkId=d663e2593&amp;hashId=RM100000002K476#RM100000002K476"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): MASS AIR FLOW METER: REMOVAL">
+                  REPLACE MASS AIR FLOW METER
+                  SUB-ASSEMBLY</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0016" id="RM100000002KD5B_09_0016"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">10.</p>
+                </td>
+                <td>
+                  <p class="testgrp">INSPECT ENGINE COOLANT
+                  TEMPERATURE SENSOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d663e2621" href="./RM100000002GMSM.html?linkId=d663e2621&amp;hashId=RM100000002GMSM#RM100000002GMSM"
+          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ENGINE COOLANT TEMPERATURE SENSOR: INSPECTION">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ENGINE COOLANT TEMPERATURE SENSOR: INSPECTION">
+          </a></span></span></p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NG</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
+                  <a id="d663e2697" href="./RM100000002K47A.html?linkId=d663e2697&amp;hashId=RM100000002K47A#RM100000002K47A"
+                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ENGINE COOLANT TEMPERATURE SENSOR: REMOVAL">
+                  REPLACE ENGINE COOLANT TEMPERATURE
+                  SENSOR</a></span></span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">OK</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0018" id="RM100000002KD5B_09_0018"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">11.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPLACE CRANKSHAFT POSITION
+                  SENSOR</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e2727" href="./RM100000002KS6A.html?linkId=d663e2727&amp;hashId=RM100000002KS6A#RM100000002KS6A"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): CRANKSHAFT POSITION SENSOR: REMOVAL">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): CRANKSHAFT POSITION SENSOR: REMOVAL">
+          </a></span></span></p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0045" id="RM100000002KD5B_09_0045"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">12.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) None</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Clear DTCs</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Turn the ignition switch off and
+          wait for at least 30 seconds.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0046" id="RM100000002KD5B_09_0046"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">13.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK WHETHER DTC OUTPUT
+                  RECURS (DTC P319000 OR P319100)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Drive the vehicle in accordance with
+          the driving pattern described in Confirmation Driving
+          Pattern.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Read the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">DTCs are not output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P319000 or P319100 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">END</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d663e3041_childid" href="RM100000002KD5B.html" title="REPLACE CAMSHAFT POSITION SENSOR (FOR INTAKE CAMSHAFT)">
+                  GO TO STEP 14</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_09_0020" id="RM100000002KD5B_09_0020"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">14.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPLACE CAMSHAFT POSITION
+                  SENSOR (FOR INTAKE CAMSHAFT)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e3059" href="./RM100000002KS68.html?linkId=d663e3059&amp;hashId=RM100000002KS68#RM100000002KS68"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): CAMSHAFT POSITION SENSOR: REMOVAL">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): CAMSHAFT POSITION SENSOR: REMOVAL">
+          </a></span></span></p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0039" id="RM100000002KD5B_09_0039"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">15.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) None</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Clear DTCs</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Turn the ignition switch off and
+          wait for at least 30 seconds.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0034" id="RM100000002KD5B_09_0034"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">16.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK WHETHER DTC OUTPUT
+                  RECURS (DTC P319000 OR P319100)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Drive the vehicle in accordance with
+          the driving pattern described in Confirmation Driving
+          Pattern.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Read the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">DTCs are not output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P319000 or P319100 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">END</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d663e3373_childid" href="RM100000002KD5B.html" title="REPLACE CAMSHAFT POSITION SENSOR (FOR EXHAUST CAMSHAFT)">
+                  GO TO STEP 17</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_09_0048" id="RM100000002KD5B_09_0048"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">17.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPLACE CAMSHAFT POSITION
+                  SENSOR (FOR EXHAUST CAMSHAFT)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e3391" href="./RM100000002KS68.html?linkId=d663e3391&amp;hashId=RM100000002KS68#RM100000002KS68"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): CAMSHAFT POSITION SENSOR: REMOVAL">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): CAMSHAFT POSITION SENSOR: REMOVAL">
+          </a></span></span></p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0049" id="RM100000002KD5B_09_0049"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">18.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) None</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Clear DTCs</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Turn the ignition switch off and
+          wait for at least 30 seconds.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0050" id="RM100000002KD5B_09_0050"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">19.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CHECK WHETHER DTC OUTPUT
+                  RECURS (DTC P319000 OR P319100)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Drive the vehicle in accordance with
+          the driving pattern described in Confirmation Driving
+          Pattern.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Read the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Trouble Codes</h4>
+          <table width="100%" border="1" class="result">
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Result</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Proceed to</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">DTCs are not output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">A</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">P319000 or P319100 is output</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="judge-value">B</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">A</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">END</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">B</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif"><a id="d663e3705_childid" href="RM100000002KD5B.html" title="REPLACE ECM">GO TO
+                  STEP 20</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table><a name="RM100000002KD5B_09_0026" id="RM100000002KD5B_09_0026"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">20.</p>
+                </td>
+                <td>
+                  <p class="testgrp">REPLACE ECM</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d663e3723" href="./RM100000002K474.html?linkId=d663e3723&amp;hashId=RM100000002K474#RM100000002K474"
+          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">
+          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">
+          </a></span></span></p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0038" id="RM100000002KD5B_09_0038"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">21.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CLEAR DTC</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) None</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Clear the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Clear DTCs</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) Turn the ignition switch off and
+          wait for at least 30 seconds.</p>
+          <table>
+            <tr>
+              <td>
+                <table align="left" class="arrowdn" cellspacing="0"
+                cellpadding="0" width="5%">
+                  <tr>
+                    <td class="arrow" align="center">NEXT</td>
+                  </tr>
+                  <tr>
+                    <td class="arrow" align="left" width="10%">
+                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table><a name="RM100000002KD5B_09_0027" id="RM100000002KD5B_09_0027"></a>
+          <table border="1" class="testgrp" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" width="7%">
+                  <p class="testgrp">22.</p>
+                </td>
+                <td>
+                  <p class="testgrp">CONFIRM WHETHER MALFUNCTION
+                  HAS BEEN SUCCESSFULLY REPAIRED</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="precondition">Pre-procedure1</p>
+          <p class="test1">(a) Drive the vehicle in accordance with
+          the driving pattern described in Confirmation Driving
+          Pattern.</p>
+          <p class="main">Procedure1</p>
+          <p class="test1">(b) Read the DTCs.</p>
+          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
+          Trouble Codes</h4>
+          <p class="post-work">Post-procedure1</p>
+          <p class="test1">(c) None</p>
+          <table class="arrow" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="arrow">NEXT</td>
+                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
+                <td>
+                  <p class="actcif">END</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
