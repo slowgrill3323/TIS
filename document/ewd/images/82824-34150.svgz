@@ -1,0 +1,25 @@
+<?xml version="1.0"?><!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="http://www.w3.org/1999/xlink" width="495" height="275" viewBox="0 0 83 68" style="overflow:visible;enable-background:new 0 0 82.445 67.581" xml:space="preserve" ewd:ver="2.3.5" ewd:objId="E1P" index="0">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M41.222,0.5h-4.244c-2.849,0-5.159,2.31-5.159,5.159v9.553l-5.058,2.726    c-3.437,1.852-7.606-0.638-7.606-4.542V7.704H4.14v35.49H0.5v8.645h3.64v1.056c0,7.835,6.352,14.187,14.188,14.187h22.895"/>
+	<path style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M41.222,0.5h4.245c2.849,0,5.159,2.31,5.159,5.159v9.553l5.058,2.726c3.438,1.852,7.607-0.638,7.607-4.542    V7.704h15.015v15.432h3.641v8.646h-3.641v21.113c0,7.835-6.352,14.187-14.187,14.187H41.222"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M39.877,40.416h-18.01v-11.45h18.01V40.416z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M60.863,40.417h-18.01V28.966h18.01V40.417z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M47.659,56.799H34.729v-9.441h12.929V56.799z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M65.402,39.452c0,13.37-10.838,24.209-24.208,24.209c-13.37,0-24.208-10.839-24.208-24.209    c0-13.369,10.838-24.208,24.208-24.208C54.564,15.244,65.402,26.083,65.402,39.452z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-miterlimit:10;" d="M41.222,3.083h-4.013c-1.141,0-1.814,1.279-1.167,2.22l4.043,5.877c0.546,0.794,1.71,0.822,2.294,0.056    l4.481-5.876c0.711-0.933,0.046-2.276-1.127-2.276H41.222z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-miterlimit:10;" d="M4.14,9.437h15.015"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-miterlimit:10;" d="M63.39,9.437h15.016"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M39.877,40.416h-18.01v-11.45h18.01V40.416z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M60.863,40.416h-18.01v-11.45h18.01V40.416z"/>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 29.2031 36.7168)"><tspan x="0" y="0" style="font-family:'Arial'; font-size:6px;">2</tspan></text>
+	<circle cx="30.872191190719604" cy="34.61498212814331" r="3.338181972503662" fill="red" opacity="0.5"/></g>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 50.1895 36.7168)"><tspan x="0" y="0" style="font-family:'Arial'; font-size:6px;">1</tspan></text>
+	<circle cx="51.85858988761902" cy="34.61498212814331" r="3.338181972503662" fill="red" opacity="0.5"/></g>
+	<g ewd:pinNo="3">
+		<text transform="matrix(1 0 0 1 39.5254 54.1035)"><tspan x="0" y="0" style="font-family:'Arial'; font-size:6px;">3</tspan></text>
+	<circle cx="41.19448924064636" cy="52.00167989730835" r="3.338181972503662" fill="red" opacity="0.5"/></g>
+</g>
+</svg>
