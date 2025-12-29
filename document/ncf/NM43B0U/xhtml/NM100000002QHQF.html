@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>T24A-FTS (BATTERY / CHARGING): CHARGING SYSTEM (for
+  1Motor-HEV Model with Auxiliary Switch System): CHARGING CONTROL;
+  2025 - 2026 MY Tacoma HV [12/2024 -
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="NM100000002QHQF">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> NM100000002QHQF</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2025</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma HV</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [12/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (BATTERY / CHARGING):
+              CHARGING SYSTEM (for 1Motor-HEV Model with Auxiliary
+              Switch System): CHARGING CONTROL; 2025 - 2026 MY
+              Tacoma HV [12/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <h2 class="name">CHARGING CONTROL</h2><a name="NM100000002QHQF_z0" id="NM100000002QHQF_z0"></a>
+          <p class="step1">FUNCTION OF MAIN COMPONENTS</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Component</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Function</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Vehicle Control ECU</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Detects the electrical load caused by
+                      certain electrical components.</li>
+                      <li>Calculates the required voltage based on
+                      the state of the auxiliary battery detected
+                      by the battery state sensor assembly and
+                      sends a signal indicating the required
+                      voltage to the hybrid motor control inverter
+                      assembly (DC/DC converter).</li>
+                      <li>Sends a generator assembly operation
+                      request signal to the ECM when the discharge
+                      amount of the hybrid motor control inverter
+                      assembly (DC/DC converter) and the discharge
+                      amount of the auxiliary battery detected by
+                      the battery state sensor assembly exceed a
+                      certain amount.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">ECM</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Receives the generator assembly
+                  operation request signal from the hybrid vehicle
+                  control ECU and sends a drive signal to the
+                  generator assembly.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly (DC/DC Converter)</p>
+                </td>
+                <td rowspan="2" align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Receives the target voltage command from
+                      the hybrid vehicle control ECU and controls
+                      the output voltage.</li>
+                      <li>Supplies power to each ECU and auxiliary
+                      equipment.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Generator Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Battery State Sensor
+                  Assembly</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Detects the charge/discharge
+                  current, voltage, temperature and self-diagnosis
+                  result of the auxiliary battery and sends signals
+                  to the hybrid vehicle control ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Auxiliary Battery</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Supplies power to each ECU and
+                  auxiliary equipment.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step1">SYSTEM CONTROL</p>
+          <p class="step2">(a) When the power consumption has
+          exceeded the output power of the hybrid motor control
+          inverter assembly (DC/DC converter), after a certain
+          amount is discharged from the auxiliary battery, the
+          engine starts and the generator assembly starts to
+          generate power.</p>
+          <p class="step2">(b) When power generation is unnecessary
+          in accordance with the electrical load conditions, the
+          generator assembly is stopped.</p>
+          <p class="step1">DIAGNOSIS</p>
+          <p class="step2">(a) The system detects a malfunction,
+          ECM or hybrid vehicle control ECU records information
+          related to the fault. Furthermore, the Malfunction
+          Indicator Lamp (MIL) in the combination meter assembly
+          illuminates or blinks or displaying information on the
+          multi-information display to inform the driver.</p>
+          <p class="step2">(b) The ECM or hybrid vehicle control
+          ECU also stores Diagnostic Trouble Codes (DTCs) for
+          malfunctions it has detected.</p>
+          <p class="step2">(c) The DTCs can be accessed by using
+          the GTS.</p>
+          <p class="step2">(d) For details, refer to the Repair
+          Manual.</p>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

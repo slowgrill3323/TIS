@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: BRAKE CONTROL
+  SYSTEM (for Gasoline Model): MULTI-TERRAIN SELECT; 2024 - 2026 MY
+  Tacoma [12/2023 -
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="NM100000002GOKI">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> NM100000002GOKI</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [12/2023 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> BRAKE CONTROL / DYNAMIC CONTROL
+              SYSTEMS: BRAKE CONTROL SYSTEM (for Gasoline Model):
+              MULTI-TERRAIN SELECT; 2024 - 2026 MY Tacoma [12/2023
+              - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <h2 class="name">MULTI-TERRAIN SELECT</h2><a name="NM100000002GOKI_z0" id="NM100000002GOKI_z0"></a>
+          <p class="step1">SYSTEM CONTROL</p>
+          <p class="step2">(a) Multi-terrain select is a function
+          that switches to the optimal control for the road
+          conditions, including motive force control, brake control
+          and steering control, when the driver performs a switch
+          operation to select an appropriate mode for the road
+          conditions. Optimal control for the road conditions is
+          automatically performed, maintaining driving performance
+          and achieving superior off-road driveability.</p>
+          <p class="step2">(b) In multi-terrain select, the mode
+          can be selected from 6 modes: "MUD", "DIRT", "AUTO",
+          "DEEP SNOW", "SAND" and "ROCK".</p><img src="../images/X149414E01.png.html" border="1" alt=" ">
+          <p class="step2">(c) A signal for the selected
+          multi-terrain select mode is input into the ECM. The ECM
+          sends the multi-terrain select mode signal to the skid
+          control ECU and the ECUs of parts such as the combination
+          meter via CAN communication.</p>
+          <p class="step2">(d) According to the multi-terrain
+          select mode signal, the skid control ECU optimally
+          controls the brake amount of the 4 wheels, the power
+          steering ECU optimally performs steering control and the
+          ECM optimally controls the motive force.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">The mode of multi-terrain select that can
+          be selected varies according to the transfer drive
+          mode.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Transfer Drive Mode</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Mode</p>
+                </th>
+                <th colspan="2" align="center" valign="middle">
+                  <p class="entry">Control</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Control Results</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="15" align="left" valign="middle">
+                  <p class="entry">4H</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">MUD</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that switches
+                  characteristics to ensure the optimal motive
+                  force according to each road surface when the
+                  accelerator pedal is operated.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Driving while spinning the tires
+                  and spraying mud on a muddy road (extremely low
+                  friction surface).</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that makes the wheels
+                  slip more than in normal control and suppresses
+                  motive force loss to ensure muddy road driving
+                  performance, while also lessening any large
+                  disturbances in vehicle behavior that occur.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that provides steering
+                  assist ideal for off-road driving and that
+                  improves the feel of steering.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">SAND</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that switches
+                  characteristics to ensure the optimal motive
+                  force according to each road surface when the
+                  accelerator pedal is operated.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Driving that makes the tires
+                  slip appropriately to obtain the optimal motive
+                  force for sand. Excessive motive force that gets
+                  the vehicle stuck is not output, and motive force
+                  for cruising is necessary.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that makes the wheels
+                  slip more than in normal control and suppresses
+                  motive force loss to ensure sandy road driving
+                  performance, while also lessening any large
+                  disturbances in vehicle behavior that occur.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that provides steering
+                  assist ideal for off-road driving and that
+                  improves the feel of steering.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">DIRT</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that switches
+                  characteristics to ensure the optimal motive
+                  force according to each road surface when the
+                  accelerator pedal is operated.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Driving on unpaved roads with a
+                  vehicle speed and stability similar to those for
+                  paved roads. Sufficient ground contact feel for
+                  road surface undulations and bumps is ensured,
+                  and motive force that enables driving even when
+                  towing is also necessary.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that suppresses vehicle
+                  behavior disturbances the same as in normal
+                  control while also preventing interference with
+                  the intended acceleration from the driver's
+                  accelerator operation.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that provides steering
+                  assist ideal for off-road driving and that
+                  improves the feel of steering.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">DEEP SNOW</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that switches
+                  characteristics to ensure the optimal motive
+                  force according to each road surface when the
+                  accelerator pedal is operated.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Driving where forward and
+                  backward movement is repeated to crush walls of
+                  snow while proceeding. Also, on snow where the
+                  tires are buried, the tires are made to slip
+                  while driving like a plow to clear the snow.
+                  Excessive motive force is not output while
+                  starting off to prevent slipping. Use on
+                  compacted snow surfaces is not anticipated.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that makes the wheels
+                  slip more than in normal control and suppresses
+                  motive force loss to ensure deep snow driving
+                  performance, while also lessening vehicle
+                  behavior disturbances.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that provides steering
+                  assist ideal for off-road driving and that
+                  improves the feel of steering.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">AUTO</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Control that estimates the
+                  current road surface of travel based on
+                  information from the various sensors and
+                  optimizes each control according to the current
+                  road surface of travel.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">The driver does not need to
+                  switch the mode according to the road surface or
+                  driving situation, improving the off- road
+                  driving performance.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="12" align="left" valign="middle">
+                  <p class="entry">4L</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">MUD</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control for selecting motive
+                  force characteristics for easy control of the
+                  slip amount according to the road surface.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Driving while spinning the tires
+                  and spraying mud on a muddy road (extremely low
+                  friction). When the mud is so deep that it buries
+                  the tires, higher motive force is used in low
+                  speed gears.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that makes the wheels
+                  slip more than in normal control and prevents
+                  acceleration defects from being triggered by
+                  unnecessary braking force or torque
+                  reductions.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that provides steering
+                  assist ideal for off-road driving and that
+                  improves the feel of steering.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">SAND</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control for selecting motive
+                  force characteristics for easy control of the
+                  slip amount according to the road surface.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Excessive motive force that gets
+                  the vehicle stuck is not output, and motive force
+                  for cruising is necessary. When the vehicle is
+                  stuck or the sand resistance is high, higher
+                  motive force is used in low speed gears. When the
+                  vehicle is stuck or the sand resistance is high,
+                  higher motive force is used in low speed
+                  gears.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that makes the wheels
+                  slip more than in normal control and prevents
+                  acceleration defects from being triggered by
+                  unnecessary braking force or torque
+                  reductions.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that provides steering
+                  assist ideal for off-road driving and that
+                  improves the feel of steering.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">ROCK</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control for selecting motive
+                  force characteristics for easy control of walking
+                  speed in rocky areas according to the road
+                  surface.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Driving that suppresses tire
+                  spin in rocky areas where there are many large
+                  rocks in order to drive over the rocks. Motive
+                  force must be transmitted even when only 2 wheel
+                  tires contact the ground, and the vehicle speed
+                  must be controlled so that the vehicle does not
+                  go too far even at the moment when it climbs over
+                  the rock.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that suppresses wheel
+                  slip more than in normal control to more
+                  effectively utilize the tire grip force.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Control that provides steering
+                  assist ideal for off-road driving and that
+                  improves the feel of steering.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">AUTO</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Motive Force Control</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">Control that estimates the
+                  current road surface of travel based on
+                  information from the various sensors and
+                  optimizes each control according to the current
+                  road surface of travel.</p>
+                </td>
+                <td rowspan="3" align="left" valign="middle">
+                  <p class="entry">The driver does not need to
+                  switch the mode according to the road surface or
+                  driving situation, improving the off- road
+                  driving performance.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Brake Control</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering Control</p>
+                </td>
+              </tr>
+            </tbody>
+          </table><img src="../images/X156558C01.png.html" border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Multi-terrain Select Mode
+                  Indicator</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">MUD</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">DIRT</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">AUTO</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">DEEP SNOW</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">SAND</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">ROCK</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4 class="tbltitle" id="d341e857">VSC OFF Indicator and
+          Slip Indicator Light when Each Mode Selected</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Transfer Drive Mode</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Mode</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">VSC OFF Indicator</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Slip Indicator Light</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="5" align="left" valign="middle">
+                  <p class="entry">4H</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">MUD</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Illuminates</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">SAND</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Illuminates</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">DIRT</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">DEEP SNOW</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Illuminates</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">AUTO</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="4" valign="middle">
+                  <p class="entry">4L</p>
+                </td>
+                <td>
+                  <p class="entry">MUD</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Illuminates</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">SAND</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Illuminates</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">ROCK</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Illuminates</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="entry">AUTO</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">Illuminates</p>
+                </td>
+                <td align="center">
+                  <p class="entry">Blinks</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">The slip indicator light blinks when
+          brake control of multi-terrain select operates.</p>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

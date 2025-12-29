@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>IDLING STOP CONTROL: STOP AND START: IDLING STOP CONTROL;
+  2024 - 2026 MY Tacoma Tacoma HV [12/2023 -
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="NM100000002GYDW">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> NM100000002GYDW</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [12/2023 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> IDLING STOP CONTROL: STOP AND
+              START: IDLING STOP CONTROL; 2024 - 2026 MY Tacoma
+              Tacoma HV [12/2023 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <h2 class="name">IDLING STOP CONTROL</h2><a name="NM100000002GYDW_z0" id="NM100000002GYDW_z0"></a>
+          <p class="step1">FUNCTION OF MAIN COMPONENTS</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th colspan="2" align="center" valign="middle">
+                  <p class="entry">Component</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Function</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Engine Stop and Start ECU</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends either an engine stop or
+                  restart signal to the ECM according to the
+                  signals from each sensor and switch.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Engine Stop and Start ECU</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Backup Boost Converter</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Supplies battery voltage to help make up
+                      for the voltage drop that occurs when the
+                      engine is restarted, preventing the operation
+                      of various systems from being interrupted due
+                      to low battery voltage.</li>
+                      <li>Supplies battery voltage to the oil pump
+                      with solenoid assembly.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Transmission Floor Shift
+                  Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Shift Control ECU</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects the shift state and
+                  sends a signal to the engine stop and start ECU
+                  via the ECM.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Vacuum Sensor Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects the brake booster vacuum
+                  pressure and sends a signal to the engine stop
+                  and start ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Hood Lock Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Hood Courtesy Switch</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects whether the hood is open
+                  or closed and sends a signal to the engine stop
+                  and start ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Front Door Lock with Motor
+                  Assembly LH</p>
+                </td>
+                <td>
+                  <p class="entry">Front Door Courtesy Light Switch
+                  Assembly (Driver)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects whether the driver door
+                  is open or closed and sends a signal to the
+                  engine stop and start ECU via the main body ECU
+                  (multiplex network body ECU) via CAN
+                  communication.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Front Seat Inner Belt Assembly
+                  (Driver)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Front Seat Belt Buckle Switch
+                  (Driver)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects whether or not the
+                  driver's seat belt has been fastened, and sends a
+                  signal to the engine stop and start ECU via the
+                  combination meter assembly via CAN
+                  communication.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Air Conditioning Amplifier
+                  Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends the outside temperature
+                  signal and engine restart signal to the engine
+                  stop and start ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Ambient Temperature Sensor
+                  (Cooler (Ambient Temperature Sensor)
+                  Thermistor)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Sends an outside temperature
+                  signal to the engine stop and start ECU via the
+                  air conditioning amplifier assembly.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" valign="middle">
+                  <p class="entry">Combination Meter Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Stop and Start Indicator
+                  Light</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Turns on when the engine is stopped due
+                      to stop and start control.</li>
+                      <li>Blinks to inform the driver that the
+                      idling stop is canceled and the engine will
+                      restart when the driver door is opened with
+                      the shift lever in D during idling stop.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Stop and Start Cancel Indicator
+                  Light</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Turns on to inform the driver that the
+                      system has been disabled when stop and start
+                      system operation is prohibited by the stop
+                      and start system cancel switch (warning
+                      canceling switch assembly).</li>
+                      <li>If a system malfunction is detected, the
+                      stop and start cancel indicator light blinks
+                      to inform the driver.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Multi-information Display</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Displays the settings of the
+                  stop and start system or warning information,
+                  etc.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Stop and Start System Cancel
+                  Switch (Warning Canceling Switch Assembly)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Operation of the system can be
+                  canceled by pressing the stop and start system
+                  cancel switch (warning canceling switch
+                  assembly). Pressing the switch again or turning
+                  the power source off and back on restores the
+                  operation of the system.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">ECM</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Sends various information about engine
+                      conditions to the engine stop and start
+                      ECU.</li>
+                      <li>Based on signals from the battery state
+                      sensor assembly, determines whether the
+                      battery installed on the vehicle is a
+                      specified or non-specified battery, and sends
+                      the determination result to the engine stop
+                      and start ECU.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" valign="middle">
+                  <p class="entry">Brake Actuator Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Skid Control ECU</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends a vehicle speed signal to
+                  the engine stop and start ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Master Cylinder Pressure
+                  Sensor</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Detects brake master fluid
+                  pressure from brake master cylinder
+                  sub-assembly.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Airbag ECU Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends airbag deployment
+                  information in the event of a collision and a
+                  deceleration signal to the engine stop and start
+                  ECU via the brake actuator assembly.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Main Body ECU (Multiplex Network
+                  Body ECU)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends a front door courtesy
+                  light switch assembly (driver) signal to the
+                  engine stop and start ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Power Steering ECU with Motor
+                  Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends an electrical power
+                  steering assist signal to the engine stop and
+                  start ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">External Backup Boost Converter
+                  (Eco Run Vehicle Converter Assembly)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Supplements the voltage drop
+                  when the engine is stopped to stabilize the audio
+                  output.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Battery State Sensor
+                  Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects the battery charging and
+                  discharging amount and sends a signal to the
+                  ECM.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Stop Light Switch Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects a brake pedal released
+                  condition and sends a signal to the engine stop
+                  and start ECU via the ECM and the brake actuator
+                  assembly.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Accelerator Pedal (with Sensor)
+                  Rod Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects an accelerator pedal
+                  opening angle and sends a signal to the engine
+                  stop and start ECU via the ECM.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Crank Position Sensor</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Detects the crankshaft angle
+                  when the engine is stopped and sends this
+                  information to the ECM.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Oil Pump with Solenoid
+                  Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Holds the ATF pressure during
+                  idle stop.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Engine Coolant Temperature
+                  Sensor</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends the coolant temperature to
+                  the engine stop and start ECU via the ECM.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Steering Sensor</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Detects the steering direction
+                  and angle of the steering wheel.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Generator Assembly</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Sends the generator assembly
+                  generation condition to the engine stop and start
+                  ECU via the ECM.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Starter Assembly</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Starts the engine.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step1">SYSTEM CONTROL</p>
+          <p class="step2">(a) Early Stage Injection Control</p>
+          <p class="step3">(1) Early stage injection control
+          shortens the time it takes the engine to restart after
+          the stop and start system stops the engine, thus allowing
+          smooth initial acceleration.</p>
+          <p class="step3">(2) The ECM memorizes the crankshaft
+          angle detected by the crank position sensor when the
+          engine is stopped by the stop and start system.</p>
+          <p class="step3">(3) The ECM judges the injection
+          required and decides which cylinder to ignite when the
+          driver does restart operation. The ECM then uses this
+          information as it starts the engine.</p><img src="../images/Y188867E22.png.html" border="1" alt=" ">
+          <p class="step2">(b) Hill-start Assist Function</p>
+          <p class="step3">(1) The driving force (creep phenomenon)
+          of a former AT vehicle is regulated by depressing the
+          brake pedal while stopped, and the driving force is
+          transmitted by releasing the brake pedal when starting
+          the vehicle. However, when starting a stop and start
+          system equipped vehicle with its engine stopped due to
+          the activation of the idle stop function, there is a
+          short time delay before the driving force is generated as
+          the engine will start after the brake pedal is
+          released.</p>
+          <p class="step3">(2) The hill-start assist function is a
+          system to assist starting of a stop and start system
+          equipped vehicle on a slope to deal with the situation
+          described above, retaining the brake hydraulic pressure
+          until sufficient driving force is generated.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>The hill-start assist function operates not only
+              on a slope but also on a level surface.</li>
+              <li>Abnormal sounds may be heard, but this does not
+              mean the brake is malfunctioning.</li>
+              <li>The brake pedal response may change or it may
+              vibrate, but this does not mean it is
+              malfunctioning.</li>
+            </ul>
+          </div>
+          <p class="step2">(c) System Prohibit Control</p>
+          <p class="step3">(1) For safety, battery protection,
+          comfort and ECU learning reasons, the engine stop and
+          start ECU prohibits stop and start system operation if
+          any one of the following conditions is met.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Prohibition Reason</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Condition</p>
+                </th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td class="tablefootnote" colspan="2">*: If the
+                value learned by the ECU has been cleared by
+                disconnecting the battery or for another reason,
+                stop and start system operation will be prohibited
+                until ECU learning is complete.</td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td rowspan="5" valign="middle">
+                  <p class="entry">Safety</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">If the engine is started with
+                  the hood open, such as when jump starting, engine
+                  restart operation cannot be ensured. Therefore,
+                  stop and start system operation will be
+                  prohibited. The operation of the system will be
+                  restored on the next trip.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">If the driver door or hood is
+                  opened before the engine stops, stop and start
+                  system operation will be prohibited for safety
+                  reasons.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">The brake booster vacuum is
+                  insufficient.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">The driver seat belt is
+                  unfastened before the engine stops.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">The engine catalyst is being
+                  quickly warmed up.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="3" valign="middle">
+                  <p class="entry">Battery Protection</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">The refresh charge continues for
+                  0.5 to 1 hour, and is carried out approximately
+                  every 20 hours of driving. While refresh charge,
+                  stop and start system operation will be
+                  disabled.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">When the idling stop rate
+                  becomes higher than the predetermined rate, stop
+                  and start system operation will be disabled.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">When the battery voltage becomes
+                  low and the battery integrated current value
+                  drops to below the threshold value, stop and
+                  start operation will be disabled.</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="4" valign="middle">
+                  <p class="entry">Comfort</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">If the air conditioning is on
+                  when the outside temperature is high and the
+                  evaporator temperature is high, stop and start
+                  system operation will be prohibited.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">If the air conditioning is on
+                  when the outside temperature is low, stop and
+                  start system operation will be prohibited.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">If the heater is on when the
+                  outside temperature is low and the engine coolant
+                  temperature is low, stop and start system
+                  operation will be prohibited.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">If the front DEF switch and
+                  blower switch are on, stop and start system
+                  operation will be prohibited.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">ECU Learning</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">ECU learning is not
+                  complete.*</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(d) Warning Control</p>
+          <p class="step3">(1) While the stop and start system
+          stops the engine, one of following operations warns the
+          driver: sounding the multi-buzzer in combination meter
+          assembly, blinking the stop and start indicator light,
+          displaying the multi-information display in combination
+          meter assembly, or restarting the engine or stopping it
+          from restarting.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="center" valign="middle">
+                  <p class="entry">Operation</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Warning Control</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Hood is opened.</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">The engine stops (mode changes
+                  to "stalled", and the engine cannot be restarted
+                  until the ignition switch is turned off and then
+                  ON).</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Driver seat door is opened with
+                  the shift lever in D position.</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The engine starts warning the
+                  buzzer sounds, and the stop and start indicator
+                  blinks.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Driver seat belt is
+                  unfastened.</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">The engine is starts.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(e) Operating Conditions at Engine Stop
+          and Restart</p>
+          <p class="step3">(1) The engine may stop if all of these
+          conditions are detected.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th colspan="3" align="center" valign="middle">
+                  <p class="entry">Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Operating Condition</p>
+                </th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td class="tablefootnote" colspan="4">
+                  *1: When the battery fluid temperature becomes
+                  -15°C (5°F) or lower or 65°C (149°F) or higher,
+                  control is prohibited. After control is
+                  prohibited and the battery fluid temperature
+                  rises to -10°C (14°F) or higher or falls to 60°C
+                  (140°F) or lower, 55°C (131°F) or lower, control
+                  is performed.
+                  <p class="tablefootnote">*2: Regarding Battery
+                  Integrated Current</p>
+                  <p class="tablefootnote">In the stop and start
+                  system, the engine stop and start ECU switches
+                  the system control mode (stop and start system
+                  control permitted/prohibited) based on the
+                  battery condition (charge/discharge condition) to
+                  protect the battery and to ensure stable engine
+                  restarting performance.</p>
+                  <p class="tablefootnote">The battery
+                  charge/discharge condition is determined from the
+                  integrated current value calculated from the
+                  battery state sensor assembly signal. The
+                  integrated current value is obtained by
+                  multiplying the current (ampere) detected by the
+                  battery state sensor assembly by the time
+                  (seconds), and is expressed in the unit A-sec.
+                  This can be measured by the GTS.</p>
+                  <p class="tablefootnote">The engine stop and
+                  start ECU determines the power charge based on
+                  the integrated current value and prohibits stop
+                  and start system control if the value becomes the
+                  threshold or less, because the battery might not
+                  be able to start the engine. The threshold varies
+                  according to the battery temperature and status
+                  of battery charge control.</p>
+                  <p class="tablefootnote">*3: After the integrated
+                  current value becomes -5544 A-sec or less, in
+                  order to charge the battery, control is
+                  prohibited until the value becomes -5299 A-sec or
+                  more.</p>
+                  <p class="tablefootnote">*4: After the integrated
+                  current value becomes -990 A-sec or less, in
+                  order to charge the battery, control is
+                  prohibited until the value becomes 0 A-sec or
+                  more.</p>
+                  <p class="tablefootnote">*5: When the engine is
+                  restarted, ensure proper braking force so that
+                  the vehicle does not advance.</p>
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td rowspan="25" valign="middle">
+                  <p class="entry">Idle Stop</p>
+                </td>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Engine Coolant Temperature</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Except for Mexico Models: 50 to
+                  105°C (122 to 221°F)</p>
+                  <p class="para">For Mexico Models: 75 to 105°C
+                  (167 to 221°F)</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">AT Oil Temperature</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">20°C to 110°C (68°F to
+                  230°F)</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Driver Door</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Closed</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Brake Booster Vacuum</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Vacuum is within the standard
+                  range (on a level surface, more than 42.5 kPa
+                  (0.5 kg/cm<sup>2</sup>, 6.2 psi))</p>
+                  <p class="para">(Changes depending on the brake
+                  master cylinder fluid pressure)</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Stop and Start System Cancel
+                  Switch (Warning Canceling Switch Assembly)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Off condition</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Road Gradient</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-1.02 m/s<sup>2</sup> to 1.36
+                  m/s<sup>2</sup></p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Vehicle Speed</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Vehicle speed changes from a
+                  constant speed to 0 km/h.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Engine Speed</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">1250 r/min or less</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Shift Lever Position</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">D</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Driver's Seat Belt</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">3 seconds or more elapse after
+                  the seat belt is fastened.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Engine Hood</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Closed</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" valign="middle">
+                  <p class="entry">Battery Voltage</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Minimum Voltage (Cranking)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Specified Battery: 8.3V or
+                  higher</p>
+                  <p class="para">Non-specified Battery: 8.92 V or
+                  higher</p>
+                  <p class="para">*If stop and start control is
+                  prohibited due to battery voltage, stop and start
+                  control will begin operating again when one of
+                  the following conditions is met</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>When the engine is started and the
+                      battery voltage permission conditions are met
+                      after the ignition switch is turned off and 8
+                      hours have elapsed</li>
+                      <li>When the battery voltage permission
+                      conditions are met after "Starter (Hood
+                      Closed)" is performed using the GTS</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Minimum Voltage(Starter Solenoid
+                  Engagement)</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Specified Battery: 8.45V or
+                  higher</p>
+                  <p class="para">Non-specified Battery: 8.92 V or
+                  higher</p>
+                  <p class="para">*If stop and start control is
+                  prohibited due to battery voltage, stop and start
+                  control will begin operating again when one of
+                  the followingconditions is met</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>When the engine is started and the
+                      battery voltage permission conditions are met
+                      after the ignition switch is turned off and 8
+                      hours have elapsed</li>
+                      <li>When the battery voltage permission
+                      conditions are met after "Starter (Hood
+                      Closed)" is performed using the GTS</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Battery Fluid Temperature</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Except for Mexico Models:</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>-10°C or higher and 60°C or less (14°F or
+                      higher and 140°F or less)*1</li>
+                      <li>When the intake air temperature sensor is
+                      normal</li>
+                    </ul>
+                  </div>
+                  <p class="para">For Mexico Models:</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>-10°C or higher and 55°C or less (14°F or
+                      higher and 131°F or less)*1</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Battery Integrated Current*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">When the integrated current
+                  value meets any of the following conditions:</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>-5299 A-sec or more: Status of Battery
+                      Charge Control is Charge Control Coordination
+                      Mode, Stop and Start Standalone Mode,
+                      Temperature High/Low Mode or Low Temperature
+                      Mode.*3</li>
+                      <li>0 A-sec or more: Status of Battery Charge
+                      Control is Stop and Start Restriction
+                      Mode.*4</li>
+                    </ul>
+                  </div>
+                  <p class="para">Except for Mexico Models:</p>
+                  <p class="para">When both of the standards are
+                  met:</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>When the current detected by the battery
+                      state sensor assembly is normal</li>
+                      <li>When LIN communication is normal</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">Air Conditioning</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">During "cooling down or warming
+                  up" or defrost function is not operating.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" valign="middle">
+                  <p class="entry">ECU Learning</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Completed</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Accelerator Pedal</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The accelerator pedal is
+                  released.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Brake Pedal*5</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>The brake pedal is depressed.</li>
+                      <li>The brake master cylinder fluid pressure
+                      is 1.37 MPa (14.0 kg/cm<sup>2</sup>, 160 psi)
+                      or higher.
+                        <p class="para">(Changes according to
+                        gradient)</p>
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">ABS</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Not currently operating</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Atmospheric Pressure</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Within acceptable range due to
+                  elevation, etc.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Dynamic Radar Cruise Control
+                  System</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">A vehicle stops during ACC
+                  control system operate state, and after mode
+                  shift to brake hold control.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Altanator status</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Except for Mexico Models:
+                  Normal</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Idling Stop Rate</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">50% or less</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Status of Battery Charge
+                  Control</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Permitted by the following mode,
+                  Charge Control Coordination Mode / Stop and Start
+                  Standalone Mode / Stop and Start Restriction Mode
+                  / Temperature High/Low Mode / Abnormal Mode / Low
+                  Temperature Mode</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step3">(2) The engine will restart if any of
+          these conditions are detected.</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th colspan="2" align="center" valign="middle">
+                  <p class="entry">Item</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Operating Condition</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="17" valign="middle">
+                  <p class="entry">Engine Restart</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Brake Booster Vacuum</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Insufficient brake booster
+                  vacuum</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="4" valign="middle">
+                  <p class="entry">Air Conditioning</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">When the air conditioning is on
+                  and a timer in the air conditioning amplifier
+                  assembly completes.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">When the automatic blower
+                  function is operating and a timer in the air
+                  conditioning amplifier assembly completes.
+                  Otherwise, a timer in the engine stop and start
+                  ECU completes.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">The A/C switch or blower switch
+                  is turned on.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Evaporator temperature exceeds
+                  threshold (threshold varies with temperature,
+                  humidity and amount of solar radiator)</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Stop and Start System Cancel
+                  Switch (Warning Canceling Switch Assembly)</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">The stop and start system cancel
+                  switch (warning canceling switch assembly) is
+                  turned on.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Battery</p>
+                </td>
+                <td valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>The battery voltage is 11.8 V or
+                      less.</li>
+                      <li>The battery integrated current becomes
+                      the threshold value or less.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Driver's Door</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">The driver's door is opened.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Driver's Seat Belt</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">The driver's seat belt is
+                  unfastened.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Vehicle Speed</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">A vehicle speed signal is
+                  input.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Accelerator Pedal</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">The accelerator pedal is
+                  depressed.</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Brake Pedal</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">When the shift position is in D,
+                  brake master cylinder pressure drops (Release
+                  brake pedal)</p>
+                  <div class="hint">
+                    <p class="hintgen">HINT:</p>
+                    <ul class="hint">
+                      <li>While brake hold is operating, the engine
+                      will not start.</li>
+                      <li>However, engine may start if there is a
+                      stopping vehicle ahead or a person travel
+                      across the vehicle.</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Shift Lever</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Moved from D position to another
+                  position.</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Dynamic Radar Cruise Control
+                  System</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>A vehicle stops during ACC control system
+                      operate state, and after the precedent
+                      vehicle move or driver do resume operation
+                      (operation to move)</li>
+                      <li>When the condition is prohibited by radar
+                      cruise control</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Battery Fluid Temperature</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Except for Mexico Models:</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Temperature is less than -10°C (14°F) or
+                      more than 60°C (140°F)</li>
+                      <li>Intake air temperature sensor is
+                      abnormal</li>
+                    </ul>
+                  </div>
+                  <p class="para">For Mexico Models:</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Temperature is less than -10°C (14°F) or
+                      more than 55°C (131°F)</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Battery Integrated Current,
+                  Status of Battery Charge Control, Battery Fluid
+                  Temperature</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">The accumulated value of
+                  discharge current during engine stop is too large
+                  (2765 Asec or more)</p>
+                  <p class="para">Battery integrated current value
+                  meets one of the following:</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>-6451 Asec or less: Status of Battery
+                      Charge Control is Charge Control Coordination
+                      Mode, Stop and Start Standalone Mode, or Low
+                      Temperature Mode</li>
+                      <li>-1152 Asec or less: Status of Battery
+                      Charge Control is Stop and Start Restriction
+                      Mode or Temperature High/Low Mode</li>
+                    </ul>
+                  </div>
+                  <p class="para">When any of the criteria are
+                  met</p>
+                  <div class="entry">
+                    <ul class="list">
+                      <li>When the current detected by the battery
+                      state sensor assembly is normal</li>
+                      <li>When LIN communication is abnormal</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Steering angle</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">More than 3600°</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(f) Idling Stop Control during Brake
+          Hold Function Operation</p>
+          <p class="step3">(1) While the brake hold function is
+          operating during the idle stop condition, the idle stop
+          condition continues even if the brake pedal is
+          released.</p>
+          <p class="step3">(2) By depressing the accelerator pedal,
+          the engine restarts and the brake hold function is
+          canceled.</p>
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Depending on the vehicle condition, idle stop may
+              not be performed even during brake hold.</li>
+              <li>Depending on the vehicle condition, the engine
+              may restart during brake hold. In this case, the
+              vehicle will not start off since brake hold
+              continues.</li>
+              <li>If any of the operation conditions are not met
+              during engine stop by the stop and start system, the
+              brake hold system will not operate. If the electrical
+              parking brake is applied automatically, the engine
+              will restart.</li>
+            </ul>
+          </div><img src="../images/Y171400E03.png.html" border="1"
+          alt=" ">
+          <p class="step2">(g) Idle stop control during dynamic
+          radar cruise control</p>
+          <p class="step3">(1) If the vehicle stops through the
+          stop control function while the dynamic radar cruise
+          control is operating, idle stop is performed together
+          with brake hold function operation.</p>
+          <p class="step3">(2) If a vehicle ahead accelerating is
+          detected, the engine automatically restarts.*</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">*: Even if the engine restarts, brake
+          hold continues. Therefore, the vehicle does not
+          automatically start off.</p><img src="../images/Y171401E02.png.html" border="1" alt=" ">
+          <div class="hint">
+            <p class="hintgen">HINT:</p>
+            <ul class="hint">
+              <li>Depending on the vehicle condition, idle stop may
+              not be performed even during brake hold.</li>
+              <li>Depending on the vehicle condition, the engine
+              may restart during brake hold. In this case, the
+              vehicle will not start off since brake hold
+              continues.</li>
+              <li>If a certain time has elapsed after the vehicle
+              was stopped in vehicle-to-vehicle distance control
+              mode and the electric parking brake is applied
+              automatically, the engine will restart.</li>
+            </ul>
+          </div>
+          <p class="step1">FUNCTION</p>
+          <p class="step2">(a) Settings of Stop and Start
+          System</p>
+          <p class="step3">(1) The engine stop operation time due
+          to stop and start control when the air conditioning
+          system is on can be changed between Standard and Extended
+          (the stop and start system has priority).</p>
+          <p class="step1">DIAGNOSIS</p>
+          <p class="step2">(a) When the engine stop and start ECU
+          detects a malfunction and CAN communication is normal,
+          the engine stop and start ECU records information related
+          to the malfunction. Furthermore, the stop and start
+          cancel indicator light in the combination meter assembly
+          blinks to inform the driver that CAN communication is
+          normal.</p>
+          <p class="step2">(b) The engine stop and start ECU also
+          stores Diagnostic Trouble Codes (DTCs) related to
+          malfunctions. DTCs can be read using the GTS.</p>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

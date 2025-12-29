@@ -1,0 +1,2135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM: HYBRID
+  CONTROL; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 -
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="NM100000002MR8U">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> NM100000002MR8U</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> HYBRID / BATTERY CONTROL: HYBRID
+              CONTROL SYSTEM: HYBRID CONTROL; 2024 - 2026 MY Tacoma
+              Tacoma HV [03/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <h2 class="name">HYBRID CONTROL</h2><a name="NM100000002MR8U_z0" id="NM100000002MR8U_z0"></a>
+          <p class="step1">CONSTRUCTION</p>
+          <p class="step2">(a) The hybrid system uses motive force
+          provided by the engine and the MG. The system optimally
+          combines these forces in accordance with various driving
+          conditions.</p>
+          <p class="step2">(b) The hybrid vehicle control ECU
+          assembly constantly monitors the SOC of the HV battery,
+          the HV battery temperature and the electrical load
+          condition, and the ECM constantly monitors the engine
+          coolant temperature. If any one of the monitoring items
+          fails to meet requirements when the READY indicator is on
+          or if the vehicle is driven in reverse, the hybrid
+          vehicle control ECU assembly requests an engine start to
+          drive the MG in order to charge the HV supply battery
+          assembly.</p>
+          <p class="step2">(c) The hybrid system drives the vehicle
+          by optimally combining the operation of the engine and
+          the MG in accordance with the driving conditions listed
+          in the table below</p><img src="../images/W105376E02.png.html" border="1" alt=" ">
+          <h4 class="tbltitle" id="d64e162">Driving Condition</h4>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center">
+                  <p class="entry">A</p>
+                </td>
+                <td>
+                  <p class="entry">On (READY)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">B</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Starting Off</p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="center" valign="middle">
+                  <p class="entry">C</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Low Load Cruising</p>
+                </td>
+              </tr>
+              <tr>
+                <td valign="middle">
+                  <p class="entry">Constant-speed Cruising</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">D</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">During Full Throttle
+                  Acceleration</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">E</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">During Deceleration</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">F</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Driving in Reverse</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step1">OPERATION</p>
+          <p class="step2">(a) Driving Condition A: On (READY)
+          State</p>
+          <p class="step3">(1) Even if the driver turns the
+          ignition switch ON (READY), sometimes the engine will not
+          start. If this happens, the engine and the MG remain
+          stopped. The engine will only start if conditions such as
+          engine coolant temperature, SOC of the HV battery, HV
+          battery temperature and electrical load require an engine
+          start.</p>
+          <p class="step3">(2) After driving, if the driver stops
+          the vehicle and moves the shift position to P, the ECM
+          will continue to operate the engine. The engine will
+          continue to operate until SOC of the HV battery engine
+          coolant temperature, HV battery temperature and/or
+          electrical load conditions reach a specified level.</p>
+          <p class="step3">(3) If any item monitored by the hybrid
+          vehicle control ECU assembly and ECM indicates that the
+          engine must be started when the READY indicator light is
+          illuminated and the shift position is in P, the ECM
+          connects the hybrid module clutch, activates the MG and
+          starts the engine.</p>
+          <h5 class="figtitle" id="d64e306">On (READY) State when
+          Starting Engine</h5><img src="../images/X156464C01.png.html" border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step3">(4) If the SOC of the HV battery is low,
+          the engine and the MG are connected using the hybrid
+          module clutch, and the engine drives the MG and performs
+          charging.</p>
+          <p class="hintgen">HINT:</p>
+          <p class="hint">If the engine is cold and the SOC is
+          sufficient, the ECM connects the engine and the MG using
+          the hybrid module clutch, and starts the engine to warm
+          the engine.</p>
+          <h5 class="figtitle" id="d64e619">Charging when
+          Stopped</h5><img src="../images/X156465C01.png.html"
+          border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(b) Driving Condition B: Starting
+          Off</p>
+          <p class="step3">(1) When the vehicle is started off, the
+          vehicle operates powered by the MG. The engine and the MG
+          are disconnected using the hybrid module clutch.</p>
+          <h5 class="figtitle" id="d64e932">Starting
+          Off</h5><img src="../images/X157464C01.png.html" border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step3">(2) If the SOC of the HV battery is low,
+          the engine and the MG are connected using the hybrid
+          module clutch, and the vehicle is driven using engine
+          motive force. The MG (driven by the engine) also charges
+          the HV supply battery assembly.</p>
+          <h5 class="figtitle" id="d64e1239">Starting Off when SOC
+          Low</h5><img src="../images/X157465C01.png.html" border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(c) Driving Condition C: Low Load
+          Cruising</p>
+          <p class="step3">(1) When the vehicle is driven under low
+          load cruising conditions, the engine and the MG are
+          disconnected using the hybrid module clutch, and the
+          vehicle is driven using the MG as the drive force.</p>
+          <h5 class="figtitle" id="d64e1552">Low Load
+          Cruising</h5><img src="../images/X157466C01.png.html"
+          border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step3">(2) If the SOC of the HV battery is low,
+          the engine and the MG are connected using the hybrid
+          module clutch, and the vehicle is driven using engine
+          motive force. The MG (driven by the engine) also charges
+          the HV supply battery assembly.</p>
+          <h5 class="figtitle" id="d64e1859">Low Load Cruising when
+          SOC Low</h5><img src="../images/X157467C01.png.html"
+          border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(d) Driving Condition C: Constant-speed
+          Cruising</p>
+          <p class="step3">(1) When the vehicle is driven under
+          constant-speed cruising conditions, the vehicle has 2
+          conditions: the engine and the MG are connected using the
+          hybrid module clutch (engine motive force only), and the
+          engine and the MG are not connected using the hybrid
+          module clutch (MG motive force only).</p>
+          <h5 class="figtitle" id="d64e2172">Constant-speed
+          Cruising (Engine Motive Force Only)</h5><img src="../images/X157468C01.png.html" border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="figtitle" id="d64e2473">Constant-speed
+          Cruising (MG Motive Force Only)</h5><img src="../images/X157469C01.png.html" border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step3">(2) If the SOC of the HV battery is low,
+          the engine and the MG are connected using the hybrid
+          module clutch, and the vehicle is driven using engine
+          motive force. The MG (driven by the engine) also charges
+          the HV supply battery assembly.</p>
+          <h5 class="figtitle" id="d64e2780">Constant-speed
+          Cruising when SOC Low</h5><img src="../images/X157470C01.png.html" border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(e) Driving Condition D: During Full
+          Throttle Acceleration</p>
+          <p class="step3">(1) When the vehicle driving condition
+          changes from low load cruising and constant-speed
+          cruising to full throttle acceleration, the engine and
+          the MG are connected using the hybrid module clutch, and
+          the vehicle is driven using motive force from the engine
+          and the MG auxiliary power.</p>
+          <h5 class="figtitle" id="d64e3093">During Full Throttle
+          Acceleration</h5><img src="../images/X157471C01.png.html"
+          border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(f) Driving Condition E: During
+          Deceleration</p>
+          <p class="step3">(1) While the vehicle is being driven
+          with the shift position in D and it decelerates, the
+          wheels drive the MG, and the MG operate as generators to
+          charge the HV supply battery assembly. While the MG are
+          operating as generators, they create a resistance to
+          rotation at the wheels, producing a braking effect.</p>
+          <h5 class="figtitle" id="d64e3406">During
+          Deceleration</h5><img src="../images/X157472C01.png.html"
+          border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step2">(g) Driving Condition F: Driving in
+          Reverse</p>
+          <p class="step3">(1) While driving in reverse, the engine
+          and the MG are connected using the hybrid module clutch,
+          and the vehicle is driven using only motive force from
+          the engine.</p>
+          <h5 class="figtitle" id="d64e3719">Driving in
+          Reverse</h5><img src="../images/X157473C01.png.html"
+          border="1" alt=" ">
+          <table class="callout" border="1" cellspacing="0" style="width:7.168479331in;">
+            <colgroup>
+              <col style="width:15%">
+              <col style="width:35%">
+              <col style="width:15%">
+              <col style="width:35%">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*1</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*2</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Vehicle Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*3</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*4</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*5</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Motor Generator (MG)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*6</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Automatic Transmission
+                  Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*7</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*8</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">HV Supply Battery Assembly</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*9</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Differential</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*a</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Alternating Current</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*b</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Direct Current</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*c</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (AC)</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*d</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Electrical Power Path (DC)</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*e</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Power Transmission Mechanical
+                  Power Path</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*f</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Engine Stopped</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*g</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Engine Running</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">*h</p>
+                </td>
+                <td valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Disconnected</p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">
+                  <p class="entry">*i</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Module Clutch
+                  Connected</p>
+                </td>
+                <td align="center" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">-</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

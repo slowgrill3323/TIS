@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <title>T24A-FTS (BATTERY / CHARGING): CHARGING SYSTEM (for
+  1Motor-HEV Model): CHARGING CONTROL; 2024 - 2026 MY Tacoma HV
+  [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
+  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
+  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="">
+  <table border="0" width="100%" class="frame" cellpadding="4" id="NM100000002K3HL">
+    <colgroup>
+      <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="frame">
+          <table width="100%" class="side" border="1">
+            <tr>
+              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
+              <td class="side">6.11:8.1.0</td>
+              <td class="side"><b>Doc ID:</b> NM100000002K3HL</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top"><b>Model
+              Year Start:</b> 2024</td>
+              <td class="side" align="left" valign="top">
+              <b>Model:</b> Tacoma HV</td>
+              <td class="side" align="left" valign="top"><b>Prod
+              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; ]</td>
+            </tr>
+            <tr>
+              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (BATTERY / CHARGING):
+              CHARGING SYSTEM (for 1Motor-HEV Model): CHARGING
+              CONTROL; 2024 - 2026 MY Tacoma HV [03/2024 -
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
+            </tr>
+          </table>
+          <h2 class="name">CHARGING CONTROL</h2><a name="NM100000002K3HL_z0" id="NM100000002K3HL_z0"></a>
+          <p class="step1">FUNCTION OF MAIN COMPONENTS</p>
+          <table width="100%" border="1">
+            <colgroup>
+              <col>
+              <col>
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th colspan="2" align="center" valign="middle">
+                  <p class="entry">Component</p>
+                </th>
+                <th align="center" valign="middle">
+                  <p class="entry">Function</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Hybrid Vehicle Control ECU</p>
+                </td>
+                <td align="left" valign="middle">
+                  <div class="entry">
+                    <ul class="list">
+                      <li>Detects the electrical load caused by
+                      certain electrical components.</li>
+                      <li>Calculates the request voltage based on
+                      the electrical load caused by certain
+                      electrical components and the condition of
+                      the auxiliary battery, and sends the request
+                      voltage signal to the hybrid motor control
+                      inverter assembly (DC/DC converter).</li>
+                      <li>Restricts the output voltage of the
+                      hybrid motor control inverter assembly (DC/DC
+                      converter).</li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="middle">
+                  <p class="entry">Hybrid Motor Control Inverter
+                  Assembly</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">DC/DC Converter</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Receives the request voltage
+                  signal sent from the hybrid vehicle control ECU
+                  and restricts the output voltage.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Battery State Sensor
+                  Assembly</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Detects the charge/discharge
+                  current, voltage, temperature, SOC (State Of
+                  Charge), SOH (State of Health) and self-diagnosis
+                  result of the auxiliary battery and sends signals
+                  to the hybrid vehicle control ECU.</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="left" valign="middle">
+                  <p class="entry">Auxiliary Battery</p>
+                </td>
+                <td align="left" valign="middle">
+                  <p class="entry">Supplies power to the electrical
+                  components such as the battery cooling blower
+                  assembly, inverter water pump with motor
+                  assembly, cooling fan motor, etc. and each
+                  ECU.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="step1">SYSTEM CONTROL</p>
+          <p class="step2">(a) Basic Control</p>
+          <p class="step3">(1) Controls the output voltage of the
+          hybrid motor control inverter assembly (DC/DC converter)
+          in accordance with changes in the target SOC to change
+          the SOC of the auxiliary battery to reduce the power
+          consumption.</p>
+          <p class="step2">(b) Constant Voltage Control</p>
+          <p class="step3">(1) In the following situations, basic
+          control is temporarily suspended and constant voltage
+          control is performed.</p>
+          <div class="step3">
+            <ol class="list">
+              <li>A certain period of time has elapsed since the
+              power switch is turned on (READY).
+                <div class="list1">
+                  <ol class="list" type="a">
+                    <li>In order to compensate for electricity
+                    consumed due to parasitic current when the
+                    power switch is off, constant voltage control
+                    is performed for a certain period of time after
+                    the power switch is turned on (READY).</li>
+                  </ol>
+                </div>
+              </li>
+              <li>Stable operation of certain electrical components
+              is required
+                <div class="list1">
+                  <ol class="list" type="a">
+                    <li>The state of certain electrical components
+                    is monitored, basic control is temporarily
+                    canceled and constant voltage control is
+                    performed when the system determines that
+                    operation of the electrical components may
+                    become unstable.</li>
+                  </ol>
+                </div>
+              </li>
+              <li>Stable use the auxiliary battery
+                <div class="list1">
+                  <ol class="list" type="a">
+                    <li>Constant voltage control is performed and
+                    the auxiliary battery is fully charged every 20
+                    driving hours to minimize deterioration of the
+                    electrode plates due to sulfation by repeating
+                    charge/discharge of the auxiliary battery.</li>
+                    <li>Constant voltage control is performed when
+                    the SOC of the auxiliary battery is low or the
+                    temperature of the auxiliary battery is
+                    high/low to minimize deterioration of the
+                    auxiliary battery.</li>
+                  </ol>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <p class="step1">FUNCTION</p>
+          <p class="step2">(a) Power Consumption Reduction</p>
+          <p class="step3">(1) Carrying outs from high voltage
+          battery decrease by reducing the work load of the hybrid
+          motor control inverter assembly (DC/DC converter), and
+          the mileage improves.</p>
+          <p class="step3">(2) The vehicle is comprised of a large
+          number of electrical components (ECU, actuator, motor or
+          light). The hybrid motor control inverter assembly (DC/DC
+          converter) depresses the voltage of the high voltage
+          battery and supplies electricity for them.</p>
+          <p class="step3">(3) Because the electricity is the
+          product of the voltage and current, the power consumption
+          is reduced so as to lower the output voltage.</p>
+          <table class="footer" width="100%" cellpadding="0"
+          cellspacing="0">
+            <colgroup>
+              <col>
+              <col style="text-align:center">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
+                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('https://techinfo.toyota.com/t3Portal/stylegraphics/clear.gif')"></td>
+                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
