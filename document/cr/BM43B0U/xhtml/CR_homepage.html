@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+  <meta charset="UTF-8">
+  <title>2025 Tacoma Collision Repair Manual 🛠️</title>
+  <style>
+  :root {
+  color-scheme: light dark;
+  --bg: #0f172a;
+  --bg-elevated: #111827;
+  --border-subtle: #283548;
+  --text-main: #e5e7eb;
+  --text-muted: #9ca3af;
+  --accent: #3b82f6;
+  --accent-soft: rgba(59,130,246,0.18);
+  --link: #60a5fa;
+  --highlight: #f97316;
+  }
+
+  body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 1rem 1.5rem 3rem;
+  background: var(--bg);
+  color: var(--text-main);
+  }
+
+  body.light-mode {
+  --bg: #f7f7f7;
+  --bg-elevated: #ffffff;
+  --border-subtle: #d1d5db;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --accent: #2563eb;
+  --accent-soft: rgba(37,99,235,0.14);
+  --link: #1d4ed8;
+  --highlight: #b45309;
+  }
+
+  h1 {
+  margin-top: 0;
+  }
+
+  #app {
+  max-width: 100%;
+  margin: 0 auto;
+  }
+
+  /* Toolbar */
+  .toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  }
+  .toolbar-left {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 0.5rem;
+  align-items: center;
+  }
+  .toolbar-right {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  }
+  .toolbar input[type="search"] {
+  flex: 1 1 260px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  font-size: 0.95rem;
+  background: var(--bg-elevated);
+  color: var(--text-main);
+  }
+  .toolbar input[type="search"]::placeholder {
+  color: var(--text-muted);
+  }
+  .toolbar button {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elevated);
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  }
+  .toolbar button:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  }
+
+  /* Tree container: scroll both directions, no wrapping in content */
+  .tree-container {
+  background: var(--bg-elevated);
+  border-radius: 0.75rem;
+  padding: 0.85rem 1.1rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  max-height: calc(100vh - 180px);
+  overflow: auto;           /* vertical + horizontal scroll */
+  border: 1px solid var(--border-subtle);
+  }
+
+  /* Classic Windows-style document tree look */
+  .tree-root {
+  position: relative;
+  padding-left: 0.4rem;
+  font-size: 0.92rem;
+  white-space: nowrap;      /* no wrapping for entire tree */
+  }
+
+  /* Prevent wrapping on summaries and list items as well */
+  .tree-root details > summary,
+  .tree-root ul.page-list li,
+  .tree-root ul.page-list li a {
+  white-space: nowrap;
+  }
+
+  /* Base details node */
+  .tree-root details {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
+
+  /* Indentation by level */
+  .tree-root > details.section {
+  margin-left: 0rem;
+  }
+  .tree-root details.section > details.sub1 {
+  margin-left: 1.2rem;
+  }
+  .tree-root details.sub1 > details.sub2 {
+  margin-left: 1.2rem;
+  }
+
+  /* Summary line */
+  .tree-root details > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 2px 0 2px 1.4rem;
+  border-radius: 2px;
+  position: relative;
+  user-select: none;
+  }
+  .tree-root details > summary::-webkit-details-marker {
+  display: none;
+  }
+
+  /* Plus/minus box */
+  .tree-root details > summary::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 2px;
+  border: 1px solid var(--border-subtle);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  background: var(--bg);
+  color: var(--text-muted);
+  }
+  .tree-root details[open] > summary::before {
+  content: "–";
+  font-size: 0.75rem;
+  }
+
+  /* Vertical tree connector lines along the left of each node chain */
+  .tree-root details::after {
+  content: "";
+  position: absolute;
+  left: 0.45rem;
+  top: 0.9rem; /* just below the plus box */
+  bottom: -0.2rem; /* extend slightly below last child */
+  border-left: 1px dotted var(--border-subtle);
+  pointer-events: none;
+  }
+  .tree-root > details.section::after {
+  top: 0.9rem;
+  }
+  .tree-root details:last-child::after {
+  bottom: 0.2rem; /* stop closer to last child for last branch */
+  }
+
+  /* Horizontal connector from vertical line to summary text */
+  .tree-root details > summary::after {
+  content: "";
+  position: absolute;
+  left: 0.45rem;
+  top: 50%;
+  width: 0.9rem;
+  border-top: 1px dotted var(--border-subtle);
+  pointer-events: none;
+  }
+
+  details.section > summary {
+  font-weight: 600;
+  }
+
+  /* extra indentation for visual hierarchy, keeping connectors aligned */
+  details.section > summary,
+  details.sub1 > summary,
+  details.sub2 > summary {
+  padding-left: 1.4rem;
+  }
+
+  details:focus-within > summary {
+  outline: 1px dotted var(--accent);
+  outline-offset: 1px;
+  }
+
+  /* Page list */
+  ul.page-list {
+  list-style: none;
+  padding-left: 1.8rem;
+  margin: 0 0 0.25rem;
+  }
+  ul.page-list li {
+  margin: 1px 0;
+  font-size: 0.88rem;
+  position: relative;
+  padding-left: 0.9rem;
+  }
+  ul.page-list li::before {
+  content: "";
+  position: absolute;
+  left: -1.35rem; /* from text to shared vertical line at 0.45rem */
+  top: 0.7rem;
+  width: 1.35rem;
+  border-top: 1px dotted var(--border-subtle);
+  }
+  ul.page-list li a {
+  text-decoration: none;
+  color: var(--link);
+  }
+  ul.page-list li a:hover {
+  text-decoration: underline;
+  }
+
+  /* Highlight for selected page */
+  ul.page-list li.current-page > a {
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  color: var(--accent);
+  }
+  ul.page-list li.current-page::before {
+  border-top-style: solid;
+  border-top-color: var(--accent);
+  }
+
+  .match-highlight {
+  background: rgba(234,179,8,0.22);
+  border-radius: 3px;
+  padding: 0 1px;
+  color: var(--highlight);
+  }
+  .hidden-by-search {
+  display: none !important;
+  }
+  .small-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  }
+
+  /* Layout for left tree + right iframe viewer: 2 vertical panes */
+  .layout {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0.5rem;
+  height: calc(100vh - 80px);
+  }
+
+  /* Left pane starts at ~20% width, resizable */
+  .left-pane {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 20%;
+  min-width: 200px;
+  max-width: 50%;
+  }
+
+  /* Right pane takes the rest (~80%) */
+  .right-pane {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  }
+
+  /* Ensure tree container expands within left pane */
+  .left-pane .tree-container {
+  flex: 1 1 auto;
+  }
+
+  /* Iframe viewer styling */
+  .viewer-frame {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  background: #000;
+  }
+
+  /* Draggable vertical resizer between panes */
+  .resizer {
+  width: 4px;
+  cursor: col-resize;
+  background: var(--border-subtle);
+  border-radius: 999px;
+  align-self: stretch;
+  }
+
+  /* Visual feedback while resizing */
+  body.resizing {
+  cursor: col-resize;
+  user-select: none;
+  }
+  .home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elevated);
+  font-size: 1.5rem;
+  color: var(--text-main);
+  text-decoration: none;
+  }
+
+  .home-btn:hover {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+  }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>
+      <a href="../../../../TIS_homepage.html" class="home-btn" title="Return to Technical Information System Home">
+        <span>←</span>
+      </a>
+      2025 Tacoma Collision Repair Manual 🛠️
+    </h1>
+    <div class="layout">
+      <!-- Left 20%: toolbar + tree -->
+      <div class="left-pane">
+        <div class="toolbar">
+          <div class="toolbar-left">
+            <input id="searchInput" type="search" placeholder="Search sections, subsections, or page titles..."
+            autocomplete="off">
+          </div>
+          <div class="toolbar-right">
+            <button id="expandAllBtn" type="button" title="Expand all"><span>＋</span><span>Expand</span></button>
+            <button id="collapseAllBtn" type="button" title="Collapse all"><span>－</span><span>Collapse</span></button>
+            <button id="themeToggleBtn" type="button" title="Toggle dark / light mode"><span>🌓</span><span>Theme</span></button>
+          </div>
+        </div>
+        <div class="tree-container">
+          <div id="treeRoot" class="tree-root">
+            <details data-node-id='node-general' class='section'>
+              <summary>
+                General
+              </summary>
+              <details data-node-id='node-general-introduction'
+              class='sub1'>
+                <summary>
+                  INTRODUCTION
+                </summary>
+                <details data-node-id=
+                'node-general-introduction-about-this-vehicle'
+                class='sub2'>
+                  <summary>
+                    ABOUT THIS VEHICLE
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'STRUCTURAL OUTLINE; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KBYI.html'>STRUCTURAL
+                      OUTLINE; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'DAMAGE DIAGNOSIS; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3N.html'>DAMAGE
+                      DIAGNOSIS; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'EXTERIOR RESIN PARTS AND RESIN CHARACTERISTICS; 2025 - 2026 MY Tacoma Tacoma HV [12/2024 - ]'>
+                      <a href='./RM100000002S6E5.html'>EXTERIOR
+                      RESIN PARTS AND RESIN CHARACTERISTICS; 2025 -
+                      2026 MY Tacoma Tacoma HV [12/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-general-introduction-how-to-use-this-manual'
+                class='sub2'>
+                  <summary>
+                    HOW TO USE THIS MANUAL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'GENERAL INFORMATION; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3P.html'>GENERAL
+                      INFORMATION; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'SYMBOLS; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3Q.html'>SYMBOLS;
+                      2024 - 2026 MY Tacoma Tacoma HV [12/2023 -
+                      ]</a>
+                    </li>
+                    <li data-page-title=
+                    'ILLUSTRATION OF WELD POINT SYMBOLS; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3R.html'>ILLUSTRATION
+                      OF WELD POINT SYMBOLS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-general-introduction-work-notices-and-precautions'
+                class='sub2'>
+                  <summary>
+                    WORK NOTICES AND PRECAUTIONS
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'WHEN REPAIRING THE VEHICLE BODY; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3F.html'>WHEN
+                      REPAIRING THE VEHICLE BODY; 2024 - 2026 MY
+                      Tacoma Tacoma HV [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'PRECAUTIONS FOR REPAIRING BODY STRUCTURE (INCLUDING CRUSH BOXES); 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3G.html'>PRECAUTIONS
+                      FOR REPAIRING BODY STRUCTURE (INCLUDING CRUSH
+                      BOXES); 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'PRECAUTIONS FOR WELDING; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3H.html'>PRECAUTIONS
+                      FOR WELDING; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'ANTI-RUST TREATMENT AFTER INSTALLATION OF BODY STRUCTURE PARTS OR OUTER PANELS; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3I.html'>ANTI-RUST
+                      TREATMENT AFTER INSTALLATION OF BODY
+                      STRUCTURE PARTS OR OUTER PANELS; 2024 - 2026
+                      MY Tacoma Tacoma HV [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'PRECAUTIONS FOR REPAIRING ALUMINUM ALLOY PANELS; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HG3K.html'>PRECAUTIONS
+                      FOR REPAIRING ALUMINUM ALLOY PANELS; 2024 -
+                      2026 MY Tacoma Tacoma HV [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'PRECAUTIONS FOR BLIND SPOT MONITOR; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KBYH.html'>PRECAUTIONS
+                      FOR BLIND SPOT MONITOR; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+              </details>
+            </details>
+            <details data-node-id='node-vehicle-exterior' class=
+            'section'>
+              <summary>
+                Vehicle Exterior
+              </summary>
+              <details data-node-id=
+              'node-vehicle-exterior-body-dimensions' class='sub1'>
+                <summary>
+                  BODY DIMENSIONS
+                </summary>
+                <details data-node-id=
+                'node-vehicle-exterior-body-dimensions-engine-compartment'
+                class='sub2'>
+                  <summary>
+                    ENGINE COMPARTMENT
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'POINT-TO-POINT DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href=
+                      './RM100000002HK5D.html'>POINT-TO-POINT
+                      DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-dimensions-engine-compartment-reference-values'
+                class='sub2'>
+                  <summary>
+                    ENGINE COMPARTMENT REFERENCE VALUES
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'POINT-TO-POINT DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href=
+                      './RM100000002HK5E.html'>POINT-TO-POINT
+                      DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-dimensions-frame'
+                class='sub2'>
+                  <summary>
+                    FRAME
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'POINT-TO-POINT DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href=
+                      './RM100000002KCKM.html'>POINT-TO-POINT
+                      DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'DISTANCE FROM CENTER LINE / DATUM PLANE; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KCKP.html'>DISTANCE
+                      FROM CENTER LINE / DATUM PLANE; 2024 - 2026
+                      MY Tacoma Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-dimensions-front-door'
+                class='sub2'>
+                  <summary>
+                    FRONT DOOR
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'POINT-TO-POINT DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href=
+                      './RM100000002KCKJ.html'>POINT-TO-POINT
+                      DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-dimensions-measuring-information'
+                class='sub2'>
+                  <summary>
+                    MEASURING INFORMATION
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'DIAGRAM DESCRIPTION; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002HK5K.html'>DIAGRAM
+                      DESCRIPTION; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-dimensions-other-reference-values'
+                class='sub2'>
+                  <summary>
+                    OTHER REFERENCE VALUES
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'POINT-TO-POINT DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href=
+                      './RM100000002HK5J.html'>POINT-TO-POINT
+                      DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-dimensions-rear-door'
+                class='sub2'>
+                  <summary>
+                    REAR DOOR
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'POINT-TO-POINT DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href=
+                      './RM100000002HK5I.html'>POINT-TO-POINT
+                      DISTANCE; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+              </details>
+              <details data-node-id=
+              'node-vehicle-exterior-body-panel' class='sub1'>
+                <summary>
+                  BODY PANEL
+                </summary>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-back-panel-for-double-cab'
+                class='sub2'>
+                  <summary>
+                    BACK PANEL (for Double Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KJZ0.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-back-panel-for-single-cab'
+                class='sub2'>
+                  <summary>
+                    BACK PANEL (for Single Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KJZ2.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-cab-mounting-no1-bracket'
+                class='sub2'>
+                  <summary>
+                    CAB MOUNTING NO.1 BRACKET
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002Q3F3.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-caution-label'
+                class='sub2'>
+                  <summary>
+                    CAUTION LABEL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ATTACHMENT POSITION; 2024 - 2025 MY Tacoma Tacoma HV [03/2024 - 11/2025]'>
+                      <a href='./RM100000002KI7F.html'>ATTACHMENT
+                      POSITION; 2024 - 2025 MY Tacoma Tacoma HV
+                      [03/2024 - 11/2025]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-center-body-pillar-for-double-cab'
+                class='sub2'>
+                  <summary>
+                    CENTER BODY PILLAR (for Double Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KHTV.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-center-body-pillar-for-single-cab'
+                class='sub2'>
+                  <summary>
+                    CENTER BODY PILLAR (for Single Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KHTX.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-cowl-top-side-panel'
+                class='sub2'>
+                  <summary>
+                    COWL TOP SIDE PANEL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3LA.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-cowl-top-side-upper-panel'
+                class='sub2'>
+                  <summary>
+                    COWL TOP SIDE UPPER PANEL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3L9.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-fit-standard'
+                class='sub2'>
+                  <summary>
+                    FIT STANDARD
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'INSPECTION; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002LZZV.html'>INSPECTION;
+                      2024 - 2026 MY Tacoma Tacoma HV [03/2024 -
+                      ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-frame-auxiliary-crossmember'
+                class='sub2'>
+                  <summary>
+                    FRAME AUXILIARY CROSSMEMBER
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002Q3F4.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-frame-side-rail-front'
+                class='sub2'>
+                  <summary>
+                    FRAME SIDE RAIL FRONT
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002Q3F2.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-frame-side-rail-plate'
+                class='sub2'>
+                  <summary>
+                    FRAME SIDE RAIL PLATE
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002Q3F1.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-front-body-pillar'
+                class='sub2'>
+                  <summary>
+                    FRONT BODY PILLAR
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS (PATTERN 1); 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3LB.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS (PATTERN 1); 2024 - 2026
+                      MY Tacoma Tacoma HV [12/2023 - ]</a>
+                    </li>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS (PATTERN 2); 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3LC.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS (PATTERN 2); 2024 - 2026
+                      MY Tacoma Tacoma HV [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-front-door-outer-panel'
+                class='sub2'>
+                  <summary>
+                    FRONT DOOR OUTER PANEL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I5X7.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-front-fender-apron'
+                class='sub2'>
+                  <summary>
+                    FRONT FENDER APRON
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3L8.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-quarter-lock-pillar-reinforcement-for-double-cab'
+                class='sub2'>
+                  <summary>
+                    QUARTER LOCK PILLAR REINFORCEMENT (for Double
+                    Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KHWX.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-quarter-lock-pillar-reinforcement-for-single-cab'
+                class='sub2'>
+                  <summary>
+                    QUARTER LOCK PILLAR REINFORCEMENT (for Single
+                    Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KIJJ.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-quarter-panel-for-double-cab'
+                class='sub2'>
+                  <summary>
+                    QUARTER PANEL (for Double Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KHW9.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-quarter-panel-for-single-cab'
+                class='sub2'>
+                  <summary>
+                    QUARTER PANEL (for Single Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KIJH.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-radiator-side-support'
+                class='sub2'>
+                  <summary>
+                    RADIATOR SIDE SUPPORT
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3L5.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-radiator-support'
+                class='sub2'>
+                  <summary>
+                    RADIATOR SUPPORT
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3L7.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-rear-door-outer-panel'
+                class='sub2'>
+                  <summary>
+                    REAR DOOR OUTER PANEL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002I3LE.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-rocker-outer-panel-for-double-cab'
+                class='sub2'>
+                  <summary>
+                    ROCKER OUTER PANEL (for Double Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KHU1.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-rocker-outer-panel-for-single-cab'
+                class='sub2'>
+                  <summary>
+                    ROCKER OUTER PANEL (for Single Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KIJD.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-rocker-panel-for-double-cab'
+                class='sub2'>
+                  <summary>
+                    ROCKER PANEL (for Double Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KZKD.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-rocker-panel-for-single-cab'
+                class='sub2'>
+                  <summary>
+                    ROCKER PANEL (for Single Cab)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'CUT AND JOIN REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KIJF.html'>CUT AND JOIN
+                      REPLACEMENT SECTIONS; 2024 - 2026 MY Tacoma
+                      Tacoma HV [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-roof-panel-for-moon-roof'
+                class='sub2'>
+                  <summary>
+                    ROOF PANEL (for Moon Roof)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV [12/2023 - ]'>
+                      <a href='./RM100000002ICQ1.html'>ASSEMBLY
+                      REPLACEMENT; 2024 - 2026 MY Tacoma Tacoma HV
+                      [12/2023 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-roof-panel-for-standard-roof'
+                class='sub2'>
+                  <summary>
+                    ROOF PANEL (for Standard Roof)
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'ASSEMBLY REPLACEMENT; 2025 - 2026 MY Tacoma Tacoma HV [12/2024 - ]'>
+                      <a href='./RM100000002RQI7.html'>ASSEMBLY
+                      REPLACEMENT; 2025 - 2026 MY Tacoma Tacoma HV
+                      [12/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-body-panel-specified-torque'
+                class='sub2'>
+                  <summary>
+                    SPECIFIED TORQUE
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'COMPONENTS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KJYZ.html'>COMPONENTS;
+                      2024 - 2026 MY Tacoma Tacoma HV [03/2024 -
+                      ]</a>
+                    </li>
+                  </ul>
+                </details>
+              </details>
+              <details data-node-id=
+              'node-vehicle-exterior-painting--coating' class=
+              'sub1'>
+                <summary>
+                  PAINTING / COATING
+                </summary>
+                <details data-node-id=
+                'node-vehicle-exterior-painting--coating-body-panel-anti-chipping-paint'
+                class='sub2'>
+                  <summary>
+                    BODY PANEL ANTI-CHIPPING PAINT
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'APPLICATION AREAS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KCMR.html'>APPLICATION
+                      AREAS; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-painting--coating-body-panel-anti-rust-agent-material'
+                class='sub2'>
+                  <summary>
+                    BODY PANEL ANTI-RUST AGENT MATERIAL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'APPLICATION AREAS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KCMP.html'>APPLICATION
+                      AREAS; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-painting--coating-body-panel-sealing'
+                class='sub2'>
+                  <summary>
+                    BODY PANEL SEALING
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'APPLICATION AREAS; 2025 MY Tacoma Tacoma HV [12/2024 - 11/2025]'>
+                      <a href='./RM100000002S55P.html'>APPLICATION
+                      AREAS; 2025 MY Tacoma Tacoma HV [12/2024 -
+                      11/2025]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-painting--coating-body-panel-undercoating'
+                class='sub2'>
+                  <summary>
+                    BODY PANEL UNDERCOATING
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'APPLICATION AREAS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KCLS.html'>APPLICATION
+                      AREAS; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-painting--coating-foamed-sealing-material'
+                class='sub2'>
+                  <summary>
+                    FOAMED SEALING MATERIAL
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'APPLICATION AREAS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KCMO.html'>APPLICATION
+                      AREAS; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+                <details data-node-id=
+                'node-vehicle-exterior-painting--coating-silencer-sheet'
+                class='sub2'>
+                  <summary>
+                    SILENCER SHEET
+                  </summary>
+                  <ul class='page-list'>
+                    <li data-page-title=
+                    'INSTALLATION AREAS; 2024 - 2026 MY Tacoma Tacoma HV [03/2024 - ]'>
+                      <a href='./RM100000002KCMQ.html'>INSTALLATION
+                      AREAS; 2024 - 2026 MY Tacoma Tacoma HV
+                      [03/2024 - ]</a>
+                    </li>
+                  </ul>
+                </details>
+              </details>
+            </details>
+          </div>
+        </div>
+      </div><!-- Vertical resizer -->
+      <div id="paneResizer" class="resizer"></div>
+      <!-- Right 80%: iframe viewer -->
+      <div class="right-pane">
+        <iframe id="pageViewer" class="viewer-frame" src="" title="Repair Manual Page Viewer" name="pageViewer"></iframe>
+      </div>
+    </div>
+  </div>
+  <script>
+  (function() {
+  const STORAGE_KEY_STATE = 'tacomaManualTreeState_v1';
+  const STORAGE_KEY_THEME = 'tacomaManualTheme_v1';
+  const STORAGE_KEY_LAST_PAGE = 'tacomaManualLastPage_v1';
+
+  const treeRoot       = document.getElementById('treeRoot');
+  const searchInput    = document.getElementById('searchInput');
+  const expandAllBtn   = document.getElementById('expandAllBtn');
+  const collapseAllBtn = document.getElementById('collapseAllBtn');
+  const themeToggleBtn = document.getElementById('themeToggleBtn');
+  const pageViewer     = document.getElementById('pageViewer');
+  const leftPane       = document.querySelector('.left-pane');
+  const rightPane      = document.querySelector('.right-pane');
+  const paneResizer    = document.getElementById('paneResizer');
+
+  /* ======== CURRENT PAGE HIGHLIGHT HELPERS ======== */
+  function clearCurrentPageHighlight() {
+    if (!treeRoot) return;
+    treeRoot.querySelectorAll('ul.page-list li.current-page').forEach(li => {
+      li.classList.remove('current-page');
+    });
+  }
+
+  function highlightLinkByHref(href) {
+    if (!treeRoot || !href) return;
+    const selector = `ul.page-list li a[href="${href}"]`;
+    const link = treeRoot.querySelector(selector);
+    if (!link) return;
+    const li = link.closest('li');
+    if (!li) return;
+    clearCurrentPageHighlight();
+    li.classList.add('current-page');
+  }
+
+  /* ======== REMEMBER LAST CLICKED PAGE + LOAD IN IFRAME ======== */
+  if (treeRoot) {
+    treeRoot.addEventListener('click', function (e) {
+      const link = e.target.closest('a');
+      if (!link) return;
+
+      // Load into iframe instead of navigating
+      const href = link.getAttribute('href');
+      if (href && pageViewer) {
+        e.preventDefault();
+        pageViewer.src = href;
+        highlightLinkByHref(href);
+      }
+
+      const li = link.closest('li[data-page-title]');
+      try {
+        localStorage.setItem(
+          STORAGE_KEY_LAST_PAGE,
+          JSON.stringify({
+            href: href,
+            title: li ? (li.dataset.pageTitle || '') : (link.textContent || '')
+          })
+        );
+      } catch (err) {
+        // Ignore storage errors
+      }
+    });
+  }
+
+  /* ======== THEME TOGGLE (from original file) ======== */
+  function applyTheme(theme) {
+    if (theme === 'light') {
+      document.body.classList.add('light-mode');
+    } else {
+      document.body.classList.remove('light-mode');
+    }
+  }
+
+  function loadTheme() {
+    try {
+      return localStorage.getItem(STORAGE_KEY_THEME) || 'dark';
+    } catch (e) {
+      return 'dark';
+    }
+  }
+
+  function saveTheme(theme) {
+    try {
+      localStorage.setItem(STORAGE_KEY_THEME, theme);
+    } catch (e) {}
+  }
+
+  let currentTheme = loadTheme();
+  applyTheme(currentTheme);
+
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', function() {
+      currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      applyTheme(currentTheme);
+      saveTheme(currentTheme);
+    });
+  }
+
+  /* ======== TREE STATE (copied from original logic) ======== */
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY_STATE);
+      if (!raw) return {};
+      return JSON.parse(raw) || {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveState(state) {
+    try {
+      localStorage.setItem(STORAGE_KEY_STATE, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function applyState(state) {
+    if (!treeRoot) return;
+    const nodes = treeRoot.querySelectorAll('details[data-node-id]');
+    nodes.forEach(d => {
+      const id = d.dataset.nodeId;
+      if (id && Object.prototype.hasOwnProperty.call(state, id)) {
+        d.open = !!state[id];
+      }
+    });
+  }
+
+  function captureState() {
+    const state = {};
+    if (!treeRoot) return state;
+    const nodes = treeRoot.querySelectorAll('details[data-node-id]');
+    nodes.forEach(d => {
+      const id = d.dataset.nodeId;
+      if (id) {
+        state[id] = !!d.open;
+      }
+    });
+    return state;
+  }
+
+  const initialState = loadState();
+  applyState(initialState);
+
+  /* ======== RESTORE LAST PAGE (extended to iframe + highlight) ======== */
+  (function restoreLastPage() {
+    if (!treeRoot) return;
+    let lastPage;
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY_LAST_PAGE);
+      if (!raw) return;
+      lastPage = JSON.parse(raw);
+    } catch (err) {
+      return;
+    }
+    if (!lastPage || !lastPage.href) return;
+
+    const selector = `ul.page-list li a[href="${lastPage.href}"]`;
+    const link = treeRoot.querySelector(selector);
+    if (link) {
+      // Only scroll if the link is already visible with the current tree state.
+      let node = link.parentElement;
+      while (node && node !== treeRoot) {
+        if (node.tagName === 'DETAILS' && !node.open) {
+          // respect collapsed state; don't auto-open
+          node = null;
+          break;
+        }
+        node = node.parentElement;
+      }
+      if (node) {
+        link.scrollIntoView({ block: 'center', behavior: 'instant' });
+      }
+    }
+
+    // Always restore into iframe + highlight if possible
+    if (pageViewer) {
+      pageViewer.src = lastPage.href;
+    }
+    highlightLinkByHref(lastPage.href);
+  })();
+
+  /* ======== LISTEN FOR TOGGLES TO KEEP STATE UPDATED ======== */
+  if (treeRoot) {
+    treeRoot.addEventListener('toggle', function(e) {
+      if (!(e.target instanceof HTMLDetailsElement)) return;
+      const d = e.target;
+      const id = d.dataset.nodeId;
+      if (!id) return;
+
+      // Any manual expand/collapse should clear the last-page scroll target
+      try {
+        localStorage.removeItem(STORAGE_KEY_LAST_PAGE);
+      } catch (err) {}
+
+      const state = captureState();
+      saveState(state);
+    });
+  }
+
+  // Ensure we always persist the full current state when leaving the page
+  window.addEventListener('beforeunload', function () {
+    const state = captureState();
+    saveState(state);
+  });
+
+  /* ======== EXPAND / COLLAPSE ALL ======== */
+  if (expandAllBtn && treeRoot) {
+    expandAllBtn.addEventListener('click', function() {
+      treeRoot.querySelectorAll('details[data-node-id]').forEach(d => {
+        d.open = true;
+      });
+      saveState(captureState());
+    });
+  }
+
+  if (collapseAllBtn && treeRoot) {
+    collapseAllBtn.addEventListener('click', function() {
+      treeRoot.querySelectorAll('details[data-node-id]').forEach(d => {
+        d.open = false;
+      });
+      saveState(captureState());
+    });
+  }
+
+  /* ======== SEARCH (same behavior pattern as your original) ======== */
+  function normalize(text) {
+    return (text || '').toLowerCase();
+  }
+
+  function clearHighlights(root) {
+    if (!root) return;
+    root.querySelectorAll('.match-highlight').forEach(span => {
+      const parent = span.parentNode;
+      if (!parent) return;
+      parent.replaceChild(document.createTextNode(span.textContent), span);
+      parent.normalize();
+    });
+  }
+
+  function highlightMatches(node, query) {
+    const q = normalize(query);
+    if (!q || node.nodeType !== Node.TEXT_NODE) return;
+
+    const text = node.textContent;
+    const lower = text.toLowerCase();
+    const idx = lower.indexOf(q);
+    if (idx === -1) return;
+
+    const before = document.createTextNode(text.slice(0, idx));
+    const match = document.createElement('span');
+    match.className = 'match-highlight';
+    match.textContent = text.slice(idx, idx + q.length);
+    const after = document.createTextNode(text.slice(idx + q.length));
+
+    const parent = node.parentNode;
+    if (!parent) return;
+    parent.replaceChild(after, node);
+    parent.insertBefore(match, after);
+    parent.insertBefore(before, match);
+  }
+
+  function performSearch(rawQuery) {
+    if (!treeRoot) return;
+    const query = rawQuery.trim();
+    clearHighlights(treeRoot);
+
+    const allLis = Array.from(treeRoot.querySelectorAll('ul.page-list li'));
+    const allDetails = Array.from(treeRoot.querySelectorAll('details[data-node-id]'));
+
+    // Reset visibility
+    allLis.forEach(li => li.classList.remove('hidden-by-search'));
+    allDetails.forEach(d => d.classList.remove('hidden-by-search'));
+
+    if (!query) return;
+
+    const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+
+    function textMatches(text) {
+      const lower = text.toLowerCase();
+      return tokens.every(t => lower.includes(t));
+    }
+
+    // Hide everything initially
+    allLis.forEach(li => li.classList.add('hidden-by-search'));
+    allDetails.forEach(d => d.classList.add('hidden-by-search'));
+
+    // Pages
+    allLis.forEach(li => {
+      const link = li.querySelector('a');
+      const title = li.dataset.pageTitle || (link ? link.textContent : '') || li.textContent || '';
+      if (textMatches(title)) {
+        li.classList.remove('hidden-by-search');
+        if (link && link.firstChild && link.firstChild.nodeType === Node.TEXT_NODE) {
+          highlightMatches(link.firstChild, query);
+        }
+        // unhide ancestors
+        let parent = li.parentElement;
+        while (parent && parent !== treeRoot) {
+          if (parent.matches('details[data-node-id]')) {
+            parent.classList.remove('hidden-by-search');
+            parent.open = true;
+          }
+          parent = parent.parentElement;
+        }
+      }
+    });
+
+    // Section summaries
+    allDetails.forEach(d => {
+      const summary = d.querySelector(':scope > summary');
+      if (!summary) return;
+      const text = summary.textContent || '';
+      if (textMatches(text)) {
+        d.classList.remove('hidden-by-search');
+        summary.childNodes.forEach(ch => {
+          if (ch.nodeType === Node.TEXT_NODE) {
+            highlightMatches(ch, query);
+          }
+        });
+        // unhide ancestors
+        let parent = d.parentElement;
+        while (parent && parent !== treeRoot) {
+          if (parent.matches('details[data-node-id]')) {
+            parent.classList.remove('hidden-by-search');
+            parent.open = true;
+          }
+          parent = parent.parentElement;
+        }
+      }
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      performSearch(this.value || '');
+    });
+  }
+
+  /* ======== PANE RESIZE LOGIC (vertical split) ======== */
+  (function setupResizer() {
+    if (!paneResizer || !leftPane || !rightPane) return;
+
+    let isDragging = false;
+
+    paneResizer.addEventListener('mousedown', function(e) {
+      isDragging = true;
+      document.body.classList.add('resizing');
+      e.preventDefault();
+    });
+
+    window.addEventListener('mousemove', function(e) {
+      if (!isDragging) return;
+
+      const layout = document.querySelector('.layout');
+      if (!layout) return;
+
+      const rect = layout.getBoundingClientRect();
+      const minPx = 200; // same as left-pane min-width
+      const maxPx = rect.width * 0.5; // cap at 50%
+
+      let newWidth = e.clientX - rect.left;
+      if (newWidth < minPx) newWidth = minPx;
+      if (newWidth > maxPx) newWidth = maxPx;
+
+      const newPercent = (newWidth / rect.width) * 100;
+      leftPane.style.flexBasis = newPercent + '%';
+    });
+
+    window.addEventListener('mouseup', function() {
+      if (!isDragging) return;
+      isDragging = false;
+      document.body.classList.remove('resizing');
+    });
+  })();
+  })();
+  </script>
+</body>
+</html>
