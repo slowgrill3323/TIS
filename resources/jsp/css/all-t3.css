@@ -1,0 +1,1137 @@
+IMG.block {
+	DISPLAY: block
+}
+.bea-portal-body {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-body A {
+	DISPLAY: inline; TEXT-DECORATION: none
+}
+.bea-portal-body A:hover {
+	TEXT-DECORATION: underline
+}
+.bea-portal-body-content {
+	
+}
+.bea-portal-body-header {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: repeat-x 50% top; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-body-footer {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: repeat-x 50% top; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-body-header {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bea-portal-body-footer {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+.bea-portal-body-footer a:link, .bea-portal-body-footer a:visited,.bea-portal-body-footer a:hover, .bea-portal-body-footer a:active {color:#FFF;}
+
+.bea-portal-body-footer-divider-cell {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: #ffffff 0px solid
+}
+.bea-portal-body-footer-non-divider-cell {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: #ffffff 0px solid
+}
+.bea-portal-body-footer-debug {
+	FONT-WEIGHT: normal; FONT-SIZE: x-small; VERTICAL-ALIGN: baseline; COLOR: #ffffff; POSITION: fixed
+}
+.bea-portal-body-footer-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-body-header-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-body-header-usersettings {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+.bea-portal-body-header-usersettings A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+.bea-portal-body-header-usersettings A:hover {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+.bea-portal-body-menu-edgetab-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-body-menu-rounded-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-body-menu-roundedshaded-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-body-menu-radio-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-body-menu-tis-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-primary {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; BACKGROUND-COLOR: #000000
+}
+.bea-portal-book-primary-content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.bea-portal-book-tis-primary {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; WIDTH: 100%; PADDING-TOP: 0px; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-tis-primary-content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 5px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-tis3-primary {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-tis3-primary-content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-techinfo-login-primary {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-techinfo-login-content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-primary-page {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.bea-portal-book-nonradiotab-page {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #f0f8ff
+}
+.bea-portal-book {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 5px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.bea-portal-book-content {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 0px; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #dcd9d2
+}
+.bea-portal-book-inner {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 4px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.bea-portal-book-inner-content {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 0px solid; MARGIN: 0px 1px 1px; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #666699
+}
+.bea-portal-book-singlerounded {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 5px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.bea-portal-book-content-singlerounded {
+	BORDER-RIGHT: #cccce5 0px solid; BORDER-TOP: #cccce5 0px solid; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: #cccce5 0px solid; BORDER-BOTTOM: #cccce5 0px solid; BACKGROUND-COLOR: #666699
+}
+.bea-portal-book-singleroundedshaded {
+	MARGIN: 5px
+}
+.bea-portal-book-singleroundedshaded-content {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 0px solid; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-singleroundedshadedreversed {
+	MARGIN: 0px
+}
+.bea-portal-book-singleroundedshadedreversed-content {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; MARGIN: 0px; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid
+}
+.bea-portal-book-radio {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 5px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-radio-content {
+	MARGIN: 0px; BACKGROUND-COLOR: #d1d0d0
+}
+.bea-portal-book-black-primary {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; BACKGROUND-COLOR: #000000
+}
+.bea-portal-book-black-primary-content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.bea-portal-book-plain {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.bea-portal-book-plain-content {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-LEFT-COLOR: #cccce5; BORDER-BOTTOM-WIDTH: 0px; BORDER-BOTTOM-COLOR: #cccce5; MARGIN: 0px 0px 0px 1px; BORDER-TOP-COLOR: #cccce5; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #cccce5
+}
+.bea-portal-book-page {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu {
+	DISPLAY: none
+}
+.bea-portal-book-primary-menu-root {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f0f0ff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #e5e5ff
+}
+.bea-portal-book-primary-menu-root-item A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-primary-menu-root-item-active A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-primary-menu-root A {
+	
+}
+.bea-portal-book-primary-menu-root A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-root UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-primary-menu-root LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-primary-menu-root-item {
+	
+}
+.bea-portal-book-primary-menu-root-item-active A {
+	BORDER-RIGHT: #cccce5 1px solid; BORDER-TOP: #cccce5 0px solid; BORDER-LEFT: #cccce5 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-primary-menu-nested {
+	BORDER-RIGHT: #000033 1px solid; BORDER-TOP: #000033 1px solid; FONT-SIZE: x-small; BORDER-LEFT: #000033 1px solid; BORDER-BOTTOM: #000033 1px solid
+}
+.bea-portal-book-primary-menu-nested-item A {
+	BORDER-RIGHT: #f0f0ff 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #f0f0ff 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f0f0ff 0px solid; WIDTH: 150px; PADDING-TOP: 1px; BORDER-BOTTOM: #f0f0ff 1px solid; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-nested-item-sub A {
+	BORDER-RIGHT: #f0f0ff 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #f0f0ff 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f0f0ff 0px solid; WIDTH: 150px; PADDING-TOP: 1px; BORDER-BOTTOM: #f0f0ff 1px solid; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-nested-item-active A {
+	BORDER-RIGHT: #f0f0ff 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #f0f0ff 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f0f0ff 0px solid; WIDTH: 150px; PADDING-TOP: 1px; BORDER-BOTTOM: #f0f0ff 1px solid; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-nested-item A:hover {
+	BORDER-LEFT-COLOR: #cccce5; BORDER-BOTTOM-COLOR: #cccce5; COLOR: #000033; BORDER-TOP-COLOR: #cccce5; BACKGROUND-COLOR: #e5e5ff; BORDER-RIGHT-COLOR: #cccce5
+}
+.bea-portal-book-primary-menu-nested-item-sub A {
+	BORDER-LEFT-COLOR: #cccce5; BORDER-BOTTOM-COLOR: #cccce5; COLOR: #000033; BORDER-TOP-COLOR: #cccce5; BACKGROUND-COLOR: #e5e5ff; BORDER-RIGHT-COLOR: #cccce5
+}
+.bea-portal-book-primary-menu-nested-item-active A:hover {
+	BORDER-LEFT-COLOR: #cccce5; BORDER-BOTTOM-COLOR: #cccce5; COLOR: #000033; BORDER-TOP-COLOR: #cccce5; BACKGROUND-COLOR: #e5e5ff; BORDER-RIGHT-COLOR: #cccce5
+}
+.bea-portal-book-primary-menu-nested-item A {
+	COLOR: #000066; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-primary-menu-nested-item-sub A {
+	COLOR: #000033; BACKGROUND-COLOR: #e5ffe5
+}
+.bea-portal-book-primary-menu-nested-item-active A {
+	COLOR: #000033; BACKGROUND-COLOR: #e5e5ff
+}
+.bea-portal-book-menu {
+	DISPLAY: none
+}
+.bea-portal-book-menu-root {
+	BORDER-RIGHT: #cccce5 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccce5 0px solid; PADDING-LEFT: 0px; FONT-SIZE: x-small; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #cccce5 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+.bea-portal-book-menu-root-item A {
+	BORDER-RIGHT: #cccccc 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cccccc 0px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.bea-portal-book-menu-root-item-active A {
+	BORDER-RIGHT: #cccccc 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cccccc 0px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.bea-portal-book-menu-root A {
+	
+}
+.bea-portal-book-menu-root A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-menu-root UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-menu-root LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-menu-root-item {
+	
+}
+.bea-portal-book-menu-root-item-active A {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 0px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-menu-nested {
+	BORDER-RIGHT: #000033 1px solid; BORDER-TOP: #000033 1px solid; FONT-SIZE: x-small; BORDER-LEFT: #000033 1px solid; BORDER-BOTTOM: #000033 1px solid
+}
+.bea-portal-book-menu-nested-item A {
+	BORDER-RIGHT: #f0f0ff 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #f0f0ff 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f0f0ff 0px solid; WIDTH: 150px; PADDING-TOP: 1px; BORDER-BOTTOM: #f0f0ff 1px solid; TEXT-DECORATION: none
+}
+.bea-portal-book-menu-nested-item-sub A {
+	BORDER-RIGHT: #f0f0ff 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #f0f0ff 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f0f0ff 0px solid; WIDTH: 150px; PADDING-TOP: 1px; BORDER-BOTTOM: #f0f0ff 1px solid; TEXT-DECORATION: none
+}
+.bea-portal-book-menu-nested-item-active A {
+	BORDER-RIGHT: #f0f0ff 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #f0f0ff 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f0f0ff 0px solid; WIDTH: 150px; PADDING-TOP: 1px; BORDER-BOTTOM: #f0f0ff 1px solid; TEXT-DECORATION: none
+}
+.bea-portal-book-menu-nested-item A:hover {
+	BORDER-LEFT-COLOR: #cccce5; BORDER-BOTTOM-COLOR: #cccce5; COLOR: #000033; BORDER-TOP-COLOR: #cccce5; BACKGROUND-COLOR: #e5e5ff; BORDER-RIGHT-COLOR: #cccce5
+}
+.bea-portal-book-menu-nested-item-sub A {
+	BORDER-LEFT-COLOR: #cccce5; BORDER-BOTTOM-COLOR: #cccce5; COLOR: #000033; BORDER-TOP-COLOR: #cccce5; BACKGROUND-COLOR: #e5e5ff; BORDER-RIGHT-COLOR: #cccce5
+}
+.bea-portal-book-menu-nested-item-active A:hover {
+	BORDER-LEFT-COLOR: #cccce5; BORDER-BOTTOM-COLOR: #cccce5; COLOR: #000033; BORDER-TOP-COLOR: #cccce5; BACKGROUND-COLOR: #e5e5ff; BORDER-RIGHT-COLOR: #cccce5
+}
+.bea-portal-book-menu-nested-item A {
+	COLOR: #000066; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-menu-nested-item-sub A {
+	COLOR: #000033; BACKGROUND-COLOR: #e5ffe5
+}
+.bea-portal-book-menu-nested-item-active A {
+	COLOR: #000033; BACKGROUND-COLOR: #e5e5ff
+}
+.bea-portal-book-primary-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-primary-menu-single {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f0f0ff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-primary-menu-single A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-primary-menu-single SPAN {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-primary-menu-single A:link {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: #483d8b; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-single A:active {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: #ffffff; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-single A:visited {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: #483d8b; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-single A:hover {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: #ffffff; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #000099; TEXT-DECORATION: underline
+}
+.bea-portal-book-primary-menu-single SPAN {
+	BORDER-RIGHT: #cccce5 1px solid; BORDER-TOP: #cccce5 0px solid; BORDER-LEFT: #cccce5 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-primary-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-primary-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-primary-menu-single-item {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: center
+}
+.bea-portal-book-primary-menu-single-item A:link {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-single-item A:visited {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-single-item A:active {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-single-item A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-primary-menu-single-item-active {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: center
+}
+.bea-portal-book-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-menu-single {
+	BORDER-RIGHT: #cccce5 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccce5 0px solid; PADDING-LEFT: 0px; FONT-SIZE: x-small; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #cccce5 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+.bea-portal-book-menu-single A {
+	BORDER-RIGHT: #cccccc 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cccccc 0px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.bea-portal-book-menu-single SPAN {
+	BORDER-RIGHT: #cccccc 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cccccc 0px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.bea-portal-book-menu-single A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-menu-single SPAN {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 0px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-menu-single-item {
+	BACKGROUND-REPEAT: repeat-x
+}
+.bea-portal-book-menu-single-item-active {
+	BACKGROUND-REPEAT: repeat-x
+}
+.bea-portal-book-sub-navigation {
+	BORDER-RIGHT: #cccce5 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccce5 0px solid; PADDING-LEFT: 0px; FONT-SIZE: x-small; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #cccce5 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #e5e5ff
+}
+.bea-portal-book-edged-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-edged-menu-single {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f0f0ff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-edged-menu-single A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-edged-menu-single SPAN {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-edged-menu-single A:link {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-edged-menu-single A:active {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-edged-menu-single A:visited {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-edged-menu-single A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: underline
+}
+.bea-portal-book-edged-menu-single SPAN {
+	BORDER-RIGHT: #cccce5 1px solid; BORDER-TOP: #cccce5 0px solid; BORDER-LEFT: #cccce5 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-edged-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-edged-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-edged-menu-single-item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.bea-portal-book-edged-menu-single-item A:link {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-edged-menu-single-item A:visited {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-edged-menu-single-item A:active {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-edged-menu-single-item A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-edged-menu-single-item-active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.bea-portal-book-rounded-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-rounded-menu-single {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f0f0ff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: small; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-rounded-menu-single A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-rounded-menu-single SPAN {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-rounded-menu-single A:link {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-rounded-menu-single A:active {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-rounded-menu-single A:visited {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099; TEXT-DECORATION: none
+}
+.bea-portal-book-rounded-menu-single A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: underline
+}
+.bea-portal-book-rounded-menu-single SPAN {
+	BORDER-RIGHT: #cccce5 1px solid; BORDER-TOP: #cccce5 0px solid; BORDER-LEFT: #cccce5 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-rounded-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-rounded-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-rounded-menu-single-item {
+	FONT-WEIGHT: normal; TEXT-ALIGN: center
+}
+.bea-portal-book-rounded-menu-single-item A:link {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-rounded-menu-single-item A:visited {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-rounded-menu-single-item A:active {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-rounded-menu-single-item A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-rounded-menu-single-item-active {
+	FONT-WEIGHT: normal; COLOR: #ffffff; TEXT-ALIGN: center
+}
+.bea-portal-book-radio-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-radio-menu-single {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f0f0ff 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-radio-menu-single A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-radio-menu-single SPAN {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-radio-menu-single A:link {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099
+}
+.bea-portal-book-radio-menu-single A:active {
+	COLOR: #000000
+}
+.bea-portal-book-radio-menu-single A:visited {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099
+}
+.bea-portal-book-radio-menu-single A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: underline
+}
+.bea-portal-book-radio-menu-single SPAN {
+	BORDER-RIGHT: #cccce5 1px solid; BORDER-TOP: #cccce5 0px solid; BORDER-LEFT: #cccce5 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-radio-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-radio-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-radio-menu-single-item {
+	FONT-WEIGHT: 900; FONT-SIZE: 10px; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+.bea-portal-book-radio-menu-single-item A:link {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-radio-menu-single-item A:visited {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-radio-menu-single-item A:active {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-radio-menu-single-item A:hover {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-radio-menu-single-item-active {
+	FONT-WEIGHT: 700; FONT-SIZE: 10px; VERTICAL-ALIGN: top; COLOR: #000000; TEXT-ALIGN: left
+}
+.bea-portal-book-roundedshaded-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-roundedshaded-menu-single {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f0f0ff 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-roundedshaded-menu-single A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-roundedshaded-menu-single SPAN {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-roundedshaded-menu-single A:link {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099
+}
+.bea-portal-book-roundedshaded-menu-single A:active {
+	COLOR: #000000
+}
+.bea-portal-book-roundedshaded-menu-single A:visited {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099
+}
+.bea-portal-book-roundedshaded-menu-single A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: underline
+}
+.bea-portal-book-roundedshaded-menu-single SPAN {
+	BORDER-RIGHT: #cccce5 1px solid; BORDER-TOP: #cccce5 0px solid; BORDER-LEFT: #cccce5 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-roundedshaded-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-roundedshaded-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-roundedshaded-menu-single-item {
+	FONT-SIZE: 10px; TEXT-ALIGN: center
+}
+.bea-portal-book-roundedshaded-menu-single-item A:link {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-roundedshaded-menu-single-item A:visited {
+	COLOR: #0000cd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-roundedshaded-menu-single-item A:active {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-roundedshaded-menu-single-item A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-roundedshaded-menu-single-item-active {
+	FONT-WEIGHT: 600; FONT-SIZE: 11px; COLOR: #000000; TEXT-ALIGN: center
+}
+.bea-portal-book-slanted-primary-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-slanted-primary-menu-single {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: 1px solid
+}
+.bea-portal-book-slanted-primary-menu-single A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-slanted-primary-menu-single SPAN {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-slanted-primary-menu-single A:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-slanted-primary-menu-single A:active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: blue; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-slanted-primary-menu-single A:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-slanted-primary-menu-single A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-slanted-primary-menu-single SPAN {
+	COLOR: #000000
+}
+.bea-portal-book-slanted-primary-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-slanted-primary-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-slanted-primary-menu-single-item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.bea-portal-book-slanted-primary-menu-single-item A:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none;text-align: center;
+}
+.bea-portal-book-slanted-primary-menu-single-item A:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none;text-align: center;
+}
+.bea-portal-book-slanted-primary-menu-single-item A:active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none;text-align: center;
+}
+.bea-portal-book-slanted-primary-menu-single-item A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none;text-align: center;
+}
+.bea-portal-book-slanted-primary-menu-single-item-active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: blue; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none;text-align: center;
+}
+.bea-portal-book-tis-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-tis-menu-single {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f0f0ff 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccce5 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-book-tis-menu-single A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-tis-menu-single SPAN {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+.bea-portal-book-tis-menu-single A:link {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099
+}
+.bea-portal-book-tis-menu-single A:active {
+	COLOR: #000000
+}
+.bea-portal-book-tis-menu-single A:visited {
+	COLOR: #483d8b; BACKGROUND-COLOR: #000099
+}
+.bea-portal-book-tis-menu-single A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-DECORATION: underline
+}
+.bea-portal-book-tis-menu-single SPAN {
+	BORDER-RIGHT: #cccce5 1px solid; BORDER-TOP: #cccce5 0px solid; BORDER-LEFT: #cccce5 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-book-tis-menu-single UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-tis-menu-single LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bea-portal-book-tis-menu-single-item {
+	FONT-SIZE: 10px; TEXT-ALIGN: center
+}
+.bea-portal-book-tis-menu-single-item A:link {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-tis-menu-single-item A:visited {
+	COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-tis-menu-single-item A:active {
+	COLOR: #cccccc; BACKGROUND-COLOR: transparent
+}
+.bea-portal-book-tis-menu-single-item A:hover {
+	COLOR: #cccccc; BACKGROUND-COLOR: transparent
+}
+.bea-portal-book-tis-menu-single-item-active {
+	FONT-WEIGHT: 700; FONT-SIZE: 10px; COLOR: #6633ff; TEXT-ALIGN: center
+}
+.bea-portal-book-tis3-menu-single-container {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px; WIDTH: 100%; PADDING-TOP: 0px; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-book-tis3-menu-single-item-inactive {
+	FONT-WEIGHT: 700; FONT-SIZE: 11px; COLOR: #666666; TEXT-ALIGN: center
+}
+.bea-portal-book-tis3-menu-single-item-inactive A:link {
+	COLOR: #666666; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-tis3-menu-single-item-inactive A:visited {
+	COLOR: #666666; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-tis3-menu-single-item-inactive A:active {
+	COLOR: #d3a9a9; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-tis3-menu-single-item-inactive A:hover {
+	COLOR: #d3a9a9; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.bea-portal-book-tis3-menu-single-item-active {
+	FONT-WEIGHT: 700; FONT-SIZE: 11px; COLOR: #cc3300; TEXT-ALIGN: center
+}
+.entry-key {
+	FONT-WEIGHT: 800; FONT-SIZE: 11px; TEXT-ALIGN: right; white-space:nowrap;
+}
+.entry-value {
+	FONT-SIZE: 11px; TEXT-ALIGN: left; white-space:nowrap;
+}
+.entry-highlight {
+	FONT-WEIGHT: 900; FONT-SIZE: 15px; TEXT-ALIGN: left; white-space:nowrap;
+}
+.entry-bar {
+	PADDING-BOTTOM: 10px; BORDER-BOTTOM: 1px solid
+}
+.entry-error {
+	FONT-WEIGHT: 900; FONT-SIZE: 11px; COLOR: #ff3300; TEXT-ALIGN: right; white-space:nowrap;
+}
+.bea-portal-button {
+	
+}
+.bea-portal-button-delete {
+	
+}
+.bea-portal-button-float {
+	
+}
+.bea-portal-button IMG {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; MARGIN: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid
+}
+.bea-portal-button-delete IMG {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; MARGIN: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid
+}
+.bea-portal-button-float IMG {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; MARGIN: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid
+}
+.bea-portal-button:hover IMG {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; MARGIN: 2px; BORDER-LEFT: #000099 1px solid; BORDER-BOTTOM: #000099 1px solid
+}
+.bea-portal-button-delete:hover IMG {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; MARGIN: 2px; BORDER-LEFT: #000099 1px solid; BORDER-BOTTOM: #000099 1px solid
+}
+.bea-portal-button-float:hover IMG {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; MARGIN: 2px; BORDER-LEFT: #000099 1px solid; BORDER-BOTTOM: #000099 1px solid
+}
+.bea-portal-ie-table-buffer-div {
+	WIDTH: 100%
+}
+FORM {
+	BORDER-RIGHT: #483d8b 0px; PADDING-RIGHT: 0px; BORDER-TOP: #483d8b 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #483d8b 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #483d8b 0px; BACKGROUND-COLOR: transparent
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TEXTAREA {
+	BORDER-RIGHT: black 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: black 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: black 2px solid; COLOR: navy; PADDING-TOP: 2px; BORDER-BOTTOM: black 2px solid; FONT-FAMILY: Verdana,Arial,Helvetica, sans-serif; BACKGROUND-COLOR: infobackground
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; DISPLAY: inline; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #483d8b; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #483d8b; MARGIN: 2px; COLOR: #483d8b; BORDER-TOP-COLOR: #483d8b; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #483d8b
+}
+INPUT[disabled] {
+/* R6.6 T300010454 */
+/*	COLOR: gray; text-shadow: 3px 3px red */
+}
+DIV.button {
+	BACKGROUND-IMAGE: none; FONT: 900 x-small Verdana, Geneva, Arial, Helvetica, sans-serif; COLOR: #0000cd; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none
+}
+.minibutton {
+	PADDING-RIGHT: 0.25em; PADDING-LEFT: 0.25em; PADDING-BOTTOM: 0px; OVERFLOW: visible; WIDTH: auto; PADDING-TOP: 0px
+}
+.miniselect {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; background-color:white
+}
+.searchOptionselect {
+	FONT-SIZE: 9px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bea-portal-layout {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-layout-grid {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-layout-border {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-layout-flow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-layout-grid {
+	WIDTH: 100%
+}
+.bea-portal-layout-placeholder-container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.bea-portal-layout-placeholder {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bea-portal-layout-placeholder-container-east {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.bea-portal-layout-placeholder-container-west {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.bea-portal-layout-placeholder-container-north {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.bea-portal-layout-placeholder-container-south {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.bea-portal-layout-placeholder-container-center {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.portlet-font {
+	FONT-SIZE: small; FONT-FAMILY: arial, tahoma, sans-serif
+}
+.portlet-font-dim {
+	FONT-SIZE: small; FONT-FAMILY: arial, tahoma, sans-serif
+}
+.portlet-font {
+	COLOR: #000000
+}
+.portlet-font-dim {
+	COLOR: #999999
+}
+.portlet-msg-status {
+	FONT-STYLE: italic
+}
+.portlet-msg-info {
+	FONT-WEIGHT: bold
+}
+.portlet-msg-error {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.portlet-msg-alert {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+.portlet-msg-success {
+	FONT-WEIGHT: bold; COLOR: #009900
+}
+.portlet-section-header {
+	BORDER-RIGHT: 0px dotted; PADDING-RIGHT: 0px; BORDER-TOP: 1px dotted; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 120%; PADDING-BOTTOM: 2px; BORDER-LEFT: 0px dotted; COLOR: #333399; PADDING-TOP: 2px; BORDER-BOTTOM: 1px dotted
+}
+.portlet-section-body {
+	BACKGROUND-COLOR: #f0f0ff
+}
+.portlet-section-alternate {
+	BACKGROUND-COLOR: #d8d8ff
+}
+.portlet-section-selected {
+	COLOR: #ffffff; BACKGROUND-COLOR: #9999ff
+}
+.portlet-section-subheader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #6666cc; PADDING-TOP: 2px
+}
+.portlet-section-footer {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%
+}
+.portlet-section-text {
+	
+}
+.portlet-form-label {
+	
+}
+.portlet-form-input-field {
+	
+}
+.portlet-form-button {
+	
+}
+.portlet-icon-label {
+	
+}
+.portlet-dlg-icon-label {
+	
+}
+.portlet-form-field-label {
+	
+}
+.portlet-form-field {
+	
+}
+.portlet-menu {
+	
+}
+.portlet-menu-item {
+	
+}
+.portlet-menu-item-selected {
+	
+}
+.portlet-menu-item-hover {
+	
+}
+.portlet-menu-item-hover-selected {
+	
+}
+.portlet-menu-cascade-item {
+	
+}
+.portlet-menu-cascade-item-selected {
+	
+}
+.portlet-menu-description {
+	
+}
+.portlet-menu-caption {
+	
+}
+TD.search-tablet-cell {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+TD.search-normal-cell {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.bea-portal-window {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 6px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid; HEIGHT: 100%
+}
+.bea-portal-window-content {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999999 1px solid; SCROLLBAR-BASE-COLOR: #d8d8e5; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-window-content-table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-window-content-bottom {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-content-bottom-left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-content-bottom-right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-content-header-row {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #000000 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-BOTTOM: #000000 1px solid; TEXT-ALIGN: left
+}
+.bea-portal-window-content-row-first {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #dfdede
+}
+.bea-portal-window-content-row-second {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-window-content-row-third {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #999999
+}
+.bea-portal-window-details-titlebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bea-portal-window-titlebar-container {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-window-icon {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.bea-portal-window-icon IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bea-portal-window-titlebar-title {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center; blue-space: nowrap
+}
+.bea-portal-window-titlebar-title-results {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+.bea-portal-window-titlebar-buttons {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right; blue-space: nowrap
+}
+IMG.bea-portal-window-titlebar-togglebuttons {
+	CLEAR: both; PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.portlet-pagination {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.bea-portal-window-roundtopwhite {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 6px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid; HEIGHT: 100%
+}
+.bea-portal-window-roundtopwhite-content {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999999 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999999 1px solid; SCROLLBAR-BASE-COLOR: #d8d8e5; BACKGROUND-COLOR: #cccccc
+}
+.bea-portal-window-roundtopwhite-titlebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-roundtopwhite-titlebar-container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-window-roundtopwhite-icon {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 1%; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.bea-portal-window-roundtopwhite-icon IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bea-portal-window-roundtopwhite-titlebar-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.bea-portal-window-roundtopwhite-titlebar-buttons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+.bea-portal-window-roundtopwhite-inner-content {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-details-window {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 6px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid; HEIGHT: 100%
+}
+.bea-portal-details-window-content {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #999999 1px solid; SCROLLBAR-BASE-COLOR: #d8d8e5; BACKGROUND-COLOR: #ffffff
+}
+HTML > BODY .bea-portal-details-window-content LI {
+	MARGIN-LEFT: 10px
+}
+.bea-portal-details-window-content-bottom {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-details-window-content-bottom-left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-details-window-content-bottom-right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-details-titlebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bea-portal-details-window-titlebar-container {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-details-window-icon {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.bea-portal-details-window-icon IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bea-portal-details-window-titlebar-title {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center; blue-space: nowrap
+}
+.bea-portal-details-window-titlebar-title-results {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+.bea-portal-details-window-titlebar-buttons {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right; blue-space: nowrap
+}
+IMG.bea-portal-details-window-titlebar-togglebuttons {
+	CLEAR: both; PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.bea-portal-blank-window {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 100%
+}
+.bea-portal-blank-window-content {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 4px; BORDER-RIGHT-STYLE: none; SCROLLBAR-BASE-COLOR: #d8d8e5; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #f0f8ff; BORDER-BOTTOM-STYLE: none
+}
+.bea-portal-blank-window-content-bottom {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-blank-window-content-bottom-left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-blank-window-content-bottom-right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-blank-titlebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bea-portal-blank-window-titlebar-container {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-blank-window-icon {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.bea-portal-blank-window-icon IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bea-portal-blank-window-titlebar-title {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center; blue-space: nowrap
+}
+.bea-portal-blank-window-titlebar-title-results {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+.bea-portal-blank-window-titlebar-buttons {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right; blue-space: nowrap
+}
+IMG.bea-portal-blank-window-titlebar-togglebuttons {
+	CLEAR: both; PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+IMG.block {
+	DISPLAY: block
+}
+.bea-portal-window-wht3d {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 6px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid; HEIGHT: 100%
+}
+.bea-portal-window-wht3d-content {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px; BACKGROUND-COLOR: #ffffff
+}
+.bea-portal-window-wht3d-content-top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-content-top-left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-content-top-right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-content-sideborder-left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-content-sideborder-right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-content-bottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-content-bottom-left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-content-bottom-right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-titlebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.bea-portal-window-wht3d-titlebar-container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-window-wht3d-icon {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 1%; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.bea-portal-window-wht3d-icon IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bea-portal-window-wht3d-titlebar-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.bea-portal-window-wht3d-titlebar-buttons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+.bea-portal-shady-window {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 6px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid
+}
+.bea-portal-shady-window-content {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 0px
+}
+.bea-portal-shady-window-titlebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: small; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.bea-portal-shady-window-titlebar-container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.bea-portal-shady-window-icon {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 1%; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.bea-portal-shady-window-icon IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bea-portal-shady-window-titlebar-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.bea-portal-shady-window-titlebar-buttons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}

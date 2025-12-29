@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2025 Tacoma – TIS Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --bg-elevated: #111827;
+      --border-subtle: #283548;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-soft: rgba(59,130,246,0.18);
+      --link: #60a5fa;
+      --highlight: #f97316;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 1.75rem 1rem 2.5rem;
+      background: var(--bg);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+    }
+
+    body.light-mode {
+      --bg: #f7f7f7;
+      --bg-elevated: #ffffff;
+      --border-subtle: #d1d5db;
+      --text-main: #111827;
+      --text-muted: #6b7280;
+      --accent: #2563eb;
+      --accent-soft: rgba(37,99,235,0.14);
+      --link: #1d4ed8;
+      --highlight: #b45309;
+    }
+
+    #app {
+      width: 100%;
+      max-width: 720px;
+    }
+
+    header {
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.7rem;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle {
+      margin: 0 0 0.75rem;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    /* Top toolbar - kept compact and left-aligned */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .toolbar-right {
+      margin-left: auto;
+    }
+
+    .toolbar button {
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-elevated);
+      cursor: pointer;
+      font-size: 0.8rem;
+      color: var(--text-main);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      white-space: nowrap;
+    }
+
+    .toolbar button:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.15rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      background: rgba(15,23,42,0.7);
+    }
+
+    body.light-mode .badge {
+      background: rgba(255,255,255,0.8);
+    }
+
+    /* TOC-style list */
+    .card-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .card-link-outer {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      background: var(--bg-elevated);
+      border-radius: 0.75rem;
+      padding: 0.7rem 0.9rem;
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.6rem;
+      transition: transform 110ms ease, box-shadow 110ms ease, border-color 110ms ease, background 110ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+      border-color: var(--accent);
+      background: radial-gradient(circle at top left, rgba(59,130,246,0.16), transparent 55%), var(--bg-elevated);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+    }
+
+    .card-emoji {
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    .card-chevron {
+      font-size: 1rem;
+      opacity: 0.65;
+    }
+
+    .small-note {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 0.8rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1.25rem 0.8rem 2rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .toolbar {
+        flex-wrap: wrap;
+      }
+      .toolbar-right {
+        margin-left: 0;
+      }
+      .card {
+        padding: 0.65rem 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>2025 Tacoma Technical Information</h1>
+      <p class="subtitle">Central hub for various TIS manuals.</p>
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <span class="badge">
+            <span>📂</span>
+            <span>Section index</span>
+          </span>
+        </div>
+        <div class="toolbar-right">
+          <button id="themeToggleBtn" type="button" title="Toggle dark / light mode">
+            <span>🌓</span>
+            <span>Theme</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card-grid" aria-label="Section links">
+
+        <!-- Repair Manual -->
+        <a class="card-link-outer" href="./document/rm/RM43B0U/xhtml/RM_homepage.html">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-emoji" aria-hidden="true">🔩</div>
+              <div>
+                <h2 class="card-title">RM – Repair Manual</h2>
+                <div class="card-meta">Repair procedures, diagnostics, and specs</div>
+              </div>
+            </div>
+            <span class="card-chevron" aria-hidden="true">›</span>
+          </article>
+        </a>
+
+        <!-- Electrical Wiring Diagram -->
+        <a class="card-link-outer" href="./document/ewd/EWD_homepage.html">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-emoji" aria-hidden="true">⚡</div>
+              <div>
+                <h2 class="card-title">EWD – Electrical Wiring Diagram</h2>
+                <div class="card-meta">System circuits, connectors, and harness routing</div>
+              </div>
+            </div>
+            <span class="card-chevron" aria-hidden="true">›</span>
+          </article>
+        </a>
+
+        <!-- Accessory Installation -->
+        <a class="card-link-outer" href="./document/accy/ACCY_homepage.html">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-emoji" aria-hidden="true">🧩</div>
+              <div>
+                <h2 class="card-title">ACCY – Accessories</h2>
+                <div class="card-meta">Accessory installation procedures and information</div>
+              </div>
+            </div>
+            <span class="card-chevron" aria-hidden="true">›</span>
+          </article>
+        </a>
+
+        <!-- Collision Repair Manual -->
+        <a class="card-link-outer" href="./document/cr/BM43B0U/xhtml/CR_homepage.html">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-emoji" aria-hidden="true">🛠️</div>
+              <div>
+                <h2 class="card-title">CR – Collision Repair</h2>
+                <div class="card-meta">Body repair, structural dimensions, panel replacement</div>
+              </div>
+            </div>
+            <span class="card-chevron" aria-hidden="true">›</span>
+          </article>
+        </a>
+
+        <!-- New Car Features -->
+        <a class="card-link-outer" href="./document/ncf/NM43B0U/xhtml/NCF_homepage.html">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-emoji" aria-hidden="true">🛻</div>
+              <div>
+                <h2 class="card-title">NCF – New Car Features</h2>
+                <div class="card-meta">Model overview, new systems, and feature descriptions</div>
+              </div>
+            </div>
+            <span class="card-chevron" aria-hidden="true">›</span>
+          </article>
+        </a>
+
+        <!-- Quick Training Guides -->
+        <a class="card-link-outer" href="./document/qtg/QTG_homepage.html">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-emoji" aria-hidden="true">📚</div>
+              <div>
+                <h2 class="card-title">QTG – Quick Training Guides</h2>
+                <div class="card-meta">Condensed training and reference materials</div>
+              </div>
+            </div>
+            <span class="card-chevron" aria-hidden="true">›</span>
+          </article>
+        </a>
+
+        <!-- Service Campaigns -->
+        <a class="card-link-outer" href="./document/sc/SC_homepage.html">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-emoji" aria-hidden="true">⚠️</div>
+              <div>
+                <h2 class="card-title">SC – Service Campaigns</h2>
+                <div class="card-meta">Recall campaigns and related procedures</div>
+              </div>
+            </div>
+            <span class="card-chevron" aria-hidden="true">›</span>
+          </article>
+        </a>
+
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (function() {
+      const STORAGE_KEY_THEME = 'tacomaManualTheme_v1';
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+
+      function applyTheme(theme) {
+        if (theme === 'light') {
+          document.body.classList.add('light-mode');
+        } else {
+          document.body.classList.remove('light-mode');
+        }
+      }
+
+      function loadTheme() {
+        try {
+          return localStorage.getItem(STORAGE_KEY_THEME) || 'dark';
+        } catch (e) {
+          return 'dark';
+        }
+      }
+
+      function saveTheme(theme) {
+        try {
+          localStorage.setItem(STORAGE_KEY_THEME, theme);
+        } catch (e) {}
+      }
+
+      let currentTheme = loadTheme();
+      applyTheme(currentTheme);
+
+      if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', function () {
+          currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+          applyTheme(currentTheme);
+          saveTheme(currentTheme);
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+.non-portal-body {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #7f7fb2
+}
+.non-portal-body A {
+	DISPLAY: inline; TEXT-DECORATION: none
+}
+.non-portal-body A:hover {
+	TEXT-DECORATION: underline
+}
+.non-portal-waitpage-content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.non-portal-waitpage-body {
+	BACKGROUND-COLOR: #ffffff
+}
+.calendar-cpYearNavigation {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.calendar-cpMonthNavigation {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #000099; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.calendar-cpDayColumnHeader {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpYearNavigation {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpMonthNavigation {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpCurrentMonthDate {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpCurrentMonthDateDisabled {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpOtherMonthDate {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpOtherMonthDateDisabled {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpCurrentDate {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpCurrentDateDisabled {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpTodayText {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpTodayTextDisabled {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.calendar-cpText {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+TD.calendar-cpDayColumnHeader {
+	FONT-WEIGHT: bold; TEXT-ALIGN: right
+}
+.calendar-cpCurrentMonthDate {
+	TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.calendar-cpOtherMonthDate {
+	TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.calendar-cpCurrentDate {
+	TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.calendar-cpCurrentMonthDateDisabled {
+	COLOR: #000099; TEXT-ALIGN: right; TEXT-DECORATION: line-through
+}
+.calendar-cpOtherMonthDateDisabled {
+	COLOR: #000099; TEXT-ALIGN: right; TEXT-DECORATION: line-through
+}
+.calendar-cpCurrentDateDisabled {
+	COLOR: #000099; TEXT-ALIGN: right; TEXT-DECORATION: line-through
+}
+.calendar-cpCurrentMonthDate {
+	FONT-WEIGHT: bold; COLOR: #000099
+}
+.calendar-cpCurrentDate {
+	FONT-WEIGHT: bold; COLOR: #ffffff
+}
+.calendar-cpOtherMonthDate {
+	COLOR: #808080
+}
+TD.calendar-cpCurrentDate {
+	BORDER-RIGHT: #000000 thin solid; BORDER-TOP: #000000 thin solid; BORDER-LEFT: #000000 thin solid; COLOR: #ffffff; BORDER-BOTTOM: #000000 thin solid; BACKGROUND-COLOR: #000099
+}
+TD.calendar-cpCurrentDateDisabled {
+	BORDER-RIGHT: #ffaaaa thin solid; BORDER-TOP: #ffaaaa thin solid; BORDER-LEFT: #ffaaaa thin solid; BORDER-BOTTOM: #ffaaaa thin solid
+}
+TD.calendar-cpTodayText {
+	BORDER-RIGHT: #000099 thin solid; BORDER-TOP: #000099 thin solid; BORDER-LEFT: #000099 thin solid; BORDER-BOTTOM: #000099 thin solid
+}
+TD.calendar-cpTodayTextDisabled {
+	BORDER-RIGHT: #000099 thin solid; BORDER-TOP: #000099 thin solid; BORDER-LEFT: #000099 thin solid; BORDER-BOTTOM: #000099 thin solid
+}
+A.calendar-cpTodayText {
+	HEIGHT: 20px
+}
+SPAN.calendar-cpTodayTextDisabled {
+	HEIGHT: 20px
+}
+A.calendar-cpTodayText {
+	FONT-WEIGHT: bold; COLOR: #000099
+}
+SPAN.calendar-cpTodayTextDisabled {
+	COLOR: #d0d0d0
+}
+.calendar-cpBorder {
+	BORDER-RIGHT: #000099 thin solid; BORDER-TOP: #000099 thin solid; BORDER-LEFT: #000099 thin solid; BORDER-BOTTOM: #000099 thin solid
+}
+.browser-detect-body {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.browser-detect-body-footer {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}

@@ -1,0 +1,144 @@
+ /*
+// --------------------------------------------------------------------------------------------------------------------
+// Custom CSS created by Dawn for Snap-On Pages
+// --------------------------------------------------------------------------------------------------------------------
+*/
+ 
+ .bodysnap {
+	background-color: #f0f8ff;
+}
+
+table.sc_border  {
+	border-collapse: collapse;
+	border: solid;
+	width: 100%;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+table.sc_noborder  {
+	border-collapse: collapse;
+	border: none;	
+	width: 100%;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+table.sc_border_sub  {
+	border-collapse: collapse;
+	border: solid;
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;	
+}
+
+th.sc_bottomborder_sub  {
+	border-left: none;
+	border-right: solid;
+	border-bottom: solid;
+	border-top: none;	
+	padding: 5px 5px 5px 5px;
+	background-color:#CCCCCC;
+}
+
+td.sc_leftborder_sub  {
+	border-left: solid;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+	padding: 5px 5px 5px 5px;
+}
+
+
+td.sc_leftborder  {
+	border-left: solid;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+td.sc_topborder  {
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: solid;
+	align: center;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+td.sc_rightborder  {
+	border-left: none;
+	border-right: solid;
+	border-bottom: none;
+	border-top: none;
+	align: center;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+td.sc_bottomborder  {
+	border-left: none;
+	border-right: none;
+	border-bottom: solid;
+	border-top: none;
+	align: center;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+td.sc_leftborderb  {
+	border-left: solid #CCCCCC;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+td.sc_topborderb  {
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: solid #CCCCCC;
+	align: center;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+td.sc_rightborderb  {
+	border-left: none;
+	border-right: solid #CCCCCC;
+	border-bottom: none;
+	border-top: none;
+	align: center;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+td.sc_bottomborderb  {
+	border-left: none;
+	border-right: none;
+	border-bottom: solid #CCCCCC;
+	border-top: none;
+	align: center;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+ /* For Snap-On Pages */
+ 
+.scontent {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+
+ /* For Snap-On IFRAME aqua border instead of white */
+
+.bea-portal-blank-window-content-snapiframe {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 4px; BORDER-RIGHT-STYLE: none; SCROLLBAR-BASE-COLOR: #d8d8e5; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #f0f8ff; BORDER-BOTTOM-STYLE: none
+}
+
+.subprogbar {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
