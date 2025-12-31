@@ -1,0 +1,2453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+  PUBLIC "-//W3//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+   <head>
+      <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): U115687; Lost Communication with TCM (ch2) Missing Message; 2024 MY Tacoma HV [03/2024 - 12/2024]</title>
+      <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css"/>
+      <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"> </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   </head>
+   <body id="C">
+      <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002L44Y">
+         <colgroup>
+            <col/>
+         </colgroup>
+         <tbody>
+            <tr>
+               <td class="frame">
+                  <table width="100%" class="side" border="1">
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="1">
+                           <b>Last Modified: </b>12-09-2025</td>
+                        <td class="side">6.11:8.1.0 </td>
+                        <td class="side">
+                           <b>Doc ID: </b>RM100000002L44Y</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top">
+                           <b>Model Year Start: </b>2024</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Model: </b>Tacoma HV</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Prod Date Range: </b>[03/2024 - 12/2024]</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="3">
+                           <b>Title: </b>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): U115687; Lost Communication with TCM (ch2) Missing Message; 2024 MY Tacoma HV [03/2024 - 12/2024]</td>
+                     </tr>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">U115687</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Lost Communication with TCM (ch2) Missing Message</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+   
+                  <a name="RM100000002L44Y_02"> </a>
+      
+                  <h2 class="name">MONITOR DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The ECM exchanges CAN communication signals with the hybrid vehicle control ECU assembly, TCM and motor generator control ECU via CAN communication (motor local bus).</p>
+         
+                  <div class="content5">
+                     <h4 class="listtitle">The following ECUs are connected to the motor local bus.</h4>
+                     <ul class="list">
+                        <li>
+               ECM
+            </li>
+                        <li>
+               Hybrid vehicle control ECU assembly
+            </li>
+                        <li>
+               Motor generator control ECU
+            </li>
+                        <li>
+               TCM
+            </li>
+                     </ul>
+                  </div>
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                  
+                        <tr>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC No.</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Detection Item</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Detection Condition</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Trouble Area</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">MIL</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Output from</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Priority</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Note</p>
+                     
+                           </th>
+                  
+                        </tr>
+               
+                     </thead>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">U115687</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Lost Communication with TCM (ch2) Missing Message</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">All of the following conditions are met for 1 second or more (1 trip detection logic).</p>
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Ignition switch ON
+                              </li>
+                                    <li>
+                                 Auxiliary battery voltage is 10 V or higher
+                              </li>
+                                    <li>
+                                 No communication between ECM and TCM (motor local bus)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 TCM
+                              </li>
+                                    <li>
+                                 ECM
+                              </li>
+                                    <li>
+                                 Hybrid vehicle control ECU assembly
+                              </li>
+                                    <li>
+                                 Motor generator control ECU
+                              </li>
+                                    <li>
+                                 ECU power source circuit
+                              </li>
+                                    <li>
+                                 Wire harness or connector
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Engine</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE: U1156
+                              </li>
+                                    <li>
+                                 DTC for Mexico Models: Applies
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002L44Y_05"> </a>
+      
+                  <h2 class="name">MONITOR STRATEGY</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Related DTCs</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">U1156: Lost communication with TCM (motor local bus) (verify communication)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Required Sensors/Components (Main)</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">ECM</p>
+                        
+                              <p class="para">TCM</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Required Sensors/Components (Related)</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Frequency of Operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Continuous</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Duration</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">1 second</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">MIL Operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Immediate</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Sequence of Operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002L44Y_06"> </a>
+      
+                  <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col align="left"/>
+                        <col align="left"/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Auxiliary battery voltage</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">10 V or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Ignition switch</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">ON</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002L44Y_07"> </a>
+      
+                  <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col align="left"/>
+                        <col align="left"/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Communication signal</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Lost communication with TCM (motor local bus)</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002L44Y_08"> </a>
+      
+                  <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+      
+         
+            
+                  <div class="hint">
+                     <p class="hintgen">HINT:</p>
+                     <ul class="hint">
+                        <li>
+                  After repair has been completed, clear the DTC and then check that the vehicle has returned to normal by performing the following All Readiness check procedure.
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d680e649" href="./RM100000002KD3K.html?linkId=d680e649&amp;hashId=RM100000002KD3K#RM100000002KD3K" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                        <li>
+                  When clearing the permanent DTCs, refer to the "CLEAR PERMANENT DTC" procedure.
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d680e663" href="./RM100000002KD0T.html?linkId=d680e663&amp;hashId=RM100000002KD0T#RM100000002KD0T" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                     </ul>
+                  </div>
+         
+         
+                  <div class="content5">
+                     <ol class="list">
+                        <li>
+               Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+            </li>
+                        <li>
+               Turn the ignition switch off and wait for at least 30 seconds.
+            </li>
+                        <li>
+               Turn the ignition switch to ON.
+            </li>
+                        <li>
+               Wait 5 seconds or more [A].
+            </li>
+                        <li>
+               Enter the following menus: Powertrain / Engine / Trouble Codes [B].
+            </li>
+                        <li>
+               Read the DTCs.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If a pending DTC is output, the system is malfunctioning.
+                     </li>
+                                 <li>
+                        If a pending DTC is not output, perform the following procedure.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                        <li>
+               Enter the following menus: Powertrain / Engine / Utility / All Readiness.
+            </li>
+                        <li>
+               Input the DTC: U115687.
+            </li>
+                        <li>
+               Check the DTC judgment result.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If the judgment result is NORMAL, the system is normal.
+                     </li>
+                                 <li>
+                        If the judgment result is ABNORMAL, the system has a malfunction.
+                     </li>
+                                 <li>
+                        If the judgment result is INCOMPLETE, perform steps [A] through [B] again.
+                     </li>
+                                 <li>
+                        [A] to [B]: Normal judgment procedure.
+                        <p class="para2">The normal judgment procedure is used to complete DTC judgment and also used when clearing permanent DTCs.</p>
+                     
+                                 </li>
+                                 <li>
+                        When clearing the permanent DTCs, do not disconnect the cable from the auxiliary battery terminal or attempt to clear the DTCs during this procedure, as doing so will clear the universal trip and normal judgment histories.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                     </ol>
+                  </div>
+      
+   
+   
+                  <a name="RM100000002L44Y_03"> </a>
+      
+                  <h2 class="name">WIRING DIAGRAM</h2>
+      
+         
+                  <p class="content5">
+                                    Click here
+                                    <span class="mlink">
+                        <span class="myfrom:2024 myto:2024 startdate:202403 enddate:202412 ">
+                           <a id="d680e797" href="./RM100000002L44X.html?linkId=d680e797&amp;hashId=RM100000002L44X#RM100000002L44X" title="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): U115287; Lost Communication with Hybrid Powertrain Control Module (ch4) Missing Message">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 MY Tacoma HV [03/2024 - 12/2024]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): U115287; Lost Communication with Hybrid Powertrain Control Module (ch4) Missing Message"/>
+                           </a>
+                        </span>
+                     </span>
+         
+                  </p>
+      
+   
+   
+                  <a name="RM100000002L44Y_04"> </a>
+      
+                  <h2 class="name">CAUTION / NOTICE / HINT</h2>
+      
+         
+                  <p class="content5">This diagnostic procedure is referenced to in the diagnostic procedure of several DTCs.</p>
+         
+                  <p class="content5">If the result of this diagnostic procedure is normal, proceed as directed in the procedure for the DTC.</p>
+         
+            
+                  <p class="warngen">CAUTION:</p>
+                  <p class="warn">Refer to the precautions before inspecting high voltage circuit.</p>
+            
+                  <p class="warning">
+                                        Click here
+                                        <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d680e825" href="./RM100000002K67K.html?linkId=d680e825&amp;hashId=RM100000002K67K#RM100000002K67K" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): PRECAUTION">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): PRECAUTION"/>
+                           </a>
+                        </span>
+                     </span>
+            
+                  </p>
+         
+         
+            
+                  <div class="notice">
+                     <p class="notegen">NOTICE:</p>
+                     <ul class="note">
+                        <li>
+                  Vehicle Control History may be stored in the hybrid vehicle control ECU assembly if the engine is malfunctioning. Certain vehicle condition information is recorded when Vehicle Control History is stored. Reading the vehicle conditions recorded in both the freeze frame data and Vehicle Control History can be useful for troubleshooting.
+                  <p class="para2">(Select Powertrain in Health Check and then check the time stamp data.)</p>
+               
+                        </li>
+                        <li>
+                  If any "Engine Malfunction" Vehicle Control History item has been stored in the hybrid vehicle control ECU assembly, make sure to clear it. However, as all Vehicle Control History items are cleared simultaneously, if any Vehicle Control History items other than "Engine Malfunction" are stored, make sure to perform any troubleshooting for them before clearing Vehicle Control History.
+               </li>
+                        <li>
+                  After the ignition switch is turned off, there may be a waiting time before disconnecting the negative (-) auxiliary battery terminal.
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                                    <a id="d680e858" href="./RM100000002HFUZ.html?linkId=d680e858&amp;hashId=RM100000002HFUZ#RM100000002HFUZ" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN DISCONNECTING OR RECONNECTING BATTERY TERMINAL: BEFORE DISCONNECTING BATTERY">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN DISCONNECTING OR RECONNECTING BATTERY TERMINAL: BEFORE DISCONNECTING BATTERY"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                        <li>
+                  When disconnecting and reconnecting the auxiliary battery.
+                  
+                     <p class="hintgen">HINT:</p>
+                           <p class="hint">When disconnecting and reconnecting the auxiliary battery, there is an automatic learning function that completes learning when the respective system is used.</p>
+                     
+                           <p class="para2">
+                                                    Click here
+                                                    <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                                    <a id="d680e877" href="./RM100000002HFV0.html?linkId=d680e877&amp;hashId=RM100000002HFV0#RM100000002HFV0" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN DISCONNECTING OR RECONNECTING BATTERY TERMINAL: AUTOMATIC LEARNING CHART">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN DISCONNECTING OR RECONNECTING BATTERY TERMINAL: AUTOMATIC LEARNING CHART"/>
+                                    </a>
+                                 </span>
+                              </span>
+                     
+                           </p>
+                  
+               
+                        </li>
+                     </ul>
+                  </div>
+         
+         
+            
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">Read Freeze Frame Data using the GTS. The ECM records vehicle and driving condition information as Freeze Frame Data the moment a DTC is stored. When troubleshooting, Freeze Frame Data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.</p>
+         
+      
+   
+   
+                  <a name="RM100000002L44Y_01"> </a>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <a name="RM100000002L44Y_01_0001"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">1. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK CAN BUS MAIN WIRE (OPEN OR SHORT IN MOTOR LOCAL BUS)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the cable from the negative (-) auxiliary battery terminal.</p>
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the ECM connector.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e947" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A11')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(A11)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e955" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A11&amp;pinno=7,20')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(A11)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002L44Y_01_0001_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A11-7 (CANP) - A11-20 (CANN)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">108 to 132 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A11-7 (CANP) or A11-20 (CANN) - Other supply terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">6 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A11-7 (CANP) or A11-20 (CANN) - Body ground</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">200 Ω or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                                 <a id="d680e1161_childid" href="RM100000002L44Y.html@sisuffix=ff&amp;locale=en&amp;siid=1767138225420.html#RM100000002L44Y_01_0038" title="INSPECT TCM">GO TO STEP 8</a>
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0002"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">2. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK HARNESS AND CONNECTOR (TCM - ECM)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the TCM connector.</p>
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the ECM connector.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e1220" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=D30,A11')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(D30,A11)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e1228" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D30&amp;pinno=15,16')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(D30)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e1236" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A11&amp;pinno=7,20')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(A11)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002L44Y_01_0002_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D30-15 (CANU) - A11-7 (CANP)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ignition switch off</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Below 1 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D30-16 (CAND) - A11-20 (CANN)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ignition switch off</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Below 1 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D30-15 (CANU) or A11-7 (CANP) - Body ground and other terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ignition switch off</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">10 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D30-16 (CAND) or A11-20 (CANN) - Body ground and other terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ignition switch off</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">10 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0003"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">3. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK HARNESS AND CONNECTOR (NO. 2 ENGINE ROOM RELAY BLOCK AND JUNCTION BLOCK ASSEMBLY - TCM)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">
+                                            Click here
+                                            <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d680e1499" href="./RM100000002K292.html?linkId=d680e1499&amp;hashId=RM100000002K292_01_0002#RM100000002K292_01_0002" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: TCM Power Source Circuit+">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: TCM Power Source Circuit+"/>
+                           </a>
+                        </span>
+                     </span>
+               
+                  </p>
+            
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0005"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">4. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK HARNESS AND CONNECTOR (TCM - BODY GROUND)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">
+                                            Click here
+                                            <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d680e1595" href="./RM100000002K292.html?linkId=d680e1595&amp;hashId=RM100000002K292_01_0001#RM100000002K292_01_0001" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: TCM Power Source Circuit+">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: TCM Power Source Circuit+"/>
+                           </a>
+                        </span>
+                     </span>
+               
+                  </p>
+            
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0040"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">5. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">REPLACE TCM</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">
+                                            Click here
+                                            <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d680e1691" href="./RM100000002K2DP.html?linkId=d680e1691&amp;hashId=RM100000002K2DP#RM100000002K2DP" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): TCM: REMOVAL">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): TCM: REMOVAL"/>
+                           </a>
+                        </span>
+                     </span>
+               
+                  </p>
+            
+            
+         
+         
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               NEXT
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0035"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">6. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CLEAR DTC</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) None</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(b) Clear the DTCs.</p>
+                  
+                  <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Clear DTCs</h4>
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) Turn the ignition switch off and wait for at least 30 seconds.</p>
+               
+            
+         
+         
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               NEXT
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0036"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">7. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK WHETHER DTC OUTPUT RECURS (DTC U115687)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Drive the vehicle in accordance with the driving pattern described in the Confirmation Driving Pattern.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(b) Read the DTCs.</p>
+                  
+                  <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Trouble Codes</h4>
+                  
+                     
+                     
+                        
+                  <table width="100%" border="1" class="result">
+                           
+                           
+                           
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Proceed to</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                           
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">DTCs are not output</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">A</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">U115687 is output</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">B</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                        
+                  </table>
+                     
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">A</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">END</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">B</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d680e2016" href="./RM100000002K474.html?linkId=d680e2016&amp;hashId=RM100000002K474#RM100000002K474" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">REPLACE ECM</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0038"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">8. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">INSPECT TCM</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the cable from the negative (-) auxiliary battery terminal.</p>
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the TCM connector.</p>
+                  
+                     
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">Check the other ECUs are connected.</p>
+                  
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e2077" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=D30')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(D30)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e2085" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D30&amp;pinno=15,16')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(D30)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002L44Y_01_0038_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D30-15 (CANU) - D30-16 (CAND)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">54 to 69 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D30-15 (CANU) or D30-16 (CAND) - Other supply terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">6 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D30-15 (CANU) or D30-16 (CAND) - Body ground</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">200 Ω or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d680e2302" href="./RM100000002K2DP.html?linkId=d680e2302&amp;hashId=RM100000002K2DP#RM100000002K2DP" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): TCM: REMOVAL">REPLACE TCM</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                                 <a id="d680e2314_childid" href="RM100000002L44Y.html@sisuffix=ff&amp;locale=en&amp;siid=1767138225420.html#RM100000002L44Y_01_0027" title="INSPECT HYBRID VEHICLE CONTROL ECU ASSEMBLY">GO TO STEP 9</a>
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0027"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">9. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">INSPECT HYBRID VEHICLE CONTROL ECU ASSEMBLY</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the cable from the negative (-) auxiliary battery terminal.</p>
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the hybrid vehicle control ECU assembly connector.</p>
+                  
+                     
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">Check the other ECUs are connected.</p>
+                  
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e2371" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A76')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(A76)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e2379" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A76&amp;pinno=13,2')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(A76)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002L44Y_01_0027_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A76-13 (CA5H) - A76-2 (CA5L)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">54 to 69 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A76-13 (CA5H) or A76-2 (CA5L) - Other supply terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">6 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A76-13 (CA5H) or A76-2 (CA5L) - Body ground</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">200 Ω or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d680e2596" href="./RM100000002KAKE.html?linkId=d680e2596&amp;hashId=RM100000002KAKE#RM100000002KAKE" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID VEHICLE CONTROL ECU: REMOVAL">REPLACE HYBRID VEHICLE CONTROL ECU ASSEMBLY</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                                 <a id="d680e2608_childid" href="RM100000002L44Y.html@sisuffix=ff&amp;locale=en&amp;siid=1767138225420.html#RM100000002L44Y_01_0029" title="INSPECT MOTOR GENERATOR CONTROL ECU">GO TO STEP 10</a>
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002L44Y_01_0029"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">10. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">INSPECT MOTOR GENERATOR CONTROL ECU</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="warngen">CAUTION:</p>
+                  <p class="warn">Be sure to wear insulated gloves.</p>
+            
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Check that the service plug grip is not installed.</p>
+                  
+                     
+                  <p class="notegen">NOTICE:</p>
+                  <p class="note">After removing the service plug grip, do not turn the ignition switch to ON (READY), unless instructed by the repair manual because this may cause a malfunction.</p>
+                  
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the cable from the negative (-) auxiliary battery terminal.</p>
+               
+               
+                  
+                  <p class="test1">(c) Disconnect the motor generator control ECU connector.</p>
+                  
+                     
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">Check the other ECUs are connected.</p>
+                  
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(d) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e2683" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=A77')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(A77)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d680e2691" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A77&amp;pinno=37,36')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(A77)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002L44Y_01_0029_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A77-37 (HMCH) - A77-36 (HMCL)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">108 to 132 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A77-37 (HMCH) or A77-36 (HMCL) - Other supply terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">6 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A77-37 (HMCH) or A77-36 (HMCL) - Body ground</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Cable disconnected from negative (-) auxiliary battery terminal</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">200 Ω or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(e) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d680e2908" href="./RM100000002KAKG.html?linkId=d680e2908&amp;hashId=RM100000002KAKG#RM100000002KAKG" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: INVERTER WITH CONVERTER: REMOVAL">REPLACE MOTOR GENERATOR CONTROL ECU (HYBRID MOTOR CONTROL INVERTER ASSEMBLY)</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR (MOTOR LOCAL BUS)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+   
+
+                  <table class="footer" width="100%" cellpadding="0" cellspacing="0">
+                     <colgroup>
+                        <col/>
+                        <col style="text-align:center"/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td class="foot" width="30" height="18">
+                              <img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""/>
+                           </td>
+                           <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"/>
+                           <td class="foot" width="80" height="18" align="right">
+                              <img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>
