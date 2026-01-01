@@ -1,1163 +1,1875 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+  PUBLIC "-//W3//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-  <title>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY
-  CONTROLLED BRAKE SYSTEM (except Gasoline Model): VEHICLE CONTROL
-  HISTORY (RoB); 2024 - 2026 MY Tacoma HV [03/2024 -
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
-  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
-  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body id="D">
-  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K500">
-    <colgroup>
-      <col>
-    </colgroup>
-    <tbody>
-      <tr>
-        <td class="frame">
-          <table width="100%" class="side" border="1">
+   <head>
+      <title>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): VEHICLE CONTROL HISTORY (RoB); 2024 - 2026 MY Tacoma HV [03/2024 -        ]</title>
+      <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css"/>
+      <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"> </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   </head>
+   <body id="D">
+      <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K500">
+         <colgroup>
+            <col/>
+         </colgroup>
+         <tbody>
             <tr>
-              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
-              <td class="side">6.11:8.1.0</td>
-              <td class="side"><b>Doc ID:</b> RM100000002K500</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top"><b>Model
-              Year Start:</b> 2024</td>
-              <td class="side" align="left" valign="top">
-              <b>Model:</b> Tacoma HV</td>
-              <td class="side" align="left" valign="top"><b>Prod
-              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; ]</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> BRAKE CONTROL / DYNAMIC CONTROL
-              SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM
-              (except Gasoline Model): VEHICLE CONTROL HISTORY
-              (RoB); 2024 - 2026 MY Tacoma HV [03/2024 -
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
-            </tr>
-          </table>
-          <h2 class="name">VEHICLE CONTROL HISTORY
-          (RoB)</h2><a name="RM100000002K500_z0" id="RM100000002K500_z0"></a>
-          <p class="step1">DESCRIPTION</p>
-          <div class="step1">
-            <ul class="list">
-              <li>Vehicle control history (RoB) is a function that
-              captures and stores ECU data when triggered by
-              specific vehicle behavior.</li>
-              <li>It may be possible to determine the cause of the
-              malfunction by checking the vehicle history
-              information and Freeze Frame Data.</li>
-              <li>The number of possible stored Freeze Frame Data
-              sets, whether multi Freeze Frame Data is available,
-              the number of freeze frame points, Freeze Frame Data
-              items, the ECU internal range, etc., is different
-              depending on the stored group.</li>
-              <li>The stored data items for Vehicle Control History
-              Freeze Frame Data are different depending on the
-              stored group. When the value of a data item does not
-              change across all points, only the value of the
-              detection point will be displayed. The content of the
-              Freeze Frame Data is almost the same as that of the
-              Data List.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e163" href="./RM100000002K50T.html?linkId=d2669e163&amp;hashId=RM100000002K50T#RM100000002K50T"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): DATA LIST / ACTIVE TEST">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): DATA LIST / ACTIVE TEST">
-                </a></span></span></p>
-              </li>
-            </ul>
-          </div>
-          <p class="step1">PRECAUTIONS</p>
-          <div class="step1">
-            <ul class="list">
-              <li>As vehicle control history (RoB) may be
-              overwritten whenever the trigger conditions are met,
-              make sure to save vehicle control history (RoB)
-              before performing any inspections.</li>
-              <li>As vehicle control history (RoB) may be stored
-              when performing an Active Test, learning, etc., make
-              sure to clear the vehicle control history (RoB)
-              before returning the vehicle to the customer.</li>
-            </ul>
-          </div>
-          <p class="step1">CHECK VEHICLE CONTROL HISTORY (RoB)
-          (ELECTRONICALLY CONTROLLED BRAKE SYSTEM AND ELECTRIC
-          PARKING BRAKE SYSTEM)</p>
-          <p class="step2">(a) Operate the GTS to enter the Vehicle
-          Control History (RoB).</p>
-          <h4 class="gtsInfoTitle">Chassis &gt; Brake Booster &gt;
-          Utility</h4>
-          <table class="gtsInfoTable" width="100%" border="1">
-            <colgroup>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Display</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">Vehicle Control History
-                  (RoB)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt;
-          Utility</h4>
-          <table class="gtsInfoTable" width="100%" border="1">
-            <colgroup>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Display</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">Vehicle Control History
-                  (RoB)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2669e301">Vehicle Control
-          History (RoB) Item (Electronically Controlled Brake
-          System and Electric Parking Brake System)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Code</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Display</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Measurement Item</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">User Notification</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Diagnostic Note</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X0455</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Steering Angle Sensor Wrong
-                  Installation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of steering sensor being
-                  installed incorrectly</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
+               <td class="frame">
+                  <table width="100%" class="side" border="1">
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="1">
+                           <b>Last Modified: </b>12-09-2025</td>
+                        <td class="side">6.11:8.1.0 </td>
+                        <td class="side">
+                           <b>Doc ID: </b>RM100000002K500</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top">
+                           <b>Model Year Start: </b>2024</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Model: </b>Tacoma HV</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Prod Date Range: </b>[03/2024 -                    
+                                       ]</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="3">
+                           <b>Title: </b>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): VEHICLE CONTROL HISTORY (RoB); 2024 - 2026 MY Tacoma HV [03/2024 -        ]</td>
+                     </tr>
+                  </table>
+   
+                  <h2 class="name">VEHICLE CONTROL HISTORY (RoB)</h2>
+   
+   
+                  <a name="RM100000002K500_z0"> </a>
+      
+         
+            
+                  <p class="step1">DESCRIPTION</p>
+            
+                  <div class="step1">
+                     <ul class="list">
+                        <li>
+                  Vehicle control history (RoB) is a function that captures and stores ECU data when triggered by specific vehicle behavior.
+               </li>
+                        <li>
+                  It may be possible to determine the cause of the malfunction by checking the vehicle history information and Freeze Frame Data.
+               </li>
+                        <li>
+                  The number of possible stored Freeze Frame Data sets, whether multi Freeze Frame Data is available, the number of freeze frame points, Freeze Frame Data items, the ECU internal range, etc., is different depending on the stored group.
+               </li>
+                        <li>
+                  The stored data items for Vehicle Control History Freeze Frame Data are different depending on the stored group. When the value of a data item does not change across all points, only the value of the detection point will be displayed. The content of the Freeze Frame Data is almost the same as that of the Data List.
+                  <p class="para2">Click here<span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d2669e163" href="./RM100000002K50T.html?linkId=d2669e163&amp;hashId=RM100000002K50T#RM100000002K50T" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): DATA LIST / ACTIVE TEST">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): DATA LIST / ACTIVE TEST"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                     </ul>
                   </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para">Refer to Steering Angle Sensor
-                  Wrong Installation (X0455).</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e406" href="./RM100000002K50K.html?linkId=d2669e406&amp;hashId=RM100000002K50K#RM100000002K50K"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Steering Angle Sensor Wrong Installation (X0455)">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Steering Angle Sensor Wrong Installation (X0455)"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X204C</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Zero Point Calibration of Yaw
-                  Rate Sensor Undone</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of incomplete yaw rate
-                  sensor zero point calibration</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
+         
+         
+            
+                  <p class="step1">PRECAUTIONS</p>
+            
+                  <div class="step1">
+                     <ul class="list">
+                        <li>
+                  As vehicle control history (RoB) may be overwritten whenever the trigger conditions are met, make sure to save vehicle control history (RoB) before performing any inspections.
+               </li>
+                        <li>
+                  As vehicle control history (RoB) may be stored when performing an Active Test, learning, etc., make sure to clear the vehicle control history (RoB) before returning the vehicle to the customer.
+               </li>
+                     </ul>
                   </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para">Refer to Zero Point Calibration
-                  of Yaw Rate Sensor Undone (X204C).</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e462" href="./RM100000002K501.html?linkId=d2669e462&amp;hashId=RM100000002K501#RM100000002K501"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Yaw Rate Sensor Undone (X204C)">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Yaw Rate Sensor Undone (X204C)"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X2086</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">SRS Airbag Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of receiving a
-                  malfunction signal output for a secondary
-                  collision brake control request from the airbag
-                  ECU assembly 2 consecutive times</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para">Refer to How to Proceed with
-                  Troubleshooting in Airbag System.</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e506" href="./RM100000002K7JB.html?linkId=d2669e506&amp;hashId=RM100000002K7JB#RM100000002K7JB"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X2087</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Engine Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of receiving an SFI
-                  system malfunction signal continuously from the
-                  ECM for 1 second or more</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
+         
+         
+            
+                  <p class="step1">CHECK VEHICLE CONTROL HISTORY (RoB) (ELECTRONICALLY CONTROLLED BRAKE SYSTEM AND ELECTRIC PARKING BRAKE SYSTEM)</p>
+            
+               
+                  <p class="step2">(a) Operate the GTS to enter the Vehicle Control History (RoB).</p>
+               
+                  <h4 class="gtsInfoTitle">Chassis &gt; Brake Booster &gt; Utility</h4>
+                     
+                  <table class="gtsInfoTable" width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                           
+                        <tr>
+                              
+                           <th align="center" valign="middle">
+                                 
+                              <p class="entry">Tester Display</p>
+                              
+                           </th>
+                           
+                        </tr>
+                        
+                     </thead>
+                     <tbody>
+                           
+                        <tr>
+                              
+                           <td align="left" valign="middle">
+                                 
+                                    
+                              <p class="data-name">Vehicle Control History (RoB)</p>
+                                 
+                              
+                           </td>
+                           
+                        </tr>
+                        
+                     </tbody>
+                  </table>
+                  
+               
+                  <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt; Utility</h4>
+                     
+                  <table class="gtsInfoTable" width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                           
+                        <tr>
+                              
+                           <th align="center" valign="middle">
+                                 
+                              <p class="entry">Tester Display</p>
+                              
+                           </th>
+                           
+                        </tr>
+                        
+                     </thead>
+                     <tbody>
+                           
+                        <tr>
+                              
+                           <td align="left" valign="middle">
+                                 
+                                    
+                              <p class="data-name">Vehicle Control History (RoB)</p>
+                                 
+                              
+                           </td>
+                           
+                        </tr>
+                        
+                     </tbody>
+                  </table>
+                  
+            
+         
+         
+            
+                  <h4 class="tbltitle" id="d2669e301">Vehicle Control History (RoB) Item (Electronically Controlled Brake System and Electric Parking Brake System)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                  
+                        <tr>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Code</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Tester Display</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Measurement Item</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">User Notification</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Diagnostic Note</p>
+                     
+                           </th>
+                  
+                        </tr>
+               
+                     </thead>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X0455</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Steering Angle Sensor Wrong Installation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of steering sensor being installed incorrectly</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">Refer to Steering Angle Sensor Wrong Installation (X0455).</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e406" href="./RM100000002K50K.html?linkId=d2669e406&amp;hashId=RM100000002K50K#RM100000002K50K" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Steering Angle Sensor Wrong Installation (X0455)">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Steering Angle Sensor Wrong Installation (X0455)"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X204C</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Zero Point Calibration of Yaw Rate Sensor Undone</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of incomplete yaw rate sensor zero point calibration</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">Refer to Zero Point Calibration of Yaw Rate Sensor Undone (X204C).</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e462" href="./RM100000002K501.html?linkId=d2669e462&amp;hashId=RM100000002K501#RM100000002K501" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Yaw Rate Sensor Undone (X204C)">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Yaw Rate Sensor Undone (X204C)"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X2086</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">SRS Airbag Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of receiving a malfunction signal output for a secondary collision brake control request from the airbag ECU assembly 2 consecutive times</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">Refer to How to Proceed with Troubleshooting in Airbag System.</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e506" href="./RM100000002K7JB.html?linkId=d2669e506&amp;hashId=RM100000002K7JB#RM100000002K7JB" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X2087</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Engine Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of receiving an SFI system malfunction signal continuously from the ECM for 1 second or more</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">Refer to How to Proceed with Troubleshooting in SFI System.</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e562" href="./RM100000002KD0Q.html?linkId=d2669e562&amp;hashId=RM100000002KD0Q#RM100000002KD0Q" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): HOW TO PROCEED WITH TROUBLESHOOTING">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): HOW TO PROCEED WITH TROUBLESHOOTING"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X2088</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Bank Angle Detected</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of VSC operation being temporarily prohibited when driving at a steep bank angle, etc.</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                           
+                              <p class="hintgen">HINT:</p>
+                              <p class="hint">Explain that VSC operation was temporarily prohibited when driving on a road with a steep bank angle, etc.</p>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X208A</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Zero Point Calibration of Steering Angle Sensor Initialization Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of being unable to obtain the steering angle zero point after driving at a vehicle speed exceeding 15 km/h (9 mph) for 0.05 seconds or more</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <div class="entry">
+                                 <h4 class="listtitle">Refer to the following diagnosis procedure:</h4>
+                                 <ol class="list">
+                                    <li>
+                              Perform steering sensor zero point calibration.
+                           </li>
+                                 </ol>
+                              </div>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X208B</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">EPB Motor Continuous Operation Request</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of system suspended to prevent overheat of parking brake actuator assembly when electric parking brake was used repeatedly</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                    <li>
+                              Parking brake indicator light blinks
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                           
+                              <div class="hint">
+                                 <p class="hintgen">HINT:</p>
+                                 <ul class="hint">
+                                    <li>
+                                 EPB: Electric Parking Brake System
+                              </li>
+                                    <li>
+                                 Explain that system was suspended to prevent overheating of parking brake actuator assembly when electric parking brake was used repeatedly.
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X208E</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Power Steering Control Module Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of power steering system malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <div class="entry">
+                                 <h4 class="listtitle">Refer to the following diagnosis procedure:</h4>
+                                 <ol class="list">
+                                    <li>
+                              Using the GTS, perform a Health Check.
+                           </li>
+                                    <li>
+                              Proceed to related output DTC or vehicle control history (RoB).
+                           </li>
+                                 </ol>
+                              </div>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X2096</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Pre-Collision Brake</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of pre-collision brake operation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">In accordance with Pre-collision System behavior</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X2098</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Pre-Collision Brake Assist</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of pre-collision brake assist operation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">In accordance with Pre-collision System behavior</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20A0</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">ABS</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of ABS operation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Slip indicator light blinks</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20A1</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">VSC</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of VSC operation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Slip indicator light blinks</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20A2</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">TRC(TRAC)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of TRAC operation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Slip indicator light blinks</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20A5</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Hill Start Assist</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of hill start assist operation</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20A6</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Trailer Sway Control</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of trailer sway control operation</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20A7</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Brake Assist</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of brake assist operation</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20A8</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Secondary Collision Brake</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of secondary collision brake operation</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly) and No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20D7</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Zero Point Calibration of Steering Angle Sensor Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of the steering sensor zero point calibration position differing from the stored value</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">Refer to Zero Point Calibration of Steering Angle Sensor Malfunction (X20D7).</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e1149" href="./RM100000002K502.html?linkId=d2669e1149&amp;hashId=RM100000002K502#RM100000002K502" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Malfunction (X20D7)">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Malfunction (X20D7)"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X20D8</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Zero Point Calibration of Steering Angle Sensor Not Acquired</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of being unable to obtain the steering angle zero point</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">Refer to Zero Point Calibration of Steering Angle Sensor Not Acquired (X20D8).</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e1205" href="./RM100000002K503.html?linkId=d2669e1205&amp;hashId=RM100000002K503#RM100000002K503" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Not Acquired (X20D8)">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Not Acquired (X20D8)"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X219C</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">EPB Lock Control Run</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of abnormal EPB operation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Brake system warning light (yellow indicator) illuminates</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                           
+                              <p class="hintgen">HINT:</p>
+                              <p class="hint">EPB: Electric Parking Brake System</p>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X21A9</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">ACC Low Pressure</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of a continuous and significant decrease in accumulator pressure</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Brake system warning light (yellow indicator) illuminates
+                           </li>
+                                    <li>
+                              Brake system warning light (red indicator) illuminates
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly)</p>
+                        
+                              <p class="para">Refer to ACC Low Pressure (X21A9).</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e1300" href="./RM100000002K504.html?linkId=d2669e1300&amp;hashId=RM100000002K504#RM100000002K504" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): ACC Low Pressure (X21A9)">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): ACC Low Pressure (X21A9)"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X21AD</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">ABS Pump Motor Temperature High</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of extremely high ABS motor temperature due to automatic brake control (brake hold, dynamic radar cruise, etc.) or long or frequent brake operation</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <div class="entry">
+                                 <h4 class="listtitle">Refer to the following diagnosis procedure:</h4>
+                                 <ol class="list">
+                                    <li>
+                              Using the GTS, perform a Health Check.
+                           </li>
+                                    <li>
+                              Proceed to related output DTC or vehicle control history (RoB).
+                           </li>
+                                 </ol>
+                              </div>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X21D0</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Brake Pedal Position Sensor "A" Performance Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of malfunction of brake pedal stroke sensor 1</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Brake system warning light (yellow indicator) illuminates
+                           </li>
+                                    <li>
+                              Brake system warning light (red indicator) illuminates
+                           </li>
+                                    <li>
+                              ABS warning light illuminates
+                           </li>
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <div class="entry">
+                                 <h4 class="listtitle">Refer to the following diagnosis procedure:</h4>
+                                 <ol class="list">
+                                    <li>
+                              Using the GTS, perform a Health Check.
+                           </li>
+                                    <li>
+                              Refer to the flowchart(s) for the output DTCs.
+                           </li>
+                                 </ol>
+                              </div>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X21D1</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Brake Pedal Position Sensor "B" Performance Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of malfunction of brake pedal stroke sensor 2</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Brake system warning light (yellow indicator) illuminates
+                           </li>
+                                    <li>
+                              Brake system warning light (red indicator) illuminates
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly)</p>
+                        
+                              <div class="entry">
+                                 <h4 class="listtitle">Refer to the following diagnosis procedure:</h4>
+                                 <ol class="list">
+                                    <li>
+                              Using the GTS, perform a Health Check.
+                           </li>
+                                    <li>
+                              Refer to the flowchart(s) for the output DTCs.
+                           </li>
+                                 </ol>
+                              </div>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X21D2</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of mismatch between brake pedal stroke sensor assembly and reaction force pressure sensor</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Brake system warning light (yellow indicator) illuminates
+                           </li>
+                                    <li>
+                              Brake system warning light (red indicator) illuminates
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 1 skid control ECU (brake booster with master cylinder assembly)</p>
+                        
+                              <p class="para">Refer to Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure (X21D2).</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e1551" href="./RM100000002K50L.html?linkId=d2669e1551&amp;hashId=RM100000002K50L#RM100000002K50L" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure (X21D2)">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure (X21D2)"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                        
+                           
+                              <p class="notegen">NOTICE:</p>
+                              <p class="note">If the detection conditions for X21D2 are met 3 times in a row in the same trip, DTC P05FF62 is stored.</p>
+                           
+                              <p class="para">
+                              
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e1564" href="./RM100000002K51F.html?linkId=d2669e1564&amp;hashId=RM100000002K51F#RM100000002K51F" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): P05FF62; Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): P05FF62; Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                           
+                              </p>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X2505</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">4WD High-Low Actuator Malfunction</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of receiving an L4 malfunction signal output from the 4 wheel drive control ECU continuously for 2 seconds or more</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                              Brake system warning light (yellow indicator) illuminates
+                           </li>
+                                    <li>
+                              ABS warning light illuminates
+                           </li>
+                                    <li>
+                              Slip indicator light illuminates
+                           </li>
+                                    <li>
+                              Brake hold operated indicator light blinks*1
+                           </li>
+                                 </ul>
+                              </div>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">Refer to How to Proceed with Troubleshooting in Transfer System.</p>
+                        
+                              <p class="para">for Part Time 4WD:<span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e1633" href="./RM100000002KOBL.html?linkId=d2669e1633&amp;hashId=RM100000002KOBL#RM100000002KOBL" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                        
+                              <p class="para">for Full Time 4WD:<span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2669e1641" href="./RM100000002KCUK.html?linkId=d2669e1641&amp;hashId=RM100000002KCUK#RM100000002KCUK" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; VF4CM (TRANSFER / 4WD / AWD): TRANSFER SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; VF4CM (TRANSFER / 4WD / AWD): TRANSFER SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">X261B</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Software Inconsistency with PCS Module</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">History of mismatch between the specification information sent by the object recognition camera and the specification information stored in the No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <div class="entry">
+                                 <h4 class="listtitle">Refer to the following diagnosis procedure:</h4>
+                                 <ol class="list">
+                                    <li>
+                              Using the GTS, perform a Health Check.
+                           </li>
+                                    <li>
+                              Refer to the flowchart(s) for the output DTCs.
+                           </li>
+                                 </ol>
+                              </div>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">XF01B</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">ECU Security Key Not Registered</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">ECU security key has not been registered</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">*2</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                              <p class="para">
+                           
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                                       <a id="d2669e1733" href="./RM100000002HFV1.html?linkId=d2669e1733&amp;hashId=RM100000002HFV1#RM100000002HFV1" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY">
+                                          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY"/>
+                                       </a>
+                                    </span>
+                                 </span>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+                  <p class="content5">*1: When the vehicle is put into the following vehicle conditions and the brake hold switch (integration control and panel assembly) is turned on, the brake hold operated indicator light blinks.</p>
+         
+                  <div class="content5">
+                     <ul style="list-style-type: none;">
+                        <li>
+               Conditions required for operation standby:
+            <div class="list1">
+                              <ol class="list" type="a">
+                                 <li>
+                  The driver door is closed.
+               </li>
+                                 <li>
+                  The driver seat belt is fastened.
+               </li>
+                              </ol>
+                           </div>
+                        </li>
+                     </ul>
                   </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para">Refer to How to Proceed with
-                  Troubleshooting in SFI System.</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e562" href="./RM100000002KD0Q.html?linkId=d2669e562&amp;hashId=RM100000002KD0Q#RM100000002KD0Q"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): HOW TO PROCEED WITH TROUBLESHOOTING">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): HOW TO PROCEED WITH TROUBLESHOOTING"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X2088</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Bank Angle Detected</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of VSC operation being
-                  temporarily prohibited when driving at a steep
-                  bank angle, etc.</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="hintgen">HINT:</p>
-                  <p class="hint">Explain that VSC operation was
-                  temporarily prohibited when driving on a road
-                  with a steep bank angle, etc.</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X208A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Zero Point Calibration of
-                  Steering Angle Sensor Initialization
-                  Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of being unable to
-                  obtain the steering angle zero point after
-                  driving at a vehicle speed exceeding 15 km/h (9
-                  mph) for 0.05 seconds or more</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <div class="entry">
-                    <h4 class="listtitle">Refer to the following
-                    diagnosis procedure:</h4>
-                    <ol class="list">
-                      <li>Perform steering sensor zero point
-                      calibration.</li>
-                    </ol>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X208B</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">EPB Motor Continuous Operation
-                  Request</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of system suspended to
-                  prevent overheat of parking brake actuator
-                  assembly when electric parking brake was used
-                  repeatedly</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                      <li>Parking brake indicator light blinks</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <div class="hint">
-                    <p class="hintgen">HINT:</p>
-                    <ul class="hint">
-                      <li>EPB: Electric Parking Brake System</li>
-                      <li>Explain that system was suspended to
-                      prevent overheating of parking brake actuator
-                      assembly when electric parking brake was used
-                      repeatedly.</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X208E</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Power Steering Control Module
-                  Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of power steering system
-                  malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <div class="entry">
-                    <h4 class="listtitle">Refer to the following
-                    diagnosis procedure:</h4>
-                    <ol class="list">
-                      <li>Using the GTS, perform a Health
-                      Check.</li>
-                      <li>Proceed to related output DTC or vehicle
-                      control history (RoB).</li>
-                    </ol>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X2096</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Pre-Collision Brake</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of pre-collision brake
-                  operation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">In accordance with Pre-collision
-                  System behavior</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X2098</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Pre-Collision Brake Assist</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of pre-collision brake
-                  assist operation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">In accordance with Pre-collision
-                  System behavior</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20A0</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">ABS</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of ABS operation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Slip indicator light blinks</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20A1</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">VSC</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of VSC operation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Slip indicator light blinks</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20A2</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">TRC(TRAC)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of TRAC operation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Slip indicator light blinks</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20A5</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Hill Start Assist</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of hill start assist
-                  operation</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20A6</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Trailer Sway Control</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of trailer sway control
-                  operation</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20A7</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Brake Assist</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of brake assist
-                  operation</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20A8</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Secondary Collision Brake</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of secondary collision
-                  brake operation</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder assembly)
-                  and No. 2 skid control ECU (brake actuator
-                  assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20D7</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Zero Point Calibration of
-                  Steering Angle Sensor Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of the steering sensor
-                  zero point calibration position differing from
-                  the stored value</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para">Refer to Zero Point Calibration
-                  of Steering Angle Sensor Malfunction (X20D7).</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e1149" href="./RM100000002K502.html?linkId=d2669e1149&amp;hashId=RM100000002K502#RM100000002K502"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Malfunction (X20D7)">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Malfunction (X20D7)"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X20D8</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Zero Point Calibration of
-                  Steering Angle Sensor Not Acquired</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of being unable to
-                  obtain the steering angle zero point</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para">Refer to Zero Point Calibration
-                  of Steering Angle Sensor Not Acquired
-                  (X20D8).</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e1205" href="./RM100000002K503.html?linkId=d2669e1205&amp;hashId=RM100000002K503#RM100000002K503"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Not Acquired (X20D8)">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Zero Point Calibration of Steering Angle Sensor Not Acquired (X20D8)"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X219C</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">EPB Lock Control Run</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of abnormal EPB
-                  operation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Brake system warning light
-                  (yellow indicator) illuminates</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="hintgen">HINT:</p>
-                  <p class="hint">EPB: Electric Parking Brake
-                  System</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X21A9</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">ACC Low Pressure</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of a continuous and
-                  significant decrease in accumulator pressure</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Brake system warning light (yellow
-                      indicator) illuminates</li>
-                      <li>Brake system warning light (red
-                      indicator) illuminates</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder
-                  assembly)</p>
-                  <p class="para">Refer to ACC Low Pressure
-                  (X21A9).</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e1300" href="./RM100000002K504.html?linkId=d2669e1300&amp;hashId=RM100000002K504#RM100000002K504"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): ACC Low Pressure (X21A9)">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): ACC Low Pressure (X21A9)"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X21AD</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">ABS Pump Motor Temperature
-                  High</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of extremely high ABS
-                  motor temperature due to automatic brake control
-                  (brake hold, dynamic radar cruise, etc.) or long
-                  or frequent brake operation</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <div class="entry">
-                    <h4 class="listtitle">Refer to the following
-                    diagnosis procedure:</h4>
-                    <ol class="list">
-                      <li>Using the GTS, perform a Health
-                      Check.</li>
-                      <li>Proceed to related output DTC or vehicle
-                      control history (RoB).</li>
-                    </ol>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X21D0</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Brake Pedal Position Sensor "A"
-                  Performance Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of malfunction of brake
-                  pedal stroke sensor 1</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Brake system warning light (yellow
-                      indicator) illuminates</li>
-                      <li>Brake system warning light (red
-                      indicator) illuminates</li>
-                      <li>ABS warning light illuminates</li>
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <div class="entry">
-                    <h4 class="listtitle">Refer to the following
-                    diagnosis procedure:</h4>
-                    <ol class="list">
-                      <li>Using the GTS, perform a Health
-                      Check.</li>
-                      <li>Refer to the flowchart(s) for the output
-                      DTCs.</li>
-                    </ol>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X21D1</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Brake Pedal Position Sensor "B"
-                  Performance Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of malfunction of brake
-                  pedal stroke sensor 2</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Brake system warning light (yellow
-                      indicator) illuminates</li>
-                      <li>Brake system warning light (red
-                      indicator) illuminates</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder
-                  assembly)</p>
-                  <div class="entry">
-                    <h4 class="listtitle">Refer to the following
-                    diagnosis procedure:</h4>
-                    <ol class="list">
-                      <li>Using the GTS, perform a Health
-                      Check.</li>
-                      <li>Refer to the flowchart(s) for the output
-                      DTCs.</li>
-                    </ol>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X21D2</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Brake Pressure Sensor / Brake
-                  Pedal Position Sensor Signal Compare Failure</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of mismatch between
-                  brake pedal stroke sensor assembly and reaction
-                  force pressure sensor</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Brake system warning light (yellow
-                      indicator) illuminates</li>
-                      <li>Brake system warning light (red
-                      indicator) illuminates</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 1 skid control
-                  ECU (brake booster with master cylinder
-                  assembly)</p>
-                  <p class="para">Refer to Brake Pressure Sensor /
-                  Brake Pedal Position Sensor Signal Compare
-                  Failure (X21D2).</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e1551" href="./RM100000002K50L.html?linkId=d2669e1551&amp;hashId=RM100000002K50L#RM100000002K50L"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure (X21D2)">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure (X21D2)"></a></span></span></p>
+         
+                  <p class="content5">*2: Receive side ECU detects communication malfunction and may operate warning in multi-information display or indicator light.</p>
+         
+            
+                  <p class="step1">CHECK VEHICLE CONTROL HISTORY (RoB) (STEERING SENSOR)</p>
+            
+               
+                  <p class="step2">(a) Operate the GTS to enter the Vehicle Control History (RoB).</p>
+               
+                  
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                        
+                        <tr>
+                           
+                           <th align="center" valign="middle">
+                              
+                              <p class="entry">Code</p>
+                           
+                           </th>
+                           
+                           <th align="center" valign="middle">
+                              
+                              <p class="entry">Tester Display</p>
+                           
+                           </th>
+                           
+                           <th align="center" valign="middle">
+                              
+                              <p class="entry">Measurement Item</p>
+                           
+                           </th>
+                           
+                           <th align="center" valign="middle">
+                              
+                              <p class="entry">User Notification</p>
+                           
+                           </th>
+                           
+                           <th align="center" valign="middle">
+                              
+                              <p class="entry">Diagnostic Note</p>
+                           
+                           </th>
+                        
+                        </tr>
+                     
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <td class="tablefootnote" colspan="5">
+                     *: Receive side ECU detects communication malfunction and may operate warning in multi-information display or indicator light.
+                  </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        
+                        <tr>
+                           
+                           <td align="center" valign="middle">
+                              
+                              <p class="entry">XF01B</p>
+                           
+                           </td>
+                           
+                           <td align="left" valign="middle">
+                              
+                              <p class="entry">ECU Security Key Not Registered</p>
+                           
+                           </td>
+                           
+                           <td align="left" valign="middle">
+                              
+                              <p class="entry">ECU security key has not been registered</p>
+                           
+                           </td>
+                           
+                           <td align="center" valign="middle">
+                              
+                              <p class="entry">*</p>
+                           
+                           </td>
+                           
+                           <td align="left" valign="middle">
+                              
+                              <div class="entry">
+                                 <ul class="list">
+                                    <li>
+                                    Output ECU: Steering sensor
+                                 </li>
+                                    <li>
+                                    
+                                       
+                                       <span class="mlink">
+                                          <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                                             <a id="d2669e1876" href="./RM100000002HFV1.html?linkId=d2669e1876&amp;hashId=RM100000002HFV1#RM100000002HFV1" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY">
+                                                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY"/>
+                                             </a>
+                                          </span>
+                                       </span>
+                                    
+                                 
+                                    </li>
+                                 </ul>
+                              </div>
+                           
+                           </td>
+                        
+                        </tr>
+                     
+                     </tbody>
+                  </table>
+                  
+               
+            
+         
+         
+            
+                  <p class="step1">CLEAR VEHICLE CONTROL HISTORY (RoB) (ELECTRONICALLY CONTROLLED BRAKE SYSTEM AND ELECTRIC PARKING BRAKE SYSTEM)</p>
+            
+               
+                  <p class="step2">(a) Operate the GTS to enter the Vehicle Control History (RoB).</p>
+               
+                  <h4 class="gtsInfoTitle">Chassis &gt; Brake Booster &gt; Utility</h4>
+                     
+                  <table class="gtsInfoTable" width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                           
+                        <tr>
+                              
+                           <th align="center" valign="middle">
+                                 
+                              <p class="entry">Tester Display</p>
+                              
+                           </th>
+                           
+                        </tr>
+                        
+                     </thead>
+                     <tbody>
+                           
+                        <tr>
+                              
+                           <td align="left" valign="middle">
+                                 
+                                    
+                              <p class="data-name">Vehicle Control History (RoB)</p>
+                                 
+                              
+                           </td>
+                           
+                        </tr>
+                        
+                     </tbody>
+                  </table>
+                  
+               
+                  <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt; Utility</h4>
+                     
+                  <table class="gtsInfoTable" width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                           
+                        <tr>
+                              
+                           <th align="center" valign="middle">
+                                 
+                              <p class="entry">Tester Display</p>
+                              
+                           </th>
+                           
+                        </tr>
+                        
+                     </thead>
+                     <tbody>
+                           
+                        <tr>
+                              
+                           <td align="left" valign="middle">
+                                 
+                                    
+                              <p class="data-name">Vehicle Control History (RoB)</p>
+                                 
+                              
+                           </td>
+                           
+                        </tr>
+                        
+                     </tbody>
+                  </table>
+                  
+            
+            
+               
+                  <p class="step2">(b) Press the clear button.</p>
+               
+                  
                   <p class="notegen">NOTICE:</p>
-                  <p class="note">If the detection conditions for
-                  X21D2 are met 3 times in a row in the same trip,
-                  DTC P05FF62 is stored.</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e1564" href="./RM100000002K51F.html?linkId=d2669e1564&amp;hashId=RM100000002K51F#RM100000002K51F"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): P05FF62; Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): P05FF62; Brake Pressure Sensor / Brake Pedal Position Sensor Signal Compare Failure"></a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X2505</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">4WD High-Low Actuator
-                  Malfunction</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of receiving an L4
-                  malfunction signal output from the 4 wheel drive
-                  control ECU continuously for 2 seconds or
-                  more</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Brake system warning light (yellow
-                      indicator) illuminates</li>
-                      <li>ABS warning light illuminates</li>
-                      <li>Slip indicator light illuminates</li>
-                      <li>Brake hold operated indicator light
-                      blinks*1</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para">Refer to How to Proceed with
-                  Troubleshooting in Transfer System.</p>
-                  <p class="para">for Part Time 4WD: <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e1633" href="./RM100000002KOBL.html?linkId=d2669e1633&amp;hashId=RM100000002KOBL#RM100000002KOBL"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; VF2DM (TRANSFER / 4WD / AWD): TOUCH SELECT 2-4 AND HIGH-LOW SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
-                  </a></span></span></p>
-                  <p class="para">for Full Time 4WD: <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2669e1641" href="./RM100000002KCUK.html?linkId=d2669e1641&amp;hashId=RM100000002KCUK#RM100000002KCUK"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; VF4CM (TRANSFER / 4WD / AWD): TRANSFER SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; VF4CM (TRANSFER / 4WD / AWD): TRANSFER SYSTEM: HOW TO PROCEED WITH TROUBLESHOOTING">
-                  </a></span></span></p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">X261B</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Software Inconsistency with PCS
-                  Module</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">History of mismatch between the
-                  specification information sent by the object
-                  recognition camera and the specification
-                  information stored in the No. 2 skid control ECU
-                  (brake actuator assembly)</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <div class="entry">
-                    <h4 class="listtitle">Refer to the following
-                    diagnosis procedure:</h4>
-                    <ol class="list">
-                      <li>Using the GTS, perform a Health
-                      Check.</li>
-                      <li>Refer to the flowchart(s) for the output
-                      DTCs.</li>
-                    </ol>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">XF01B</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">ECU Security Key Not
-                  Registered</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">ECU security key has not been
-                  registered</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">*2</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Output ECU: No. 2 skid control
-                  ECU (brake actuator assembly)</p>
-                  <p class="para"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d2669e1733" href="./RM100000002HFV1.html?linkId=d2669e1733&amp;hashId=RM100000002HFV1#RM100000002HFV1"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY">
-                  <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY"></a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="content5">*1: When the vehicle is put into the
-          following vehicle conditions and the brake hold switch
-          (integration control and panel assembly) is turned on,
-          the brake hold operated indicator light blinks.</p>
-          <div class="content5">
-            <ul style="list-style-type: none;">
-              <li>Conditions required for operation standby:
-                <div class="list1">
-                  <ol class="list" type="a">
-                    <li>The driver door is closed.</li>
-                    <li>The driver seat belt is fastened.</li>
-                  </ol>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <p class="content5">*2: Receive side ECU detects
-          communication malfunction and may operate warning in
-          multi-information display or indicator light.</p>
-          <p class="step1">CHECK VEHICLE CONTROL HISTORY (RoB)
-          (STEERING SENSOR)</p>
-          <p class="step2">(a) Operate the GTS to enter the Vehicle
-          Control History (RoB).</p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Code</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Display</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Measurement Item</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">User Notification</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Diagnostic Note</p>
-                </th>
-              </tr>
-            </thead>
-            <tfoot>
-              <tr>
-                <td class="tablefootnote" colspan="5">*: Receive
-                side ECU detects communication malfunction and may
-                operate warning in multi-information display or
-                indicator light.</td>
-              </tr>
-            </tfoot>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">XF01B</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">ECU Security Key Not
-                  Registered</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">ECU security key has not been
-                  registered</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">*</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="entry">
-                    <ul class="list">
-                      <li>Output ECU: Steering sensor</li>
-                      <li><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d2669e1876"
-                      href="./RM100000002HFV1.html?linkId=d2669e1876&amp;hashId=RM100000002HFV1#RM100000002HFV1"
-                      title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY">
-                      <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SETUP: WHEN REPLACING OR REMOVING/INSTALLING PARTS: UPDATE ECU SECURITY KEY"></a></span></span></li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="step1">CLEAR VEHICLE CONTROL HISTORY (RoB)
-          (ELECTRONICALLY CONTROLLED BRAKE SYSTEM AND ELECTRIC
-          PARKING BRAKE SYSTEM)</p>
-          <p class="step2">(a) Operate the GTS to enter the Vehicle
-          Control History (RoB).</p>
-          <h4 class="gtsInfoTitle">Chassis &gt; Brake Booster &gt;
-          Utility</h4>
-          <table class="gtsInfoTable" width="100%" border="1">
-            <colgroup>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Display</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">Vehicle Control History
-                  (RoB)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="gtsInfoTitle">Chassis &gt; Brake/EPB &gt;
-          Utility</h4>
-          <table class="gtsInfoTable" width="100%" border="1">
-            <colgroup>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Display</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">Vehicle Control History
-                  (RoB)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="step2">(b) Press the clear button.</p>
-          <p class="notegen">NOTICE:</p>
-          <p class="note">By performing this procedure, all stored
-          vehicle control history (RoB) items will be cleared.</p>
-          <p class="step1">CLEAR VEHICLE CONTROL HISTORY (RoB)
-          (STEERING SENSOR)</p>
-          <p class="step2">(a) Operate the GTS to enter the Vehicle
-          Control History (RoB).</p>
-          <p class="step2">(b) Press the clear button.</p>
-          <p class="notegen">NOTICE:</p>
-          <p class="note">By performing this procedure, all stored
-          vehicle control history (RoB) items will be cleared.</p>
-          <p class="step1">VEHICLE CONTROL HISTORY (AIRBAG
-          SYSTEM)</p>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">A part of the control history can be
-          confirmed using the vehicle control history.</p>
-          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d2669e2055" href="./RM100000002GSBE.html?linkId=d2669e2055&amp;hashId=RM100000002GSBE#RM100000002GSBE"
-          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: VEHICLE CONTROL HISTORY (RoB)">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: VEHICLE CONTROL HISTORY (RoB)">
-          </a></span></span></p>
-          <table class="footer" width="100%" cellpadding="0"
-          cellspacing="0">
-            <colgroup>
-              <col>
-              <col style="text-align:center">
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
-                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"></td>
-                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+                  <p class="note">By performing this procedure, all stored vehicle control history (RoB) items will be cleared.</p>
+               
+            
+         
+         
+            
+                  <p class="step1">CLEAR VEHICLE CONTROL HISTORY (RoB) (STEERING SENSOR)</p>
+            
+               
+                  <p class="step2">(a) Operate the GTS to enter the Vehicle Control History (RoB).</p>
+            
+            
+               
+                  <p class="step2">(b) Press the clear button.</p>
+               
+                  
+                  <p class="notegen">NOTICE:</p>
+                  <p class="note">By performing this procedure, all stored vehicle control history (RoB) items will be cleared.</p>
+               
+            
+         
+         
+            
+                  <p class="step1">VEHICLE CONTROL HISTORY (AIRBAG SYSTEM)</p>
+            
+               
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">A part of the control history can be confirmed using the vehicle control history.</p>
+               
+                  <p class="hint">Click here<span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                           <a id="d2669e2055" href="./RM100000002GSBE.html?linkId=d2669e2055&amp;hashId=RM100000002GSBE#RM100000002GSBE" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: VEHICLE CONTROL HISTORY (RoB)">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: AIRBAG SYSTEM: VEHICLE CONTROL HISTORY (RoB)"/>
+                           </a>
+                        </span>
+                     </span>
+               
+                  </p>
+            
+         
+      
+   
+
+                  <table class="footer" width="100%" cellpadding="0" cellspacing="0">
+                     <colgroup>
+                        <col/>
+                        <col style="text-align:center"/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td class="foot" width="30" height="18">
+                              <img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""/>
+                           </td>
+                           <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"/>
+                           <td class="foot" width="80" height="18" align="right">
+                              <img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
 </html>

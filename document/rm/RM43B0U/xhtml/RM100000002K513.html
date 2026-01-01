@@ -1,1330 +1,2184 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+  PUBLIC "-//W3//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-  <title>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY
-  CONTROLLED BRAKE SYSTEM (except Gasoline Model):
-  C00632A,C05201C,C05202A,C052096; Yaw Rate Sensor Signal Stuck In
-  Range; 2024 - 2026 MY Tacoma HV [03/2024 -
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
-  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
-  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body id="C">
-  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K513">
-    <colgroup>
-      <col>
-    </colgroup>
-    <tbody>
-      <tr>
-        <td class="frame">
-          <table width="100%" class="side" border="1">
+   <head>
+      <title>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): C00632A,C05201C,C05202A,C052096; Yaw Rate Sensor Signal Stuck In Range; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</title>
+      <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css"/>
+      <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"> </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   </head>
+   <body id="C">
+      <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K513">
+         <colgroup>
+            <col/>
+         </colgroup>
+         <tbody>
             <tr>
-              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
-              <td class="side">6.11:8.1.0</td>
-              <td class="side"><b>Doc ID:</b> RM100000002K513</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top"><b>Model
-              Year Start:</b> 2024</td>
-              <td class="side" align="left" valign="top">
-              <b>Model:</b> Tacoma HV</td>
-              <td class="side" align="left" valign="top"><b>Prod
-              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; ]</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> BRAKE CONTROL / DYNAMIC CONTROL
-              SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM
-              (except Gasoline Model):
-              C00632A,C05201C,C05202A,C052096; Yaw Rate Sensor
-              Signal Stuck In Range; 2024 - 2026 MY Tacoma HV
-              [03/2024 -
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
-            </tr>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">C00632A</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">Yaw Rate Sensor Signal Stuck In
-                  Range</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">C05201C</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">Multi-axis Acceleration Sensor
-                  Module "A" Circuit Voltage Out of Range</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">C05202A</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">Multi-axis Acceleration Sensor
-                  Module "A" Signal Stuck In Range</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">C052096</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">Multi-axis Acceleration Sensor
-                  Module "A" Component Internal Failure</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K513_02" id="RM100000002K513_02"></a>
-          <h2 class="name">DESCRIPTION</h2>
-          <p class="content5">The airbag ECU assembly has a
-          built-in yaw rate and acceleration sensor.</p>
-          <p class="content5">These DTCs are stored when the No. 2
-          skid control ECU (brake actuator assembly) receives an
-          internal malfunction signal from the yaw rate and
-          acceleration sensor (airbag ECU assembly).</p>
-          <p class="content5">The No. 2 skid control ECU (brake
-          actuator assembly) receives signals from the yaw rate and
-          acceleration sensor (airbag ECU assembly) via CAN
-          communication.</p>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">If there is a malfunction in the bus
-          lines between the yaw rate and acceleration sensor
-          (airbag ECU assembly) and the CAN communication system,
-          DTC U012587 is output. When DTC U012587 is output
-          together with C00632A, C05201C, C05202A and/or C052096,
-          inspect and repair the trouble areas indicated by U012587
-          first.</p>
-          <p class="content5">DTCs may be stored if either of the
-          following occurs:</p>
-          <div class="content5">
-            <ul class="list">
-              <li>Yaw rate and acceleration sensor (airbag ECU
-              assembly) installation abnormality.</li>
-              <li>Yaw rate and acceleration sensor (airbag ECU
-              assembly) signal malfunction.</li>
-            </ul>
-          </div>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC No.</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Detection Item</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Detection Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Trouble Area</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">MIL</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Output from</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Priority</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Note</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">C00632A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Yaw Rate Sensor Signal Stuck
-                  In Range</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">A yaw rate sensor stuck
-                  malfunction status continues.</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Yaw rate sensor (airbag ECU assembly)
-                      installation</li>
-                      <li>Yaw rate sensor (airbag ECU
-                      assembly)</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Does not come on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Brake/EPB</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Output ECU: No. 2 skid
-                  control ECU (brake actuator assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">C05201C</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Multi-axis Acceleration
-                  Sensor Module "A" Circuit Voltage Out of
-                  Range</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">At a vehicle speed of 30
-                  km/h (19 mph) or more, the difference between the
-                  forward and backward G calculated from the
-                  acceleration sensor value and that calculated
-                  from the vehicle speed sensor exceeds 0.35 G for
-                  60 seconds or more.</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Acceleration sensor (airbag ECU assembly)
-                      installation</li>
-                      <li>Acceleration sensor (airbag ECU
-                      assembly)</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Brake/EPB</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>SAE Code: C051C (Case 3)</li>
-                      <li>Output ECU: No. 2 skid control ECU (brake
-                      actuator assembly)</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">C05202A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Multi-axis Acceleration
-                  Sensor Module "A" Signal Stuck In Range</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Any of the following is
-                  detected:</p>
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>The acceleration sensor output value does
-                      not change 16 times or more as the vehicle
-                      speed drops from 30 km/h (19 mph) to 0 km/h
-                      (0 mph).</li>
-                      <li>A GL1 stuck malfunction status
-                      continues.</li>
-                      <li>A GL2 stuck malfunction status
-                      continues.</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Acceleration sensor (airbag ECU assembly)
-                      installation</li>
-                      <li>Acceleration sensor (airbag ECU
-                      assembly)</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Brake/EPB</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>SAE Code: C051C (Case 1 and 2)</li>
-                      <li>Output ECU: No. 2 skid control ECU (brake
-                      actuator assembly)</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">C052096</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Multi-axis Acceleration
-                  Sensor Module "A" Component Internal Failure</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Either of the following is
-                  detected:</p>
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>A signal indicating an acceleration
-                      sensor internal malfunction is received</li>
-                      <li>Output values of GL1 and GL2 (front and
-                      rear, left and right) are outside permitted
-                      output range for 60 seconds or more.</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Acceleration sensor (airbag ECU assembly)
-                      installation</li>
-                      <li>Acceleration sensor (airbag ECU
-                      assembly)</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Brake/EPB</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>SAE Code: C0520 (Case 1 and 2)</li>
-                      <li>Output ECU: No. 2 skid control ECU (brake
-                      actuator assembly)</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K513_04" id="RM100000002K513_04"></a>
-          <h2 class="name">MONITOR DESCRIPTION</h2>
-          <div class="content5">
-            <h4 class="listtitle">C051C (Case 1):</h4>
-            <ul style="list-style-type: none;">
-              <li>When the vehicle stops after being driven and the
-              output value of the yaw rate and acceleration sensor
-              (airbag ECU assembly) does not change, the No. 2 skid
-              control ECU (brake actuator assembly) judges that the
-              yaw rate and acceleration sensor (airbag ECU
-              assembly) is stuck, and illuminates the MIL and
-              stores this DTC.</li>
-            </ul>
-          </div>
-          <div class="content5">
-            <h4 class="listtitle">C051C (Case 2):</h4>
-            <ul style="list-style-type: none;">
-              <li>When the yaw rate and acceleration sensor (airbag
-              ECU assembly) is stuck for a certain amount of time,
-              the No. 2 skid control ECU (brake actuator assembly)
-              judges that the yaw rate and acceleration sensor
-              (airbag ECU assembly) is stuck, and illuminates the
-              MIL and stores this DTC.</li>
-            </ul>
-          </div>
-          <div class="content5">
-            <h4 class="listtitle">C051C (Case 3):</h4>
-            <ul style="list-style-type: none;">
-              <li>When at a certain vehicle speed or more, the
-              difference between the longitudinal acceleration
-              value output by the yaw rate and acceleration sensor
-              (airbag ECU assembly) and the value calculated based
-              on the vehicle speed differs by a certain value or
-              more for a certain amount of time, the No. 2 skid
-              control ECU (brake actuator assembly) judges that the
-              yaw rate and acceleration sensor (airbag ECU
-              assembly) is abnormal, and illuminates the MIL and
-              stores this DTC.</li>
-            </ul>
-          </div>
-          <div class="content5">
-            <h4 class="listtitle">C0520 (Case 1):</h4>
-            <ul style="list-style-type: none;">
-              <li>When the yaw rate and acceleration sensor (airbag
-              ECU assembly) output values for the longitudinal and
-              lateral axes are outside of the possible output range
-              for a certain amount of time, the No. 2 skid control
-              ECU (brake actuator assembly) judges that the yaw
-              rate and acceleration sensor (airbag ECU assembly) is
-              outside of the possible output range, and illuminates
-              the MIL and stores this DTC.</li>
-            </ul>
-          </div>
-          <div class="content5">
-            <h4 class="listtitle">C0520 (Case 2):</h4>
-            <ul style="list-style-type: none;">
-              <li>When a signal indicating that the yaw rate and
-              acceleration sensor (airbag ECU assembly) has
-              detected an internal malfunction during
-              self-diagnosis is received, the No. 2 skid control
-              ECU (brake actuator assembly) judges that the yaw
-              rate and acceleration sensor (airbag ECU assembly)
-              has an internal malfunction, and illuminates the MIL
-              and stores this DTC.</li>
-            </ul>
-          </div><a name="RM100000002K513_05" id="RM100000002K513_05"></a>
-          <h2 class="name">MONITOR STRATEGY</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Related DTCs</p>
-                </td>
-                <td>
-                  <p class="entry">C051C: Acceleration sensor
-                  range/performance</p>
-                  <p class="para">C0520 (Case 1): Acceleration
-                  sensor (GL1, GL2) out of range</p>
-                  <p class="para">C0520 (Case 2): Acceleration
-                  sensor internal malfunction</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Required
-                  Sensors/Components(Main)</p>
-                </td>
-                <td>
-                  <p class="entry">Yaw rate and acceleration sensor
-                  (airbag ECU assembly)</p>
-                  <p class="para">Speed sensor</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Required
-                  Sensors/Components(Related)</p>
-                </td>
-                <td>
-                  <p class="entry">Speed sensor</p>
-                  <p class="para">No. 2 skid control ECU (brake
-                  actuator assembly)</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Frequency of Operation</p>
-                </td>
-                <td>
-                  <p class="entry">Continuous</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Duration</p>
-                </td>
-                <td>
-                  <p class="entry">16 times: C051C (Case 1)</p>
-                  <p class="para">-: C051C (Case 2) and C0520 (Case
-                  2)</p>
-                  <p class="para">60 seconds: C051C (Case 3) and
-                  C0520 (Case 1)</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">MIL Operation</p>
-                </td>
-                <td>
-                  <p class="entry">Immediately</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Sequence of Operation</p>
-                </td>
-                <td>
-                  <p class="entry">None</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K513_06" id="RM100000002K513_06"></a>
-          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
-          <h4 class="tbltitle" id="d2672e910">C051C (Case 1)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Monitor runs whenever the
-                  following DTCs are not stored</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">C051C (Case 3): Acceleration
-                  sensor range/performance</p>
-                  <p class="para">C051E: Acceleration sensor
-                  intermittent/erratic</p>
-                  <p class="para">C0520 (Case 2): Acceleration
-                  sensor internal malfunction</p>
-                  <p class="para">C1021 (Case 1): Brake system
-                  voltage input out of range low</p>
-                  <p class="para">U0125: Lost communication with
-                  multi-axis acceleration sensor module</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Under an acceleration slip</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">IGR voltage</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">3.5 V or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Communication status with yaw
-                  rate and acceleration sensor (airbag ECU
-                  assembly)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Valid</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1028">C051C (Case 2)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Monitor runs whenever the
-                  following DTCs are not stored</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">C1021 (Case 1): Brake system
-                  voltage input out of range low</p>
-                  <p class="para">U0125: Lost communication with
-                  multi-axis acceleration sensor module</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Both of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">IGR voltage</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">3.5 V or more</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1107">C051C (Case 3)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Monitor runs whenever the
-                  following DTCs are not stored</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">C051E: Acceleration sensor
-                  intermittent/erratic</p>
-                  <p class="para">C0520 (Case 1): Acceleration
-                  sensor (GL1, GL2) out of range</p>
-                  <p class="para">C0520 (Case 2): Acceleration
-                  sensor internal malfunction</p>
-                  <p class="para">C1021 (Case 1): Brake system
-                  voltage input out of range low</p>
-                  <p class="para">U0125: Lost communication with
-                  multi-axis acceleration sensor module</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Command to all ABS hold
-                  solenoids</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Command to all ABS release
-                  solenoids</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Under an acceleration slip</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Vehicle speed</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">30 km/h (18.64 mph) or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">IGR voltage</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">3.5 V or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Communication status with yaw
-                  rate and acceleration sensor (airbag ECU
-                  assembly)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Valid</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GX invalidation</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1285">C0520 (Case 1)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Monitor runs whenever the
-                  following DTCs are not stored</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">C051C (Case 3): Acceleration
-                  sensor range/performance</p>
-                  <p class="para">C051E: Acceleration sensor
-                  intermittent/erratic</p>
-                  <p class="para">C0520 (Case 2): Acceleration
-                  sensor internal malfunction</p>
-                  <p class="para">C1021 (Case 1): Brake system
-                  voltage input out of range low</p>
-                  <p class="para">C14D7: Acceleration sensor
-                  voltage circuit/open</p>
-                  <p class="para">U0125: Lost communication with
-                  multi-axis acceleration sensor module</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">IGR voltage</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">3.5 V or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Communication status with yaw
-                  rate and acceleration sensor (airbag ECU
-                  assembly)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Valid</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1391">C0520 (Case 2)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Monitor runs whenever the
-                  following DTCs are not stored</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">C1021 (Case 1): Brake system
-                  voltage input out of range low</p>
-                  <p class="para">U0125: Lost communication with
-                  multi-axis acceleration sensor module</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Both of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Lost communication with yaw rate
-                  and acceleration sensor (airbag ECU assembly)</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Not detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">YGS1 (CAN Data)</p>
-                </td>
-                <td>
-                  <p class="entry">"0" (valid)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K513_07" id="RM100000002K513_07"></a>
-          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
-          <h4 class="tbltitle" id="d2672e1479">C051C (Case 1)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">When the vehicle speed is
-                  decreasing from more than 30 km/h (18.65 mph) to
-                  0 km/h (0 mph), change in the output value of the
-                  GX sensor</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Less than 0.30400615
-                  m/s<sup>2</sup></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1513">C051C (Case 2)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Either of the following
-                  conditions is met</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">GX sensor adherence presence</p>
-                </td>
-                <td>
-                  <p class="entry">On</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GY sensor adherence presence</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">On</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1574">C051C (Case 3)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Difference Gx and acceleration
-                  estimated from wheel speed</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Higher than 3.4323275
-                  m/s<sup>2</sup></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1608">C0520 (Case 1)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Either of the following
-                  conditions is met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Acceleration sensor 2 axis clamp
-                  presence</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Available</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Acceleration sensor 1 axis clamp
-                  presence</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Available</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1669">C0520 (Case 2)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Either of the following
-                  conditions is met</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GS1S (CAN Data)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">"1" (abnormality)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GS2S (CAN Data)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">"1" (abnormality)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K513_08" id="RM100000002K513_08"></a>
-          <h2 class="name">COMPONENT OPERATING RANGE</h2>
-          <h4 class="tbltitle" id="d2672e1739">C051C (Case 1)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Both of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Acceleration sensor output
-                  valid</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Valid</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1800">C051C (Case 2)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Reset request</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">On</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GX sensor adherence presence</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GY sensor adherence presence</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1891">C051C (Case 3)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Both of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GX sensor output valid</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Valid</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e1952">C0520 (Case 1)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">A, B and C</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">A. Chassis dynamometer mode</p>
-                </td>
-                <td>
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">B. Acceleration sensor output
-                  valid</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Valid</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">C. Acceleration sensor 1 axis
-                  clamp presence</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Invalid</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d2672e2028">C0520 (Case 2)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Lost communication with yaw rate
-                  and acceleration sensor (airbag ECU assembly)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GS1S (CAN Data)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">"0" (no abnormality)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">GS2S (CAN Data)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">"0" (no abnormality)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K513_09" id="RM100000002K513_09"></a>
-          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
-          <p class="notegen">NOTICE:</p>
-          <p class="note">When performing the normal judgment
-          procedure, make sure that the driver door is closed and
-          is not opened at any time during the procedure.</p>
-          <div class="hint">
-            <p class="hintgen">HINT:</p>
-            <ul class="hint">
-              <li>After repair has been completed, clear the DTC
-              and then check that the vehicle has returned to
-              normal by performing the following All Readiness
-              check procedure.</li>
-              <li>When clearing the permanent DTCs, refer to the
-              "CLEAR PERMANENT DTC" procedure.</li>
-            </ul>
-          </div>
-          <div class="content5">
-            <ol class="list">
-              <li>Connect the GTS to the DLC3.</li>
-              <li>Turn the ignition switch to ON and turn the GTS
-              on.</li>
-              <li>Clear the DTCs (even if no DTCs are stored,
-              perform the clear DTC procedure).</li>
-              <li>Turn the ignition switch off.</li>
-              <li>Turn the ignition switch to ON (READY) and turn
-              the GTS on.</li>
-              <li>Drive the vehicle at a speed of 30 km/h (19 mph)
-              or more for 60 seconds or more. [*]
-                <p class="hintgen">HINT:</p>
-                <p class="hint">[*]: Normal judgment procedure.</p>
-                <p class="para2">The normal judgment procedure is
-                used to complete DTC judgment and also used when
-                clearing permanent DTCs.</p>
-              </li>
-              <li>Enter the following menus: Chassis / Brake/EPB* /
-              Utility / All Readiness.
-                <p class="para2">*: Electric Parking Brake
-                System</p>
-              </li>
-              <li>Check the DTC judgment result.
-                <div class="hint">
+               <td class="frame">
+                  <table width="100%" class="side" border="1">
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="1">
+                           <b>Last Modified: </b>12-09-2025</td>
+                        <td class="side">6.11:8.1.0 </td>
+                        <td class="side">
+                           <b>Doc ID: </b>RM100000002K513</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top">
+                           <b>Model Year Start: </b>2024</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Model: </b>Tacoma HV</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Prod Date Range: </b>[03/2024 -                    
+                                       ]</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="3">
+                           <b>Title: </b>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS: ELECTRONICALLY CONTROLLED BRAKE SYSTEM (except Gasoline Model): C00632A,C05201C,C05202A,C052096; Yaw Rate Sensor Signal Stuck In Range; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</td>
+                     </tr>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">C00632A</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Yaw Rate Sensor Signal Stuck In Range</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">C05201C</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Multi-axis Acceleration Sensor Module "A" Circuit Voltage Out of Range</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">C05202A</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Multi-axis Acceleration Sensor Module "A" Signal Stuck In Range</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">C052096</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Multi-axis Acceleration Sensor Module "A" Component Internal Failure</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+   
+                  <a name="RM100000002K513_02"> </a>
+      
+                  <h2 class="name">DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The airbag ECU assembly has a built-in yaw rate and acceleration sensor.</p>
+         
+                  <p class="content5">These DTCs are stored when the No. 2 skid control ECU (brake actuator assembly) receives an internal malfunction signal from the yaw rate and acceleration sensor (airbag ECU assembly).</p>
+         
+                  <p class="content5">The No. 2 skid control ECU (brake actuator assembly) receives signals from the yaw rate and acceleration sensor (airbag ECU assembly) via CAN communication.</p>
+         
+            
                   <p class="hintgen">HINT:</p>
-                  <ul class="hint">
-                    <li>If the judgment result shows NORMAL, the
-                    system is normal.</li>
-                    <li>If the judgment result shows ABNORMAL, the
-                    system has a malfunction.</li>
-                    <li>If the judgment result shows INCOMPLETE,
-                    perform driving pattern again.</li>
-                  </ul>
-                </div>
-              </li>
-            </ol>
-          </div><a name="RM100000002K513_01" id="RM100000002K513_01"></a>
-          <h2 class="name">PROCEDURE</h2>
-          <h2 class="name">PROCEDURE</h2><a name="RM100000002K513_01_0005" id="RM100000002K513_01_0005"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">1.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK AIRBAG ECU ASSEMBLY
-                  INSTALLATION</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="test1">(a) Check that the yaw rate and
-          acceleration sensor (airbag ECU assembly) has been
-          installed properly.</p>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d2672e2252" href="./RM100000002KCDH.html?linkId=d2672e2252&amp;hashId=RM100000002KCDH#RM100000002KCDH"
-          title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: INSTALLATION">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: INSTALLATION">
-          </a></span></span></p>
-          <p class="spec">OK:</p>
-          <p class="spec">The yaw rate and acceleration sensor
-          (airbag ECU assembly) is tightened to the specified
-          torque.</p>
-          <p class="spec">The yaw rate and acceleration sensor
-          (airbag ECU assembly) is not installed in a tilted
-          position.</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">OK</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d2672e2345" href="./RM100000002KCDE.html?linkId=d2672e2345&amp;hashId=RM100000002KCDE#RM100000002KCDE"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: REMOVAL">
-                  REPLACE AIRBAG ECU ASSEMBLY</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d2672e2368" href="./RM100000002KCDH.html?linkId=d2672e2368&amp;hashId=RM100000002KCDH#RM100000002KCDH"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: INSTALLATION">
-                  INSTALL AIRBAG ECU ASSEMBLY
-                  CORRECTLY</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="footer" width="100%" cellpadding="0"
-          cellspacing="0">
-            <colgroup>
-              <col>
-              <col style="text-align:center">
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
-                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"></td>
-                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+                  <p class="hint">If there is a malfunction in the bus lines between the yaw rate and acceleration sensor (airbag ECU assembly) and the CAN communication system, DTC U012587 is output. When DTC U012587 is output together with C00632A, C05201C, C05202A and/or C052096, inspect and repair the trouble areas indicated by U012587 first.</p>
+         
+         
+                  <p class="content5">DTCs may be stored if either of the following occurs:</p>
+         
+                  <div class="content5">
+                     <ul class="list">
+                        <li>
+               Yaw rate and acceleration sensor (airbag ECU assembly) installation abnormality.
+            </li>
+                        <li>
+               Yaw rate and acceleration sensor (airbag ECU assembly) signal malfunction.
+            </li>
+                     </ul>
+                  </div>
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                  
+                        <tr>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC No.</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Detection Item</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Detection Condition</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Trouble Area</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">MIL</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Output from</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Priority</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Note</p>
+                     
+                           </th>
+                  
+                        </tr>
+               
+                     </thead>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">C00632A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Yaw Rate Sensor Signal Stuck In Range</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">A yaw rate sensor stuck malfunction status continues.</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Yaw rate sensor (airbag ECU assembly) installation
+                              </li>
+                                    <li>
+                                 Yaw rate sensor (airbag ECU assembly)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Does not come on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Brake/EPB</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Output ECU: No. 2 skid control ECU (brake actuator assembly)</p>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">C05201C</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Multi-axis Acceleration Sensor Module "A" Circuit Voltage Out of Range</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">At a vehicle speed of 30 km/h (19 mph) or more, the difference between the forward and backward G calculated from the acceleration sensor value and that calculated from the vehicle speed sensor exceeds 0.35 G for 60 seconds or more.</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Acceleration sensor (airbag ECU assembly) installation
+                              </li>
+                                    <li>
+                                 Acceleration sensor (airbag ECU assembly)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Brake/EPB</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE Code: C051C (Case 3)
+                              </li>
+                                    <li>
+                                 Output ECU: No. 2 skid control ECU (brake actuator assembly)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">C05202A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Multi-axis Acceleration Sensor Module "A" Signal Stuck In Range</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Any of the following is detected:</p>
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 The acceleration sensor output value does not change 16 times or more as the vehicle speed drops from 30 km/h (19 mph) to 0 km/h (0 mph).
+                              </li>
+                                    <li>
+                                 A GL1 stuck malfunction status continues.
+                              </li>
+                                    <li>
+                                 A GL2 stuck malfunction status continues.
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Acceleration sensor (airbag ECU assembly) installation
+                              </li>
+                                    <li>
+                                 Acceleration sensor (airbag ECU assembly)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Brake/EPB</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE Code: C051C (Case 1 and 2)
+                              </li>
+                                    <li>
+                                 Output ECU: No. 2 skid control ECU (brake actuator assembly)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">C052096</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Multi-axis Acceleration Sensor Module "A" Component Internal Failure</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Either of the following is detected:</p>
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 A signal indicating an acceleration sensor internal malfunction is received
+                              </li>
+                                    <li>
+                                 Output values of GL1 and GL2 (front and rear, left and right) are outside permitted output range for 60 seconds or more.
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Acceleration sensor (airbag ECU assembly) installation
+                              </li>
+                                    <li>
+                                 Acceleration sensor (airbag ECU assembly)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Brake/EPB</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE Code: C0520 (Case 1 and 2)
+                              </li>
+                                    <li>
+                                 Output ECU: No. 2 skid control ECU (brake actuator assembly)
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K513_04"> </a>
+      
+                  <h2 class="name">MONITOR DESCRIPTION</h2>
+      
+         
+                  <div class="content5">
+                     <h4 class="listtitle">C051C (Case 1):</h4>
+                     <ul style="list-style-type: none;">
+                        <li>
+               When the vehicle stops after being driven and the output value of the yaw rate and acceleration sensor (airbag ECU assembly) does not change, the No. 2 skid control ECU (brake actuator assembly) judges that the yaw rate and acceleration sensor (airbag ECU assembly) is stuck, and illuminates the MIL and stores this DTC.
+            </li>
+                     </ul>
+                  </div>
+         
+                  <div class="content5">
+                     <h4 class="listtitle">C051C (Case 2):</h4>
+                     <ul style="list-style-type: none;">
+                        <li>
+               When the yaw rate and acceleration sensor (airbag ECU assembly) is stuck for a certain amount of time, the No. 2 skid control ECU (brake actuator assembly) judges that the yaw rate and acceleration sensor (airbag ECU assembly) is stuck, and illuminates the MIL and stores this DTC.
+            </li>
+                     </ul>
+                  </div>
+         
+                  <div class="content5">
+                     <h4 class="listtitle">C051C (Case 3):</h4>
+                     <ul style="list-style-type: none;">
+                        <li>
+               When at a certain vehicle speed or more, the difference between the longitudinal acceleration value output by the yaw rate and acceleration sensor (airbag ECU assembly) and the value calculated based on the vehicle speed differs by a certain value or more for a certain amount of time, the No. 2 skid control ECU (brake actuator assembly) judges that the yaw rate and acceleration sensor (airbag ECU assembly) is abnormal, and illuminates the MIL and stores this DTC.
+            </li>
+                     </ul>
+                  </div>
+         
+                  <div class="content5">
+                     <h4 class="listtitle">C0520 (Case 1):</h4>
+                     <ul style="list-style-type: none;">
+                        <li>
+               When the yaw rate and acceleration sensor (airbag ECU assembly) output values for the longitudinal and lateral axes are outside of the possible output range for a certain amount of time, the No. 2 skid control ECU (brake actuator assembly) judges that the yaw rate and acceleration sensor (airbag ECU assembly) is outside of the possible output range, and illuminates the MIL and stores this DTC.
+            </li>
+                     </ul>
+                  </div>
+         
+                  <div class="content5">
+                     <h4 class="listtitle">C0520 (Case 2):</h4>
+                     <ul style="list-style-type: none;">
+                        <li>
+               When a signal indicating that the yaw rate and acceleration sensor (airbag ECU assembly) has detected an internal malfunction during self-diagnosis is received, the No. 2 skid control ECU (brake actuator assembly) judges that the yaw rate and acceleration sensor (airbag ECU assembly) has an internal malfunction, and illuminates the MIL and stores this DTC.
+            </li>
+                     </ul>
+                  </div>
+      
+   
+   
+                  <a name="RM100000002K513_05"> </a>
+      
+                  <h2 class="name">MONITOR STRATEGY</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Related DTCs</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">C051C: Acceleration sensor range/performance</p>
+                        
+                              <p class="para">C0520 (Case 1): Acceleration sensor (GL1, GL2) out of range</p>
+                        
+                              <p class="para">C0520 (Case 2): Acceleration sensor internal malfunction</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Required Sensors/Components(Main)</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Yaw rate and acceleration sensor (airbag ECU assembly)</p>
+                        
+                              <p class="para">Speed sensor</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Required Sensors/Components(Related)</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Speed sensor</p>
+                        
+                              <p class="para">No. 2 skid control ECU (brake actuator assembly)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Frequency of Operation</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Continuous</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Duration</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">16 times: C051C (Case 1)</p>
+                        
+                              <p class="para">-: C051C (Case 2) and C0520 (Case 2)</p>
+                        
+                              <p class="para">60 seconds: C051C (Case 3) and C0520 (Case 1)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">MIL Operation</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Immediately</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Sequence of Operation</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K513_06"> </a>
+      
+                  <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+      
+         
+            
+                  <h4 class="tbltitle" id="d2672e910">C051C (Case 1)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">C051C (Case 3): Acceleration sensor range/performance</p>
+                        
+                              <p class="para">C051E: Acceleration sensor intermittent/erratic</p>
+                        
+                              <p class="para">C0520 (Case 2): Acceleration sensor internal malfunction</p>
+                        
+                              <p class="para">C1021 (Case 1): Brake system voltage input out of range low</p>
+                        
+                              <p class="para">U0125: Lost communication with multi-axis acceleration sensor module</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Under an acceleration slip</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">IGR voltage</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">3.5 V or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Communication status with yaw rate and acceleration sensor (airbag ECU assembly)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Valid</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1028">C051C (Case 2)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">C1021 (Case 1): Brake system voltage input out of range low</p>
+                        
+                              <p class="para">U0125: Lost communication with multi-axis acceleration sensor module</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Both of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">IGR voltage</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">3.5 V or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1107">C051C (Case 3)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">C051E: Acceleration sensor intermittent/erratic</p>
+                        
+                              <p class="para">C0520 (Case 1): Acceleration sensor (GL1, GL2) out of range</p>
+                        
+                              <p class="para">C0520 (Case 2): Acceleration sensor internal malfunction</p>
+                        
+                              <p class="para">C1021 (Case 1): Brake system voltage input out of range low</p>
+                        
+                              <p class="para">U0125: Lost communication with multi-axis acceleration sensor module</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Command to all ABS hold solenoids</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Command to all ABS release solenoids</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Under an acceleration slip</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Vehicle speed</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">30 km/h (18.64 mph) or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">IGR voltage</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">3.5 V or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Communication status with yaw rate and acceleration sensor (airbag ECU assembly)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Valid</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GX invalidation</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1285">C0520 (Case 1)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">C051C (Case 3): Acceleration sensor range/performance</p>
+                        
+                              <p class="para">C051E: Acceleration sensor intermittent/erratic</p>
+                        
+                              <p class="para">C0520 (Case 2): Acceleration sensor internal malfunction</p>
+                        
+                              <p class="para">C1021 (Case 1): Brake system voltage input out of range low</p>
+                        
+                              <p class="para">C14D7: Acceleration sensor voltage circuit/open</p>
+                        
+                              <p class="para">U0125: Lost communication with multi-axis acceleration sensor module</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">IGR voltage</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">3.5 V or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Communication status with yaw rate and acceleration sensor (airbag ECU assembly)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Valid</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1391">C0520 (Case 2)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">C1021 (Case 1): Brake system voltage input out of range low</p>
+                        
+                              <p class="para">U0125: Lost communication with multi-axis acceleration sensor module</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Both of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Lost communication with yaw rate and acceleration sensor (airbag ECU assembly)</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Not detected</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">YGS1 (CAN Data)</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">"0" (valid)</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K513_07"> </a>
+      
+                  <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+      
+         
+            
+                  <h4 class="tbltitle" id="d2672e1479">C051C (Case 1)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">When the vehicle speed is decreasing from more than 30 km/h (18.65 mph) to 0 km/h (0 mph), change in the output value of the GX sensor</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Less than 0.30400615 m/s<sup>2</sup>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1513">C051C (Case 2)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Either of the following conditions is met</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">GX sensor adherence presence</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">On</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GY sensor adherence presence</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">On</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1574">C051C (Case 3)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Difference Gx and acceleration estimated from wheel speed</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Higher than 3.4323275 m/s<sup>2</sup>
+                        
+                              </p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1608">C0520 (Case 1)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Either of the following conditions is met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Acceleration sensor 2 axis clamp presence</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Available</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Acceleration sensor 1 axis clamp presence</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Available</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1669">C0520 (Case 2)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Either of the following conditions is met</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GS1S (CAN Data)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">"1" (abnormality)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GS2S (CAN Data)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">"1" (abnormality)</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K513_08"> </a>
+      
+                  <h2 class="name">COMPONENT OPERATING RANGE</h2>
+      
+         
+            
+                  <h4 class="tbltitle" id="d2672e1739">C051C (Case 1)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Both of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Acceleration sensor output valid</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Valid</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1800">C051C (Case 2)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Reset request</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">On</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GX sensor adherence presence</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GY sensor adherence presence</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1891">C051C (Case 3)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Both of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GX sensor output valid</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Valid</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e1952">C0520 (Case 1)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">A, B and C</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">A. Chassis dynamometer mode</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">B. Acceleration sensor output valid</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Valid</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">C. Acceleration sensor 1 axis clamp presence</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Invalid</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d2672e2028">C0520 (Case 2)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Lost communication with yaw rate and acceleration sensor (airbag ECU assembly)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Not detected</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GS1S (CAN Data)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">"0" (no abnormality)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">GS2S (CAN Data)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">"0" (no abnormality)</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K513_09"> </a>
+      
+                  <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+      
+         
+            
+                  <p class="notegen">NOTICE:</p>
+                  <p class="note">When performing the normal judgment procedure, make sure that the driver door is closed and is not opened at any time during the procedure.</p>
+         
+         
+            
+                  <div class="hint">
+                     <p class="hintgen">HINT:</p>
+                     <ul class="hint">
+                        <li>
+                  After repair has been completed, clear the DTC and then check that the vehicle has returned to normal by performing the following All Readiness check procedure.
+               </li>
+                        <li>
+                  When clearing the permanent DTCs, refer to the "CLEAR PERMANENT DTC" procedure.
+               </li>
+                     </ul>
+                  </div>
+         
+         
+                  <div class="content5">
+                     <ol class="list">
+                        <li>
+               Connect the GTS to the DLC3.
+            </li>
+                        <li>
+               Turn the ignition switch to ON and turn the GTS on.
+            </li>
+                        <li>
+               Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+            </li>
+                        <li>
+               Turn the ignition switch off.
+            </li>
+                        <li>
+               Turn the ignition switch to ON (READY) and turn the GTS on.
+            </li>
+                        <li>
+               Drive the vehicle at a speed of 30 km/h (19 mph) or more for 60 seconds or more. [*]
+               
+                  <p class="hintgen">HINT:</p>
+                           <p class="hint">[*]: Normal judgment procedure.</p>
+                  
+                           <p class="para2">The normal judgment procedure is used to complete DTC judgment and also used when clearing permanent DTCs.</p>
+               
+            
+                        </li>
+                        <li>
+               Enter the following menus: Chassis / Brake/EPB* / Utility / All Readiness.
+               <p class="para2">*: Electric Parking Brake System</p>
+            
+                        </li>
+                        <li>
+               Check the DTC judgment result.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If the judgment result shows NORMAL, the system is normal.
+                     </li>
+                                 <li>
+                        If the judgment result shows ABNORMAL, the system has a malfunction.
+                     </li>
+                                 <li>
+                        If the judgment result shows INCOMPLETE, perform driving pattern again.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                     </ol>
+                  </div>
+      
+   
+   
+                  <a name="RM100000002K513_01"> </a>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <a name="RM100000002K513_01_0005"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">1. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK AIRBAG ECU ASSEMBLY INSTALLATION</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="test1">(a) Check that the yaw rate and acceleration sensor (airbag ECU assembly) has been installed properly.</p>
+               
+                  
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">Click here<span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d2672e2252" href="./RM100000002KCDH.html?linkId=d2672e2252&amp;hashId=RM100000002KCDH#RM100000002KCDH" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: INSTALLATION">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: INSTALLATION"/>
+                           </a>
+                        </span>
+                     </span>
+                  
+                  </p>
+               
+               
+                  
+                  <p class="spec">OK: </p>
+                  
+                     
+                  <p class="spec">The yaw rate and acceleration sensor (airbag ECU assembly) is tightened to the specified torque.</p>
+                     
+                  <p class="spec">The yaw rate and acceleration sensor (airbag ECU assembly) is not installed in a tilted position.</p>
+                  
+               
+            
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2672e2345" href="./RM100000002KCDE.html?linkId=d2672e2345&amp;hashId=RM100000002KCDE#RM100000002KCDE" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: REMOVAL">REPLACE AIRBAG ECU ASSEMBLY</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d2672e2368" href="./RM100000002KCDH.html?linkId=d2672e2368&amp;hashId=RM100000002KCDH#RM100000002KCDH" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; SUPPLEMENTAL RESTRAINT SYSTEMS: CENTER AIRBAG SENSOR ASSEMBLY: INSTALLATION">INSTALL AIRBAG ECU ASSEMBLY CORRECTLY</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+   
+
+                  <table class="footer" width="100%" cellpadding="0" cellspacing="0">
+                     <colgroup>
+                        <col/>
+                        <col style="text-align:center"/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td class="foot" width="30" height="18">
+                              <img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""/>
+                           </td>
+                           <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"/>
+                           <td class="foot" width="80" height="18" align="right">
+                              <img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
 </html>

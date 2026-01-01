@@ -1,632 +1,1117 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+  PUBLIC "-//W3//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-  <title>HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A
-  Generator): U029A87; Lost Communication with Hybrid/EV Battery
-  Sensor Module Missing Message; 2024 - 2026 MY Tacoma HV [03/2024
-  - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
-  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
-  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body id="C">
-  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K69O">
-    <colgroup>
-      <col>
-    </colgroup>
-    <tbody>
-      <tr>
-        <td class="frame">
-          <table width="100%" class="side" border="1">
+   <head>
+      <title>HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): U029A87; Lost Communication with Hybrid/EV Battery Sensor Module Missing Message; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</title>
+      <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css"/>
+      <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"> </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   </head>
+   <body id="C">
+      <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K69O">
+         <colgroup>
+            <col/>
+         </colgroup>
+         <tbody>
             <tr>
-              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
-              <td class="side">6.11:8.1.0</td>
-              <td class="side"><b>Doc ID:</b> RM100000002K69O</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top"><b>Model
-              Year Start:</b> 2024</td>
-              <td class="side" align="left" valign="top">
-              <b>Model:</b> Tacoma HV</td>
-              <td class="side" align="left" valign="top"><b>Prod
-              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; ]</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> HYBRID / BATTERY CONTROL: HYBRID
-              CONTROL SYSTEM (w/o 130A Generator): U029A87; Lost
-              Communication with Hybrid/EV Battery Sensor Module
-              Missing Message; 2024 - 2026 MY Tacoma HV [03/2024 -
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
-            </tr>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">U029A87</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">Lost Communication with Hybrid/EV
-                  Battery Sensor Module Missing Message</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K69O_05" id="RM100000002K69O_05"></a>
-          <h2 class="name">DESCRIPTION</h2>
-          <p class="content5">The battery voltage sensor detects
-          the HV battery conditions (voltage, current and
-          temperature) and the battery cooling fan frequency, and
-          sends the detected signals to the hybrid vehicle control
-          ECU via CAN communication. (The hybrid vehicle control
-          ECU does not send signals to the battery voltage
-          sensor.)</p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC No.</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Detection Item</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Detection Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Trouble Area</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">MIL</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Warning Indicate</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Output from</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Priority</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">U029A87</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Lost Communication with
-                  Hybrid/EV Battery Sensor Module Missing
-                  Message</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">CAN communication error
-                  between the hybrid vehicle control ECU and
-                  battery voltage sensor: The hybrid vehicle
-                  control ECU cannot receive signals from the
-                  battery voltage sensor correctly.</p>
-                  <p class="para">(1 trip detection logic)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Battery voltage sensor</li>
-                      <li>Wire harness or connector</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Master Warning:</p>
-                  <p class="para">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Hybrid Control</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="data-name">B</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K69O_31" id="RM100000002K69O_31"></a>
-          <h2 class="name">MONITOR DESCRIPTION</h2>
-          <p class="content5">If a malfunction in communication
-          line between the battery voltage sensor and hybrid
-          vehicle control ECU is detected, the hybrid vehicle
-          control ECU will illuminate the MIL and store a
-          DTC.</p><a name="RM100000002K69O_32" id="RM100000002K69O_32"></a>
-          <h2 class="name">MONITOR STRATEGY</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Related DTCs</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">U029A (INF U029A87): Battery
-                  voltage sensor communication malfunction</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Required sensors/components</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Main: Battery voltage sensor</p>
-                  <p class="para">Sub: Communication line</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Frequency of operation</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Continuous</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Duration</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">TMC's intellectual property</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">MIL operation</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Immediately</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Sequence of operation</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">None</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K69O_33" id="RM100000002K69O_33"></a>
-          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">The monitor will run whenever
-                  the following DTCs are not stored</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">TMC's intellectual property</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Other conditions belong to TMC's
-                  intellectual property</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K69O_34" id="RM100000002K69O_34"></a>
-          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td>
-                  <p class="entry">TMC's intellectual property</p>
-                </td>
-                <td align="center">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K69O_35" id="RM100000002K69O_35"></a>
-          <h2 class="name">COMPONENT OPERATING RANGE</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Battery voltage sensor</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">DTC U029A (INF U029A87) is not
-                  detected</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K69O_30" id="RM100000002K69O_30"></a>
-          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
-          <div class="hint">
-            <p class="hintgen">HINT:</p>
-            <ul class="hint">
-              <li>After repair has been completed, clear the DTC
-              and then check that the vehicle has returned to
-              normal by performing the following All Readiness
-              check procedure.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1215e587" href="./RM100000002K69G.html?linkId=d1215e587&amp;hashId=RM100000002K69G#RM100000002K69G"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): UTILITY">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): UTILITY">
-                </a></span></span></p>
-              </li>
-              <li>When clearing the permanent DTCs, refer to the
-              "CLEAR PERMANENT DTC" procedure.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1215e601" href="./RM100000002K67R.html?linkId=d1215e601&amp;hashId=RM100000002K67R#RM100000002K67R"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): DTC CHECK / CLEAR">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): DTC CHECK / CLEAR">
-                </a></span></span></p>
-              </li>
-            </ul>
-          </div>
-          <div class="content5">
-            <ol class="list">
-              <li>Connect the GTS to the DLC3.</li>
-              <li>Turn the ignition switch to ON and turn the GTS
-              on.</li>
-              <li>Clear the DTCs (even if no DTCs are stored,
-              perform the clear DTC procedure).</li>
-              <li>Turn the ignition switch off and wait for 2
-              minutes or more.</li>
-              <li>Turn the ignition switch to ON and turn the GTS
-              on.</li>
-              <li>With ignition switch ON and wait for 2 minutes or
-              more. [*1]
-                <p class="hintgen">HINT:</p>
-                <p class="hint">[*1]: Normal judgment
-                procedure.</p>
-                <p class="para2">The normal judgment procedure is
-                used to complete DTC judgment and also used when
-                clearing permanent DTCs.</p>
-              </li>
-              <li>Enter the following menus: Powertrain / Hybrid
-              Control / Utility / All Readiness.</li>
-              <li>Check the DTC judgment result.
-                <div class="hint">
-                  <p class="hintgen">HINT:</p>
-                  <ul class="hint">
-                    <li>If the judgment result shows NORMAL, the
-                    system is normal.</li>
-                    <li>If the judgment result shows ABNORMAL, the
-                    system has a malfunction.</li>
-                    <li>If the judgment result shows INCOMPLETE,
-                    perform the normal judgment procedure
-                    again.</li>
-                  </ul>
-                </div>
-              </li>
-            </ol>
-          </div><a name="RM100000002K69O_02" id="RM100000002K69O_02"></a>
-          <h2 class="name">WIRING DIAGRAM</h2>
-          <p class="content5">Refer to the wiring diagram for DTC
-          P0AFC00.</p>
-          <p class="content5">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1215e708" href="./RM100000002K68K.html?linkId=d1215e708&amp;hashId=RM100000002K68K_12_0001#RM100000002K68K_12_0001"
-          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): P0AFC00,P0AFC16,P0AFC96,P308A12; Hybrid/EV Battery Sensor Module+">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): P0AFC00,P0AFC16,P0AFC96,P308A12; Hybrid/EV Battery Sensor Module+">
-          </a></span></span></p><a name="RM100000002K69O_03" id="RM100000002K69O_03"></a>
-          <h2 class="name">CAUTION / NOTICE / HINT</h2>
-          <p class="warngen">CAUTION:</p>
-          <p class="warn">Refer to the precautions before
-          inspecting high voltage circuit.</p>
-          <p class="warning">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1215e730" href="./RM100000002K67K.html?linkId=d1215e730&amp;hashId=RM100000002K67K#RM100000002K67K"
-          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): PRECAUTION">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): PRECAUTION">
-          </a></span></span></p><a name="RM100000002K69O_18" id="RM100000002K69O_18"></a>
-          <h2 class="name">PROCEDURE</h2>
-          <h2 class="name">PROCEDURE</h2><a name="RM100000002K69O_18_0001" id="RM100000002K69O_18_0001"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">1.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK DTC OUTPUT (HYBRID
-                  CONTROL)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) None</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(b) Check and record any Hybrid System
-          DTCs and Freeze Frame Data. Check for DTCs.</p>
-          <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control
-          &gt; Trouble Codes</h4>
-          <table width="100%" border="1" class="result">
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Proceed to</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">P0AFC16 is not output</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">A</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="bottom">
-                  <p class="entry">P0AFC16 is output</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">B</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(c) Turn the ignition switch off.</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">B</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d1215e891" href="./RM100000002K68K.html?linkId=d1215e891&amp;hashId=RM100000002K68K#RM100000002K68K"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): P0AFC00,P0AFC16,P0AFC96,P308A12; Hybrid/EV Battery Sensor Module">
-                  GO TO DTC CHART (P0AFC16)</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">A</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table><a name="RM100000002K69O_18_0010" id="RM100000002K69O_18_0010"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">2.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK BATTERY VOLTAGE SENSOR
-                  (IGCT VOLTAGE)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="warngen">CAUTION:</p>
-          <p class="warn">Be sure to wear insulated gloves.</p>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Check that the service plug grip is
-          not installed.</p>
-          <p class="notegen">NOTICE:</p>
-          <p class="note">After removing the service plug grip, do
-          not turn the ignition switch to ON (READY), unless
-          instructed by the repair manual because this may cause a
-          malfunction.</p>
-          <p class="test1">(b) Remove the No. 9 HV battery shield
-          panel.</p>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1215e949" href="./RM100000002KAKI.html?linkId=d1215e949&amp;hashId=RM100000002KAKI#RM100000002KAKI"
-          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: BATTERY VOLTAGE SENSOR: REMOVAL">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; HYBRID / BATTERY CONTROL: BATTERY VOLTAGE SENSOR: REMOVAL">
-          </a></span></span></p>
-          <p class="test1">(c) Connect the cable to the negative
-          (-) auxiliary battery terminal.</p>
-          <p class="test1">(d) Turn the ignition switch to ON.</p>
-          <p class="main">Procedure1</p>
-          <table border="0" width="100%">
-            <tbody>
-              <tr>
-                <td class="side">
-                  <p class="test1">(e) Measure the voltage
-                  according to the value(s) in the table below.</p>
-                  <p class="spec">Standard Voltage:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
-                  <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d1215e1031" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=Q48')"
-                  title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click Location &
-                  Routing(Q48)</span></a></span><br></span>
-                  <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d1215e1039" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=Q48&amp;pinno=1,7')"
-                  title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-                  Connector(Q48)</span></a></span><br></span>
-                  <table width="100%" border="1" id="RM100000002K69O_18_0010_T_1" judge="true" input="textbox">
-                    <col width="">
-                    <col width="">
-                    <col width="">
-                    <col width="">
-                    <thead>
-                      <tr>
-                        <th align="center" valign="middle">
-                          <p class="entry">Tester Connection</p>
-                        </th>
-                        <th align="center" valign="middle">
-                          <p class="entry">Condition</p>
-                        </th>
-                        <th align="center" valign="middle">
-                          <p class="entry">Specified Condition</p>
-                        </th>
-                        <th align="center" valign="middle">
-                          <p class="entry">Result</p>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td align="center" valign="middle">
-                          <p class="entry">Q48-1 (IGCT) - Q48-7
-                          (GND)</p>
-                        </td>
-                        <td align="center" valign="middle">
-                          <p class="entry">Ignition switch ON</p>
-                        </td>
-                        <td align="center" valign="middle">
-                          <p class="entry">11 to 14 V</p>
-                        </td>
-                        <td align="center" valign="middle">
-                          <p class="entry">V</p>
-                        </td>
-                      </tr>
-                    </tbody>
+               <td class="frame">
+                  <table width="100%" class="side" border="1">
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="1">
+                           <b>Last Modified: </b>12-09-2025</td>
+                        <td class="side">6.11:8.1.0 </td>
+                        <td class="side">
+                           <b>Doc ID: </b>RM100000002K69O</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top">
+                           <b>Model Year Start: </b>2024</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Model: </b>Tacoma HV</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Prod Date Range: </b>[03/2024 -                    
+                                       ]</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="3">
+                           <b>Title: </b>HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): U029A87; Lost Communication with Hybrid/EV Battery Sensor Module Missing Message; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</td>
+                     </tr>
                   </table>
-                  <p class="notegen">NOTICE:</p>
-                  <p class="note">Turning the ignition switch to ON
-                  with the service plug grip removed causes other
-                  DTCs to be stored. Clear the DTCs after
-                  performing this inspection.</p>
-                  <p class="hintgen">HINT:</p>
-                  <p class="hint">As there might be an intermittent
-                  malfunction in the battery voltage sensor power
-                  source circuit, inspect the following even if the
-                  measured voltage is as specified:</p>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">U029A87</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Lost Communication with Hybrid/EV Battery Sensor Module Missing Message</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+   
+                  <a name="RM100000002K69O_05"> </a>
+      
+                  <h2 class="name">DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The battery voltage sensor detects the HV battery conditions (voltage, current and temperature) and the battery cooling fan frequency, and sends the detected signals to the hybrid vehicle control ECU via CAN communication. (The hybrid vehicle control ECU does not send signals to the battery voltage sensor.)</p>
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                  
+                        <tr>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC No.</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Detection Item</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Detection Condition</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Trouble Area</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">MIL</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Warning Indicate</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Output from</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Priority</p>
+                     
+                           </th>
+                  
+                        </tr>
+               
+                     </thead>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">U029A87</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Lost Communication with Hybrid/EV Battery Sensor Module Missing Message</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">CAN communication error between the hybrid vehicle control ECU and battery voltage sensor: The hybrid vehicle control ECU cannot receive signals from the battery voltage sensor correctly.</p>
+                           
+                              <p class="para">(1 trip detection logic)</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Battery voltage sensor
+                              </li>
+                                    <li>
+                                 Wire harness or connector
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Master Warning:</p>
+                           
+                              <p class="para">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Hybrid Control</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                           
+                              <p class="data-name">B</p>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K69O_31"> </a>
+      
+                  <h2 class="name">MONITOR DESCRIPTION</h2>
+      
+         
+                  <p class="content5">If a malfunction in communication line between the battery voltage sensor and hybrid vehicle control ECU is detected, the hybrid vehicle control ECU will illuminate the MIL and store a DTC.</p>
+      
+   
+   
+                  <a name="RM100000002K69O_32"> </a>
+      
+                  <h2 class="name">MONITOR STRATEGY</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Related DTCs</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">U029A (INF U029A87): Battery voltage sensor communication malfunction</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Required sensors/components</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Main: Battery voltage sensor</p>
+                        
+                              <p class="para">Sub: Communication line</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Frequency of operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Continuous</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Duration</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">TMC's intellectual property</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">MIL operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Immediately</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Sequence of operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K69O_33"> </a>
+      
+                  <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">The monitor will run whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">TMC's intellectual property</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Other conditions belong to TMC's intellectual property</p>
+                     
+                           </td>
+                     
+                           <td align="center" valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K69O_34"> </a>
+      
+                  <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">TMC's intellectual property</p>
+                     
+                           </td>
+                     
+                           <td align="center">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K69O_35"> </a>
+      
+                  <h2 class="name">COMPONENT OPERATING RANGE</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Battery voltage sensor</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">DTC U029A (INF U029A87) is not detected</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K69O_30"> </a>
+      
+                  <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+      
+         
+            
                   <div class="hint">
-                    <ul class="hint">
-                      <li>Installation condition of fuse(s) (before
-                      removing fuse(s)) (IGCT circuit)</li>
-                      <li>Fuse condition (before and after removing
-                      fuse(s)) (IGCT circuit)</li>
-                      <li>Connection condition of connectors (IGCT
-                      circuit)</li>
-                      <li>Wire harness condition (IGCT
-                      circuit)</li>
-                      <li>Wire harness condition (GND circuit)</li>
-                    </ul>
+                     <p class="hintgen">HINT:</p>
+                     <ul class="hint">
+                        <li>
+                  After repair has been completed, clear the DTC and then check that the vehicle has returned to normal by performing the following All Readiness check procedure.
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d1215e587" href="./RM100000002K69G.html?linkId=d1215e587&amp;hashId=RM100000002K69G#RM100000002K69G" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): UTILITY">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): UTILITY"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                        <li>
+                  When clearing the permanent DTCs, refer to the "CLEAR PERMANENT DTC" procedure.
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d1215e601" href="./RM100000002K67R.html?linkId=d1215e601&amp;hashId=RM100000002K67R#RM100000002K67R" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): DTC CHECK / CLEAR">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): DTC CHECK / CLEAR"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                     </ul>
                   </div>
-                </td>
-                <td class="sidsid">
-                  <table align="right">
-                    <tr>
-                      <td align="right"><img src="../images/A573715C01.png.html" border="1"
-                      alt=" "></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table class="callout" border="1"
-                        cellspacing="0" style="width:3.434793307in;">
-                          <colgroup>
-                            <col style="width:15%">
-                            <col style="width:85%">
-                          </colgroup>
-                          <tbody>
-                            <tr>
-                              <td align="center" valign="middle">
-                                <p class="entry">*a</p>
-                              </td>
-                              <td>
-                                <p class="entry">Component with
-                                harness connected</p>
-                                <p class="para">(Battery Voltage
-                                Sensor)</p>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
+         
+         
+                  <div class="content5">
+                     <ol class="list">
+                        <li>
+               Connect the GTS to the DLC3.
+            </li>
+                        <li>
+               Turn the ignition switch to ON and turn the GTS on.
+            </li>
+                        <li>
+               Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+            </li>
+                        <li>
+               Turn the ignition switch off and wait for 2 minutes or more.
+            </li>
+                        <li>
+               Turn the ignition switch to ON and turn the GTS on.
+            </li>
+                        <li>
+               With ignition switch ON and wait for 2 minutes or more. [*1]
+               
+                  <p class="hintgen">HINT:</p>
+                           <p class="hint">[*1]: Normal judgment procedure.</p>
+                  
+                           <p class="para2">The normal judgment procedure is used to complete DTC judgment and also used when clearing permanent DTCs.</p>
+               
+            
+                        </li>
+                        <li>
+               Enter the following menus: Powertrain / Hybrid Control / Utility / All Readiness.
+            </li>
+                        <li>
+               Check the DTC judgment result.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If the judgment result shows NORMAL, the system is normal.
+                     </li>
+                                 <li>
+                        If the judgment result shows ABNORMAL, the system has a malfunction.
+                     </li>
+                                 <li>
+                        If the judgment result shows INCOMPLETE, perform the normal judgment procedure again.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                     </ol>
+                  </div>
+      
+   
+   
+                  <a name="RM100000002K69O_02"> </a>
+      
+                  <h2 class="name">WIRING DIAGRAM</h2>
+      
+         
+                  <p class="content5">Refer to the wiring diagram for DTC P0AFC00.</p>
+         
+                  <p class="content5">
+                                    Click here
+                                    <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d1215e708" href="./RM100000002K68K.html?linkId=d1215e708&amp;hashId=RM100000002K68K_12_0001#RM100000002K68K_12_0001" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): P0AFC00,P0AFC16,P0AFC96,P308A12; Hybrid/EV Battery Sensor Module+">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): P0AFC00,P0AFC16,P0AFC96,P308A12; Hybrid/EV Battery Sensor Module+"/>
+                           </a>
+                        </span>
+                     </span>
+         
+                  </p>
+      
+   
+   
+                  <a name="RM100000002K69O_03"> </a>
+      
+                  <h2 class="name">CAUTION / NOTICE / HINT</h2>
+      
+         
+            
+                  <p class="warngen">CAUTION:</p>
+                  <p class="warn">Refer to the precautions before inspecting high voltage circuit.</p>
+            
+                  <p class="warning">
+                                        Click here
+                                        <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d1215e730" href="./RM100000002K67K.html?linkId=d1215e730&amp;hashId=RM100000002K67K#RM100000002K67K" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): PRECAUTION">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): PRECAUTION"/>
+                           </a>
+                        </span>
+                     </span>
+            
+                  </p>
+         
+      
+   
+   
+                  <a name="RM100000002K69O_18"> </a>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <a name="RM100000002K69O_18_0001"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">1. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK DTC OUTPUT (HYBRID CONTROL)</p>
+                           </td>
+                        </tr>
+                     </tbody>
                   </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(f) Turn the ignition switch off.</p>
-          <p class="test1">(g) Disconnect the cable from the
-          negative (-) auxiliary battery terminal.</p>
-          <p class="test1">(h) Install the No. 9 HV battery shield
-          panel.</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">OK</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">GO TO CAN COMMUNICATION
-                  SYSTEM</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
-                  CONNECTOR (BATTERY VOLTAGE SENSOR POWER SOURCE
-                  CIRCUIT)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="footer" width="100%" cellpadding="0"
-          cellspacing="0">
-            <colgroup>
-              <col>
-              <col style="text-align:center">
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
-                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"></td>
-                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) None</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(b) Check and record any Hybrid System DTCs and Freeze Frame Data. Check for DTCs.</p>
+                  
+                  <h4 class="gtsInfoTitle">Powertrain &gt; Hybrid Control &gt; Trouble Codes</h4>
+                  
+                     
+                     
+                        
+                  <table width="100%" border="1" class="result">
+                           
+                           
+                           
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Proceed to</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                           
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="left" valign="middle">
+                                    
+                              <p class="entry">P0AFC16 is not output</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">A</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="left" valign="bottom">
+                                    
+                              <p class="entry">P0AFC16 is output</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">B</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                        
+                  </table>
+                     
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) Turn the ignition switch off.</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">B</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d1215e891" href="./RM100000002K68K.html?linkId=d1215e891&amp;hashId=RM100000002K68K#RM100000002K68K" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: HYBRID CONTROL SYSTEM (w/o 130A Generator): P0AFC00,P0AFC16,P0AFC96,P308A12; Hybrid/EV Battery Sensor Module">GO TO DTC CHART (P0AFC16)</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               A
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002K69O_18_0010"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">2. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK BATTERY VOLTAGE SENSOR (IGCT VOLTAGE)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="warngen">CAUTION:</p>
+                  <p class="warn">Be sure to wear insulated gloves.</p>
+            
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Check that the service plug grip is not installed.</p>
+                  
+                     
+                  <p class="notegen">NOTICE:</p>
+                  <p class="note">After removing the service plug grip, do not turn the ignition switch to ON (READY), unless instructed by the repair manual because this may cause a malfunction.</p>
+                  
+               
+               
+                  
+                  <p class="test1">(b) Remove the No. 9 HV battery shield panel.</p>
+                  
+                     
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">
+                                                    Click here
+                                                    <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d1215e949" href="./RM100000002KAKI.html?linkId=d1215e949&amp;hashId=RM100000002KAKI#RM100000002KAKI" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: BATTERY VOLTAGE SENSOR: REMOVAL">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; HYBRID / BATTERY CONTROL: BATTERY VOLTAGE SENSOR: REMOVAL"/>
+                           </a>
+                        </span>
+                     </span>
+                     
+                  </p>
+                  
+               
+               
+                  
+                  <p class="test1">(c) Connect the cable to the negative (-) auxiliary battery terminal.</p>
+               
+               
+                  
+                  <p class="test1">(d) Turn the ignition switch to ON.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td class="side">
+                              <p class="test1">(e) Measure the voltage according to the value(s) in the table below.</p>
+                     
+                              <p class="spec">Standard Voltage: </p>
+                     
+                              <table width="100%" border="1" id="RM100000002K69O_18_0010_T_1" judge="true" input="textbox">
+                                 <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                                 <br/>
+                                 <span class="ewdmlink">
+                                    <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                                       <a id="d1215e1031" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=Q48')" title="2024 MY Tacoma HV EWD">
+                                          <span class="ewdlink">
+                                                        Click Location &amp; Routing(Q48)
+                                                        </span>
+                                       </a>
+                                    </span>
+                                    <br/>
+                                 </span>
+                                 <span class="ewdmlink">
+                                    <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                                       <a id="d1215e1039" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=Q48&amp;pinno=1,7')" title="2024 MY Tacoma HV EWD">
+                                          <span class="ewdlink">
+                                                        Click Connector(Q48)
+                                                        </span>
+                                       </a>
+                                    </span>
+                                    <br/>
+                                 </span>
+                                 <col width=""/>
+                                 <col width=""/>
+                                 <col width=""/>
+                                 <col width=""/>
+                                 <thead>
+                              
+                                    <tr>
+                                 
+                                       <th align="center" valign="middle">
+                                    
+                                          <p class="entry">Tester Connection</p>
+                                 
+                                       </th>
+                                 
+                                       <th align="center" valign="middle">
+                                    
+                                          <p class="entry">Condition</p>
+                                 
+                                       </th>
+                                 
+                                       <th align="center" valign="middle">
+                                    
+                                          <p class="entry">Specified Condition</p>
+                                 
+                                       </th>
+                                 
+                                       <th align="center" valign="middle">
+                                    
+                                          <p class="entry">Result</p>
+                                 
+                                       </th>
+                              
+                                    </tr>
+                           
+                                 </thead>
+                                 <tbody>
+                              
+                                    <tr>
+                                 
+                                       <td align="center" valign="middle">
+                                    
+                                          <p class="entry">Q48-1 (IGCT) - Q48-7 (GND)</p>
+                                 
+                                       </td>
+                                 
+                                       <td align="center" valign="middle">
+                                    
+                                          <p class="entry">Ignition switch ON</p>
+                                 
+                                       </td>
+                                 
+                                       <td align="center" valign="middle">
+                                    
+                                          <p class="entry">11 to 14 V</p>
+                                 
+                                       </td>
+                                 
+                                       <td align="center" valign="middle">
+                                    
+                                          <p class="entry">V</p>
+                                 
+                                       </td>
+                              
+                                    </tr>
+                           
+                                 </tbody>
+                              </table>
+                  
+                     
+                              <p class="notegen">NOTICE:</p>
+                              <p class="note">Turning the ignition switch to ON with the service plug grip removed causes other DTCs to be stored. Clear the DTCs after performing this inspection.</p>
+                  
+                     
+                              <p class="hintgen">HINT:</p>
+                              <p class="hint">As there might be an intermittent malfunction in the battery voltage sensor power source circuit, inspect the following even if the measured voltage is as specified:</p>
+                     
+                              <div class="hint">
+                                 <ul class="hint">
+                                    <li>
+                           Installation condition of fuse(s) (before removing fuse(s)) (IGCT circuit)
+                        </li>
+                                    <li>
+                           Fuse condition (before and after removing fuse(s)) (IGCT circuit)
+                        </li>
+                                    <li>
+                           Connection condition of connectors (IGCT circuit)
+                        </li>
+                                    <li>
+                           Wire harness condition (IGCT circuit)
+                        </li>
+                                    <li>
+                           Wire harness condition (GND circuit)
+                        </li>
+                                 </ul>
+                              </div>
+                  
+                           </td>
+                           <td class="sidsid">
+                              <table align="right">
+                                 <tr>
+                                    <td align="right">
+                     
+                        
+                                       <img src="../images/A573715C01.png.html" border="1" alt=" "/>
+                     
+                     
+                        
+                           
+                              
+                              
+                              
+                                 
+                                    
+                                       
+                                    
+                                    
+                                       
+                                       
+                                    
+                                 
+                              
+                           
+                        
+                     
+                  
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                        
+                           
+                                       <table class="callout" border="1" cellspacing="0" style="width:3.434793307in;">
+                                          <colgroup>
+                                             <col style="width:15%"/>
+                                             <col style="width:85%"/>
+                                          </colgroup>
+                                          <tbody>
+                                 
+                                             <tr>
+                                    
+                                                <td align="center" valign="middle">
+                                       
+                                                   <p class="entry">*a</p>
+                                    
+                                                </td>
+                                    
+                                                <td>
+                                       
+                                                   <p class="entry">Component with harness connected</p>
+                                       
+                                                   <p class="para">(Battery Voltage Sensor)</p>
+                                    
+                                                </td>
+                                 
+                                             </tr>
+                              
+                                          </tbody>
+                                       </table>
+                        
+                     
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(f) Turn the ignition switch off.</p>
+               
+               
+                  
+                  <p class="test1">(g) Disconnect the cable from the negative (-) auxiliary battery terminal.</p>
+               
+               
+                  
+                  <p class="test1">(h) Install the No. 9 HV battery shield panel.</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">GO TO CAN COMMUNICATION SYSTEM</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR (BATTERY VOLTAGE SENSOR POWER SOURCE CIRCUIT)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+   
+
+                  <table class="footer" width="100%" cellpadding="0" cellspacing="0">
+                     <colgroup>
+                        <col/>
+                        <col style="text-align:center"/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td class="foot" width="30" height="18">
+                              <img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""/>
+                           </td>
+                           <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"/>
+                           <td class="foot" width="80" height="18" align="right">
+                              <img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
 </html>
