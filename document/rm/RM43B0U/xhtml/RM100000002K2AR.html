@@ -1,981 +1,1719 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+  PUBLIC "-//W3//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-  <title>L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID
-  TRANSMISSION SYSTEM: P096849; Pressure Control Solenoid "C"
-  Control Internal Electronic Failure; 2024 - 2026 MY Tacoma HV
-  [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
-  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
-  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body id="C">
-  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K2AR">
-    <colgroup>
-      <col>
-    </colgroup>
-    <tbody>
-      <tr>
-        <td class="frame">
-          <table width="100%" class="side" border="1">
+   <head>
+      <title>L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: P096849; Pressure Control Solenoid "C" Control Internal Electronic Failure; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</title>
+      <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css"/>
+      <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"> </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   </head>
+   <body id="C">
+      <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002K2AR">
+         <colgroup>
+            <col/>
+         </colgroup>
+         <tbody>
             <tr>
-              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
-              <td class="side">6.11:8.1.0</td>
-              <td class="side"><b>Doc ID:</b> RM100000002K2AR</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top"><b>Model
-              Year Start:</b> 2024</td>
-              <td class="side" align="left" valign="top">
-              <b>Model:</b> Tacoma HV</td>
-              <td class="side" align="left" valign="top"><b>Prod
-              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; ]</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> L580F (HYBRID TRANSMISSION /
-              TRANSAXLE): HYBRID TRANSMISSION SYSTEM: P096849;
-              Pressure Control Solenoid "C" Control Internal
-              Electronic Failure; 2024 - 2026 MY Tacoma HV [03/2024
-              - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
-            </tr>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">P096849</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">Pressure Control Solenoid "C"
-                  Control Internal Electronic Failure</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K2AR_02" id="RM100000002K2AR_02"></a>
-          <h2 class="name">DESCRIPTION</h2>
-          <p class="content5">The TCM performs shifting from 1st to
-          8th gear with ON-OFF combinations of solenoid (SL1, SL2,
-          SL3, SL4, SL5, SL6, SL and SC3) valves.</p>
-          <p class="content5">As a fail-safe function, the TCM
-          turns the other solenoids ON or OFF if an open circuit or
-          short occurs in any of the solenoid circuits. (If an open
-          circuit or short circuit occurs, the TCM cuts power to
-          the malfunctioning solenoid valve.)</p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC No.</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Detection Item</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Detection Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Trouble Area</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">MIL</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Output from</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Priority</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Note</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">P096849</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Pressure Control Solenoid
-                  "C" Control Internal Electronic Failure</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">The solenoid (SL3) valve
-                  current control command value and current
-                  feedback value are inconsistent for 2 seconds or
-                  more (1-trip detection logic).</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Solenoid (SL3) valve</li>
-                      <li>TCM</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Transmission</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">B</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">SAE: P0968</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K2AR_03" id="RM100000002K2AR_03"></a>
-          <h2 class="name">MONITOR DESCRIPTION</h2>
-          <p class="content5">This DTC indicates current control
-          command value and current feedback value are inconsistent
-          in the solenoid (SL3) valve circuit.</p>
-          <p class="content5">The TCM commands gear shifts by
-          turning the solenoid valves on or off.</p>
-          <p class="content5">When there is current control command
-          value and current feedback value are inconsistent in any
-          solenoid valve circuit, the TCM detects the problem,
-          illuminates the MIL and stores a DTC.</p><a name="RM100000002K2AR_12" id="RM100000002K2AR_12"></a>
-          <h2 class="name">MONITOR STRATEGY</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Related DTCs</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">P0968: Solenoid (SL3)
-                  valve/Range check (circuit/open)</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Required sensors/Components</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Solenoid (SL3) valve</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Frequency of operation</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Continuous</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Duration</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">1 time</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">MIL operation</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Immediately</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Sequence of operation</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">None</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K2AR_13" id="RM100000002K2AR_13"></a>
-          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">DS_active_wake*</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">TRUE</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Pressure control solenoid driver
-                  error (P1700)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Solenoid current cut command to
-                  SOLC</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not cut</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Time after solenoid current cut
-                  command to SOLC cut to not cut</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">0.02 seconds or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Solenoid current cut command to
-                  SOLC-S</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not cut</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Time after solenoid current cut
-                  command to SOLC-S cut to not cut</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">0.02 seconds or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Solenoid kill status</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not kill</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Time after solenoid kill status
-                  kill to not kill</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">0.02 seconds or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Solenoid (SL3) valve error
-                  (P0968, P0970, P0971)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not detected</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">*: DS_active_wake</p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">0.5 seconds or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">1. Auxiliary battery voltage</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">10 V or higher</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">2. Either condition is met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">(a) or (b)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">(a) All of the following
-                  conditions are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">- Lost communication with
-                  ECM/PCM "A" fault</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">- Lost communication with
-                  ECM/PCM "A" malfunction (U0100)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Not detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">- Starter switch signal from
-                  ECM/PCM "A"</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">OFF</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">(b) All of the following
-                  conditions are met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">(1) and (2)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">(1) Either condition is met</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">* Lost communication with
-                  ECM/PCM "A" fault</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">* Lost communication with
-                  ECM/PCM "A" malfunction (U0100)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">(2) Starter switch signal from
-                  brake system control module "A"</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">OFF</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K2AR_14" id="RM100000002K2AR_14"></a>
-          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
-          <p class="content5">When one of the following conditions
-          is met: Condition (A), (B), (C) or (D)</p>
-          <h4 class="tbltitle" id="d1991e807">Condition (A)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">sum_ie*1</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">30 A or higher</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d1991e838">Condition (B)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">lie*1l</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">0.05 A or higher</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d1991e869">Condition (C)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">dStuck_decision*2</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">TRUE</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d1991e900">Condition (D)</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Pressure control solenoid driver
-                  status BATT short</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Occurred</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Solenoid current</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">0.02 A or higher</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">*1 : sum_ie, ie</p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">To add ie to sum_ie every 0.02
-                  seconds</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">ie: Difference of target current
-                  and solenoid current sum_ie is cleared if at
-                  least the one following condition is
-                  satisfied</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">(1) TYPICAL MALFUNCTION
-                  THRESHOLDS are not satisfied</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">(2) ie</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-0.05 A or higher and 0.05 A or
-                  less</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">(3) Sign of ie is changed</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="hint">*2: dStuck_decision</p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">lie*1l</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Higher than 0.05 A</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002K2AR_08" id="RM100000002K2AR_08"></a>
-          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
-          <div class="hint">
-            <p class="hintgen">HINT:</p>
-            <ul class="hint">
-              <li>After repair has been completed, clear the DTC
-              and then check that the vehicle has returned to
-              normal by performing the following All Readiness
-              check procedure.</li>
-              <li>When clearing the permanent DTCs, refer to the
-              Clear Permanent DTC procedure.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1991e1099" href="./RM100000002K29N.html?linkId=d1991e1099&amp;hashId=RM100000002K29N#RM100000002K29N"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
-                </a></span></span></p>
-              </li>
-            </ul>
-          </div>
-          <div class="content5">
-            <ol class="list">
-              <li>Clear the DTCs (even if no DTCs are stored,
-              perform the clear DTC procedure).</li>
-              <li>Turn the ignition switch off and wait for at
-              least 30 seconds.</li>
-              <li>Perform the D Position Shift Test inspection in
-              Road Test. [*1]
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1991e1129" href="./RM100000002K29I.html?linkId=d1991e1129&amp;hashId=RM100000002K29I#RM100000002K29I"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: ROAD TEST">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: ROAD TEST">
-                </a></span></span></p>
-                <p class="hintgen">HINT:</p>
-                <p class="hint">[*1]: Normal judgment
-                procedure.</p>
-                <p class="para2">The normal judgment procedure is
-                used to complete DTC judgment and also used when
-                clearing permanent DTCs.</p>
-              </li>
-              <li>Enter the following menus: Powertrain /
-              Transmission / Utility / All Readiness.</li>
-              <li>Input the DTC: P096849.</li>
-              <li>Check the DTC judgment result.
-                <table width="100%" border="1">
-                  <colgroup>
-                    <col>
-                    <col>
-                  </colgroup>
-                  <thead>
-                    <tr>
-                      <th align="center" valign="middle">
-                        <p class="entry">GTS Display</p>
-                      </th>
-                      <th align="center" valign="middle">
-                        <p class="entry">Description</p>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td align="center" valign="middle">
-                        <p class="entry">NORMAL</p>
-                      </td>
-                      <td valign="middle">
-                        <div class="entry">
-                          <ul class="list">
-                            <li>DTC judgment completed</li>
-                            <li>System normal</li>
-                          </ul>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" valign="middle">
-                        <p class="entry">ABNORMAL</p>
-                      </td>
-                      <td valign="middle">
-                        <div class="entry">
-                          <ul class="list">
-                            <li>DTC judgment completed</li>
-                            <li>System abnormal</li>
-                          </ul>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" valign="middle">
-                        <p class="entry">INCOMPLETE</p>
-                      </td>
-                      <td valign="middle">
-                        <div class="entry">
-                          <ul class="list">
-                            <li>DTC judgment not completed</li>
-                            <li>Perform driving pattern after
-                            confirming DTC enabling conditions</li>
-                          </ul>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" valign="middle">
-                        <p class="entry">N/A</p>
-                      </td>
-                      <td valign="middle">
-                        <div class="entry">
-                          <ul class="list">
-                            <li>Unable to perform DTC judgment</li>
-                            <li>Number of DTCs which do not fulfill
-                            DTC preconditions has reached ECU
-                            memory limit</li>
-                          </ul>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div class="hint">
+               <td class="frame">
+                  <table width="100%" class="side" border="1">
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="1">
+                           <b>Last Modified: </b>12-09-2025</td>
+                        <td class="side">6.11:8.1.0 </td>
+                        <td class="side">
+                           <b>Doc ID: </b>RM100000002K2AR</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top">
+                           <b>Model Year Start: </b>2024</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Model: </b>Tacoma HV</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Prod Date Range: </b>[03/2024 -                    
+                                       ]</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="3">
+                           <b>Title: </b>L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: P096849; Pressure Control Solenoid "C" Control Internal Electronic Failure; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</td>
+                     </tr>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">P096849</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Pressure Control Solenoid "C" Control Internal Electronic Failure</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+   
+                  <a name="RM100000002K2AR_02"> </a>
+      
+                  <h2 class="name">DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The TCM performs shifting from 1st to 8th gear with ON-OFF combinations of solenoid (SL1, SL2, SL3, SL4, SL5, SL6, SL and SC3) valves.</p>
+         
+                  <p class="content5">As a fail-safe function, the TCM turns the other solenoids ON or OFF if an open circuit or short occurs in any of the solenoid circuits. (If an open circuit or short circuit occurs, the TCM cuts power to the malfunctioning solenoid valve.)</p>
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                  
+                        <tr>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC No.</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Detection Item</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Detection Condition</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Trouble Area</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">MIL</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Output from</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Priority</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Note</p>
+                     
+                           </th>
+                  
+                        </tr>
+               
+                     </thead>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">P096849</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Pressure Control Solenoid "C" Control Internal Electronic Failure</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">The solenoid (SL3) valve current control command value and current feedback value are inconsistent for 2 seconds or more (1-trip detection logic).</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Solenoid (SL3) valve
+                              </li>
+                                    <li>
+                                 TCM
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Transmission</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">B</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">SAE: P0968</p>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K2AR_03"> </a>
+      
+                  <h2 class="name">MONITOR DESCRIPTION</h2>
+      
+         
+                  <p class="content5">This DTC indicates current control command value and current feedback value are inconsistent in the solenoid (SL3) valve circuit.</p>
+         
+                  <p class="content5">The TCM commands gear shifts by turning the solenoid valves on or off.</p>
+         
+                  <p class="content5">When there is current control command value and current feedback value are inconsistent in any solenoid valve circuit, the TCM detects the problem, illuminates the MIL and stores a DTC.</p>
+      
+   
+   
+                  <a name="RM100000002K2AR_12"> </a>
+      
+                  <h2 class="name">MONITOR STRATEGY</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Related DTCs</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">P0968: Solenoid (SL3) valve/Range check (circuit/open)</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Required sensors/Components</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Solenoid (SL3) valve</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Frequency of operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Continuous</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Duration</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">1 time</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">MIL operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Immediately</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Sequence of operation</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002K2AR_13"> </a>
+      
+                  <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">DS_active_wake*</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">TRUE</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Pressure control solenoid driver error (P1700)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Not detected</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Solenoid current cut command to SOLC</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Not cut</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Time after solenoid current cut command to SOLC cut to not cut</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">0.02 seconds or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Solenoid current cut command to SOLC-S</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Not cut</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Time after solenoid current cut command to SOLC-S cut to not cut</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">0.02 seconds or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Solenoid kill status</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Not kill</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Time after solenoid kill status kill to not kill</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">0.02 seconds or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Solenoid (SL3) valve error (P0968, P0970, P0971)</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Not detected</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
                   <p class="hintgen">HINT:</p>
-                  <ul class="hint">
-                    <li>If the judgment result shows NORMAL, the
-                    system is normal.</li>
-                    <li>If the judgment result shows ABNORMAL, the
-                    system has a malfunction.</li>
-                    <li>If the judgment result shows INCOMPLETE or
-                    N/A, perform the normal judgment procedure
-                    again.</li>
-                  </ul>
-                </div>
-              </li>
-            </ol>
-          </div><a name="RM100000002K2AR_09" id="RM100000002K2AR_09"></a>
-          <h2 class="name">WIRING DIAGRAM</h2>
-          <p class="content5">Refer to DTC P096813.</p>
-          <p class="content5">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1991e1341" href="./RM100000002K2AQ.html?linkId=d1991e1341&amp;hashId=RM100000002K2AQ#RM100000002K2AQ"
-          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: P096813; Pressure Control Solenoid &quot;C&quot; Control Circuit Open">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: P096813; Pressure Control Solenoid &quot;C&quot; Control Circuit Open">
-          </a></span></span></p><a name="RM100000002K2AR_10" id="RM100000002K2AR_10"></a>
-          <h2 class="name">CAUTION / NOTICE / HINT</h2>
-          <div class="notice">
-            <p class="notegen">NOTICE:</p>
-            <ul class="note">
-              <li>Perform the universal trip to clear permanent
-              DTCs.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1991e1367" href="./RM100000002K29N.html?linkId=d1991e1367&amp;hashId=RM100000002K29N#RM100000002K29N"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
-                </a></span></span></p>
-              </li>
-              <li>Perform utility when parts related to the
-              automatic transmission are replaced.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d1991e1381" href="./RM100000002K29L.html?linkId=d1991e1381&amp;hashId=RM100000002K29L#RM100000002K29L"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: UTILITY">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: UTILITY">
-                </a></span></span></p>
-              </li>
-            </ul>
-          </div>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">Read freeze frame data using the GTS. The
-          TCM records vehicle and driving condition information as
-          freeze frame data the moment a DTC is stored. When
-          troubleshooting, freeze frame data can help determine if
-          the vehicle was moving or stationary, if the engine was
-          warmed up or not, and other data from the time the
-          malfunction occurred.</p><a name="RM100000002K2AR_11" id="RM100000002K2AR_11"></a>
-          <h2 class="name">PROCEDURE</h2>
-          <h2 class="name">PROCEDURE</h2><a name="RM100000002K2AR_11_0001" id="RM100000002K2AR_11_0001"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">1.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK OTHER DTCS OUTPUT (IN
-                  ADDITION TO DTC P096849)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="test1">(a) Read the DTCs using the GTS.</p>
-          <h4 class="gtsInfoTitle">Powertrain &gt; Transmission
-          &gt; Trouble Codes</h4>
-          <table width="100%" border="1" class="result">
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Proceed to</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">Only P096849 is output</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">A</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">P096849 and other DTCs are
-                  output</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">B</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">B</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">GO TO DTC CHART</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">A</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
+                  <p class="hint">*: DS_active_wake</p>
+            
+               
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">All of the following conditions are met</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">0.5 seconds or more</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">1. Auxiliary battery voltage</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">10 V or higher</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">2. Either condition is met</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(a) or (b)</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(a) All of the following conditions are met</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">-</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">- Lost communication with ECM/PCM "A" fault</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">Not detected</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">- Lost communication with ECM/PCM "A" malfunction (U0100)</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">Not detected</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">- Starter switch signal from ECM/PCM "A"</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">OFF</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(b) All of the following conditions are met</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(1) and (2)</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(1) Either condition is met</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">-</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">* Lost communication with ECM/PCM "A" fault</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">Detected</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">* Lost communication with ECM/PCM "A" malfunction (U0100)</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">Detected</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(2) Starter switch signal from brake system control module "A"</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">OFF</p>
+                        
+                           </td>
+                     
+                        </tr>
+                  
+                     </tbody>
+                  </table>
+            
+         
+      
+   
+   
+                  <a name="RM100000002K2AR_14"> </a>
+      
+                  <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+      
+         
+                  <p class="content5">When one of the following conditions is met: Condition (A), (B), (C) or (D)</p>
+         
+            
+                  <h4 class="tbltitle" id="d1991e807">Condition (A)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">sum_ie*1</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">30 A or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d1991e838">Condition (B)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">lie*1l</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">0.05 A or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d1991e869">Condition (C)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">dStuck_decision*2</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">TRUE</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d1991e900">Condition (D)</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Pressure control solenoid driver status BATT short</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Occurred</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Solenoid current</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">0.02 A or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">*1 : sum_ie, ie</p>
+            
+               
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">To add ie to sum_ie every 0.02 seconds</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">-</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">ie: Difference of target current and solenoid current sum_ie is cleared if at least the one following condition is satisfied</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">-</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(1) TYPICAL MALFUNCTION THRESHOLDS are not satisfied</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">-</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(2) ie</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">-0.05 A or higher and 0.05 A or less</p>
+                        
+                           </td>
+                     
+                        </tr>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">(3) Sign of ie is changed</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">-</p>
+                        
+                           </td>
+                     
+                        </tr>
+                  
+                     </tbody>
+                  </table>
+            
+            
+                  <p class="hint">*2: dStuck_decision</p>
+            
+               
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                     
+                        <tr>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">lie*1l</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">Higher than 0.05 A</p>
+                        
+                           </td>
+                     
+                        </tr>
+                  
+                     </tbody>
+                  </table>
+            
+         
+      
+   
+   
+                  <a name="RM100000002K2AR_08"> </a>
+      
+                  <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+      
+         
+            
+                  <div class="hint">
+                     <p class="hintgen">HINT:</p>
+                     <ul class="hint">
+                        <li>
+                  After repair has been completed, clear the DTC and then check that the vehicle has returned to normal by performing the following All Readiness check procedure.
+               </li>
+                        <li>
+                  When clearing the permanent DTCs, refer to the Clear Permanent DTC procedure.
+                  <p class="para2">Click here<span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d1991e1099" href="./RM100000002K29N.html?linkId=d1991e1099&amp;hashId=RM100000002K29N#RM100000002K29N" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                     </ul>
+                  </div>
+         
+         
+                  <div class="content5">
+                     <ol class="list">
+                        <li>
+               Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+            </li>
+                        <li>
+               Turn the ignition switch off and wait for at least 30 seconds.
+            </li>
+                        <li>
+               Perform the D Position Shift Test inspection in Road Test. [*1]
+               <p class="para2">Click here<span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d1991e1129" href="./RM100000002K29I.html?linkId=d1991e1129&amp;hashId=RM100000002K29I#RM100000002K29I" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: ROAD TEST">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: ROAD TEST"/>
+                                    </a>
+                                 </span>
+                              </span>
+               
+                           </p>
+               
+                  
+                           <p class="hintgen">HINT:</p>
+                           <p class="hint">[*1]: Normal judgment procedure.</p>
+                  
+                           <p class="para2">The normal judgment procedure is used to complete DTC judgment and also used when clearing permanent DTCs.</p>
+               
+            
+                        </li>
+                        <li>
+               Enter the following menus: Powertrain / Transmission / Utility / All Readiness.
+            </li>
+                        <li>
+               Input the DTC: P096849.
+            </li>
+                        <li>
+               Check the DTC judgment result.
+               
+                  <table width="100%" border="1">
+                              <colgroup>
+                                 <col/>
+                                 <col/>
+                              </colgroup>
+                              <thead>
+                        
+                                 <tr>
+                           
+                                    <th align="center" valign="middle">
+                              
+                                       <p class="entry">GTS Display</p>
+                           
+                                    </th>
+                           
+                                    <th align="center" valign="middle">
+                              
+                                       <p class="entry">Description</p>
+                           
+                                    </th>
+                        
+                                 </tr>
+                     
+                              </thead>
+                              <tbody>
+                        
+                                 <tr>
+                           
+                                    <td align="center" valign="middle">
+                              
+                                       <p class="entry">NORMAL</p>
+                           
+                                    </td>
+                           
+                                    <td valign="middle">
+                              
+                                       <div class="entry">
+                                          <ul class="list">
+                                             <li>
+                                    DTC judgment completed
+                                 </li>
+                                             <li>
+                                    System normal
+                                 </li>
+                                          </ul>
+                                       </div>
+                           
+                                    </td>
+                        
+                                 </tr>
+                        
+                                 <tr>
+                           
+                                    <td align="center" valign="middle">
+                              
+                                       <p class="entry">ABNORMAL</p>
+                           
+                                    </td>
+                           
+                                    <td valign="middle">
+                              
+                                       <div class="entry">
+                                          <ul class="list">
+                                             <li>
+                                    DTC judgment completed
+                                 </li>
+                                             <li>
+                                    System abnormal
+                                 </li>
+                                          </ul>
+                                       </div>
+                           
+                                    </td>
+                        
+                                 </tr>
+                        
+                                 <tr>
+                           
+                                    <td align="center" valign="middle">
+                              
+                                       <p class="entry">INCOMPLETE</p>
+                           
+                                    </td>
+                           
+                                    <td valign="middle">
+                              
+                                       <div class="entry">
+                                          <ul class="list">
+                                             <li>
+                                    DTC judgment not completed
+                                 </li>
+                                             <li>
+                                    Perform driving pattern after confirming DTC enabling conditions
+                                 </li>
+                                          </ul>
+                                       </div>
+                           
+                                    </td>
+                        
+                                 </tr>
+                        
+                                 <tr>
+                           
+                                    <td align="center" valign="middle">
+                              
+                                       <p class="entry">N/A</p>
+                           
+                                    </td>
+                           
+                                    <td valign="middle">
+                              
+                                       <div class="entry">
+                                          <ul class="list">
+                                             <li>
+                                    Unable to perform DTC judgment
+                                 </li>
+                                             <li>
+                                    Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+                                 </li>
+                                          </ul>
+                                       </div>
+                           
+                                    </td>
+                        
+                                 </tr>
+                     
+                              </tbody>
+                           </table>
+               
+               
+                  
+                           <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If the judgment result shows NORMAL, the system is normal.
+                     </li>
+                                 <li>
+                        If the judgment result shows ABNORMAL, the system has a malfunction.
+                     </li>
+                                 <li>
+                        If the judgment result shows INCOMPLETE or N/A, perform the normal judgment procedure again.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                     </ol>
+                  </div>
+      
+   
+   
+                  <a name="RM100000002K2AR_09"> </a>
+      
+                  <h2 class="name">WIRING DIAGRAM</h2>
+      
+         
+                  <p class="content5">Refer to DTC P096813.</p>
+         
+                  <p class="content5">Click here<span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d1991e1341" href="./RM100000002K2AQ.html?linkId=d1991e1341&amp;hashId=RM100000002K2AQ#RM100000002K2AQ" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: P096813; Pressure Control Solenoid &#34;C&#34; Control Circuit Open">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: P096813; Pressure Control Solenoid &#34;C&#34; Control Circuit Open"/>
+                           </a>
+                        </span>
+                     </span>
+         
+                  </p>
+      
+   
+   
+                  <a name="RM100000002K2AR_10"> </a>
+      
+                  <h2 class="name">CAUTION / NOTICE / HINT</h2>
+      
+         
+            
+                  <div class="notice">
+                     <p class="notegen">NOTICE:</p>
+                     <ul class="note">
+                        <li>
+                  Perform the universal trip to clear permanent DTCs.
+                  <p class="para2">Click here<span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d1991e1367" href="./RM100000002K29N.html?linkId=d1991e1367&amp;hashId=RM100000002K29N#RM100000002K29N" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: DTC CHECK / CLEAR"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                        <li>
+                  Perform utility when parts related to the automatic transmission are replaced.
+                  <p class="para2">Click here<span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d1991e1381" href="./RM100000002K29L.html?linkId=d1991e1381&amp;hashId=RM100000002K29L#RM100000002K29L" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: UTILITY">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): HYBRID TRANSMISSION SYSTEM: UTILITY"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                     </ul>
+                  </div>
+         
+         
+            
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">Read freeze frame data using the GTS. The TCM records vehicle and driving condition information as freeze frame data the moment a DTC is stored. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, and other data from the time the malfunction occurred.</p>
+         
+      
+   
+   
+                  <a name="RM100000002K2AR_11"> </a>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <a name="RM100000002K2AR_11_0001"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">1. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK OTHER DTCS OUTPUT (IN ADDITION TO DTC P096849)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="test1">(a) Read the DTCs using the GTS.</p>
+               
+                  <h4 class="gtsInfoTitle">Powertrain &gt; Transmission &gt; Trouble Codes</h4>
+               
+                  
+                  
+                     
+                  <table width="100%" border="1" class="result">
+                        
+                        
+                        
+                     <thead>
+                           
+                        <tr>
+                              
+                           <th align="center" valign="middle">
+                                 
+                              <p class="entry">Result</p>
+                              
+                           </th>
+                              
+                           <th align="center" valign="middle">
+                                 
+                              <p class="entry">Proceed to</p>
+                              
+                           </th>
+                           
+                        </tr>
+                        
+                     </thead>
+                        
+                     <tbody>
+                           
+                        <tr>
+                              
+                           <td align="center" valign="middle">
+                                 
+                              <p class="entry">Only P096849 is output</p>
+                              
+                           </td>
+                              
+                           <td align="center" valign="middle">
+                                 
+                                    
+                              <p class="judge-value">A</p>
+                                 
+                              
+                           </td>
+                           
+                        </tr>
+                           
+                        <tr>
+                              
+                           <td align="center" valign="middle">
+                                 
+                              <p class="entry">P096849 and other DTCs are output</p>
+                              
+                           </td>
+                              
+                           <td align="center" valign="middle">
+                                 
+                                    
+                              <p class="judge-value">B</p>
+                                 
+                              
+                           </td>
+                           
+                        </tr>
+                        
+                     </tbody>
+                     
+                  </table>
+                  
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">B</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">GO TO DTC CHART</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               A
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002K2AR_11_0003"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">2. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">INSPECT TRANSMISSION WIRE (SOLENOID (SL3) VALVE)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+                  <p class="content6">Pre-procedure1</p>
+            
+               
+                  <p class="test1">(a) Disconnect the transmission wire connector.</p>
+            
+            
+                  <p class="content6">Procedure1</p>
+            
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td class="side">
+                              <p class="test1">(b) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                              <p class="spec">Standard Resistance: </p>
+                  
+                              <table width="100%" border="1">
+                                 <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                                 <br/>
+                                 <span class="ewdmlink">
+                                    <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                                       <a id="d1991e1603" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=D26')" title="2024 MY Tacoma HV EWD">
+                                          <span class="ewdlink">Click Location &amp; Routing(D26)</span>
+                                       </a>
+                                    </span>
+                                    <br/>
+                                 </span>
+                                 <span class="ewdmlink">
+                                    <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                                       <a id="d1991e1611" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D26&amp;pinno=15,16')" title="2024 MY Tacoma HV EWD">
+                                          <span class="ewdlink">Click Connector(D26)</span>
+                                       </a>
+                                    </span>
+                                    <br/>
+                                 </span>
+                                 <col width=""/>
+                                 <col width=""/>
+                                 <col width=""/>
+                                 <thead>
+                           
+                                    <tr>
+                              
+                                       <th align="center" valign="middle">
+                                 
+                                          <p class="entry">Tester Connection</p>
+                              
+                                       </th>
+                              
+                                       <th align="center" valign="middle">
+                                 
+                                          <p class="entry">Condition</p>
+                              
+                                       </th>
+                              
+                                       <th align="center" valign="middle">
+                                 
+                                          <p class="entry">Specified Condition</p>
+                              
+                                       </th>
+                           
+                                    </tr>
+                        
+                                 </thead>
+                                 <tbody>
+                           
+                                    <tr>
+                              
+                                       <td align="center" valign="middle">
+                                 
+                                          <p class="entry">D26-15 (SL3+) - D26-16 (SL3-)</p>
+                              
+                                       </td>
+                              
+                                       <td align="center" valign="middle">
+                                 
+                                          <p class="entry">20°C (68°F)</p>
+                              
+                                       </td>
+                              
+                                       <td align="center" valign="middle">
+                                 
+                                          <p class="entry">5.0 to 5.6 Ω</p>
+                              
+                                       </td>
+                           
+                                    </tr>
+                        
+                                 </tbody>
+                              </table>
+               
+                  
+                              <p class="spec">Result: </p>
+                  
+                              <table width="100%" border="1">
+                                 <col width=""/>
+                                 <thead>
+                           
+                                    <tr>
+                              
+                                       <th align="center" valign="middle">
+                                 
+                                          <p class="entry">Proceed to</p>
+                              
+                                       </th>
+                           
+                                    </tr>
+                        
+                                 </thead>
+                                 <tbody>
+                           
+                                    <tr>
+                              
+                                       <td align="center" valign="middle">
+                                 
+                                    
+                                          <p class="judge-value">OK</p>
+                                 
+                              
+                                       </td>
+                           
+                                    </tr>
+                           
+                                    <tr>
+                              
+                                       <td align="center" valign="middle">
+                                 
+                                    
+                                          <p class="judge-value">NG</p>
+                                 
+                              
+                                       </td>
+                           
+                                    </tr>
+                        
+                                 </tbody>
+                              </table>
+               
+                           </td>
+                           <td class="sidsid">
+                              <table align="right">
+                                 <tr>
+                                    <td align="right">
+                  
+                     
+                                       <img src="../images/C485650C75.png.html" border="1" alt=" "/>
+                  
+                  
+                     
+                        
+                           
+                           
+                           
+                              
+                                 
+                                    
+                                 
+                                 
+                                    
+                                    
+                                 
+                              
+                           
+                        
+                     
+                  
+               
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                     
+                        
+                                       <table class="callout" border="1" cellspacing="0" style="width:3.434793307in;">
+                                          <colgroup>
+                                             <col style="width:15%"/>
+                                             <col style="width:85%"/>
+                                          </colgroup>
+                                          <tbody>
+                              
+                                             <tr>
+                                 
+                                                <td align="center" valign="middle">
+                                    
+                                                   <p class="entry">*a</p>
+                                 
+                                                </td>
+                                 
+                                                <td align="left" valign="middle">
+                                    
+                                                   <p class="entry">Component without harness connected</p>
+                                    
+                                                   <p class="para">(Transmission Wire)</p>
+                                 
+                                                </td>
+                              
+                                             </tr>
+                           
+                                          </tbody>
+                                       </table>
+                     
+                  
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <p class="content6">Post-procedure1</p>
+            
+               
+                  <p class="test1">(c) None.</p>
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d1991e1756" href="./RM100000002K2DP.html?linkId=d1991e1756&amp;hashId=RM100000002K2DP#RM100000002K2DP" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): TCM: REMOVAL">REPLACE TCM</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d1991e1779" href="./RM100000002K2CY.html?linkId=d1991e1779&amp;hashId=RM100000002K2CY#RM100000002K2CY" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; L580F (HYBRID TRANSMISSION / TRANSAXLE): VALVE BODY ASSEMBLY (for Transmission Side): DISASSEMBLY">REPLACE SOLENOID (SL3) VALVE</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+   
+
+                  <table class="footer" width="100%" cellpadding="0" cellspacing="0">
+                     <colgroup>
+                        <col/>
+                        <col style="text-align:center"/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td class="foot" width="30" height="18">
+                              <img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""/>
+                           </td>
+                           <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"/>
+                           <td class="foot" width="80" height="18" align="right">
+                              <img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
             </tr>
-          </table><a name="RM100000002K2AR_11_0003" id="RM100000002K2AR_11_0003"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">2.</p>
-                </td>
-                <td>
-                  <p class="testgrp">INSPECT TRANSMISSION WIRE
-                  (SOLENOID (SL3) VALVE)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="content6">Pre-procedure1</p>
-          <p class="test1">(a) Disconnect the transmission wire
-          connector.</p>
-          <p class="content6">Procedure1</p>
-          <table border="0" width="100%">
-            <tbody>
-              <tr>
-                <td class="side">
-                  <p class="test1">(b) Measure the resistance
-                  according to the value(s) in the table below.</p>
-                  <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
-                  <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d1991e1603" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=D26')"
-                  title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click Location &
-                  Routing(D26)</span></a></span><br></span>
-                  <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d1991e1611" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D26&amp;pinno=15,16')"
-                  title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-                  Connector(D26)</span></a></span><br></span>
-                  <table width="100%" border="1">
-                    <col width="">
-                    <col width="">
-                    <col width="">
-                    <thead>
-                      <tr>
-                        <th align="center" valign="middle">
-                          <p class="entry">Tester Connection</p>
-                        </th>
-                        <th align="center" valign="middle">
-                          <p class="entry">Condition</p>
-                        </th>
-                        <th align="center" valign="middle">
-                          <p class="entry">Specified Condition</p>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td align="center" valign="middle">
-                          <p class="entry">D26-15 (SL3+) - D26-16
-                          (SL3-)</p>
-                        </td>
-                        <td align="center" valign="middle">
-                          <p class="entry">20°C (68°F)</p>
-                        </td>
-                        <td align="center" valign="middle">
-                          <p class="entry">5.0 to 5.6 Ω</p>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <p class="spec">Result:</p>
-                  <table width="100%" border="1">
-                    <col width="">
-                    <thead>
-                      <tr>
-                        <th align="center" valign="middle">
-                          <p class="entry">Proceed to</p>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td align="center" valign="middle">
-                          <p class="judge-value">OK</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="center" valign="middle">
-                          <p class="judge-value">NG</p>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-                <td class="sidsid">
-                  <table align="right">
-                    <tr>
-                      <td align="right"><img src="../images/C485650C75.png.html" border="1"
-                      alt=" "></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table class="callout" border="1"
-                        cellspacing="0" style="width:3.434793307in;">
-                          <colgroup>
-                            <col style="width:15%">
-                            <col style="width:85%">
-                          </colgroup>
-                          <tbody>
-                            <tr>
-                              <td align="center" valign="middle">
-                                <p class="entry">*a</p>
-                              </td>
-                              <td align="left" valign="middle">
-                                <p class="entry">Component without
-                                harness connected</p>
-                                <p class="para">(Transmission
-                                Wire)</p>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="content6">Post-procedure1</p>
-          <p class="test1">(c) None.</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">OK</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d1991e1756" href="./RM100000002K2DP.html?linkId=d1991e1756&amp;hashId=RM100000002K2DP#RM100000002K2DP"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): TCM: REMOVAL">
-                  REPLACE TCM</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d1991e1779" href="./RM100000002K2CY.html?linkId=d1991e1779&amp;hashId=RM100000002K2CY#RM100000002K2CY"
-                  title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; L580F (HYBRID TRANSMISSION / TRANSAXLE): VALVE BODY ASSEMBLY (for Transmission Side): DISASSEMBLY">
-                  REPLACE SOLENOID (SL3)
-                  VALVE</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="footer" width="100%" cellpadding="0"
-          cellspacing="0">
-            <colgroup>
-              <col>
-              <col style="text-align:center">
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
-                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"></td>
-                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+         </tbody>
+      </table>
+   </body>
 </html>
