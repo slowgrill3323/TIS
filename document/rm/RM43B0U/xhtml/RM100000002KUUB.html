@@ -1,1615 +1,2738 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+  PUBLIC "-//W3//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-  <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV
-  Model): P003012,P003013,P101A9E; HO2S Heater Control Bank 1
-  Sensor 1 Circuit Short to Battery; 2024 - 2026 MY Tacoma HV
-  [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
-  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
-  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body id="C">
-  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KUUB">
-    <colgroup>
-      <col>
-    </colgroup>
-    <tbody>
-      <tr>
-        <td class="frame">
-          <table width="100%" class="side" border="1">
+   <head>
+      <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P003012,P003013,P101A9E; HO2S Heater Control Bank 1 Sensor 1 Circuit Short to Battery; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</title>
+      <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css"/>
+      <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"> </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   </head>
+   <body id="C">
+      <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KUUB">
+         <colgroup>
+            <col/>
+         </colgroup>
+         <tbody>
             <tr>
-              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
-              <td class="side">6.11:8.1.0</td>
-              <td class="side"><b>Doc ID:</b> RM100000002KUUB</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top"><b>Model
-              Year Start:</b> 2024</td>
-              <td class="side" align="left" valign="top">
-              <b>Model:</b> Tacoma HV</td>
-              <td class="side" align="left" valign="top"><b>Prod
-              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; ]</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (ENGINE CONTROL): SFI
-              SYSTEM (for 1Motor-HEV Model):
-              P003012,P003013,P101A9E; HO2S Heater Control Bank 1
-              Sensor 1 Circuit Short to Battery; 2024 - 2026 MY
-              Tacoma HV [03/2024 -
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
-            </tr>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">P003012</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">HO2S Heater Control Bank 1 Sensor
-                  1 Circuit Short to Battery</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">P003013</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">HO2S Heater Control Bank 1 Sensor
-                  1 Circuit Open</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">P101A9E</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">A/F Sensor Heater Performance Bank
-                  1 Sensor 1 Stuck On</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUUB_01" id="RM100000002KUUB_01"></a>
-          <h2 class="name">DESCRIPTION</h2>
-          <p class="content5">The air fuel ratio sensor (sensor 1)
-          generates current that corresponds to the actual air fuel
-          ratio. This sensor current is used to provide the ECM
-          with feedback so that it can control the air fuel ratio.
-          The ECM determines the deviation from the stoichiometric
-          air fuel ratio level, and regulates the fuel injection
-          duration. If the air fuel ratio sensor (sensor 1)
-          malfunctions, the ECM is unable to control the air fuel
-          ratio accurately.</p>
-          <p class="content5">The air fuel ratio sensor (sensor 1)
-          is a planar type sensor and integrated with the heater,
-          which heats the solid electrolyte (zirconia element).
-          This heater is controlled by the ECM. When the intake air
-          volume is low (the exhaust gas temperature is low), a
-          current flows into the heater to heat the sensor, in
-          order to facilitate accurate oxygen concentration
-          detection. In addition, the sensor and heater portions
-          are a narrow type. The heat generated by the heater is
-          conducted to the solid electrolyte through the alumina,
-          therefore sensor activation is accelerated.</p>
-          <p class="content5">In order to obtain a high
-          purification rate of the carbon monoxide (CO),
-          hydrocarbon (HC) and nitrogen oxide (NOx) components in
-          the exhaust gas, a three-way catalytic converter is used.
-          For the most efficient use of the three-way catalytic
-          converter, the air fuel ratio must be precisely
-          controlled so that it is always close to the
-          stoichiometric level.</p><img src="../images/A499552E01.png.html" border="1" alt=" ">
-          <div class="hint">
-            <p class="hintgen">HINT:</p>
-            <ul class="hint">
-              <li>When any of these DTCs are stored, the ECM enters
-              fail-safe mode. The ECM turns off the air fuel ratio
-              sensor (sensor 1) heater in fail-safe mode. Fail-safe
-              mode continues until the ignition switch is turned
-              off.</li>
-              <li>Although the DTC titles say oxygen sensor, these
-              DTCs relate to the air fuel ratio sensor (sensor
-              1).</li>
-              <li>The ECM has a pulse width modulated control
-              circuit to adjust the current through the heater. The
-              air fuel ratio sensor (sensor 1) heater circuit uses
-              a relay on the +B side of the circuit. <img src="../images/A508743E18.png.html" border="1" alt=" "></li>
-            </ul>
-          </div>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC No.</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Detection Item</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Detection Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Trouble Area</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">MIL</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Output from</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Priority</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Note</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">P003012</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">HO2S Heater Control Bank 1
-                  Sensor 1 Circuit Short to Battery</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">The air fuel ratio sensor
-                  (sensor 1) heater current is more than the
-                  specified value while the heater is operating (1
-                  trip detection logic).</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Short in air fuel ratio sensor (sensor 1)
-                      heater circuit</li>
-                      <li>Air fuel ratio sensor (sensor 1)</li>
-                      <li>ECM</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Engine</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>SAE: P0032</li>
-                      <li>DTC for Mexico Models: Applies</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">P003013</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">HO2S Heater Control Bank 1
-                  Sensor 1 Circuit Open</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">The air fuel ratio sensor
-                  (sensor 1) heater current is less than the
-                  specified value while the heater is operating (1
-                  trip detection logic).</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Open or short in air fuel ratio sensor
-                      (sensor 1) heater circuit</li>
-                      <li>Air fuel ratio sensor (sensor 1)</li>
-                      <li>EFI-MAIN NO. 3 relay</li>
-                      <li>ECM</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Engine</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>SAE: P0031</li>
-                      <li>DTC for Mexico Models: Applies</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">P101A9E</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">A/F Sensor Heater
-                  Performance Bank 1 Sensor 1 Stuck On</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">The air fuel ratio sensor
-                  (sensor 1) heater voltage level is low while the
-                  heater is not operating (1 trip detection
-                  logic).</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Short in air fuel ratio sensor (sensor 1)
-                      heater circuit</li>
-                      <li>Air fuel ratio sensor (sensor 1)</li>
-                      <li>ECM</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Comes on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Engine</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>SAE: P101D</li>
-                      <li>DTC for Mexico Models: Applies</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUUB_02" id="RM100000002KUUB_02"></a>
-          <h2 class="name">MONITOR DESCRIPTION</h2>
-          <p class="content5">The ECM uses information from the air
-          fuel ratio sensor (sensor 1) to regulate the air fuel
-          ratio and keep it close to the stoichiometric level. This
-          maximizes the ability of the three-way catalytic
-          converter to purify the exhaust gases.</p>
-          <p class="content5">The air fuel ratio sensor (sensor 1)
-          detects oxygen levels in the exhaust gas and transmits
-          the information to the ECM. The inner surface of the
-          sensor element is exposed to the outside air. The outer
-          surface of the sensor element is exposed to the exhaust
-          gas. The sensor element is made of platinum-coated
-          zirconia and includes an integrated heating element.</p>
-          <p class="content5">The zirconia element generates a
-          small voltage when there is a large difference in the
-          oxygen concentrations between the exhaust gas and outside
-          air. The platinum coating amplifies this voltage
-          generation.</p>
-          <p class="content5">The air fuel ratio sensor (sensor 1)
-          is more efficient when heated. When the exhaust gas
-          temperature is low, the sensor cannot generate useful
-          current signals without supplementary heating. The ECM
-          regulates the supplementary heating using a duty-cycle
-          approach to adjust the average current in the sensor
-          heater element. If the heater current is outside the
-          normal range, the signal transmitted by the air fuel
-          ratio sensor (sensor 1) becomes inaccurate. As a result,
-          the ECM is unable to regulate the air fuel ratio
-          properly.</p>
-          <h2>Air Fuel Ratio Sensor (Sensor 1) Heater Range Check
-          (P003012 and P003013):</h2>
-          <div class="topic">
-            <ul style="list-style-type: none;">
-              <li>The ECM monitors the current applied to the air
-              fuel ratio sensor (sensor 1) heater to check the
-              heater for malfunctions.
-                <p class="para2">If the heater current is outside
-                the normal range, the signal transmitted by the air
-                fuel ratio sensor (sensor 1) becomes inaccurate.
-                When the current in the air fuel ratio sensor
-                (sensor 1) heater is outside the normal operating
-                range, the ECM interprets this as a malfunction in
-                the sensor heater and stores a DTC.</p>
-              </li>
-            </ul>
-          </div>
-          <h2>Air Fuel Ratio Sensor (Sensor 1) Heater Performance
-          (P101A9E):</h2>
-          <div class="topic">
-            <ul style="list-style-type: none;">
-              <li>When the air fuel ratio sensor (sensor 1) heater
-              terminal voltage is the specified value or less while
-              the heater is not operating, the ECM determines that
-              there is a malfunction in the sensor heater and
-              stores DTC.</li>
-            </ul>
-          </div><a name="RM100000002KUUB_03" id="RM100000002KUUB_03"></a>
-          <h2 class="name">MONITOR STRATEGY</h2>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Related DTCs</p>
-                </td>
-                <td>
-                  <p class="entry">P0031: Air fuel ratio sensor
-                  (sensor 1) heater range check (low current)</p>
-                  <p class="para">P0032: Air fuel ratio sensor
-                  (sensor 1) heater range check (high current)</p>
-                  <p class="para">P101D: Air fuel ratio sensor
-                  (sensor 1) heater performance</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Required Sensors/Components
-                  (Main)</p>
-                </td>
-                <td>
-                  <p class="entry">Air fuel ratio sensor (sensor 1)
-                  heater</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Required Sensors/Components
-                  (Related)</p>
-                </td>
-                <td>
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Frequency of Operation</p>
-                </td>
-                <td>
-                  <p class="entry">Continuous</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Duration</p>
-                </td>
-                <td>
-                  <p class="entry">10 seconds: P0031 and P0032</p>
-                  <p class="para">5 seconds: P101D</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">MIL Operation</p>
-                </td>
-                <td>
-                  <p class="entry">Immediate</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">Sequence of Operation</p>
-                </td>
-                <td>
-                  <p class="entry">None</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUUB_04" id="RM100000002KUUB_04"></a>
-          <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
-          <h4 class="tbltitle" id="d488e797">P0031</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Auxiliary battery voltage</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">10.5 V or higher</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Time after heater on</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">5 seconds or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Air fuel ratio sensor (sensor 1)
-                  heater performance fail (P101D)</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Not detected</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Output duty cycle</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">7% or higher</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Heater high current cutout</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Off</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d488e903">P0032</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Monitor runs whenever the
-                  following DTCs are not stored</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">None</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="entry">All of the following conditions
-                  are met</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Auxiliary battery voltage</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">10.5 V or higher</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Time after heater on</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">5 seconds or more</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">CPU commanded duty cycle</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Higher than 5%</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Output duty cycle</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Higher than 5%</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d488e1009">P101D</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="entry">Monitor runs whenever the
-                  following DTCs are not stored</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">None</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Both of the following conditions
-                  are met</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Auxiliary battery voltage</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">10.5 V or higher</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Output duty cycle</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Less than 95%</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUUB_05" id="RM100000002KUUB_05"></a>
-          <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
-          <h4 class="tbltitle" id="d488e1094">P0031</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Heater on current</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Less than 0.6 A</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d488e1125">P0032</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Either of the following
-                  conditions is met</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">-</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Heater on current detected by
-                  heater monitor IC</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">More than 15 A</p>
-                </td>
-              </tr>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Heater on voltage detected by
-                  heater monitor IC</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">[Auxiliary battery voltage x
-                  0.1] V or higher</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h4 class="tbltitle" id="d488e1186">P101D</h4>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td valign="middle">
-                  <p class="entry">Heater off voltage detected by
-                  heater monitor IC</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">[Auxiliary battery voltage x
-                  0.33] V or less</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUUB_12" id="RM100000002KUUB_12"></a>
-          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
-          <div class="hint">
-            <p class="hintgen">HINT:</p>
-            <ul class="hint">
-              <li>After repair has been completed, clear the DTC
-              and then check that the vehicle has returned to
-              normal by performing the following All Readiness
-              check procedure.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d488e1239" href="./RM100000002KD3K.html?linkId=d488e1239&amp;hashId=RM100000002KD3K#RM100000002KD3K"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
-                </a></span></span></p>
-              </li>
-              <li>When clearing the permanent DTCs, refer to the
-              "CLEAR PERMANENT DTC" procedure.
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d488e1253" href="./RM100000002KD0T.html?linkId=d488e1253&amp;hashId=RM100000002KD0T#RM100000002KD0T"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
-                </a></span></span></p>
-              </li>
-            </ul>
-          </div><img src="../images/A262623E97.png.html" border="1"
-          alt=" ">
-          <div class="content5">
-            <ol class="list">
-              <li>Clear the DTCs (even if no DTCs are stored,
-              perform the clear DTC procedure).</li>
-              <li>Turn the ignition switch off and wait for at
-              least 30 seconds.</li>
-              <li>Turn the ignition switch to ON [A].</li>
-              <li>Put the engine in Inspection Mode (for measuring
-              Exhaust Gas).
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d488e1297" href="./RM100000002HFUR.html?linkId=d488e1297&amp;hashId=RM100000002HFUR#RM100000002HFUR"
-                title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE">
-                </a></span></span></p>
-              </li>
-              <li>Start the engine and idle it for 5 minutes or
-              more [B].</li>
-              <li>With the vehicle stationary, depress the
-              accelerator pedal and maintain an engine speed of
-              3000 rpm for 1 minute [C].</li>
-              <li>Idle the engine for 5 minutes or more [D].</li>
-              <li>Enter the following menus: Powertrain / Engine /
-              Trouble Codes [E].</li>
-              <li>Read the pending DTCs.
-                <div class="hint">
-                  <p class="hintgen">HINT:</p>
-                  <ul class="hint">
-                    <li>If a pending DTC is output, the system is
-                    malfunctioning.</li>
-                    <li>If a pending DTC is not output, perform the
-                    following procedure.</li>
-                  </ul>
-                </div>
-              </li>
-              <li>Enter the following menus: Powertrain / Engine /
-              Utility / All Readiness.</li>
-              <li>Input the DTC: P003012, P003013 or P101A9E.</li>
-              <li>Check the DTC judgment result.
-                <div class="hint">
-                  <p class="hintgen">HINT:</p>
-                  <ul class="hint">
-                    <li>If the judgment result is NORMAL, the
-                    system is normal.</li>
-                    <li>If the judgment result is ABNORMAL, the
-                    system has a malfunction.</li>
-                    <li>If the judgment result is INCOMPLETE,
-                    perform steps [B] through [E] again.</li>
-                    <li>[A] to [E]: Normal judgment procedure.
-                      <p class="para2">The normal judgment
-                      procedure is used to complete DTC judgment
-                      and also used when clearing permanent
-                      DTCs.</p>
-                    </li>
-                    <li>When clearing the permanent DTCs, do not
-                    disconnect the cable from the auxiliary battery
-                    terminal or attempt to clear the DTCs during
-                    this procedure, as doing so will clear the
-                    universal trip and normal judgment
-                    histories.</li>
-                  </ul>
-                </div>
-              </li>
-            </ol>
-          </div><a name="RM100000002KUUB_07" id="RM100000002KUUB_07"></a>
-          <h2 class="name">WIRING DIAGRAM</h2><img src="../images/A574401E02.png.html" border="1" alt=" ">
-          <a name="RM100000002KUUB_08" id="RM100000002KUUB_08"></a>
-          <h2 class="name">CAUTION / NOTICE / HINT</h2>
-          <div class="notice">
-            <p class="notegen">NOTICE:</p>
-            <ul class="note">
-              <li>Inspect the fuses for circuits related to this
-              system before performing the following
-              procedure.</li>
-              <li>Vehicle Control History may be stored in the
-              hybrid vehicle control ECU assembly if the engine is
-              malfunctioning. Certain vehicle condition information
-              is recorded when Vehicle Control History is stored.
-              Reading the vehicle conditions recorded in both the
-              freeze frame data and Vehicle Control History can be
-              useful for troubleshooting.
-                <p class="para2">(Select Powertrain in Health Check
-                and then check the time stamp data.)</p>
-              </li>
-              <li>If any "Engine Malfunction" Vehicle Control
-              History item has been stored in the hybrid vehicle
-              control ECU assembly, make sure to clear it. However,
-              as all Vehicle Control History items are cleared
-              simultaneously, if any Vehicle Control History items
-              other than "Engine Malfunction" are stored, make sure
-              to perform any troubleshooting for them before
-              clearing Vehicle Control History.</li>
-            </ul>
-          </div>
-          <div class="hint">
-            <p class="hintgen">HINT:</p>
-            <ul class="hint">
-              <li>Refer to "Data List / Active Test" [A/F (O2)
-              Sensor Heater Duty Ratio B1S1].
-                <p class="para2">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d488e1474" href="./RM100000002LIT7.html?linkId=d488e1474&amp;hashId=RM100000002LIT7#RM100000002LIT7"
-                title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
-                <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
-                </a></span></span></p>
-              </li>
-              <li>Sensor 1 refers to the sensor closest to the
-              engine assembly.</li>
-              <li>Sensor 2 refers to the sensor farthest away from
-              the engine assembly.</li>
-              <li>Change the fuel injection volume using the
-              Control the Injection Volume for A/F Sensor function
-              provided in the Active Test and monitor the air fuel
-              ratio sensor (sensor 1) output current (Click here
-              <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d488e1497" href="./RM100000002LHP1.html?linkId=d488e1497&amp;hashId=RM100000002LHP1#RM100000002LHP1"
-              title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P013616,P013A7C; A/F (O2) Sensor Circuit Bank 1 Sensor 2 Circuit Current (Voltage) Below Threshold">
-              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P013616,P013A7C; A/F (O2) Sensor Circuit Bank 1 Sensor 2 Circuit Current (Voltage) Below Threshold">
-              </a></span></span> ). If the sensor output current
-              does not change (almost no reaction) while performing
-              the Active Test, the sensor may be
-              malfunctioning.</li>
-            </ul>
-          </div><a name="RM100000002KUUB_13" id="RM100000002KUUB_13"></a>
-          <h2 class="name">PROCEDURE</h2>
-          <h2 class="name">PROCEDURE</h2><a name="RM100000002KUUB_13_0001" id="RM100000002KUUB_13_0001"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">1.</p>
-                </td>
-                <td>
-                  <p class="testgrp">INSPECT AIR FUEL RATIO SENSOR
-                  (SENSOR 1) (HEATER RESISTANCE)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d488e1525" href="./RM100000002GMT3.html?linkId=d488e1525&amp;hashId=RM100000002GMT3#RM100000002GMT3"
-          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): INSPECTION">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): INSPECTION">
-          </a></span></span></p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d488e1601" href="./RM100000002K47K.html?linkId=d488e1601&amp;hashId=RM100000002K47K#RM100000002K47K"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): REMOVAL">
-                  REPLACE AIR FUEL RATIO SENSOR (SENSOR
-                  1)</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">OK</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table><a name="RM100000002KUUB_13_0003" id="RM100000002KUUB_13_0003"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">2.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK TERMINAL VOLTAGE (POWER
-                  SOURCE OF AIR FUEL RATIO SENSOR (SENSOR 1))</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Disconnect the air fuel ratio sensor
-          (sensor 1) connector.</p>
-          <p class="test1">(b) Turn the ignition switch to ON.</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(c) Measure the voltage according to the
-          value(s) in the table below.</p>
-          <p class="spec">Standard Voltage:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d488e1664" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=D24')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Location & Routing(D24)</span></a></span><br></span>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d488e1672" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D24&amp;pinno=2')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Connector(D24)</span></a></span><br></span>
-          <table width="100%" id="RM100000002KUUB_13_0003_T_1"
-          border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Connection</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Specified Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">D24-2 (+B) - Body ground</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Ignition switch ON</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">11 to 14 V</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">V</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(d) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><a id="d488e1824_childid" href="RM100000002KUUB.html" title="INSPECT EFI-MAIN NO. 3 RELAY">GO TO STEP
-                  6</a></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">OK</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table><a name="RM100000002KUUB_13_0004" id="RM100000002KUUB_13_0004"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">3.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
-                  (AIR FUEL RATIO SENSOR (SENSOR 1) - ECM)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Disconnect the air fuel ratio sensor
-          (sensor 1) connector.</p>
-          <p class="test1">(b) Disconnect the ECM connector.</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(c) Measure the resistance according to
-          the value(s) in the table below.</p>
-          <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d488e1883" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=D24,D31')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Location & Routing(D24,D31)</span></a></span><br></span>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d488e1891" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D24&amp;pinno=1')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Connector(D24)</span></a></span><br></span> <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d488e1899" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D31&amp;pinno=34')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Connector(D31)</span></a></span><br></span>
-          <table width="100%" id="RM100000002KUUB_13_0004_T_1"
-          border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Connection</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Specified Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">D24-1 (HA1A) - D31-34 (HA1A)</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Always</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Below 1 Ω</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Ω</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">D24-1 (HA1A) or D31-34 (HA1A) -
-                  Body ground and other terminals</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Always</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">10 kΩ or higher</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">kΩ</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(d) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
-                  CONNECTOR</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">OK</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table><a name="RM100000002KUUB_13_0033" id="RM100000002KUUB_13_0033"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">4.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CLEAR DTC</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) None</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(b) Clear the DTCs.</p>
-          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
-          Clear DTCs</h4>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(c) Turn the ignition switch off and
-          wait for at least 30 seconds.</p>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">NEXT</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table><a name="RM100000002KUUB_13_0005" id="RM100000002KUUB_13_0005"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">5.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK WHETHER DTC OUTPUT
-                  RECURS (DTC P003012, P003013 AND/OR P101A9E)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Drive the vehicle in accordance with
-          the driving pattern described in Confirmation Driving
-          Pattern.</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(b) Read the DTCs.</p>
-          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt;
-          Trouble Codes</h4>
-          <table width="100%" border="1" class="result">
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Proceed to</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">DTCs are not output</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">A</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">P003012, P003013 or P101A9E is
-                  output</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">B</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(c) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">A</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312">
-                  <a id="d488e2349" href="./RM100000002HFUU.html?linkId=d488e2349&amp;hashId=RM100000002HFUU#RM100000002HFUU"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING">
-                  CHECK FOR INTERMITTENT
-                  PROBLEMS</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">B</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d488e2372" href="./RM100000002K474.html?linkId=d488e2372&amp;hashId=RM100000002K474#RM100000002K474"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">
-                  REPLACE ECM</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUUB_13_0026" id="RM100000002KUUB_13_0026"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">6.</p>
-                </td>
-                <td>
-                  <p class="testgrp">INSPECT EFI-MAIN NO. 3
-                  RELAY</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="content6">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312"><a id="d488e2392" href="./RM100000002GMT8.html?linkId=d488e2392&amp;hashId=RM100000002GMT8#RM100000002GMT8"
-          title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): RELAY: ON-VEHICLE INSPECTION">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): RELAY: ON-VEHICLE INSPECTION">
-          </a></span></span></p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPLACE EFI-MAIN NO. 3
-                  RELAY</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">OK</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table><a name="RM100000002KUUB_13_0032" id="RM100000002KUUB_13_0032"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">7.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK TERMINAL VOLTAGE (POWER
-                  SOURCE OF EFI-MAIN NO. 3 RELAY)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <table border="0" width="100%">
-            <tbody>
-              <tr>
-                <td class="side">
-                  <p class="test1">(a) Remove the EFI-MAIN NO. 3
-                  relay from the No. 2 engine room relay block and
-                  junction block assembly.</p>
-                </td>
-                <td class="sidsid">
-                  <table align="right">
-                    <tr>
-                      <td align="right"><img src="../images/A563990C01.png.html" border="1"
-                      alt=" "></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table class="callout" border="1"
-                        cellspacing="0" style="width:3.434793307in;">
-                          <colgroup>
-                            <col style="width:15%">
-                            <col style="width:85%">
-                          </colgroup>
-                          <tbody>
-                            <tr>
-                              <td align="center" valign="middle">
-                                <p class="entry">*1</p>
-                              </td>
-                              <td align="left" valign="middle">
-                                <p class="entry">No. 2 Engine Room
-                                Relay Block and Junction Block
-                                Assembly</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td align="center" valign="middle">
-                                <p class="entry">*2</p>
-                              </td>
-                              <td align="left" valign="middle">
-                                <p class="entry">EFI-MAIN NO. 3
-                                Relay</p>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
+               <td class="frame">
+                  <table width="100%" class="side" border="1">
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="1">
+                           <b>Last Modified: </b>12-09-2025</td>
+                        <td class="side">6.11:8.1.0 </td>
+                        <td class="side">
+                           <b>Doc ID: </b>RM100000002KUUB</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top">
+                           <b>Model Year Start: </b>2024</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Model: </b>Tacoma HV</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Prod Date Range: </b>[03/2024 -                    
+                                       ]</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="3">
+                           <b>Title: </b>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P003012,P003013,P101A9E; HO2S Heater Control Bank 1 Sensor 1 Circuit Short to Battery; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</td>
+                     </tr>
                   </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="main">Procedure1</p>
-          <p class="test1">(b) Measure the voltage according to the
-          value(s) in the table below.</p>
-          <p class="spec">Standard Voltage:</p>
-          <table width="100%" id="RM100000002KUUB_13_0032_T_1"
-          border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Connection</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Specified Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">3 (EFI-MAIN NO. 3 relay) - Body
-                  ground</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Ignition switch off</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">11 to 14 V</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">V</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(c) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
-                  CONNECTOR (AUXILIARY BATTERY - EFI-MAIN NO. 3
-                  RELAY)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">OK</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">P003012</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">HO2S Heater Control Bank 1 Sensor 1 Circuit Short to Battery</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">P003013</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">HO2S Heater Control Bank 1 Sensor 1 Circuit Open</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">P101A9E</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">A/F Sensor Heater Performance Bank 1 Sensor 1 Stuck On</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+   
+                  <a name="RM100000002KUUB_01"> </a>
+      
+                  <h2 class="name">DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The air fuel ratio sensor (sensor 1) generates current that corresponds to the actual air fuel ratio. This sensor current is used to provide the ECM with feedback so that it can control the air fuel ratio. The ECM determines the deviation from the stoichiometric air fuel ratio level, and regulates the fuel injection duration. If the air fuel ratio sensor (sensor 1) malfunctions, the ECM is unable to control the air fuel ratio accurately.</p>
+         
+                  <p class="content5">The air fuel ratio sensor (sensor 1) is a planar type sensor and integrated with the heater, which heats the solid electrolyte (zirconia element). This heater is controlled by the ECM. When the intake air volume is low (the exhaust gas temperature is low), a current flows into the heater to heat the sensor, in order to facilitate accurate oxygen concentration detection. In addition, the sensor and heater portions are a narrow type. The heat generated by the heater is conducted to the solid electrolyte through the alumina, therefore sensor activation is accelerated.</p>
+         
+                  <p class="content5">In order to obtain a high purification rate of the carbon monoxide (CO), hydrocarbon (HC) and nitrogen oxide (NOx) components in the exhaust gas, a three-way catalytic converter is used. For the most efficient use of the three-way catalytic converter, the air fuel ratio must be precisely controlled so that it is always close to the stoichiometric level.</p>
+         
+            
+               
+                  <img src="../images/A499552E01.png.html" border="1" alt=" "/>
+            
+         
+         
+            
+                  <div class="hint">
+                     <p class="hintgen">HINT:</p>
+                     <ul class="hint">
+                        <li>
+                  When any of these DTCs are stored, the ECM enters fail-safe mode. The ECM turns off the air fuel ratio sensor (sensor 1) heater in fail-safe mode. Fail-safe mode continues until the ignition switch is turned off.
+               </li>
+                        <li>
+                  Although the DTC titles say oxygen sensor, these DTCs relate to the air fuel ratio sensor (sensor 1).
+               </li>
+                        <li>
+                  The ECM has a pulse width modulated control circuit to adjust the current through the heater. The air fuel ratio sensor (sensor 1) heater circuit uses a relay on the +B side of the circuit.
+                  
+                     
+                        <img src="../images/A508743E18.png.html" border="1" alt=" "/>
+                     
+                  
+               
+                        </li>
+                     </ul>
+                  </div>
+         
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                  
+                        <tr>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC No.</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Detection Item</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Detection Condition</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Trouble Area</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">MIL</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Output from</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Priority</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Note</p>
+                     
+                           </th>
+                  
+                        </tr>
+               
+                     </thead>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">P003012</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">HO2S Heater Control Bank 1 Sensor 1 Circuit Short to Battery</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">The air fuel ratio sensor (sensor 1) heater current is more than the specified value while the heater is operating (1 trip detection logic).</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Short in air fuel ratio sensor (sensor 1) heater circuit
+                              </li>
+                                    <li>
+                                 Air fuel ratio sensor (sensor 1)
+                              </li>
+                                    <li>
+                                 ECM
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Engine</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE: P0032
+                              </li>
+                                    <li>
+                                 DTC for Mexico Models: Applies
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">P003013</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">HO2S Heater Control Bank 1 Sensor 1 Circuit Open</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">The air fuel ratio sensor (sensor 1) heater current is less than the specified value while the heater is operating (1 trip detection logic).</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Open or short in air fuel ratio sensor (sensor 1) heater circuit
+                              </li>
+                                    <li>
+                                 Air fuel ratio sensor (sensor 1)
+                              </li>
+                                    <li>
+                                 EFI-MAIN NO. 3 relay
+                              </li>
+                                    <li>
+                                 ECM
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Engine</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE: P0031
+                              </li>
+                                    <li>
+                                 DTC for Mexico Models: Applies
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">P101A9E</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">A/F Sensor Heater Performance Bank 1 Sensor 1 Stuck On</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">The air fuel ratio sensor (sensor 1) heater voltage level is low while the heater is not operating (1 trip detection logic).</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Short in air fuel ratio sensor (sensor 1) heater circuit
+                              </li>
+                                    <li>
+                                 Air fuel ratio sensor (sensor 1)
+                              </li>
+                                    <li>
+                                 ECM
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Comes on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Engine</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE: P101D
+                              </li>
+                                    <li>
+                                 DTC for Mexico Models: Applies
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002KUUB_02"> </a>
+      
+                  <h2 class="name">MONITOR DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The ECM uses information from the air fuel ratio sensor (sensor 1) to regulate the air fuel ratio and keep it close to the stoichiometric level. This maximizes the ability of the three-way catalytic converter to purify the exhaust gases.</p>
+         
+                  <p class="content5">The air fuel ratio sensor (sensor 1) detects oxygen levels in the exhaust gas and transmits the information to the ECM. The inner surface of the sensor element is exposed to the outside air. The outer surface of the sensor element is exposed to the exhaust gas. The sensor element is made of platinum-coated zirconia and includes an integrated heating element.</p>
+         
+                  <p class="content5">The zirconia element generates a small voltage when there is a large difference in the oxygen concentrations between the exhaust gas and outside air. The platinum coating amplifies this voltage generation.</p>
+         
+                  <p class="content5">The air fuel ratio sensor (sensor 1) is more efficient when heated. When the exhaust gas temperature is low, the sensor cannot generate useful current signals without supplementary heating. The ECM regulates the supplementary heating using a duty-cycle approach to adjust the average current in the sensor heater element. If the heater current is outside the normal range, the signal transmitted by the air fuel ratio sensor (sensor 1) becomes inaccurate. As a result, the ECM is unable to regulate the air fuel ratio properly.</p>
+         
+            
+                  <h2>Air Fuel Ratio Sensor (Sensor 1) Heater Range Check (P003012 and P003013):</h2>
+            
+                  <div class="topic">
+                     <ul style="list-style-type: none;">
+                        <li>
+                  The ECM monitors the current applied to the air fuel ratio sensor (sensor 1) heater to check the heater for malfunctions.
+                  <p class="para2">If the heater current is outside the normal range, the signal transmitted by the air fuel ratio sensor (sensor 1) becomes inaccurate. When the current in the air fuel ratio sensor (sensor 1) heater is outside the normal operating range, the ECM interprets this as a malfunction in the sensor heater and stores a DTC.</p>
+               
+                        </li>
+                     </ul>
+                  </div>
+         
+         
+            
+                  <h2>Air Fuel Ratio Sensor (Sensor 1) Heater Performance (P101A9E):</h2>
+            
+                  <div class="topic">
+                     <ul style="list-style-type: none;">
+                        <li>
+                  When the air fuel ratio sensor (sensor 1) heater terminal voltage is the specified value or less while the heater is not operating, the ECM determines that there is a malfunction in the sensor heater and stores DTC.
+               </li>
+                     </ul>
+                  </div>
+         
+      
+   
+   
+                  <a name="RM100000002KUUB_03"> </a>
+      
+                  <h2 class="name">MONITOR STRATEGY</h2>
+      
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Related DTCs</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">P0031: Air fuel ratio sensor (sensor 1) heater range check (low current)</p>
+                        
+                              <p class="para">P0032: Air fuel ratio sensor (sensor 1) heater range check (high current)</p>
+                        
+                              <p class="para">P101D: Air fuel ratio sensor (sensor 1) heater performance</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Required Sensors/Components (Main)</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Air fuel ratio sensor (sensor 1) heater</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Required Sensors/Components (Related)</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Frequency of Operation</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Continuous</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Duration</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">10 seconds: P0031 and P0032</p>
+                        
+                              <p class="para">5 seconds: P101D</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">MIL Operation</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">Immediate</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">Sequence of Operation</p>
+                     
+                           </td>
+                     
+                           <td>
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002KUUB_04"> </a>
+      
+                  <h2 class="name">TYPICAL ENABLING CONDITIONS</h2>
+      
+         
+            
+                  <h4 class="tbltitle" id="d488e797">P0031</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Auxiliary battery voltage</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">10.5 V or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Time after heater on</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">5 seconds or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Air fuel ratio sensor (sensor 1) heater performance fail (P101D)</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Not detected</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Output duty cycle</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">7% or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Heater high current cutout</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Off</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d488e903">P0032</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td>
+                        
+                              <p class="entry">All of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Auxiliary battery voltage</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">10.5 V or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Time after heater on</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">5 seconds or more</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">CPU commanded duty cycle</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Higher than 5%</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Output duty cycle</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Higher than 5%</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d488e1009">P101D</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">Monitor runs whenever the following DTCs are not stored</p>
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                              <p class="entry">None</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Both of the following conditions are met</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Auxiliary battery voltage</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">10.5 V or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Output duty cycle</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Less than 95%</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002KUUB_05"> </a>
+      
+                  <h2 class="name">TYPICAL MALFUNCTION THRESHOLDS</h2>
+      
+         
+            
+                  <h4 class="tbltitle" id="d488e1094">P0031</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Heater on current</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Less than 0.6 A</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d488e1125">P0032</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Either of the following conditions is met</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">-</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Heater on current detected by heater monitor IC</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">More than 15 A</p>
+                     
+                           </td>
+                  
+                        </tr>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Heater on voltage detected by heater monitor IC</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">[Auxiliary battery voltage x 0.1] V or higher</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
+                  <h4 class="tbltitle" id="d488e1186">P101D</h4>
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">Heater off voltage detected by heater monitor IC</p>
+                     
+                           </td>
+                     
+                           <td valign="middle">
+                        
+                              <p class="entry">[Auxiliary battery voltage x 0.33] V or less</p>
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+      
+   
+   
+                  <a name="RM100000002KUUB_12"> </a>
+      
+                  <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+      
+         
+            
+                  <div class="hint">
+                     <p class="hintgen">HINT:</p>
+                     <ul class="hint">
+                        <li>
+                  After repair has been completed, clear the DTC and then check that the vehicle has returned to normal by performing the following All Readiness check procedure.
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d488e1239" href="./RM100000002KD3K.html?linkId=d488e1239&amp;hashId=RM100000002KD3K#RM100000002KD3K" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DIAGNOSIS SYSTEM"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                        <li>
+                  When clearing the permanent DTCs, refer to the "CLEAR PERMANENT DTC" procedure.
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d488e1253" href="./RM100000002KD0T.html?linkId=d488e1253&amp;hashId=RM100000002KD0T#RM100000002KD0T" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DTC CHECK / CLEAR"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                     </ul>
+                  </div>
+         
+         
+            
+               
+                  <img src="../images/A262623E97.png.html" border="1" alt=" "/>
+            
+         
+         
+                  <div class="content5">
+                     <ol class="list">
+                        <li>
+               Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+            </li>
+                        <li>
+               Turn the ignition switch off and wait for at least 30 seconds.
+            </li>
+                        <li>
+               Turn the ignition switch to ON [A].
+            </li>
+                        <li>
+               Put the engine in Inspection Mode (for measuring Exhaust Gas).
+               <p class="para2">
+                                            Click here
+                                            <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                                    <a id="d488e1297" href="./RM100000002HFUR.html?linkId=d488e1297&amp;hashId=RM100000002HFUR#RM100000002HFUR" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE"/>
+                                    </a>
+                                 </span>
+                              </span>
+               
+                           </p>
+            
+                        </li>
+                        <li>
+               Start the engine and idle it for 5 minutes or more [B].
+            </li>
+                        <li>
+               With the vehicle stationary, depress the accelerator pedal and maintain an engine speed of 3000 rpm for 1 minute [C].
+            </li>
+                        <li>
+               Idle the engine for 5 minutes or more [D].
+            </li>
+                        <li>
+               Enter the following menus: Powertrain / Engine / Trouble Codes [E].
+            </li>
+                        <li>
+               Read the pending DTCs.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If a pending DTC is output, the system is malfunctioning.
+                     </li>
+                                 <li>
+                        If a pending DTC is not output, perform the following procedure.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                        <li>
+               Enter the following menus: Powertrain / Engine / Utility / All Readiness.
+            </li>
+                        <li>
+               Input the DTC: P003012, P003013 or P101A9E.
+            </li>
+                        <li>
+               Check the DTC judgment result.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If the judgment result is NORMAL, the system is normal.
+                     </li>
+                                 <li>
+                        If the judgment result is ABNORMAL, the system has a malfunction.
+                     </li>
+                                 <li>
+                        If the judgment result is INCOMPLETE, perform steps [B] through [E] again.
+                     </li>
+                                 <li>
+                        [A] to [E]: Normal judgment procedure.
+                        <p class="para2">The normal judgment procedure is used to complete DTC judgment and also used when clearing permanent DTCs.</p>
+                     
+                                 </li>
+                                 <li>
+                        When clearing the permanent DTCs, do not disconnect the cable from the auxiliary battery terminal or attempt to clear the DTCs during this procedure, as doing so will clear the universal trip and normal judgment histories.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                     </ol>
+                  </div>
+      
+   
+   
+                  <a name="RM100000002KUUB_07"> </a>
+      
+                  <h2 class="name">WIRING DIAGRAM</h2>
+      
+         
+            
+               
+                  <img src="../images/A574401E02.png.html" border="1" alt=" "/>
+            
+         
+      
+   
+   
+                  <a name="RM100000002KUUB_08"> </a>
+      
+                  <h2 class="name">CAUTION / NOTICE / HINT</h2>
+      
+         
+            
+                  <div class="notice">
+                     <p class="notegen">NOTICE:</p>
+                     <ul class="note">
+                        <li>
+                  Inspect the fuses for circuits related to this system before performing the following procedure.
+               </li>
+                        <li>
+                  Vehicle Control History may be stored in the hybrid vehicle control ECU assembly if the engine is malfunctioning. Certain vehicle condition information is recorded when Vehicle Control History is stored. Reading the vehicle conditions recorded in both the freeze frame data and Vehicle Control History can be useful for troubleshooting.
+                  <p class="para2">(Select Powertrain in Health Check and then check the time stamp data.)</p>
+               
+                        </li>
+                        <li>
+                  If any "Engine Malfunction" Vehicle Control History item has been stored in the hybrid vehicle control ECU assembly, make sure to clear it. However, as all Vehicle Control History items are cleared simultaneously, if any Vehicle Control History items other than "Engine Malfunction" are stored, make sure to perform any troubleshooting for them before clearing Vehicle Control History.
+               </li>
+                     </ul>
+                  </div>
+         
+         
+            
+                  <div class="hint">
+                     <p class="hintgen">HINT:</p>
+                     <ul class="hint">
+                        <li>
+                  Refer to "Data List / Active Test" [A/F (O2) Sensor Heater Duty Ratio B1S1].
+                  <p class="para2">
+                                                Click here
+                                                <span class="mlink">
+                                 <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                    <a id="d488e1474" href="./RM100000002LIT7.html?linkId=d488e1474&amp;hashId=RM100000002LIT7#RM100000002LIT7" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
+                                       <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST"/>
+                                    </a>
+                                 </span>
+                              </span>
+                  
+                           </p>
+               
+                        </li>
+                        <li>
+                  Sensor 1 refers to the sensor closest to the engine assembly.
+               </li>
+                        <li>
+                  Sensor 2 refers to the sensor farthest away from the engine assembly.
+               </li>
+                        <li>
+                  
+                                                Change the fuel injection volume using the Control the Injection Volume for A/F Sensor function provided in the Active Test and monitor the air fuel ratio sensor (sensor 1) output current (Click here
+                                                <span class="mlink">
+                              <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                 <a id="d488e1497" href="./RM100000002LHP1.html?linkId=d488e1497&amp;hashId=RM100000002LHP1#RM100000002LHP1" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P013616,P013A7C; A/F (O2) Sensor Circuit Bank 1 Sensor 2 Circuit Current (Voltage) Below Threshold">
+                                    <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P013616,P013A7C; A/F (O2) Sensor Circuit Bank 1 Sensor 2 Circuit Current (Voltage) Below Threshold"/>
+                                 </a>
+                              </span>
+                           </span>
+                                                ). If the sensor output current does not change (almost no reaction) while performing the Active Test, the sensor may be malfunctioning.
+                                            
+               </li>
+                     </ul>
+                  </div>
+         
+      
+   
+   
+                  <a name="RM100000002KUUB_13"> </a>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <a name="RM100000002KUUB_13_0001"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">1. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">INSPECT AIR FUEL RATIO SENSOR (SENSOR 1) (HEATER RESISTANCE)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+                  <p class="content6">
+                                        Click here
+                                        <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                           <a id="d488e1525" href="./RM100000002GMT3.html?linkId=d488e1525&amp;hashId=RM100000002GMT3#RM100000002GMT3" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): INSPECTION">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): INSPECTION"/>
+                           </a>
+                        </span>
+                     </span>
+            
+                  </p>
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d488e1601" href="./RM100000002K47K.html?linkId=d488e1601&amp;hashId=RM100000002K47K#RM100000002K47K" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): AIR FUEL RATIO SENSOR (for Sensor 1): REMOVAL">REPLACE AIR FUEL RATIO SENSOR (SENSOR 1)</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0003"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">2. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK TERMINAL VOLTAGE (POWER SOURCE OF AIR FUEL RATIO SENSOR (SENSOR 1))</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the air fuel ratio sensor (sensor 1) connector.</p>
+               
+               
+                  
+                  <p class="test1">(b) Turn the ignition switch to ON.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the voltage according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Voltage: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d488e1664" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=D24')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(D24)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d488e1672" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D24&amp;pinno=2')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(D24)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002KUUB_13_0003_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D24-2 (+B) - Body ground</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ignition switch ON</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">11 to 14 V</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">V</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                                 <a id="d488e1824_childid" href="RM100000002KUUB.html@sisuffix=ff&amp;locale=en&amp;siid=1767261739116.html#RM100000002KUUB_13_0026" title="INSPECT EFI-MAIN NO. 3 RELAY">GO TO STEP 6</a>
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0004"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">3. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK HARNESS AND CONNECTOR (AIR FUEL RATIO SENSOR (SENSOR 1) - ECM)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the air fuel ratio sensor (sensor 1) connector.</p>
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the ECM connector.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d488e1883" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=D24,D31')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(D24,D31)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d488e1891" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D24&amp;pinno=1')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(D24)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d488e1899" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D31&amp;pinno=34')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(D31)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002KUUB_13_0004_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D24-1 (HA1A) - D31-34 (HA1A)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Always</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Below 1 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">D24-1 (HA1A) or D31-34 (HA1A) - Body ground and other terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Always</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">10 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0033"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">4. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CLEAR DTC</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) None</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(b) Clear the DTCs.</p>
+                  
+                  <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Clear DTCs</h4>
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) Turn the ignition switch off and wait for at least 30 seconds.</p>
+               
+            
+         
+         
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               NEXT
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0005"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">5. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK WHETHER DTC OUTPUT RECURS (DTC P003012, P003013 AND/OR P101A9E)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Drive the vehicle in accordance with the driving pattern described in Confirmation Driving Pattern.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(b) Read the DTCs.</p>
+                  
+                  <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Trouble Codes</h4>
+                  
+                     
+                     
+                        
+                  <table width="100%" border="1" class="result">
+                           
+                           
+                           
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Proceed to</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                           
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">DTCs are not output</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">A</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">P003012, P003013 or P101A9E is output</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">B</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                        
+                  </table>
+                     
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">A</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                                       <a id="d488e2349" href="./RM100000002HFUU.html?linkId=d488e2349&amp;hashId=RM100000002HFUU#RM100000002HFUU" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING">CHECK FOR INTERMITTENT PROBLEMS</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">B</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d488e2372" href="./RM100000002K474.html?linkId=d488e2372&amp;hashId=RM100000002K474#RM100000002K474" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">REPLACE ECM</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0026"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">6. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">INSPECT EFI-MAIN NO. 3 RELAY</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+                  <p class="content6">
+                                        Click here
+                                        <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                           <a id="d488e2392" href="./RM100000002GMT8.html?linkId=d488e2392&amp;hashId=RM100000002GMT8#RM100000002GMT8" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; T24A-FTS (ENGINE CONTROL): RELAY: ON-VEHICLE INSPECTION">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; T24A-FTS (ENGINE CONTROL): RELAY: ON-VEHICLE INSPECTION"/>
+                           </a>
+                        </span>
+                     </span>
+            
+                  </p>
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPLACE EFI-MAIN NO. 3 RELAY</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0032"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">7. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK TERMINAL VOLTAGE (POWER SOURCE OF EFI-MAIN NO. 3 RELAY)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td class="side">
+                              <p class="test1">(a) Remove the EFI-MAIN NO. 3 relay from the No. 2 engine room relay block and junction block assembly.</p>
+                           </td>
+                           <td class="sidsid">
+                              <table align="right">
+                                 <tr>
+                                    <td align="right">
+                     
+                        
+                                       <img src="../images/A563990C01.png.html" border="1" alt=" "/>
+                     
+                     
+                        
+                           
+                              
+                              
+                              
+                                 
+                                    
+                                       
+                                    
+                                    
+                                       
+                                    
+                                 
+                                 
+                                    
+                                       
+                                    
+                                    
+                                       
+                                    
+                                 
+                              
+                           
+                        
+                     
+                  
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                        
+                           
+                                       <table class="callout" border="1" cellspacing="0" style="width:3.434793307in;">
+                                          <colgroup>
+                                             <col style="width:15%"/>
+                                             <col style="width:85%"/>
+                                          </colgroup>
+                                          <tbody>
+                                 
+                                             <tr>
+                                    
+                                                <td align="center" valign="middle">
+                                       
+                                                   <p class="entry">*1</p>
+                                    
+                                                </td>
+                                    
+                                                <td align="left" valign="middle">
+                                       
+                                                   <p class="entry">No. 2 Engine Room Relay Block and Junction Block Assembly</p>
+                                    
+                                                </td>
+                                 
+                                             </tr>
+                                 
+                                             <tr>
+                                    
+                                                <td align="center" valign="middle">
+                                       
+                                                   <p class="entry">*2</p>
+                                    
+                                                </td>
+                                    
+                                                <td align="left" valign="middle">
+                                       
+                                                   <p class="entry">EFI-MAIN NO. 3 Relay</p>
+                                    
+                                                </td>
+                                 
+                                             </tr>
+                              
+                                          </tbody>
+                                       </table>
+                        
+                     
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(b) Measure the voltage according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Voltage: </p>
+                     
+                        
+                  <table width="100%" id="RM100000002KUUB_13_0032_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">3 (EFI-MAIN NO. 3 relay) - Body ground</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ignition switch off</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">11 to 14 V</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">V</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR (AUXILIARY BATTERY - EFI-MAIN NO. 3 RELAY)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0030"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">8. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK HARNESS AND CONNECTOR (EFI-MAIN NO. 3 RELAY - BODY GROUND)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Remove the EFI-MAIN NO. 3 relay from the No. 2 engine room relay block and junction block assembly.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(b) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <table width="100%" id="RM100000002KUUB_13_0030_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">1 (EFI-MAIN NO. 3 relay) - Body ground</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Always</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Below 1 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table>
+                     <tr>
+                        <td>
+                           <table align="left" class="arrowdn" cellspacing="0" cellpadding="0" width="5%">
+                              <tr>
+                                 <td class="arrow" align="center">
+               OK
+               
+            </td>
+                              </tr>
+                              <tr>
+                                 <td class="arrow" align="left" width="10%">
+                                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""/>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUUB_13_0023"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">9. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK HARNESS AND CONNECTOR (EFI-MAIN NO. 3 RELAY - AIR FUEL RATIO SENSOR (SENSOR 1))</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Remove the EFI-MAIN NO. 3 relay from the No. 2 engine room relay block and junction block assembly.</p>
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the air fuel ratio sensor (sensor 1) connector.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d488e2976" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=D24')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(D24)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d488e2984" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D24&amp;pinno=2')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(D24)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002KUUB_13_0023_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">5 (EFI-MAIN NO. 3 relay) - D24-2 (+B)</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Always</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Below 1 Ω</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Ω</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">5 (EFI-MAIN NO. 3 relay) or D24-2 (+B) - Body ground and other terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Always</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">10 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR (EFI-MAIN NO. 1 RELAY - EFI-MAIN NO. 3 RELAY)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+   
+
+                  <table class="footer" width="100%" cellpadding="0" cellspacing="0">
+                     <colgroup>
+                        <col/>
+                        <col style="text-align:center"/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td class="foot" width="30" height="18">
+                              <img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""/>
+                           </td>
+                           <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"/>
+                           <td class="foot" width="80" height="18" align="right">
+                              <img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
             </tr>
-          </table><a name="RM100000002KUUB_13_0030" id="RM100000002KUUB_13_0030"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">8.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
-                  (EFI-MAIN NO. 3 RELAY - BODY GROUND)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Remove the EFI-MAIN NO. 3 relay from
-          the No. 2 engine room relay block and junction block
-          assembly.</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(b) Measure the resistance according to
-          the value(s) in the table below.</p>
-          <p class="spec">Standard Resistance:</p>
-          <table width="100%" id="RM100000002KUUB_13_0030_T_1"
-          border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Connection</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Specified Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">1 (EFI-MAIN NO. 3 relay) - Body
-                  ground</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Always</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Below 1 Ω</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Ω</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(c) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
-                  CONNECTOR</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <tr>
-              <td>
-                <table align="left" class="arrowdn" cellspacing="0"
-                cellpadding="0" width="5%">
-                  <tr>
-                    <td class="arrow" align="center">OK</td>
-                  </tr>
-                  <tr>
-                    <td class="arrow" align="left" width="10%">
-                    <img src="../../../../stylegraphics/arrowdn1.gif" alt=""></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table><a name="RM100000002KUUB_13_0023" id="RM100000002KUUB_13_0023"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">9.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
-                  (EFI-MAIN NO. 3 RELAY - AIR FUEL RATIO SENSOR
-                  (SENSOR 1))</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Remove the EFI-MAIN NO. 3 relay from
-          the No. 2 engine room relay block and junction block
-          assembly.</p>
-          <p class="test1">(b) Disconnect the air fuel ratio sensor
-          (sensor 1) connector.</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(c) Measure the resistance according to
-          the value(s) in the table below.</p>
-          <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d488e2976" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=D24')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Location & Routing(D24)</span></a></span><br></span>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d488e2984" href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D24&amp;pinno=2')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Connector(D24)</span></a></span><br></span>
-          <table width="100%" id="RM100000002KUUB_13_0023_T_1"
-          border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Connection</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Specified Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">5 (EFI-MAIN NO. 3 relay) - D24-2
-                  (+B)</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Always</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Below 1 Ω</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Ω</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">5 (EFI-MAIN NO. 3 relay) or
-                  D24-2 (+B) - Body ground and other terminals</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Always</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">10 kΩ or higher</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">kΩ</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(d) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">OK</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
-                  CONNECTOR (EFI-MAIN NO. 1 RELAY - EFI-MAIN NO. 3
-                  RELAY)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
-                  CONNECTOR</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="footer" width="100%" cellpadding="0"
-          cellspacing="0">
-            <colgroup>
-              <col>
-              <col style="text-align:center">
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
-                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"></td>
-                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+         </tbody>
+      </table>
+   </body>
 </html>

@@ -1,553 +1,911 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+  PUBLIC "-//W3//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-  <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV
-  Model): P007A11; Charge Air Cooler Temperature Sensor Bank 1
-  Circuit Short to Ground; 2024 - 2026 MY Tacoma HV [03/2024 -
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</title>
-  <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css">
-  <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body id="C">
-  <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KUW7">
-    <colgroup>
-      <col>
-    </colgroup>
-    <tbody>
-      <tr>
-        <td class="frame">
-          <table width="100%" class="side" border="1">
+   <head>
+      <title>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P007A11; Charge Air Cooler Temperature Sensor Bank 1 Circuit Short to Ground; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</title>
+      <link rel="stylesheet" type="text/css" href="../../../../stylesheets/repair_procedure.css"/>
+      <script src="../../../../framework/skins/t3/js/all-t3.js" type="text/javascript"> </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   </head>
+   <body id="C">
+      <table border="0" width="100%" class="frame" cellpadding="4" id="RM100000002KUW7">
+         <colgroup>
+            <col/>
+         </colgroup>
+         <tbody>
             <tr>
-              <td class="side" align="left" valign="top" colspan="1"><b>Last Modified:</b> 10-07-2025</td>
-              <td class="side">6.11:8.1.0</td>
-              <td class="side"><b>Doc ID:</b> RM100000002KUW7</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top"><b>Model
-              Year Start:</b> 2024</td>
-              <td class="side" align="left" valign="top">
-              <b>Model:</b> Tacoma HV</td>
-              <td class="side" align="left" valign="top"><b>Prod
-              Date Range:</b> [03/2024 - &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; ]</td>
-            </tr>
-            <tr>
-              <td class="side" align="left" valign="top" colspan="3"><b>Title:</b> T24A-FTS (ENGINE CONTROL): SFI
-              SYSTEM (for 1Motor-HEV Model): P007A11; Charge Air
-              Cooler Temperature Sensor Bank 1 Circuit Short to
-              Ground; 2024 - 2026 MY Tacoma HV [03/2024 -
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</td>
-            </tr>
-          </table>
-          <table border="1" class="dtc" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">DTC</p>
-                </td>
-                <td align="center" valign="middle" width="10%">
-                  <p class="dtc">P007A11</p>
-                </td>
-                <td align="left">
-                  <p class="dtc">Charge Air Cooler Temperature
-                  Sensor Bank 1 Circuit Short to Ground</p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUW7_02" id="RM100000002KUW7_02"></a>
-          <h2 class="name">DESCRIPTION</h2>
-          <p class="content5">The intake air temperature sensor
-          (for intercooler side) monitors the intake air
-          temperature. The intake air temperature sensor has a
-          built-in thermistor with a resistance that varies
-          according to the temperature of the intake air. When the
-          intake air temperature is low, the resistance of the
-          thermistor increases. When the temperature is high, the
-          resistance drops. These variations in resistance are
-          transmitted to the ECM as voltage changes.</p>
-          <p class="content5">The intake air temperature sensor is
-          powered by a 5 V supply from terminal THTA of the ECM,
-          via resistor R.</p>
-          <p class="content5">Resistor R and the intake air
-          temperature sensor are connected in series. When the
-          resistance value of the intake air temperature sensor
-          changes, according to changes in the intake air
-          temperature, the voltage at terminal THTA also varies.
-          Based on this signal, the ECM increases the fuel
-          injection volume when the engine is cold to improve
-          driveability.</p>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">When DTC P007A11 is stored, the ECM
-          enters fail-safe mode. During fail-safe mode, the intake
-          air temperature is estimated to be 45°C (113°F) by the
-          ECM. Fail-safe mode continues until a pass condition is
-          detected.</p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC No.</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Detection Item</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Detection Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Trouble Area</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">MIL</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC Output from</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Priority</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Note</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">P007A11</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Charge Air Cooler
-                  Temperature Sensor Bank 1 Circuit Short to
-                  Ground</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">The intake air temperature
-                  sensor (for intercooler side) output voltage is
-                  less than 0.03 V for 3 seconds or more (1 trip
-                  detection logic).</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>Short in intake air temperature sensor
-                      (for intercooler side) circuit</li>
-                      <li>Intake air temperature sensor (for
-                      intercooler side)</li>
-                      <li>ECM</li>
-                    </ul>
-                  </div>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Does not come on</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">Engine</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="data-name">A</p>
-                </td>
-                <td align="left" valign="middle">
-                  <div class="data-name">
-                    <ul class="list">
-                      <li>SAE: P007C</li>
-                      <li>DTC for Mexico Models: Applies</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">When a DTC is output, check the Data List
-          item "Intake Air Temperature B1S1 (Turbo)" using the
-          GTS.</p>
-          <p class="hint">Click here <span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403"><a id="d491e345"
-          href="./RM100000002LIT7.html?linkId=d491e345&amp;hashId=RM100000002LIT7#RM100000002LIT7"
-          title="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
-          <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
-          </a></span></span></p>
-          <table width="100%" border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">DTC No.</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Intake Air Temperature B1S1
-                  (Turbo)</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Malfunction</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">P007A11</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">140°C (284°F)</p>
-                </td>
-                <td align="left" valign="middle">
-                  <p class="entry">Short in THTA circuit to
-                  ground</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="hint">If the Data List displays a normal value,
-          the normal value may be due to a temporary recovery from
-          the malfunction condition. Check for intermittent
-          problems.</p><a name="RM100000002KUW7_03" id="RM100000002KUW7_03"></a>
-          <h2 class="name">MONITOR DESCRIPTION</h2>
-          <p class="content5">The ECM monitors the sensor voltage
-          and uses this value to calculate the intake air
-          temperature. When the intake air temperature sensor (for
-          intercooler side) output voltage deviates from the normal
-          operating range, the ECM interprets this as a malfunction
-          in the E.F.I. intake air temperature sensor circuit and
-          stores this DTC.</p>
-          <p class="content5">Example:</p>
-          <p class="content5">If the intake air temperature sensor
-          (for intercooler side) output voltage is less than 0.03 V
-          for 3 seconds or more, the ECM store this
-          DTC.</p><a name="RM100000002KUW7_04" id="RM100000002KUW7_04"></a>
-          <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
-          <div class="content5">
-            <ol class="list">
-              <li>Clear the DTCs (even if no DTCs are stored,
-              perform the clear DTC procedure).</li>
-              <li>Turn the ignition switch off and wait for at
-              least 30 seconds.</li>
-              <li>Turn the ignition switch to ON.</li>
-              <li>Wait 5 seconds or more.</li>
-              <li>Enter the following menus: Powertrain / Engine /
-              Trouble Codes.</li>
-              <li>Read the pending DTCs.
-                <div class="hint">
+               <td class="frame">
+                  <table width="100%" class="side" border="1">
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="1">
+                           <b>Last Modified: </b>12-09-2025</td>
+                        <td class="side">6.11:8.1.0 </td>
+                        <td class="side">
+                           <b>Doc ID: </b>RM100000002KUW7</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top">
+                           <b>Model Year Start: </b>2024</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Model: </b>Tacoma HV</td>
+                        <td class="side" align="left" valign="top">
+                           <b>Prod Date Range: </b>[03/2024 -                    
+                                       ]</td>
+                     </tr>
+                     <tr>
+                        <td class="side" align="left" valign="top" colspan="3">
+                           <b>Title: </b>T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): P007A11; Charge Air Cooler Temperature Sensor Bank 1 Circuit Short to Ground; 2024 - 2026 MY Tacoma HV [03/2024 -        ]</td>
+                     </tr>
+                  </table>
+   
+   
+                  <table border="1" class="dtc" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">DTC</p>
+                           </td>
+                           <td align="center" valign="middle" width="10%">
+                              <p class="dtc">P007A11</p>
+                           </td>
+                           <td align="left">
+                              <p class="dtc">Charge Air Cooler Temperature Sensor Bank 1 Circuit Short to Ground</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   
+   
+   
+                  <a name="RM100000002KUW7_02"> </a>
+      
+                  <h2 class="name">DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The intake air temperature sensor (for intercooler side) monitors the intake air temperature. The intake air temperature sensor has a built-in thermistor with a resistance that varies according to the temperature of the intake air. When the intake air temperature is low, the resistance of the thermistor increases. When the temperature is high, the resistance drops. These variations in resistance are transmitted to the ECM as voltage changes.</p>
+         
+                  <p class="content5">The intake air temperature sensor is powered by a 5 V supply from terminal THTA of the ECM, via resistor R.</p>
+         
+                  <p class="content5">Resistor R and the intake air temperature sensor are connected in series. When the resistance value of the intake air temperature sensor changes, according to changes in the intake air temperature, the voltage at terminal THTA also varies. Based on this signal, the ECM increases the fuel injection volume when the engine is cold to improve driveability.</p>
+         
+            
                   <p class="hintgen">HINT:</p>
-                  <ul class="hint">
-                    <li>If a pending DTC is output, the system is
-                    malfunctioning.</li>
-                    <li>If a pending DTC is not output, perform the
-                    following procedure.</li>
-                  </ul>
-                </div>
-              </li>
-              <li>Enter the following menus: Powertrain / Engine /
-              Utility / All Readiness.</li>
-              <li>Input the DTC: P007A11.</li>
-              <li>Check the DTC judgment result.
-                <div class="hint">
+                  <p class="hint">When DTC P007A11 is stored, the ECM enters fail-safe mode. During fail-safe mode, the intake air temperature is estimated to be 45°C (113°F) by the ECM. Fail-safe mode continues until a pass condition is detected.</p>
+         
+         
+            
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                  
+                        <tr>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC No.</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Detection Item</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Detection Condition</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Trouble Area</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">MIL</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">DTC Output from</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Priority</p>
+                     
+                           </th>
+                     
+                           <th align="center" valign="middle">
+                        
+                              <p class="entry">Note</p>
+                     
+                           </th>
+                  
+                        </tr>
+               
+                     </thead>
+                     <tbody>
+                  
+                        <tr>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">P007A11</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Charge Air Cooler Temperature Sensor Bank 1 Circuit Short to Ground</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">The intake air temperature sensor (for intercooler side) output voltage is less than 0.03 V for 3 seconds or more (1 trip detection logic).</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 Short in intake air temperature sensor (for intercooler side) circuit
+                              </li>
+                                    <li>
+                                 Intake air temperature sensor (for intercooler side)
+                              </li>
+                                    <li>
+                                 ECM
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Does not come on</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">Engine</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <p class="data-name">A</p>
+                        
+                     
+                           </td>
+                     
+                           <td align="left" valign="middle">
+                        
+                           
+                              <div class="data-name">
+                                 <ul class="list">
+                                    <li>
+                                 SAE: P007C
+                              </li>
+                                    <li>
+                                 DTC for Mexico Models: Applies
+                              </li>
+                                 </ul>
+                              </div>
+                        
+                     
+                           </td>
+                  
+                        </tr>
+               
+                     </tbody>
+                  </table>
+         
+         
+            
                   <p class="hintgen">HINT:</p>
-                  <ul class="hint">
-                    <li>If the judgment result shows NORMAL, the
-                    system is normal.</li>
-                    <li>If the judgment result shows ABNORMAL, the
-                    system has a malfunction.</li>
-                  </ul>
-                </div>
-              </li>
-            </ol>
-          </div><a name="RM100000002KUW7_05" id="RM100000002KUW7_05"></a>
-          <h2 class="name">WIRING DIAGRAM</h2><img src="../images/A513510E19.png.html" border="1" alt=" ">
-          <a name="RM100000002KUW7_08" id="RM100000002KUW7_08"></a>
-          <h2 class="name">CAUTION / NOTICE / HINT</h2>
-          <div class="notice">
-            <p class="notegen">NOTICE:</p>
-            <ul class="note">
-              <li>Vehicle Control History may be stored in the
-              hybrid vehicle control ECU assembly if the engine is
-              malfunctioning. Certain vehicle condition information
-              is recorded when Vehicle Control History is stored.
-              Reading the vehicle conditions recorded in both the
-              freeze frame data and Vehicle Control History can be
-              useful for troubleshooting.
-                <p class="para2">(Select Powertrain in Health Check
-                and then check the time stamp data.)</p>
-              </li>
-              <li>If any "Engine Malfunction" Vehicle Control
-              History item has been stored in the hybrid vehicle
-              control ECU assembly, make sure to clear it. However,
-              as all Vehicle Control History items are cleared
-              simultaneously, if any Vehicle Control History items
-              other than "Engine Malfunction" are stored, make sure
-              to perform any troubleshooting for them before
-              clearing Vehicle Control History.</li>
-            </ul>
-          </div><a name="RM100000002KUW7_07" id="RM100000002KUW7_07"></a>
-          <h2 class="name">PROCEDURE</h2>
-          <h2 class="name">PROCEDURE</h2><a name="RM100000002KUW7_07_0009" id="RM100000002KUW7_07_0009"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">1.</p>
-                </td>
-                <td>
-                  <p class="testgrp">READ VALUE USING GTS (CHECK
-                  FOR SHORT IN WIRE HARNESS)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Disconnect the intake air
-          temperature sensor (for intercooler side) connector.</p>
-          <p class="main">Procedure1</p><img src="../images/A405988C19.png.html" border="1" alt=" ">
-          <table class="callout" border="1" cellspacing="0" style="width:3.434793307in;">
-            <colgroup>
-              <col style="width:15%">
-              <col style="width:85%">
-            </colgroup>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">*1</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">Intake Air Temperature Sensor
-                  (for Intercooler Side)</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">*2</p>
-                </td>
-                <td valign="middle">
-                  <p class="entry">ECM</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="test1">(b) According to the display on the GTS,
-          read the Data List.</p>
-          <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data
-          List</h4>
-          <table class="gtsInfoTable" width="100%" border="1">
-            <colgroup>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Display</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left" valign="middle">
-                  <p class="data-name">Intake Air Temperature B1S1
-                  (Turbo)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table width="100%" border="1" class="result">
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Proceed to</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">The value of Intake Air
-                  Temperature B1S1 (Turbo) is -40 °C</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">A</p>
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">None of the above conditions are
-                  met</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="judge-value">B</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="hintgen">HINT:</p>
-          <p class="hint">-40°C (-40°F)</p>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(c) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">A</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202312">
-                  <a id="d491e834" href="./RM100000002HJUM.html?linkId=d491e834&amp;hashId=RM100000002HJUM#RM100000002HJUM"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): INTAKE AIR TEMPERATURE SENSOR: REMOVAL">
-                  REPLACE INTAKE AIR TEMPERATURE SENSOR (FOR
-                  INTERCOOLER SIDE)</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">B</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><a id="d491e846_childid" href="RM100000002KUW7.html" title="CHECK HARNESS AND CONNECTOR (INTAKE AIR TEMPERATURE SENSOR (FOR INTERCOOLER SIDE) - ECM)">
-                  GO TO STEP 2</a></p>
-                </td>
-              </tr>
-            </tbody>
-          </table><a name="RM100000002KUW7_07_0003" id="RM100000002KUW7_07_0003"></a>
-          <table border="1" class="testgrp" width="100%">
-            <tbody>
-              <tr>
-                <td align="center" width="7%">
-                  <p class="testgrp">2.</p>
-                </td>
-                <td>
-                  <p class="testgrp">CHECK HARNESS AND CONNECTOR
-                  (INTAKE AIR TEMPERATURE SENSOR (FOR INTERCOOLER
-                  SIDE) - ECM)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="precondition">Pre-procedure1</p>
-          <p class="test1">(a) Disconnect the intake air
-          temperature sensor (for intercooler side) connector.</p>
-          <p class="test1">(b) Disconnect the ECM connector.</p>
-          <p class="main">Procedure1</p>
-          <p class="test1">(c) Measure the resistance according to
-          the value(s) in the table below.</p>
-          <p class="spec">Standard Resistance:</p><img src="../../../../stylegraphics/ewd_info_new.gif"><br>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d491e897"
-          href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=A16,D31')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Location & Routing(A16,D31)</span></a></span><br></span>
-          <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d491e905"
-          href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A16&amp;pinno=1')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Connector(A16)</span></a></span><br></span> <span class="ewdmlink"><span class="myfrom:2024 myto:2024 startdate:202403"><a id="d491e913"
-          href="javascript:void(0)" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D31&amp;pinno=175')"
-          title="2024 MY Tacoma HV EWD"><span class="ewdlink">Click
-          Connector(D31)</span></a></span><br></span>
-          <table width="100%" id="RM100000002KUW7_07_0003_T_1"
-          border="1">
-            <colgroup>
-              <col>
-              <col>
-              <col>
-              <col>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center" valign="middle">
-                  <p class="entry">Tester Connection</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Specified Condition</p>
-                </th>
-                <th align="center" valign="middle">
-                  <p class="entry">Result</p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center" valign="middle">
-                  <p class="entry">A16-1 (THTA) or D31-175 (THTA) -
-                  Body ground and other terminals</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">Always</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">10 kΩ or higher</p>
-                </td>
-                <td align="center" valign="middle">
-                  <p class="entry">kΩ</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="post-work">Post-procedure1</p>
-          <p class="test1">(d) None</p>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">OK</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif"><span class="mlink"><span class="myfrom:2024 myto:2026 startdate:202403">
-                  <a id="d491e1076" href="./RM100000002K474.html?linkId=d491e1076&amp;hashId=RM100000002K474#RM100000002K474"
-                  title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">
-                  REPLACE ECM</a></span></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="arrow" cellspacing="0" cellpadding="0">
-            <tbody>
-              <tr>
-                <td class="arrow">NG</td>
-                <td class="arrow" align="left"><img src="../../../../stylegraphics/arrowr2.gif" alt=""></td>
-                <td>
-                  <p class="actcif">REPAIR OR REPLACE HARNESS OR
-                  CONNECTOR</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="footer" width="100%" cellpadding="0"
-          cellspacing="0">
-            <colgroup>
-              <col>
-              <col style="text-align:center">
-              <col>
-            </colgroup>
-            <tbody>
-              <tr>
-                <td class="foot" width="30" height="18"><img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""></td>
-                <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"></td>
-                <td class="foot" width="80" height="18" align="right"><img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""></td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+                  <p class="hint">When a DTC is output, check the Data List item "Intake Air Temperature B1S1 (Turbo)" using the GTS.</p>
+            
+                  <p class="hint">
+                                        Click here
+                                        <span class="mlink">
+                        <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                           <a id="d491e345" href="./RM100000002LIT7.html?linkId=d491e345&amp;hashId=RM100000002LIT7#RM100000002LIT7" title="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST">
+                              <img class="info" src="../../../../stylegraphics/info.gif" alt="2024 - 2026 MY Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): SFI SYSTEM (for 1Motor-HEV Model): DATA LIST / ACTIVE TEST"/>
+                           </a>
+                        </span>
+                     </span>
+            
+                  </p>
+            
+               
+                  <table width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                     
+                        <tr>
+                        
+                           <th align="center" valign="middle">
+                           
+                              <p class="entry">DTC No.</p>
+                        
+                           </th>
+                        
+                           <th align="center" valign="middle">
+                           
+                              <p class="entry">Intake Air Temperature B1S1 (Turbo)</p>
+                        
+                           </th>
+                        
+                           <th align="center" valign="middle">
+                           
+                              <p class="entry">Malfunction</p>
+                        
+                           </th>
+                     
+                        </tr>
+                  
+                     </thead>
+                     <tbody>
+                     
+                        <tr>
+                        
+                           <td align="center" valign="middle">
+                           
+                              <p class="entry">P007A11</p>
+                        
+                           </td>
+                        
+                           <td align="center" valign="middle">
+                           
+                              <p class="entry">140°C (284°F)</p>
+                        
+                           </td>
+                        
+                           <td align="left" valign="middle">
+                           
+                              <p class="entry">Short in THTA circuit to ground</p>
+                        
+                           </td>
+                     
+                        </tr>
+                  
+                     </tbody>
+                  </table>
+            
+            
+                  <p class="hint">If the Data List displays a normal value, the normal value may be due to a temporary recovery from the malfunction condition. Check for intermittent problems.</p>
+         
+      
+   
+   
+                  <a name="RM100000002KUW7_03"> </a>
+      
+                  <h2 class="name">MONITOR DESCRIPTION</h2>
+      
+         
+                  <p class="content5">The ECM monitors the sensor voltage and uses this value to calculate the intake air temperature. When the intake air temperature sensor (for intercooler side) output voltage deviates from the normal operating range, the ECM interprets this as a malfunction in the E.F.I. intake air temperature sensor circuit and stores this DTC.</p>
+         
+                  <p class="content5">Example:</p>
+         
+                  <p class="content5">If the intake air temperature sensor (for intercooler side) output voltage is less than 0.03 V for 3 seconds or more, the ECM store this DTC.</p>
+      
+   
+   
+                  <a name="RM100000002KUW7_04"> </a>
+      
+                  <h2 class="name">CONFIRMATION DRIVING PATTERN</h2>
+      
+         
+                  <div class="content5">
+                     <ol class="list">
+                        <li>
+               Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+            </li>
+                        <li>
+               Turn the ignition switch off and wait for at least 30 seconds.
+            </li>
+                        <li>
+               Turn the ignition switch to ON.
+            </li>
+                        <li>
+               Wait 5 seconds or more.
+            </li>
+                        <li>
+               Enter the following menus: Powertrain / Engine / Trouble Codes.
+            </li>
+                        <li>
+               Read the pending DTCs.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If a pending DTC is output, the system is malfunctioning.
+                     </li>
+                                 <li>
+                        If a pending DTC is not output, perform the following procedure.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                        <li>
+               Enter the following menus: Powertrain / Engine / Utility / All Readiness.
+            </li>
+                        <li>
+               Input the DTC: P007A11.
+            </li>
+                        <li>
+               Check the DTC judgment result.
+               
+                  <div class="hint">
+                              <p class="hintgen">HINT:</p>
+                              <ul class="hint">
+                                 <li>
+                        If the judgment result shows NORMAL, the system is normal.
+                     </li>
+                                 <li>
+                        If the judgment result shows ABNORMAL, the system has a malfunction.
+                     </li>
+                              </ul>
+                           </div>
+               
+            
+                        </li>
+                     </ol>
+                  </div>
+      
+   
+   
+                  <a name="RM100000002KUW7_05"> </a>
+      
+                  <h2 class="name">WIRING DIAGRAM</h2>
+      
+         
+            
+               
+                  <img src="../images/A513510E19.png.html" border="1" alt=" "/>
+            
+         
+      
+   
+   
+                  <a name="RM100000002KUW7_08"> </a>
+      
+                  <h2 class="name">CAUTION / NOTICE / HINT</h2>
+      
+         
+            
+                  <div class="notice">
+                     <p class="notegen">NOTICE:</p>
+                     <ul class="note">
+                        <li>
+                  Vehicle Control History may be stored in the hybrid vehicle control ECU assembly if the engine is malfunctioning. Certain vehicle condition information is recorded when Vehicle Control History is stored. Reading the vehicle conditions recorded in both the freeze frame data and Vehicle Control History can be useful for troubleshooting.
+                  <p class="para2">(Select Powertrain in Health Check and then check the time stamp data.)</p>
+               
+                        </li>
+                        <li>
+                  If any "Engine Malfunction" Vehicle Control History item has been stored in the hybrid vehicle control ECU assembly, make sure to clear it. However, as all Vehicle Control History items are cleared simultaneously, if any Vehicle Control History items other than "Engine Malfunction" are stored, make sure to perform any troubleshooting for them before clearing Vehicle Control History.
+               </li>
+                     </ul>
+                  </div>
+         
+      
+   
+   
+                  <a name="RM100000002KUW7_07"> </a>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <h2 class="name">PROCEDURE</h2>
+      
+                  <a name="RM100000002KUW7_07_0009"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">1. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">READ VALUE USING GTS (CHECK FOR SHORT IN WIRE HARNESS)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the intake air temperature sensor (for intercooler side) connector.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                     
+                  <img src="../images/A405988C19.png.html" border="1" alt=" "/>
+                  
+                  
+                     
+                        
+                  <table class="callout" border="1" cellspacing="0" style="width:3.434793307in;">
+                     <colgroup>
+                        <col style="width:15%"/>
+                        <col style="width:85%"/>
+                     </colgroup>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">*1</p>
+                                 
+                           </td>
+                                 
+                           <td valign="middle">
+                                    
+                              <p class="entry">Intake Air Temperature Sensor (for Intercooler Side)</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">*2</p>
+                                 
+                           </td>
+                                 
+                           <td valign="middle">
+                                    
+                              <p class="entry">ECM</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+               
+               
+                  
+                  <p class="test1">(b) According to the display on the GTS, read the Data List.</p>
+                  
+                  <h4 class="gtsInfoTitle">Powertrain &gt; Engine &gt; Data List</h4>
+                        
+                  <table class="gtsInfoTable" width="100%" border="1">
+                     <colgroup>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Display</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="left" valign="middle">
+                                    
+                                       
+                              <p class="data-name">Intake Air Temperature B1S1 (Turbo)</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                     
+                     
+                        
+                  <table width="100%" border="1" class="result">
+                           
+                           
+                           
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Proceed to</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                           
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">The value of Intake Air Temperature B1S1 (Turbo) is -40 °C</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">A</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">None of the above conditions are met</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                                       
+                              <p class="judge-value">B</p>
+                                    
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                        
+                  </table>
+                     
+                  
+                  
+                     
+                  <p class="hintgen">HINT:</p>
+                  <p class="hint">-40°C (-40°F)</p>
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(c) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">A</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202312 ">
+                                       <a id="d491e834" href="./RM100000002HJUM.html?linkId=d491e834&amp;hashId=RM100000002HJUM#RM100000002HJUM" title="2024 - 2026 MY Tacoma Tacoma HV [12/2023 -        ]; T24A-FTS (ENGINE CONTROL): INTAKE AIR TEMPERATURE SENSOR: REMOVAL">REPLACE INTAKE AIR TEMPERATURE SENSOR (FOR INTERCOOLER SIDE)</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">B</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                                 <a id="d491e846_childid" href="RM100000002KUW7.html@sisuffix=ff&amp;locale=en&amp;siid=1767261762416.html#RM100000002KUW7_07_0003" title="CHECK HARNESS AND CONNECTOR (INTAKE AIR TEMPERATURE SENSOR (FOR INTERCOOLER SIDE) - ECM)">GO TO STEP 2</a>
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+      
+                  <a name="RM100000002KUW7_07_0003"> </a>
+         
+                  <table border="1" class="testgrp" width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" width="7%">
+                              <p class="testgrp">2. </p>
+                           </td>
+                           <td>
+                              <p class="testgrp">CHECK HARNESS AND CONNECTOR (INTAKE AIR TEMPERATURE SENSOR (FOR INTERCOOLER SIDE) - ECM)</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+            
+               
+                  <p class="precondition">Pre-procedure1</p>
+               
+                  
+                  <p class="test1">(a) Disconnect the intake air temperature sensor (for intercooler side) connector.</p>
+               
+               
+                  
+                  <p class="test1">(b) Disconnect the ECM connector.</p>
+               
+            
+            
+               
+                  <p class="main">Procedure1</p>
+               
+                  
+                  <p class="test1">(c) Measure the resistance according to the value(s) in the table below.</p>
+                  
+                     
+                  <p class="spec">Standard Resistance: </p>
+                     
+                        
+                  <img src="../../../../stylegraphics/ewd_info_new.gif"/>
+                  <br/>
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d491e897" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=A16,D31')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Location &amp; Routing(A16,D31)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d491e905" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=A16&amp;pinno=1')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(A16)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <span class="ewdmlink">
+                     <span class="myfrom:2024 myto:2024 startdate:202403 ">
+                        <a id="d491e913" href="javascript:void(0)" onClick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=D31&amp;pinno=175')" title="2024 MY Tacoma HV EWD">
+                           <span class="ewdlink">
+                                                        Click Connector(D31)
+                                                        </span>
+                        </a>
+                     </span>
+                     <br/>
+                  </span>
+                        
+                  <table width="100%" id="RM100000002KUW7_07_0003_T_1" border="1">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                              
+                        <tr>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Tester Connection</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Specified Condition</p>
+                                 
+                           </th>
+                                 
+                           <th align="center" valign="middle">
+                                    
+                              <p class="entry">Result</p>
+                                 
+                           </th>
+                              
+                        </tr>
+                           
+                     </thead>
+                     <tbody>
+                              
+                        <tr>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">A16-1 (THTA) or D31-175 (THTA) - Body ground and other terminals</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">Always</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">10 kΩ or higher</p>
+                                 
+                           </td>
+                                 
+                           <td align="center" valign="middle">
+                                    
+                              <p class="entry">kΩ</p>
+                                 
+                           </td>
+                              
+                        </tr>
+                           
+                     </tbody>
+                  </table>
+                     
+                  
+                  
+               
+            
+            
+               
+                  <p class="post-work">Post-procedure1</p>
+               
+                  
+                  <p class="test1">(d) None</p>
+               
+            
+         
+         
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">OK</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">
+                     
+                                 <span class="mlink">
+                                    <span class="myfrom:2024 myto:2026 startdate:202403 ">
+                                       <a id="d491e1076" href="./RM100000002K474.html?linkId=d491e1076&amp;hashId=RM100000002K474#RM100000002K474" title="2024 - 2026 MY Tacoma Tacoma HV [03/2024 -        ]; T24A-FTS (ENGINE CONTROL): ECM: REMOVAL">REPLACE ECM</a>
+                                    </span>
+                                 </span>
+                  
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+            
+                  <table class="arrow" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td class="arrow">NG</td>
+                           <td class="arrow" align="left">
+                              <img src="../../../../stylegraphics/arrowr2.gif" alt=""/>
+                           </td>
+                           <td>
+                              <p class="actcif">REPAIR OR REPLACE HARNESS OR CONNECTOR</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+         
+      
+   
+
+                  <table class="footer" width="100%" cellpadding="0" cellspacing="0">
+                     <colgroup>
+                        <col/>
+                        <col style="text-align:center"/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td class="foot" width="30" height="18">
+                              <img src="../../../../stylegraphics/footer.left.jpg" class="block" width="30" height="18" alt=""/>
+                           </td>
+                           <td class="foot" width="99%" height="18" style="text-align:center;background-image:url('../../../../stylegraphics/clear.gif')"/>
+                           <td class="foot" width="80" height="18" align="right">
+                              <img src="../../../../stylegraphics/footer.right.jpg" class="block" width="80" height="18" alt=""/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
 </html>
